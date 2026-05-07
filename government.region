@@ -13,11 +13,11 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
-    <div class="site-container">
+    <div class="gov-site-container">
 
-      <header class="site-header">
+      <header class="gov-site-header">
         <!-- site navigation -->
-        <squarespace:navigation navigationId="govSiteNav" template="gov-site-navigation" />
+        <squarespace:navigation navigationId="siteNav" template="gov-site-navigation" />
       </header>
 
       <!-- cms content injection point -->
@@ -27,7 +27,7 @@
 
       {@|apply section-contact.block}
       <footer>
-        <squarespace:navigation navigationId="govSiteNav" template="gov-footer" />
+        <squarespace:navigation navigationId="siteNav" template="gov-footer" />
       </footer>
 
 

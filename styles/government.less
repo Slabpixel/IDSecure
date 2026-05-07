@@ -1,0 +1,240 @@
+/* Government Tokens
+***************************************************/
+
+/* Base */
+@base-black: #000000;
+@base-white: #ffffff;
+@base-white-transparent: rgba(255, 255, 255, 0);
+@base-black-transparent: rgba(0, 0, 0, 0);
+
+/* Primary */
+@primary-darkest: #050b16;
+@primary-dark: #0a1322;
+@primary-mid: #131e33;
+@primary-light: #1c2a45;
+
+/* Text */
+@text-primary: rgba(255, 255, 255, 1);
+@text-secondary: rgba(255, 255, 255, 0.8);
+@text-tertiary: rgba(255, 255, 255, 0.6);
+@text-muted: rgba(255, 255, 255, 0.4);
+@text-disabled: rgba(255, 255, 255, 0.2);
+
+/* Line */
+@line-strong: rgba(255, 255, 255, 0.2);
+@line-default: rgba(255, 255, 255, 0.1);
+@line-light: rgba(255, 255, 255, 0.07);
+@line-subtle: rgba(255, 255, 255, 0.05);
+
+/* Brand */
+@brand-cyan: #71fcfb;
+@brand-cyan-dim: rgba(113, 252, 251, 0.6);
+@brand-cyan-glow: rgba(113, 252, 251, 0.2);
+@brand-cyan-dark: #0c4949;
+
+/* Font */
+@font-family: "Space Grotesk", sans-serif;
+@font-weight-regular: 400;
+@font-weight-medium: 500;
+
+/* Typography - Heading */
+@heading-xl-size: 64px;
+@heading-xl-line: 1;
+@heading-xl-tracking: -0.02em;
+
+@heading-l-size: 48px;
+@heading-l-line: 1.05;
+@heading-l-tracking: -0.02em;
+
+@heading-m-size: 32px;
+@heading-m-line: 1.1;
+@heading-m-tracking: -0.01em;
+
+@heading-s-size: 24px;
+@heading-s-line: 1.15;
+@heading-s-tracking: -0.005em;
+
+/* Typography - Body */
+@body-xl-size: 20px;
+@body-l-size: 16px;
+@body-m-size: 14px;
+@body-s-size: 12px;
+@body-line: 1.4;
+
+/* Typography - Paragraph */
+@paragraph-xl-size: 20px;
+@paragraph-l-size: 16px;
+@paragraph-m-size: 14px;
+@paragraph-s-size: 12px;
+@paragraph-line: 1.6;
+
+/* Typography - Label */
+@label-l-size: 16px;
+@label-l-tracking: 0.04em;
+
+@label-m-size: 14px;
+@label-m-tracking: 0.06em;
+
+@label-s-size: 12px;
+@label-s-tracking: 0.08em;
+
+@label-line: 1.4;
+
+/* Typography - Button */
+@button-l-size: 16px;
+@button-m-size: 14px;
+@button-s-size: 12px;
+@button-line: 1.4;
+
+/* Government Site */
+.gov-site-container {
+  line-height: 140%;
+  background-color: @primary-darkest;
+  color: @text-primary;
+  margin: auto;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: @font-weight-medium;
+    margin: 0px;
+  }
+  h1 {
+    font-size: @heading-xl-size;
+    line-height: @heading-xl-line;
+    letter-spacing: @heading-xl-tracking;
+  }
+  h2 {
+    font-size: @heading-l-size;
+    line-height: @heading-l-line;
+    letter-spacing: @heading-l-tracking;
+  }
+  h3 {
+    font-size: @heading-m-size;
+    line-height: @heading-m-line;
+    letter-spacing: @heading-m-tracking;
+  }
+  h4 {
+    font-size: @heading-s-size;
+    line-height: @heading-s-line;
+    letter-spacing: @heading-s-tracking;
+  }
+  h5 {
+    font-size: @heading-s-size;
+    line-height: @heading-s-line;
+    letter-spacing: @heading-s-tracking;
+  }
+  h6 {
+    font-size: @heading-s-size;
+    line-height: @heading-s-line;
+    letter-spacing: @heading-s-tracking;
+  }
+  a {
+    color: @text-primary;
+    text-decoration: none;
+
+    &.disabled {
+      color: @text-primary;
+    }
+  }
+  .link-underline a {
+    text-decoration: underline;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  .link-nav {
+    &:hover {
+      color: @text-secondary;
+    }
+  }
+}
+
+// Navigation
+.gov-site-navigation {
+  width: 100%;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  height: 72px;
+  z-index: 99;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(5, 11, 22, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.gov-nav-wrapper {
+  margin: auto;
+  max-width: 1440px;
+  padding: 12px 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gov-nav-logo {
+  width: 100%;
+  max-width: 159px;
+  height: 100%;
+}
+
+.gov-nav-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.gov-nav-end {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  position: relative;
+  width: fit-content;
+  padding: 6px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  height: 40px;
+  text-decoration: none;
+  color: @text-primary;
+  transition:
+    color 0.2s,
+    background-color 0.2s,
+    ease-in-out;
+  cursor: pointer;
+
+  &.primary {
+    color: @primary-darkest;
+    background-color: @brand-cyan;
+    &:hover {
+      background-color: @brand-cyan-dark;
+    }
+  }
+
+  &.secondary {
+    background-color: @base-white-transparent;
+    border: 1px solid @line-default;
+    &:hover {
+      background-color: @line-light;
+    }
+  }
+
+  &.ghost {
+    background-color: transparent;
+    &:hover {
+      background-color: @brand-cyan-dark;
+    }
+  }
+}
