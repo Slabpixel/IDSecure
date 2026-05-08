@@ -1,140 +1,396 @@
-<section>
-  <div>
-    <div>
-      <div>
-        <p>[IDSECURE GOVERNMENT]</p>
-        <h1>
+<section class="gov-section hero">
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[IDSECURE GOVERNMENT]</span>
+        <h1 class="gov-hero-title">
           Assured mobile connectivity for defense and intelligence missions
         </h1>
-        <div>
-          <a class="btn primary">Request government briefing</a>
-          <a class="btn secondary">View Architecture</a>
+        <div class="gov-hero-button-wrapper">
+          <a class="btn-primary sm">Request government briefing</a>
+          <a class="btn-secondary">View Architecture</a>
         </div>
       </div>
-      <p>
+      <p class="gov-hero-content-description">
         IDSECURE delivers private mobile connectivity for environments where
         mission success depends on control, resilience, and secure delivery.
       </p>
     </div>
   </div>
 </section>
-<section>
-  <div>
-    <div>
-      <div>
-        <div>
-          
-          <div>
-            <p>EdgeConnect</p>
-            <p>
+<section class="gov-section sm">
+  <div class="gov-container sm">
+    <div class="gov-bg-image-right">
+      <img
+        src="/assets/cinemated-defense-techno.png"
+        alt="Background Image Right"
+        width="100%"
+        height="100%"
+      />
+    </div>
+    <div class="gov-content about">
+      <div class="gov-content col">
+        <div class="gov-content-item">
+          <div class="gov-marker">
+            <div class="gov-marker-point"></div>
+          </div>
+          <div class="gov-content-item-text">
+            <p class="gov-content-title">EdgeConnect</p>
+            <p class="gov-content-text">
               Secures the transport path before traffic reaches uncontrolled
               networks.
             </p>
           </div>
         </div>
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-          >
-            <g clip-path="url(#clip0_2557_785)">
-              <g filter="url(#filter0_d_2557_785)">
-                <rect
-                  x="10"
-                  y="10"
-                  width="12"
-                  height="12"
-                  rx="0.8"
-                  fill="#5BFCFB"
-                />
-              </g>
-            </g>
-            <rect
-              x="0.5"
-              y="0.5"
-              width="31"
-              height="31"
-              rx="1.9"
-              stroke="white"
-              stroke-opacity="0.1"
-            />
-            <defs>
-              <filter
-                id="filter0_d_2557_785"
-                x="-5"
-                y="-5"
-                width="42"
-                height="42"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feColorMatrix
-                  in="SourceAlpha"
-                  type="matrix"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                  result="hardAlpha"
-                />
-                <feOffset />
-                <feGaussianBlur stdDeviation="7.5" />
-                <feComposite in2="hardAlpha" operator="out" />
-                <feColorMatrix
-                  type="matrix"
-                  values="0 0 0 0 0.356863 0 0 0 0 0.988235 0 0 0 0 0.984314 0 0 0 0.3 0"
-                />
-                <feBlend
-                  mode="normal"
-                  in2="BackgroundImageFix"
-                  result="effect1_dropShadow_2557_785"
-                />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="effect1_dropShadow_2557_785"
-                  result="shape"
-                />
-              </filter>
-              <clipPath id="clip0_2557_785">
-                <rect width="32" height="32" rx="2.4" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-          <div>
-            <p>SPECTRE</p>
-            <p>
+        <div class="gov-content-item">
+          <div class="gov-marker">
+            <div class="gov-marker-point"></div>
+          </div>
+          <div class="gov-content-item-text">
+            <p class="gov-content-title">SPECTRE</p>
+            <p class="gov-content-text">
               Orchestrates the optimal path across available networks as
               conditions change.
             </p>
           </div>
         </div>
       </div>
-      <div>
-        <p>
+      <div class="gov-content-span">
+        <p class="gov-content-title">
           Together, they support fixed, mobile, expeditionary, and denied
           operating environments.
         </p>
       </div>
     </div>
-    <div>
-        <div>
-            <div></div>
-            <p>Secure transport before uncontrolled internet exposure</p>
+    <div class="gov-content center">
+      <div class="gov-content-grid-4">
+        <div class="gov-content-grid-card">
+          <p>Secure transport before uncontrolled internet exposure</p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
+          </div>
         </div>
-        <div>
-            <div></div>
-            <p>Intelligent orchestration across available network paths</p>
+        <div class="gov-content-grid-card">
+          <p>Intelligent orchestration across available network paths</p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/bolt.svg" alt="Bolt" width="20" height="20" />
+          </div>
         </div>
-        <div>
-            <div></div>
-            <p>Centralized control by default, autonomous fallback when required</p>
+        <div class="gov-content-grid-card">
+          <p>
+            Centralized control by default, autonomous fallback when required
+          </p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/shield.svg" alt="Shield" width="20" height="20" />
+          </div>
         </div>
-        <div>
-            <div></div>
-            <p>Platform-level visibility, policy, and lifecycle control</p>
+        <div class="gov-content-grid-card">
+          <p>Platform-level visibility, policy, and lifecycle control</p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/rocket.svg" alt="Rocket" width="20" height="20" />
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm-b">
+  <div class="gov-container col gap-64">
+    <div class="gov-title-wrap">
+      <span class="gov-eyebrow">[Overview]</span>
+      <div class="gov-title-content">
+        <h2 class="max-w-550">
+          Conventional mobile architecture creates mission risk
+        </h2>
+        <p class="gov-description overview">
+          In a conventional model, traffic exits the mobile core and moves into
+          public internet transit, where visibility, route assurance, and
+          security posture are harder to control. For defense, intelligence, and
+          allied missions, that is not just a networking issue. It is an
+          operational risk. IDSECURE is built to close that gap through secure
+          delivery and intelligent orchestration.
+        </p>
+      </div>
+    </div>
+    <div class="gov-content-overview">
+      <div class="gov-content-overview-item">
+        <div class="gov-content-overview-item-header">
+          <h3 class="gov-content-overview-item-title">Conventional Path</h3>
+          <span class="gov-content-overview-item-subtitle">(Before)</span>
+        </div>
+        <div class="gov-content-overview-item-video">
+          <video
+            src="/assets/conventional-path.webm"
+            width="100%"
+            height="100%"
+            autoplay
+            muted
+            loop
+            playsinline
+          />
+        </div>
+      </div>
+      <div class="gov-content-overview-item">
+        <div class="gov-content-overview-item-header">
+          <h3 class="gov-content-overview-item-title">IDSECURE Path</h3>
+          <span class="gov-content-overview-item-subtitle">(After)</span>
+        </div>
+        <div class="gov-content-overview-item-video">
+          <video
+            src="/assets/idsecure-path.webm"
+            width="100%"
+            height="100%"
+            autoplay
+            muted
+            loop
+            playsinline
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-fingerprint">
+  <div class="gov-container col center gap-32">
+    <div class="gov-quote-icon">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+    <h2 class="max-w-566">
+      “Loss of control begins at uncontrolled internet exit”
+    </h2>
+    <div class="gov-quote-icon end">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm-bl">
+  <div class="gov-bg-image-bottom">
+    <img src="/assets/bg-two.png" alt="Background Image Bottom" />
+  </div>
+  <div class="gov-container col center gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <span class="gov-eyebrow muted"
+        >[Two products. One mission outcome.]</span
+      >
+      <h2>Secure the path. Select the path.</h2>
+    </div>
+    <div class="gov-content-column">
+      <div class="gov-content-column-arrow-long">
+        <img src="/assets/arrow-long.svg" alt="Arrow Long" />
+      </div>
+      <div class="gov-content-column-cards">
+        <div class="gov-content-column-card">
+          <div class="gov-content-column-card-icon">
+            <img src="/assets/rocket.svg" alt="Rocket" width="20" height="20" />
+          </div>
+          <div class="gov-content-column-card-main">
+            <span class="gov-content-column-card-subtitle"
+              >Secure Transport</span
+            >
+            <h3 class="gov-content-column-card-title">EdgeConnect</h3>
+          </div>
+          <div class="gov-content-column-card-description">
+            <p>
+              EdgeConnect is IDSECURE's secure transport and handoff
+              architecture. It delivers traffic from carrier networks into
+              IDSECURE-controlled infrastructure through private transport and
+              controlled handoff before uncontrolled public internet exposure.
+            </p>
+          </div>
+        </div>
+        <div class="gov-content-column-arrow">
+          <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
+        </div>
+        <div class="gov-content-column-title">
+          Controlled Resilient Connectivity
+        </div>
+        <div class="gov-content-column-arrow rotate">
+          <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
+        </div>
+        <div class="gov-content-column-card">
+          <div class="gov-content-column-card-icon">
+            <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
+          </div>
+          <div class="gov-content-column-card-main">
+            <span class="gov-content-column-card-subtitle"
+              >Orchestration Logic</span
+            >
+            <h3 class="gov-content-column-card-title">SPECTRE</h3>
+          </div>
+          <div class="gov-content-column-card-description">
+            <p>
+              SPECTRE is IDSECURE's intelligent orchestration layer. It
+              determines which connectivity path a device should use, when it
+              should switch, and how to maintain continuity as conditions
+              change.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="gov-content-column-arrow-long rotate">
+        <img src="/assets/arrow-long.svg" alt="Arrow Long" />
+      </div>
+    </div>
+    <div class="gov-description-column-text">
+      <p>
+        Together, they create controlled, resilient connectivity from device to
+        mission infrastructure.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-bg-video">
+    <video src="/assets/bg-cpu.webm" autoplay muted loop playsinline />
+  </div>
+  <div class="gov-container sm">
+    <div class="gov-title-wrap gap-16">
+      <span class="gov-eyebrow">[Built for what missions actually need]</span>
+      <h2>Connectivity outcomes aligned to operational reality</h2>
+    </div>
+    <div class="gov-content center">
+      <div class="gov-content-grid-4">
+        <div class="gov-content-grid-card lg">
+          <h3 class="gov-content-grid-card-title">Maintain control</h3>
+          <p class="gov-content-grid-card-description">
+            Secure transport before uncontrolled internet exposure
+          </p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
+          </div>
+        </div>
+        <div class="gov-content-grid-card lg">
+          <h3 class="gov-content-grid-card-title">Orchestrate resilience</h3>
+          <p class="gov-content-grid-card-description">
+            Intelligent orchestration across available network paths
+          </p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/bolt.svg" alt="Bolt" width="20" height="20" />
+          </div>
+        </div>
+        <div class="gov-content-grid-card lg">
+          <h3 class="gov-content-grid-card-title">Control the path</h3>
+          <p class="gov-content-grid-card-description">
+            Centralized control by default, autonomous fallback when required
+          </p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/shield.svg" alt="Shield" width="20" height="20" />
+          </div>
+        </div>
+        <div class="gov-content-grid-card lg">
+          <h3 class="gov-content-grid-card-title">Control the path</h3>
+          <p class="gov-content-grid-card-description">
+            Platform-level visibility, policy, and lifecycle control
+          </p>
+          <div class="gov-content-grid-card-icon">
+            <img src="/assets/rocket.svg" alt="Rocket" width="20" height="20" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col center">
+    <div class="gov-title-wrap center">
+      <span class="gov-eyebrow">[From device to mission infrastructure]</span>
+      <h2 class="max-w-586">
+        A Government connectivity stack designed for control
+      </h2>
+    </div>
+    <div class="gov-image-wrapper big">
+      <img
+        src="/assets/stack.png"
+        alt="Stack Government"
+        width="100%"
+        height="100%"
+      />
+    </div>
+    <div class="max-w-830">
+      <p class="gov-description center">
+        Every selected path is delivered through controlled infrastructure.
+        SPECTRE determines how the device should connect. EdgeConnect ensures
+        the selected path is delivered securely. Behind both products is an
+        operational platform for subscriber control, policy management, eSIM
+        lifecycle, and service assurance.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col gap-16">
+    <div class="gov-title-wrap">
+      <span class="gov-eyebrow">[One operating model]</span>
+      <h2 class="max-w-586">
+        More than transport. <br />
+        More than orchestration.
+      </h2>
+    </div>
+    <div class="gov-content">
+      <div class="gov-content-pad">
+        <p>
+          Government teams need more than connectivity. They need policy
+          control, eSIM lifecycle management, OTA updates, operational
+          visibility, and accountable support. IDSECURE brings those together in
+          one platform so that transport, orchestration, and operations work as
+          a single mission-aligned system.
+        </p>
+        <ul class="gov-content-list">
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            SIM and eSIM lifecycle control
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            eIM-driven policy and profile management
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            API-first integration and automation
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Centralized operational accountability
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Monitoring, diagnostics, and service assurance
+          </li>
+        </ul>
+      </div>
+      <div class="gov-content-image-563">
+        <img src="/assets/stacked.png" alt="Stacked" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-8">
+    <h2 class="max-w-586">Bring us the mission environment</h2>
+    <div class="gov-img-760">
+      <img src="/assets/env.png" alt="Environments" />
+    </div>
+    <div class="gov-wrapper">
+      <p class="max-w-720">
+        Share the operational conditions, device assumptions, and reachability
+        constraints. IDSECURE will help define the right EdgeConnect and SPECTRE
+        posture for your Government deployment.
+      </p>
+      <div class="gov-button-wrapper">
+        <a href="#" class="btn-primary">Request Government Briefing</a>
+        <a href="#" class="btn-secondary">Schedule Architecture Review</a>
+      </div>
     </div>
   </div>
 </section>

@@ -25,7 +25,7 @@
        {squarespace.main-content}
       </main>
 
-      {@|apply section-contact.block}
+      {@|apply gov-section-contact.block}
       <footer>
         <squarespace:navigation navigationId="siteNav" template="gov-footer" />
       </footer>

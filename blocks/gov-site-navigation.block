@@ -197,8 +197,8 @@
         <a class="gov-nav-link" href="/blog">Press</a>
     </div>
     <div class="gov-nav-end">
-        <a href="" class="btn ghost">Government Briefing</a>
-        <a href="/contact" class="btn secondary">Contact Us</a>
+        <a href="" class="btn-link">Government Briefing</a>
+        <a href="/contact" class="btn-secondary">Contact Us</a>
     </div>
   </div>
 </nav>

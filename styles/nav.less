@@ -191,7 +191,7 @@
   z-index: 999999;
   padding: 16px;
   border-radius: 32px;
-  .flex-box(column, flex-start, stretch, 86px);
+  .flex-box(column, flex-start, stretch, 16px);
 
   &.hide {
     display: none;
@@ -222,8 +222,13 @@
     width: 100%;
     max-width: 1440px;
     .flex-box(row, space-between, stretch, 100px);
-    padding: 0px 72px 88px;
+    padding: 70px 72px 88px;
     margin: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   &-menu {  
     height: 100%;
@@ -231,7 +236,7 @@
     .flex-box(column, space-between, flex-start, 48px);
 
     .main-menu-wrapper {
-      height: 40vh;
+      min-height: 40vh;
     }
     .main-menu-large {
       .flex-box(column, flex-start, flex-start, 16px);
