@@ -1,8 +1,8 @@
-<section class="section-contact">
+<section class="gov-section-contact">
     <div class="container section-contact-cont">
         <div class="flex-col-left flex-24 gov-contact-details">
             {@|apply eyebrow-48.block}
-            <div class="gov-contact-title" id="sec-contact-title"><squarespace:block-field id="secContactTitle"/></div>
+            <div class="gov-contact-title" id="sec-contact-title">Contact us for more Details!</div>
             <div class="flex-col-left flex-16">
                 <div class="grid-item-p fs-14"><squarespace:block-field id="secContactEmail"/></div>
                 <div class="grid-item-p fs-14"><squarespace:block-field id="secContactAddress"/></div>
@@ -11,10 +11,11 @@
         </div>
         <div class="gov-contact-banner">
             <div class="gov-contact-banner-top">
-                <h2><squarespace:block-field id="contactBannerTitle"/></h2>
+                <h2>Start with the <br/>
+                    transport architecture</h2>
             </div>
             <div class="gov-contact-banner-bottom">
-                <div class="contact-banner-bottom-text"><squarespace:block-field id="contactBannerText"/></div>
+                <div class="contact-banner-bottom-text">If the mission requires controlled delivery, routing assurance, or secure handoff into a private environment, start with EdgeConnect.</div>
                 <a href="/contact" class="btn-ghost">Request EdgeConnect Briefing</a>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <!-- <script>console.log({@|json-pretty})</script> -->
 
 <div class="container footer footer-cont">
-    <div class="footer-logo">
+    <div class="gov-footer-logo">
         <svg width="159" height="48" viewBox="0 0 159 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M60.4164 12.2044C63.6801 12.3533 67.7578 11.5057 70.4712 13.8173C72.7623 15.7691 73.1057 19.2376 72.2901 21.9915C71.9927 22.9956 71.4804 23.6519 70.8158 24.4452C68.7931 26.3856 66.7046 26.3624 64.1589 26.3551C62.9167 26.3399 61.6744 26.3447 60.4324 26.3695C60.3185 21.7872 60.4397 16.8379 60.4164 12.2044ZM63.6062 23.3589C65.4589 23.3692 66.8037 23.5743 68.3193 22.2701C69.7716 20.4472 69.8186 17.592 67.9577 15.9986C66.8054 15.0119 65.0562 15.1572 63.6161 15.1689L63.6175 20.5808C63.6175 21.3746 63.6551 22.5929 63.6062 23.3589Z" fill="white"/>
             <path d="M127.361 12.1983C129.331 12.2459 133.441 11.9039 134.989 12.7242C135.907 13.2139 136.594 14.0462 136.901 15.04C137.197 16.0277 137.152 17.4339 136.63 18.3345C135.839 19.6993 134.974 20.0411 133.592 20.4527L133.61 20.4765C134.255 21.3131 134.533 21.9506 135.048 22.8656L137.015 26.3414C136.589 26.3479 134.975 26.4016 134.675 26.3069C133.797 24.4802 132.468 22.5031 131.527 20.5574C130.852 20.5763 130.111 20.5628 129.431 20.5647L129.426 26.35L127.385 26.3602C127.309 24.6178 127.352 22.6555 127.352 20.897L127.361 12.1983ZM129.428 18.7916C130.885 18.7952 133.206 19.0241 134.313 18.1667C134.887 17.3475 135.105 16.8297 134.918 15.8031C134.469 13.3231 131.282 14.0366 129.426 13.9618L129.428 18.7916Z" fill="white"/>
@@ -64,6 +64,26 @@
                 </ul>
         </div>
         <div class="footer-menu-list">
+            <span class="fs-14 cl-grey uppercase">Government Solutions</span>
+            <ul class="footer-ul">
+                    {.repeated section items.4.items}
+                    <li class="foot-menu-item uppercase">
+                    <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+                    </li>
+                    {.end}
+                </ul>
+        </div>
+        <div class="footer-menu-list">
+            <span class="fs-14 cl-grey uppercase">Enterprise Solutions</span>
+            <ul class="footer-ul">
+                    {.repeated section items.4.items}
+                    <li class="foot-menu-item uppercase">
+                    <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+                    </li>
+                    {.end}
+                </ul>
+        </div>
+        <div class="footer-menu-list">
             <span class="fs-14 cl-grey uppercase">Hardware Solution</span>
             <ul class="footer-ul">
                     {.repeated section items.2.items}
@@ -83,19 +103,7 @@
                     {.end}
                 </ul>
         </div>
-        <div class="footer-menu-list">
-            <span class="fs-14 cl-grey uppercase">Zero Trust Networks</span>
-            <ul class="footer-ul">
-                    {.repeated section items.1.items}
-                    <li class="foot-menu-item uppercase">
-                    <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
-                    </li>
-                    {.end}
-                </ul>
-        </div>
+        
     </div>
     
-</div>
-<div class="container copyright-cont">
-    <span class="txt-footer-copyright">Copyright © 2026, ID Secure. All Rights Reserved.</span>
 </div>

@@ -85,4 +85,46 @@ document.addEventListener("DOMContentLoaded", (event) => {
 document.querySelectorAll('img').forEach((image) => {
   image.addEventListener('contextmenu', event => event.preventDefault());
   image.setAttribute('draggable', false);
-})
+});
+
+// Government page: SPECTRE product tabs (.gov-tab)
+document.querySelectorAll('.gov-tab').forEach((root) => {
+  const buttons = root.querySelectorAll('.gov-tab-button');
+  const panels = root.querySelectorAll('.gov-tab-content-item');
+  if (!buttons.length || !panels.length) return;
+
+  let current = 0;
+
+  function activate(index) {
+    const i = Math.max(0, Math.min(index, buttons.length - 1));
+    current = i;
+    buttons.forEach((btn, j) => {
+      const on = j === i;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+      btn.tabIndex = 0;
+    });
+    panels.forEach((panel, j) => {
+      panel.classList.toggle('active', j === i);
+    });
+  }
+
+  const initial = Array.from(buttons).findIndex((b) => b.classList.contains('active'));
+  activate(initial >= 0 ? initial : 0);
+
+  buttons.forEach((btn, i) => {
+    btn.addEventListener('click', () => activate(i));
+  });
+
+  const tablist = root.querySelector('.gov-tab-header');
+  if (tablist) {
+    tablist.addEventListener('keydown', (e) => {
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+      e.preventDefault();
+      const delta = e.key === 'ArrowRight' ? 1 : -1;
+      const next = (current + delta + buttons.length) % buttons.length;
+      activate(next);
+      buttons[next].focus();
+    });
+  }
+});

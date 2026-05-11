@@ -30,7 +30,7 @@
       />
     </div>
     <div class="gov-content about">
-      <div class="gov-content col">
+      <div class="gov-content col tab">
         <div class="gov-content-item">
           <div class="gov-marker">
             <div class="gov-marker-point"></div>
@@ -156,7 +156,7 @@
     <div class="gov-quote-icon">
       <img src="/assets/quote-right.svg" alt="Quote Icon" />
     </div>
-    <h2 class="max-w-566">
+    <h2 class="h2-fp">
       “Loss of control begins at uncontrolled internet exit”
     </h2>
     <div class="gov-quote-icon end">
@@ -173,7 +173,7 @@
       <span class="gov-eyebrow muted"
         >[Two products. One mission outcome.]</span
       >
-      <h2>Secure the path. Select the path.</h2>
+      <h2>Secure the path. <br />Select the path.</h2>
     </div>
     <div class="gov-content-column">
       <div class="gov-content-column-arrow-long">
@@ -237,6 +237,212 @@
         Together, they create controlled, resilient connectivity from device to
         mission infrastructure.
       </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section md-t">
+  <div class="gov-container col tab">
+    <div class="gov-title-wrap bottom-border">
+      <span class="gov-eyebrow muted">[Products]</span>
+      <div class="gov-title-wrap tab">
+        <h2>EdgeConnect</h2>
+        <p class="gov-description">Secure transport for mission traffic</p>
+      </div>
+    </div>
+    <div class="gov-content-products">
+      <div class="gov-col">
+        <div class="gov-col gap-16">
+          <span class="gov-eyebrow"> The problem? </span>
+          <h3 class="gov-content-title">
+            How do you deliver carrier connectivity into a government
+            environment without losing control at the public internet edge?
+          </h3>
+          <p class="gov-description">
+            EdgeConnect closes the trust gap by routing traffic through
+            IDSECURE-controlled infrastructure before uncontrolled internet
+            exposure. It gives government teams a secure delivery model built
+            into the architecture itself.
+          </p>
+        </div>
+        <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+      </div>
+      <div class="gov-tab">
+        <div class="gov-tab-header" role="tablist" aria-label="SPECTRE highlights">
+          <button type="button" class="gov-tab-button active" role="tab" id="gov-spectre-tab-0" aria-selected="true" aria-controls="gov-spectre-panel-0" tabindex="0">Outcomes-based features</button>
+          <button type="button" class="gov-tab-button" role="tab" id="gov-spectre-tab-1" aria-selected="false" aria-controls="gov-spectre-panel-1" tabindex="0">Technical capabilities</button>
+        </div>
+        <div class="gov-tab-content">
+          <div class="gov-tab-content-item active" role="tabpanel" id="gov-spectre-panel-0" aria-labelledby="gov-spectre-tab-0">
+            <ul class="gov-content-list sm">
+              <li class="gov-content-list-item ">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Preserve control before internet egress 
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Reduce exposure through private transport and controlled handoff 
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Support sovereign or low-latency breakout where required 
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Apply segmentation, policy, and inspection in-line 
+              </li>
+            </ul>
+          </div>
+          <div class="gov-tab-content-item" role="tabpanel" id="gov-spectre-panel-1" aria-labelledby="gov-spectre-tab-1">
+            <ul class="gov-content-list sm">
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                SIM and eSIM lifecycle control
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                eIM-driven policy and profile management
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                API-first integration and automation
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Centralized operational accountability
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Monitoring, diagnostics, and service assurance
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gov-content-products-image">
+      <img src="/assets/edgeconnect.png" alt="EdgeConnect Image" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md-b">
+  <div class="gov-container col tab">
+    <div class="gov-title-wrap bottom-border">
+      <span class="gov-eyebrow muted">[Products]</span>
+      <div class="gov-title-wrap tab">
+        <h2>SPECTRE</h2>
+        <p class="gov-description">
+          Intelligent orchestration for dynamic mission environments
+        </p>
+      </div>
+    </div>
+    <div class="gov-content-products">
+      <div class="gov-col">
+        <div class="gov-col gap-16">
+          <span class="gov-eyebrow"> The problem? </span>
+          <h3 class="gov-content-title">
+            How does a device select the right connectivity path as mission
+            conditions, network availability, and threat posture change?
+          </h3>
+          <p class="gov-description">
+            SPECTRE manages dynamic multi-path connectivity across available
+            networks and chooses the best path for the mission. It centralizes
+            control when possible and enables autonomous device decisions when
+            reachability cannot be assured.
+          </p>
+        </div>
+        <a href="#" class="btn-secondary">Explore SPECTRE</a>
+      </div>
+      <div class="gov-tab">
+        <div class="gov-tab-header" role="tablist" aria-label="SPECTRE highlights">
+          <button type="button" class="gov-tab-button active" role="tab" id="gov-spectre-tab-0" aria-selected="true" aria-controls="gov-spectre-panel-0" tabindex="0">Outcomes-based features</button>
+          <button type="button" class="gov-tab-button" role="tab" id="gov-spectre-tab-1" aria-selected="false" aria-controls="gov-spectre-panel-1" tabindex="0">Technical capabilities</button>
+        </div>
+        <div class="gov-tab-content">
+          <div class="gov-tab-content-item active" role="tabpanel" id="gov-spectre-panel-0" aria-labelledby="gov-spectre-tab-0">
+            <ul class="gov-content-list sm">
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Dynamically select across available connectivity paths 
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Centralize control where core reachability exists 
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Enable autonomous device behavior in tactical and DIL conditions  
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Match orchestration mode to the mission environment 
+              </li>
+            </ul>
+          </div>
+          <div class="gov-tab-content-item" role="tabpanel" id="gov-spectre-panel-1" aria-labelledby="gov-spectre-tab-1">
+            <ul class="gov-content-list sm">
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                SIM and eSIM lifecycle control
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                eIM-driven policy and profile management
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                API-first integration and automation
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Centralized operational accountability
+              </li>
+              <li class="gov-content-list-item">
+                <div class="gov-marker sm">
+                  <div class="gov-marker-point sm"></div>
+                </div>
+                Monitoring, diagnostics, and service assurance
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gov-content-products-image">
+      <img src="/assets/spectre.png" alt="Spectre Image" />
     </div>
   </div>
 </section>
@@ -337,31 +543,31 @@
           a single mission-aligned system.
         </p>
         <ul class="gov-content-list">
-          <li class="gov-content-list-item">
+          <li class="gov-content-list-item medium">
             <div class="gov-marker sm">
               <div class="gov-marker-point sm"></div>
             </div>
             SIM and eSIM lifecycle control
           </li>
-          <li class="gov-content-list-item">
+          <li class="gov-content-list-item medium">
             <div class="gov-marker sm">
               <div class="gov-marker-point sm"></div>
             </div>
             eIM-driven policy and profile management
           </li>
-          <li class="gov-content-list-item">
+          <li class="gov-content-list-item medium">
             <div class="gov-marker sm">
               <div class="gov-marker-point sm"></div>
             </div>
             API-first integration and automation
           </li>
-          <li class="gov-content-list-item">
+          <li class="gov-content-list-item medium">
             <div class="gov-marker sm">
               <div class="gov-marker-point sm"></div>
             </div>
             Centralized operational accountability
           </li>
-          <li class="gov-content-list-item">
+          <li class="gov-content-list-item medium">
             <div class="gov-marker sm">
               <div class="gov-marker-point sm"></div>
             </div>
