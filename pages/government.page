@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="gov-content center">
-      <div class="gov-content-grid-4">
+      <div class="gov-content-grid-2">
         <div class="gov-content-grid-card">
           <p>Secure transport before uncontrolled internet exposure</p>
           <div class="gov-content-grid-card-icon">
@@ -456,7 +456,7 @@
       <h2>Connectivity outcomes aligned to operational reality</h2>
     </div>
     <div class="gov-content center">
-      <div class="gov-content-grid-4">
+      <div class="gov-content-grid-2">
         <div class="gov-content-grid-card lg">
           <h3 class="gov-content-grid-card-title">Maintain control</h3>
           <p class="gov-content-grid-card-description">

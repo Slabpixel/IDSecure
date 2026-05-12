@@ -1,3 +1,271 @@
-<div>
-    <h1>EdgeConnect</h1>
-</div>
+<section class="gov-section hero edgeconnect">
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[EDGECONNECT]</span>
+        <h1 class="gov-hero-title">
+          Secure the path before mission traffic reaches uncontrolled networks
+        </h1>
+        <div class="gov-hero-button-wrapper">
+          <a class="btn-primary sm">Request EdgeConnect Briefing</a>
+          <a class="btn-secondary">See How SPECTRE Works with EdgeConnect</a>
+        </div>
+      </div>
+      <p class="gov-hero-content-description wide">
+        EdgeConnect is IDSECURE's secure transport and handoff architecture for
+        government environments. It delivers connectivity from carrier networks
+        into controlled infrastructure through private transport and secure
+        handoff, helping preserve routing control, visibility, and security
+        posture before uncontrolled public internet exposure.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col no-padding">
+    <div class="gov-title-wrap padding">
+      <h2 class="max-w-529">The trust gap begins at internet exit</h2>
+      <div class="gov-col">
+        <div class="gov-description sm">
+          In a conventional mobile architecture, subscriber traffic exits the
+          core and enters public internet transit. From that point, interception
+          risk, route instability, DDoS exposure, and loss of visibility
+          increase. For sensitive government environments, that creates a
+          fundamental trust gap. EdgeConnect is designed to remove that gap by
+          securing delivery before uncontrolled internet exposure occurs.
+        </div>
+        <div class="gov-badge-wrap">
+          <div class="gov-badge">Interception</div>
+          <div class="gov-badge">Route instability</div>
+          <div class="gov-badge">DDoS exposure</div>
+          <div class="gov-badge">Loss of visibility</div>
+        </div>
+      </div>
+    </div>
+    <div class="gov-image-wrapper">
+      <img src="/assets/ec-gap.png" alt="EdgeConnect Trust Gap" />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap center">
+      <div class="gov-eyebrow muted">[High-level architecture]</div>
+      <h2 class="max-w-466">A controlled path from device to destination</h2>
+      <div class="gov-description max-w-944">
+        Traffic originates at the device, enters the mobile core, and is routed
+        through IDSECURE-controlled infrastructure rather than directly to the
+        public internet. A secure handoff then delivers traffic into the
+        destination environment under controlled policy. Public egress, if
+        required, happens only after secure handoff and only under controlled
+        conditions.
+      </div>
+    </div>
+    <div class="gov-image-wrapper">
+      <img src="/assets/ec-architecture.png" alt="EdgeConnect Architecture" />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-bg-644">
+    <img src="/assets/ec-tech.png" alt="EdgeConnect Technical Capabilities" />
+  </div>
+  <div class="gov-container col gap-64">
+    <div class="gov-title-wrap">
+      <span class="gov-eyebrow muted">[Technical capabilities]</span>
+      <div class="gov-title-content">
+        <h2 class="max-w-550">Security by architecture, not by overlay</h2>
+        <p class="gov-description overview">
+          EdgeConnect combines private transport and policy-controlled routing
+          to create a secure network fabric from device through destination.
+        </p>
+      </div>
+    </div>
+    <div class="gov-content-grid-tech">
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+          Private Layer 2 transport from carrier network into controlled
+          infrastructure
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Private IP addressing and isolated customer environments
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            VLAN separation and VRF segmentation
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Policy-controlled Layer 
+            3 routing
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Inline inspection and 
+            security enforcement
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Application-aware control 
+            and filtering
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Local packet gateways for in-country or low-latency breakout
+        </p>
+      </div>
+      <div class="gov-content-grid-card tech">
+        <div class="gov-content-grid-card-icon">
+          <img src="/assets/router.svg" alt="Router" />
+        </div>
+        <p class="gov-content-grid-card-description">
+            Consistent policy across central and local breakout models
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container">
+    <div class="gov-col one">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow">[One operating model]</span>
+        <h2 class="max-w-442">Local breakout where the mission requires it</h2>
+        <div class="gov-badge-wrap md">
+          <div class="gov-badge md">In-country routing</div>
+          <div class="gov-badge md">Sovereignty</div>
+          <div class="gov-badge md">Latency</div>
+          <div class="gov-badge md">Consistent policy</div>
+        </div>
+      </div>
+      <p class="gov-description">
+        Not every deployment can route through a central location. Some missions
+        require in-country breakout for regulatory, sovereignty, or latency
+        reasons. EdgeConnect supports local packet gateways that preserve the
+        same security policy and operational control while routing traffic
+        closer to the point of need.
+      </p>
+    </div>
+    <div class="gov-content-image-551">
+      <img src="/assets/ec-one.png" alt="EdgeConnect Operating Model" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-alt">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <span class="gov-eyebrow muted">[Built for Government use cases]</span>
+      <h2>Where EdgeConnect fits</h2>
+    </div>
+    <div class="gov-usecase-card-wrap">
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-1.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Secure Facilities</h3>
+          <p class="gov-usecase-card-description">
+            Private Layer 2 transport from carrier network into controlled
+            infrastructure
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-2.png"
+            alt="EdgeConnect Forward-Deployed Teams"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Forward-Deployed Teams</h3>
+          <p class="gov-usecase-card-description">
+            Private IP addressing and isolated customer environments
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-3.png"
+            alt="EdgeConnect ISR and Unmanned Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">ISR and Unmanned Systems</h3>
+          <p class="gov-usecase-card-description">
+            VLAN separation and VRF segmentation
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-4.png"
+            alt="EdgeConnect Coalition-Connected Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Coalition-Connected Systems</h3>
+          <p class="gov-usecase-card-description">
+            Policy-controlled Layer 3 routing
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-8">
+    <h2>
+      EdgeConnect secures every path. <br/> SPECTRE decides which path to use.
+    </h2>
+    <div class="gov-img-760">
+      <img src="/assets/env.png" alt="Environments" />
+    </div>
+    <div class="gov-wrapper">
+      <p class="max-w-720 gov-description">
+        EdgeConnect is the secure transport foundation. SPECTRE adds intelligent
+        path selection across available networks. Together they create
+        controlled, resilient connectivity for demanding government
+        environments.
+      </p>
+      <div class="gov-button-wrapper">
+        <a href="#" class="btn-primary">Explore SPECTRE</a>
+        <a href="#" class="btn-secondary">Request Architecture Review</a>
+      </div>
+    </div>
+  </div>
+</section>

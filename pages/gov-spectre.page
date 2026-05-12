@@ -1,3 +1,463 @@
-<div>
-    <h1>SPECTRE</h1>
-</div>
+<section class="gov-section hero spectre">
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[SPECTRE]</span>
+        <h1 class="gov-hero-title">
+          Choose the right path under the right mission conditions
+        </h1>
+        <div class="gov-hero-button-wrapper">
+          <a class="btn-primary sm">Request SPECTRE Briefing</a>
+          <a class="btn-secondary">View EdgeConnect</a>
+        </div>
+      </div>
+      <p class="gov-hero-content-description wider">
+        SPECTRE is IDSECURE's intelligent orchestration layer. It determines
+        which connectivity path a device should use, when it should switch, and
+        how to maintain continuity as conditions change. For Government
+        deployments, that means centralized control where reachability exists
+        and autonomous device behavior where it does not. Every selected path is
+        then delivered securely through EdgeConnect.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col no-padding">
+    <div class="gov-title-wrap padding">
+      <h2 class="max-w-529">
+        A static connectivity plan cannot support a dynamic mission
+      </h2>
+      <div class="gov-col">
+        <div class="gov-description sm">
+          Government operations may move across public cellular, private
+          wireless, satellite, partner networks, and denied conditions. A single
+          fixed path is often not enough. SPECTRE is built to manage that
+          complexity through intelligent path selection and mission-aligned
+          orchestration.
+        </div>
+        <div class="gov-badge-wrap">
+          <div class="gov-badge">Public cellular</div>
+          <div class="gov-badge">Private wireless</div>
+          <div class="gov-badge">Satellite</div>
+          <div class="gov-badge">Partner networks</div>
+          <div class="gov-badge">Denied conditions</div>
+          <div class="gov-badge">Loss of visibility</div>
+        </div>
+      </div>
+    </div>
+    <div class="gov-image-wrapper">
+      <img src="/assets/sp-gap.png" alt="SPECTRE Plan" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-bg-image-bottom outcomes">
+    <img src="/assets/circle-glow.svg" alt="Circle Glow" />
+  </div>
+  <div class="gov-container col center gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <div class="gov-eyebrow muted">[Outcomes-based capabilities]</div>
+      <h2>What intelligent orchestration enables</h2>
+    </div>
+    <div class="gov-content-grid-2 lg">
+      <div class="gov-content-grid-card outcomes">
+        <div class="gov-content-grid-card-icon lg">
+          <img src="/assets/sync.svg" alt="Sync" />
+        </div>
+        <div class="gov-title-wrap gap-16">
+          <h3 class="gov-content-grid-card-title">
+            Adapt as conditions change
+          </h3>
+          <p class="gov-content-grid-card-description">
+            Select among available paths based on policy, network state, and
+            mission context.
+          </p>
+        </div>
+      </div>
+      <div class="gov-content-grid-card outcomes">
+        <div class="gov-content-grid-card-icon lg">
+          <img src="/assets/sync.svg" alt="Sync" />
+        </div>
+        <div class="gov-title-wrap gap-16">
+          <h3 class="gov-content-grid-card-title">
+            Keep central control where possible
+          </h3>
+          <p class="gov-content-grid-card-description">
+            Use core-side orchestration for most Government deployments.
+          </p>
+        </div>
+      </div>
+      <div class="gov-content-grid-card outcomes">
+        <div class="gov-content-grid-card-icon lg">
+          <img src="/assets/sync.svg" alt="Sync" />
+        </div>
+        <div class="gov-title-wrap gap-16">
+          <h3 class="gov-content-grid-card-title">
+            Maintain resilience in DIL environments
+          </h3>
+          <p class="gov-content-grid-card-description">
+            Enable local device decisions when the core cannot be reached.
+          </p>
+        </div>
+      </div>
+      <div class="gov-content-grid-card outcomes">
+        <div class="gov-content-grid-card-icon lg">
+          <img src="/assets/sync.svg" alt="Sync" />
+        </div>
+        <div class="gov-title-wrap gap-16">
+          <h3 class="gov-content-grid-card-title">
+            Match the operating model to the mission
+          </h3>
+          <p class="gov-content-grid-card-description">
+            Reduce complexity where autonomy is unnecessary and preserve it
+            where autonomy is essential.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col center gap-32">
+    <div class="gov-title-wrap center gap-16">
+      <div class="gov-eyebrow muted">
+        [Two operating models for two operational realities]
+      </div>
+      <h2>Choose the right orchestration posture</h2>
+    </div>
+    <div class="gov-content-orchestration">
+      <div class="gov-content-orchestration-card">
+        <div class="gov-content-orchestration-card-content">
+          <div class="gov-title-wrap gap-8">
+            <span class="gov-eyebrow muted">Core-side orchestration</span>
+            <h3 class="gov-content-orchestration-card-title">
+              Centralized control by default
+            </h3>
+            <p class="gov-content-orchestration-card-description">
+              Centralized control with one profile and one identity
+            </p>
+          </div>
+          <p class="gov-content-orchestration-card-description">
+            In the Core-Orchestrated model, the device carries a single eSIM
+            profile and authenticates to IDSECURE’s core. The device sees one
+            identity while switching intelligence remains centralized at the
+            platform level. Policy decisions happen in the signaling layer,
+            allowing fast switching, broad device compatibility, and simplified
+            operations.
+          </p>
+          <div class="gov-content-orchestration-card-list-wrap">
+            <div class="gov-content-orchestration-card-list">
+              <span class="gov-content-orchestration-card-list-title"
+                >Best for</span
+              >
+              <ul class="gov-content-orchestration-card-list-items">
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+              </ul>
+            </div>
+            <div class="gov-content-orchestration-card-list">
+              <span class="gov-content-orchestration-card-list-title"
+                >Benefits
+                <svg
+                  width="7"
+                  height="11"
+                  viewBox="0 0 7 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.85938 4.78125C6.16406 5.08594 6.16406 5.55469 5.85938 5.85938L1.35938 10.3594C1.07812 10.6406 0.585938 10.6406 0.304688 10.3594C0 10.0547 0 9.58594 0.304688 9.28125L4.26562 5.32031L0.304688 1.35938C0 1.05469 0 0.585938 0.304688 0.28125C0.585938 0 1.07812 0 1.35938 0.28125L5.85938 4.78125Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <ul class="gov-content-orchestration-card-list-items">
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="gov-content-orchestration-card-image">
+          <img
+            src="/assets/sp-orchestration-l.png"
+            alt="SPECTRE Orchestration"
+          />
+        </div>
+      </div>
+      <div class="gov-content-orchestration-card">
+        <div class="gov-content-orchestration-card-content">
+          <div class="gov-title-wrap gap-8">
+            <span class="gov-eyebrow muted">Core-side orchestration</span>
+            <h3 class="gov-content-orchestration-card-title">
+              Centralized control by default
+            </h3>
+            <p class="gov-content-orchestration-card-description">
+              Centralized control with one profile and one identity
+            </p>
+          </div>
+          <p class="gov-content-orchestration-card-description">
+            In the Core-Orchestrated model, the device carries a single eSIM
+            profile and authenticates to IDSECURE’s core. The device sees one
+            identity while switching intelligence remains centralized at the
+            platform level. Policy decisions happen in the signaling layer,
+            allowing fast switching, broad device compatibility, and simplified
+            operations.
+          </p>
+          <div class="gov-content-orchestration-card-list-wrap">
+            <div class="gov-content-orchestration-card-list">
+              <span class="gov-content-orchestration-card-list-title"
+                >Best for</span
+              >
+              <ul class="gov-content-orchestration-card-list-items">
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+              </ul>
+            </div>
+            <div class="gov-content-orchestration-card-list">
+              <span class="gov-content-orchestration-card-list-title"
+                >Benefits
+                <svg
+                  width="7"
+                  height="11"
+                  viewBox="0 0 7 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.85938 4.78125C6.16406 5.08594 6.16406 5.55469 5.85938 5.85938L1.35938 10.3594C1.07812 10.6406 0.585938 10.6406 0.304688 10.3594C0 10.0547 0 9.58594 0.304688 9.28125L4.26562 5.32031L0.304688 1.35938C0 1.05469 0 0.585938 0.304688 0.28125C0.585938 0 1.07812 0 1.35938 0.28125L5.85938 4.78125Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <ul class="gov-content-orchestration-card-list-items">
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+                <li class="gov-content-orchestration-card-list-item">
+                  <span class="gov-content-orchestration-card-list-item-icon">
+                    <img src="/assets/bank.svg" alt="Bank" />
+                  </span>
+                  <p>Government operations with assured core reachability</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="gov-content-orchestration-card-image">
+          <img
+            src="/assets/sp-orchestration-l.png"
+            alt="SPECTRE Orchestration"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col center gap-48">
+    <div class="gov-title-wrap center">
+      <div class="gov-eyebrow muted">[How SPECTRE fits]</div>
+      <h2 class="max-w-586">
+        Policy logic between the device and the secure path
+      </h2>
+    </div>
+    <p class="gov-description max-w-780">
+      SPECTRE governs path selection, switching logic, and profile behavior. It
+      uses policy inputs such as availability, signal, location, mission rules,
+      and operating conditions to determine the best path for the device.
+      EdgeConnect then delivers that selected path through controlled
+      infrastructure.
+    </p>
+    <div class="gov-image-wrapper">
+      <img src="/assets/sp-fits.png" alt="SPECTRE Fits" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-alt">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <span class="gov-eyebrow muted"
+        >[Designed for Government operating conditions]</span
+      >
+      <h2>Where SPECTRE fits</h2>
+    </div>
+    <div class="gov-usecase-card-wrap">
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-1.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Secure Facilities</h3>
+          <p class="gov-usecase-card-description">
+            Private Layer 2 transport from carrier network into controlled
+            infrastructure
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-2.png"
+            alt="EdgeConnect Forward-Deployed Teams"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Forward-Deployed Teams</h3>
+          <p class="gov-usecase-card-description">
+            Private IP addressing and isolated customer environments
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-3.png"
+            alt="EdgeConnect ISR and Unmanned Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">ISR and Unmanned Systems</h3>
+          <p class="gov-usecase-card-description">
+            VLAN separation and VRF segmentation
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-4.png"
+            alt="EdgeConnect Coalition-Connected Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Coalition-Connected Systems</h3>
+          <p class="gov-usecase-card-description">
+            Policy-controlled Layer 3 routing
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-8">
+    <h2>
+      SPECTRE chooses the path. <br />
+      EdgeConnect secures the path.
+    </h2>
+    <div class="gov-img-760">
+      <img src="/assets/env.png" alt="Environments" />
+    </div>
+    <div class="gov-wrapper">
+      <p class="max-w-720 gov-description">
+        EdgeConnect is the secure transport foundation. SPECTRE adds intelligent
+        path selection across available networks. Together they create
+        controlled, resilient connectivity for demanding government
+        environments.
+      </p>
+      <div class="gov-button-wrapper">
+        <a href="#" class="btn-primary">Explore EdgeConnect</a>
+        <a href="#" class="btn-secondary">Request Technical Review</a>
+      </div>
+    </div>
+  </div>
+</section>
