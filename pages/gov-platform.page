@@ -1,3 +1,423 @@
-<div>
-    <h1>Platform Operations</h1>
-</div>
+<section class="gov-section hero platform">
+  <div class="gov-hero-bg-platform">
+    <img src="/assets/po-hero.png" alt="Platform Background" />
+  </div>
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[PLATFORM & OPERATIONS]</span>
+        <h1 class="gov-hero-title">
+          Operational control behind every deployment
+        </h1>
+        <div class="gov-hero-button-wrapper">
+          <a href="#" class="btn-primary sm">Request Technical Review</a>
+          <a href="#" class="btn-secondary">View Platform Architecture</a>
+        </div>
+      </div>
+      <p class="gov-hero-content-description widen">
+        EdgeConnect and SPECTRE are the visible mission capabilities. Behind
+        them is an integrated platform for subscriber control, eSIM lifecycle,
+        orchestration policy, automation, monitoring, and service assurance.
+        IDSECURE gives Government teams one operating model from device through
+        mission delivery.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-platform">
+  <div class="gov-container col center gap-24">
+    <div class="gov-quote-icon">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+    <h2 class="h2-po">
+      One platform, <br />
+      One operating model
+    </h2>
+    <p class="gov-description 90 max-w-672">
+      Government teams do not need disconnected tools for transport,
+      orchestration, subscriber control, and operations. IDSECURE brings those
+      capabilities together as one platform so that policy, lifecycle, and
+      support align to the same mission architecture. That reduces operational
+      friction and creates a single accountable operating model behind
+      EdgeConnect and SPECTRE.
+    </p>
+    <div class="gov-quote-icon end">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+  </div>
+</section>
+<section class="gov-section xs">
+  <div class="gov-container col center">
+    <div class="gov-title-wrap center gap-12 z-2">
+      <span class="gov-eyebrow muted">Five coordinated layers</span>
+      <h2 class="max-w-586">The platform behind EdgeConnect and SPECTRE</h2>
+    </div>
+    <div class="gov-platform-layers">
+      <div class="gov-platform-layers-stage">
+        <div class="gov-platform-layers-images">
+          <img
+            class="gov-platform-layers-image"
+            src="/assets/layer-1.png"
+            alt="Platform Layers"
+          />
+          <img
+            class="gov-platform-layers-image"
+            src="/assets/layer-2.png"
+            alt="Platform Layers"
+          />
+          <img
+            class="gov-platform-layers-image"
+            src="/assets/layer-3.png"
+            alt="Platform Layers"
+          />
+          <img
+            class="gov-platform-layers-image"
+            src="/assets/layer-4.png"
+            alt="Platform Layers"
+          />
+          <img
+            class="gov-platform-layers-image"
+            src="/assets/layer-5.png"
+            alt="Platform Layers"
+          />
+        </div>
+        <div class="gov-platform-layers-content">
+          <div class="gov-platform-layers-content-item i">
+            <h3 class="gov-platform-layers-content-item-title">Mobile Core</h3>
+            <p class="gov-platform-layers-content-item-description">
+              The cloud-native mobile core provides control-plane and user-plane
+              functions, policy, charging, signaling, and distributed edge
+              capabilities as the foundation of the platform.
+            </p>
+          </div>
+          <div class="gov-platform-layers-content-item ii">
+            <h3 class="gov-platform-layers-content-item-title">EdgeConnect</h3>
+            <p class="gov-platform-layers-content-item-description">
+              EdgeConnect provides secure transport, controlled handoff, local
+              breakout options, and private network fabric for Government-grade
+              traffic delivery.
+            </p>
+          </div>
+          <div class="gov-platform-layers-content-item iii">
+            <h3 class="gov-platform-layers-content-item-title">SPECTRE</h3>
+            <p class="gov-platform-layers-content-item-description">
+              SPECTRE provides intelligent path selection, operating mode
+              control, and orchestration policy across available network paths.
+            </p>
+          </div>
+          <div class="gov-platform-layers-content-item iv">
+            <h3 class="gov-platform-layers-content-item-title">CMP / eIM</h3>
+            <p class="gov-platform-layers-content-item-description">
+              The Connectivity Management Platform and eIM provide lifecycle
+              visibility, policy management, OTA updates, orchestration control,
+              and unified subscriber management.
+            </p>
+          </div>
+          <div class="gov-platform-layers-content-item v">
+            <h3 class="gov-platform-layers-content-item-title">
+              Operations & Assurance
+            </h3>
+            <p class="gov-platform-layers-content-item-description">
+              Monitoring, diagnostics, telemetry, support, and managed service
+              operations complete the Government operating model behind the
+              platform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col center gap-16">
+    <div class="gov-title-wrap center gap-24">
+      <h2 class="max-w-586">
+        Control the subscriber, the profile, and the policy
+      </h2>
+      <p class="gov-description sm max-w-720">
+        Government connectivity requires more than packet delivery. It requires
+        lifecycle visibility, identity control, orchestration policy, and the
+        ability to manage profiles and rules over time. IDSECURE supports that
+        through integrated SIM and eSIM lifecycle management, CMP-driven
+        control, and eIM-based OTA management across both SPECTRE tiers.
+      </p>
+    </div>
+    <div class="gov-platform-control">
+      <div class="gov-platform-control-img">
+        <img src="/assets/po-ring.png" alt="Platform Control" />
+      </div>
+      <div class="gov-platform-control-content">
+        <div class="gov-platform-control-content-card">
+          <div class="gov-platform-control-content-card-img">
+            <img src="/assets/icon-sim.png" alt="SIM" />
+          </div>
+          <h3 class="gov-platform-control-content-card-title">
+            SIM and eSIM lifecycle management
+          </h3>
+        </div>
+        <div class="gov-platform-control-content-card">
+          <div class="gov-platform-control-content-card-img">
+            <img src="/assets/icon-sim.png" alt="SIM" />
+          </div>
+          <h3 class="gov-platform-control-content-card-title">
+            SIM and eSIM lifecycle management
+          </h3>
+        </div>
+        <div class="gov-platform-control-content-card">
+          <div class="gov-platform-control-content-card-img">
+            <img src="/assets/icon-sim.png" alt="SIM" />
+          </div>
+          <h3 class="gov-platform-control-content-card-title">
+            SIM and eSIM lifecycle management
+          </h3>
+        </div>
+        <div class="gov-platform-control-content-card">
+          <div class="gov-platform-control-content-card-img">
+            <img src="/assets/icon-sim.png" alt="SIM" />
+          </div>
+          <h3 class="gov-platform-control-content-card-title">
+            SIM and eSIM lifecycle management
+          </h3>
+        </div>
+        <div class="gov-platform-control-content-card">
+          <div class="gov-platform-control-content-card-img">
+            <img src="/assets/icon-sim.png" alt="SIM" />
+          </div>
+          <h3 class="gov-platform-control-content-card-title">
+            SIM and eSIM lifecycle management
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container">
+    <div class="gov-content-image-551">
+      <img src="/assets/po-automation.png" alt="Automation" />
+    </div>
+    <div class="gov-col one">
+      <div class="gov-title-wrap max-w-442">
+        <h2>Local breakout where the mission requires it</h2>
+        <p class="gov-description sm white">
+          The platform is API-first by design. Control and configuration can be
+          exposed through APIs and webhooks, supporting provisioning, service
+          configuration, policy-driven routing, telemetry export, and
+          integration with external operational systems. For Government teams,
+          that means the platform can fit into broader operational and security
+          workflows rather than becoming another silo.
+        </p>
+        <ul class="gov-content-orchestration-card-list-items">
+          <li class="gov-content-orchestration-card-list-item compact">
+            <span class="gov-content-orchestration-card-list-item-icon">
+              <img src="/assets/check-circle.svg" alt="" />
+            </span>
+            <p>One profile, one provisioning event</p>
+          </li>
+          <li class="gov-content-orchestration-card-list-item compact">
+            <span class="gov-content-orchestration-card-list-item-icon">
+              <img src="/assets/check-circle.svg" alt="" />
+            </span>
+            <p>Fast switching without on-device profile cycling</p>
+          </li>
+          <li class="gov-content-orchestration-card-list-item compact">
+            <span class="gov-content-orchestration-card-list-item-icon">
+              <img src="/assets/check-circle.svg" alt="" />
+            </span>
+            <p>Broad device compatibility</p>
+          </li>
+          <li class="gov-content-orchestration-card-list-item compact">
+            <span class="gov-content-orchestration-card-list-item-icon">
+              <img src="/assets/check-circle.svg" alt="" />
+            </span>
+            <p>Centralized policy and control</p>
+          </li>
+          <li class="gov-content-orchestration-card-list-item compact">
+            <span class="gov-content-orchestration-card-list-item-icon">
+              <img src="/assets/check-circle.svg" alt="" />
+            </span>
+            <p>Reduced credential exposure on device</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md-tt bg-alt">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <span class="gov-eyebrow muted">[Operational visibility]</span>
+      <h2>The visibility required for mission support</h2>
+    </div>
+    <div class="gov-usecase-card-wrap">
+      <div class="gov-usecase-card compact">
+        <div class="gov-usecase-card-img compact">
+          <img src="/assets/po-card-1.png" alt="Platform Monitoring" />
+        </div>
+        <div class="gov-usecase-card-content compact">
+          <h3 class="gov-usecase-card-title compact">Monitoring</h3>
+          <p class="gov-usecase-card-description">
+            Continuous operational monitoring across sessions, traffic, and
+            events.
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card compact">
+        <div class="gov-usecase-card-img compact">
+          <img src="/assets/po-card-2.png" alt="Platform Diagnostics" />
+        </div>
+        <div class="gov-usecase-card-content compact">
+          <h3 class="gov-usecase-card-title compact">Diagnostics</h3>
+          <p class="gov-usecase-card-description">
+            End-to-end troubleshooting support across distributed network
+            elements.
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card compact">
+        <div class="gov-usecase-card-img compact">
+          <img src="/assets/po-card-3.png" alt="Platform Security Visibility" />
+        </div>
+        <div class="gov-usecase-card-content compact">
+          <h3 class="gov-usecase-card-title compact">Security visibility</h3>
+          <p class="gov-usecase-card-description">
+            Traffic visibility, access control awareness, and event-driven
+            monitoring.
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card compact">
+        <div class="gov-usecase-card-img compact">
+          <img src="/assets/po-card-4.png" alt="Platform Service Assurance" />
+        </div>
+        <div class="gov-usecase-card-content compact">
+          <h3 class="gov-usecase-card-title compact">Service assurance</h3>
+          <p class="gov-usecase-card-description">
+            Managed support and operational accountability across the deployment
+            lifecycle.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col center no-gap">
+    <div class="gov-title-wrap center gap-16">
+      <span class="gov-eyebrow muted">[Security]</span>
+      <h2>Architecture-based control, not bolt-on assurance</h2>
+    </div>
+    <div class="gov-image-wrapper max-w-1034">
+      <img src="/assets/po-security.png" alt="Security Architecture" />
+    </div>
+    <p class="max-w-696">
+      Security is embedded in the way the platform is structured. Segmentation,
+      routing policy, traffic visibility, and controlled access operate as part
+      of the architecture itself. For Government deployments, that supports
+      auditable, controlled operations rather than relying on unsecured paths
+      with compensating controls layered on afterward.
+    </p>
+  </div>
+</section>
+
+<section class="gov-section sm-b">
+  <div class="gov-container col">
+    <div class="gov-image-wrapper">
+      <img src="/assets/po-model.png" alt="SPECTRE Plan" />
+    </div>
+    <div class="gov-title-wrap horizontal">
+      <h2 class="max-w-529">
+        A managed model built <br />
+        for accountability
+      </h2>
+      <div class="gov-col">
+        <div class="gov-description sm">
+          IDSECURE supports centralized operations, monitoring, diagnostics, and
+          escalation handling as part of the broader service model. The result
+          is a Government operating experience built around visibility, support,
+          and accountability rather than disconnected vendors or fragmented
+          responsibilities.
+        </div>
+        <div class="gov-badge-wrap">
+          <div class="gov-badge lg">
+            <span><img src="/assets/shield-check.svg" alt="" /></span
+            >Centralized operational model
+          </div>
+          <div class="gov-badge lg">
+            <span><img src="/assets/shield-check.svg" alt="" /></span>Monitoring
+            and incident support
+          </div>
+          <div class="gov-badge lg">
+            <span><img src="/assets/shield-check.svg" alt="" /></span>Service
+            assurance and escalation handling
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col center">
+    <h2>Explore the mission capabilities</h2>
+    <div class="gov-cta-card-wrap">
+      <a href="#" class="gov-cta-card">
+        <div class="gov-cta-card-img">
+          <img
+            src="/assets/hero-gov-ec.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-cta-card-content">
+          <div class="gov-cta-card-title">
+            <h3>EdgeConnect</h3>
+            <span class="gov-cta-card-icon">
+              <img src="/assets/arrow-cta-card.svg" alt="Arrow" />
+            </span>
+          </div>
+          <p class="gov-cta-card-description">
+            See how secure transport and controlled handoff work.
+          </p>
+        </div>
+      </a>
+      <a href="#" class="gov-cta-card">
+        <div class="gov-cta-card-img">
+          <img
+            src="/assets/hero-gov-sp.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-cta-card-content">
+          <div class="gov-cta-card-title">
+            <h3>SPECTRE</h3>
+            <span class="gov-cta-card-icon">
+              <img src="/assets/arrow-cta-card.svg" alt="Arrow" />
+            </span>
+          </div>
+          <p class="gov-cta-card-description">
+            See how intelligent orchestration adapts to mission conditions.
+          </p>
+        </div>
+      </a>
+      <a href="#" class="gov-cta-card">
+        <div class="gov-cta-card-img">
+          <img
+            src="/assets/hero-gov-ec.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-cta-card-content">
+          <div class="gov-cta-card-title">
+            <h3>Engage</h3>
+            <span class="gov-cta-card-icon">
+              <img src="/assets/arrow-cta-card.svg" alt="Arrow" />
+            </span>
+          </div>
+          <p class="gov-cta-card-description">
+            Start a Government technical review or architecture discussion.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

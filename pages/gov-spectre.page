@@ -8,8 +8,8 @@
           Choose the right path under the right mission conditions
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a class="btn-primary sm">Request SPECTRE Briefing</a>
-          <a class="btn-secondary">View EdgeConnect</a>
+          <a href="#" class="btn-primary sm">Request SPECTRE Briefing</a>
+          <a href="#" class="btn-secondary">View EdgeConnect</a>
         </div>
       </div>
       <p class="gov-hero-content-description wider">
@@ -78,7 +78,7 @@
       </div>
       <div class="gov-content-grid-card outcomes">
         <div class="gov-content-grid-card-icon lg">
-          <img src="/assets/sync.svg" alt="Sync" />
+          <img src="/assets/chart-network.svg" alt="Chart Network" />
         </div>
         <div class="gov-title-wrap gap-16">
           <h3 class="gov-content-grid-card-title">
@@ -91,7 +91,7 @@
       </div>
       <div class="gov-content-grid-card outcomes">
         <div class="gov-content-grid-card-icon lg">
-          <img src="/assets/sync.svg" alt="Sync" />
+          <img src="/assets/shield.svg" alt="Shield" />
         </div>
         <div class="gov-title-wrap gap-16">
           <h3 class="gov-content-grid-card-title">
@@ -104,7 +104,7 @@
       </div>
       <div class="gov-content-grid-card outcomes">
         <div class="gov-content-grid-card-icon lg">
-          <img src="/assets/sync.svg" alt="Sync" />
+          <img src="/assets/sliders.svg" alt="Sliders" />
         </div>
         <div class="gov-title-wrap gap-16">
           <h3 class="gov-content-grid-card-title">
@@ -130,10 +130,10 @@
     <div class="gov-content-orchestration">
       <div class="gov-content-orchestration-card">
         <div class="gov-content-orchestration-card-content">
-          <div class="gov-title-wrap gap-8">
-            <span class="gov-eyebrow muted">Core-side orchestration</span>
+          <div class="gov-title-wrap gap-8 orchestration">
+            <span class="gov-eyebrow muted">Default model</span>
             <h3 class="gov-content-orchestration-card-title">
-              Centralized control by default
+              Core-Orchestrated
             </h3>
             <p class="gov-content-orchestration-card-description">
               Centralized control with one profile and one identity
@@ -141,7 +141,7 @@
           </div>
           <p class="gov-content-orchestration-card-description">
             In the Core-Orchestrated model, the device carries a single eSIM
-            profile and authenticates to IDSECURE’s core. The device sees one
+            profile and authenticates to IDSECURE's core. The device sees one
             identity while switching intelligence remains centralized at the
             platform level. Policy decisions happen in the signaling layer,
             allowing fast switching, broad device compatibility, and simplified
@@ -155,27 +155,27 @@
               <ul class="gov-content-orchestration-card-list-items">
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/bank.svg" alt="" />
                   </span>
                   <p>Government operations with assured core reachability</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/mobile.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Standard mobility deployments</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/microchip.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Low-complexity device environments</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/shield-alt.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Centralized policy control at scale</p>
                 </li>
               </ul>
             </div>
@@ -196,35 +196,35 @@
                 </svg>
               </span>
               <ul class="gov-content-orchestration-card-list-items">
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>One profile, one provisioning event</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Fast switching without on-device profile cycling</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Broad device compatibility</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Centralized policy and control</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Reduced credential exposure on device</p>
                 </li>
               </ul>
             </div>
@@ -233,28 +233,27 @@
         <div class="gov-content-orchestration-card-image">
           <img
             src="/assets/sp-orchestration-l.png"
-            alt="SPECTRE Orchestration"
+            alt="Core-Orchestrated model: single profile, core intelligence, switching at platform"
           />
         </div>
       </div>
       <div class="gov-content-orchestration-card">
         <div class="gov-content-orchestration-card-content">
-          <div class="gov-title-wrap gap-8">
-            <span class="gov-eyebrow muted">Core-side orchestration</span>
+          <div class="gov-title-wrap gap-8 orchestration">
+            <span class="gov-eyebrow muted">Tactical / DIL model</span>
             <h3 class="gov-content-orchestration-card-title">
-              Centralized control by default
+              Device-Autonomous
             </h3>
             <p class="gov-content-orchestration-card-description">
-              Centralized control with one profile and one identity
+              Local decision-making when the core cannot be reached
             </p>
           </div>
           <p class="gov-content-orchestration-card-description">
-            In the Core-Orchestrated model, the device carries a single eSIM
-            profile and authenticates to IDSECURE’s core. The device sees one
-            identity while switching intelligence remains centralized at the
-            platform level. Policy decisions happen in the signaling layer,
-            allowing fast switching, broad device compatibility, and simplified
-            operations.
+            In the Device-Autonomous model, the device carries multiple profiles
+            and uses on-device logic managed through IDSECURE's eIM. This allows
+            the device to make local network selection decisions when the core
+            is unreachable, preserving continuity in contested, intermittent, or
+            expeditionary conditions.
           </p>
           <div class="gov-content-orchestration-card-list-wrap">
             <div class="gov-content-orchestration-card-list">
@@ -264,27 +263,30 @@
               <ul class="gov-content-orchestration-card-list-items">
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/radar.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Tactical and denied environments</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/compass.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Expeditionary deployments</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/refresh.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Autonomous fallback requirements</p>
                 </li>
                 <li class="gov-content-orchestration-card-list-item">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/infinity.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>
+                    Devices that must continue operating without core
+                    reachability
+                  </p>
                 </li>
               </ul>
             </div>
@@ -305,35 +307,29 @@
                 </svg>
               </span>
               <ul class="gov-content-orchestration-card-list-items">
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Local switching across multiple paths</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Policy-driven fallback behavior</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Support for mission-aligned autonomous decisions</p>
                 </li>
-                <li class="gov-content-orchestration-card-list-item">
+                <li class="gov-content-orchestration-card-list-item compact">
                   <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
+                    <img src="/assets/check-circle.svg" alt="" />
                   </span>
-                  <p>Government operations with assured core reachability</p>
-                </li>
-                <li class="gov-content-orchestration-card-list-item">
-                  <span class="gov-content-orchestration-card-list-item-icon">
-                    <img src="/assets/bank.svg" alt="Bank" />
-                  </span>
-                  <p>Government operations with assured core reachability</p>
+                  <p>Greater resilience in contested environments</p>
                 </li>
               </ul>
             </div>
@@ -341,8 +337,8 @@
         </div>
         <div class="gov-content-orchestration-card-image">
           <img
-            src="/assets/sp-orchestration-l.png"
-            alt="SPECTRE Orchestration"
+            src="/assets/sp-orchestration-r.png"
+            alt="Device-Autonomous model: multiple profiles, on-device logic, local switching"
           />
         </div>
       </div>
@@ -366,6 +362,80 @@
     </p>
     <div class="gov-image-wrapper">
       <img src="/assets/sp-fits.png" alt="SPECTRE Fits" />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm tech-sp">
+  <div class="gov-container col center gap-56">
+    <div class="gov-title-wrap center gap-12">
+      <div class="gov-eyebrow muted">[Technical capabilities]</div>
+      <h2 class="max-w-720">
+        Orchestration across the networks missions actually use
+      </h2>
+    </div>
+    <div class="gov-content-grid-tech-sp">
+      <div class="gov-content-grid-tech-sp-row gov-content-grid-tech-sp-row--4">
+        <div class="gov-content-grid-card tech compact">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/router-alt.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            Dynamic orchestration across public cellular, private 5G, CBRS,
+            satellite, and partner networks
+          </p>
+        </div>
+        <div class="gov-content-grid-card tech compact">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/binary-lock.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            Device-autonomous multi-profile model
+          </p>
+        </div>
+        <div class="gov-content-grid-card tech compact">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/network-wired.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            Policy-driven switching based on availability, location, mission
+            rules, and threat posture
+          </p>
+        </div>
+        <div class="gov-content-grid-card tech compact">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/layer-group.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            Advanced profile management aligned to SGP.22 and SGP.32 frameworks
+          </p>
+        </div>
+      </div>
+      <div class="gov-content-grid-tech-sp-row gov-content-grid-tech-sp-row--3">
+        <div class="gov-content-grid-card tech compact tech-sky">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/building-magnifying-glass.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            Core-orchestrated single-profile model
+          </p>
+        </div>
+        <div class="gov-content-grid-card tech compact tech-sky">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/sliders-alt.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            OTA rule and profile updates through eIM
+          </p>
+        </div>
+        <div class="gov-content-grid-card tech compact tech-sky">
+          <div class="gov-content-grid-card-icon-img">
+            <img src="/assets/tower-broadcast.svg" alt="" />
+          </div>
+          <p class="gov-content-grid-card-description">
+            CMP integration for lifecycle and subscriber control
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

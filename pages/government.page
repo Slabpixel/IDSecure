@@ -268,11 +268,11 @@
       </div>
       <div class="gov-tab">
         <div class="gov-tab-header" role="tablist" aria-label="SPECTRE highlights">
-          <button type="button" class="gov-tab-button active" role="tab" id="gov-spectre-tab-0" aria-selected="true" aria-controls="gov-spectre-panel-0" tabindex="0">Outcomes-based features</button>
-          <button type="button" class="gov-tab-button" role="tab" id="gov-spectre-tab-1" aria-selected="false" aria-controls="gov-spectre-panel-1" tabindex="0">Technical capabilities</button>
+          <button type="button" class="gov-tab-button active" role="tab" id="gov-edgeconnect-tab-0" aria-selected="true" aria-controls="gov-edgeconnect-panel-0" tabindex="0">Outcomes-based features</button>
+          <button type="button" class="gov-tab-button" role="tab" id="gov-edgeconnect-tab-1" aria-selected="false" aria-controls="gov-edgeconnect-panel-1" tabindex="0">Technical capabilities</button>
         </div>
         <div class="gov-tab-content">
-          <div class="gov-tab-content-item active" role="tabpanel" id="gov-spectre-panel-0" aria-labelledby="gov-spectre-tab-0">
+          <div class="gov-tab-content-item active" role="tabpanel" id="gov-edgeconnect-panel-0" aria-labelledby="gov-edgeconnect-tab-0">
             <ul class="gov-content-list sm">
               <li class="gov-content-list-item ">
                 <div class="gov-marker sm">
@@ -300,7 +300,7 @@
               </li>
             </ul>
           </div>
-          <div class="gov-tab-content-item" role="tabpanel" id="gov-spectre-panel-1" aria-labelledby="gov-spectre-tab-1">
+          <div class="gov-tab-content-item" role="tabpanel" id="gov-edgeconnect-panel-1" aria-labelledby="gov-edgeconnect-tab-1">
             <ul class="gov-content-list sm">
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">

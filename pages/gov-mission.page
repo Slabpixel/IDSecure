@@ -1,3 +1,309 @@
-<div>
-    <h1>Mission Environments</h1>
-</div>
+<section class="gov-section hero mission">
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[ MISSION ENVIRONMENTS ]</span>
+        <h1 class="gov-hero-title">
+          Connectivity architecture aligned to operational reality
+        </h1>
+        <div class="gov-hero-button-wrapper">
+          <a href="#" class="btn-primary sm"
+            >Request Mission Architecture Review</a
+          >
+          <a href="#" class="btn-secondary">Explore the Architecture</a>
+        </div>
+      </div>
+      <p class="gov-hero-content-description wider">
+        Not every Government deployment needs the same transport model,
+        orchestration layer, or autonomy posture. IDSECURE aligns EdgeConnect,
+        SPECTRE, and the broader platform to the mission environment, from
+        secure facilities to expeditionary operations, ISR, unmanned systems,
+        and coalition-connected environments.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-fingerprint lg">
+  <div class="gov-container col center gap-32 max-w-780">
+    <div class="gov-quote-icon">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+    <div class="gov-title-wrap center gap-24">
+      <h2 class="max-w-550">Start with the environment, not the assumption</h2>
+      <p class="gov-description muted">
+        A fixed secure facility does not face the same operating conditions as a
+        forward-deployed team. An unmanned platform does not have the same
+        reachability profile as a connected headquarters environment.
+      </p>
+      <p class="gov-description muted">
+        IDSECURE maps the connectivity posture to the mission need so that
+        transport, orchestration, and operational control fit the deployment
+        rather than forcing the deployment to fit the network.
+      </p>
+    </div>
+    <div class="gov-quote-icon end">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap">
+      <span class="gov-eyebrow muted"
+        >[Representative Government environments]</span
+      >
+      <h2>Four common mission profiles</h2>
+    </div>
+    <div class="gov-mission-profile-wrap">
+      <div class="gov-mission-profile">
+        <div class="gov-mission-profile-header">
+          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <div class="gov-mission-profile-header-inner top">
+            <span>Need</span>
+            <p>
+              Controlled delivery, routing assurance, visibility, and
+              centralized policy.
+            </p>
+          </div>
+          <div class="gov-mission-profile-header-inner bottom">
+            <span>Recommended Posture</span>
+            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+          </div>
+        </div>
+        <div class="gov-mission-profile-img">
+          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+        </div>
+        <div class="gov-mission-profile-footer">
+          <p>
+            For fixed Government environments with reliable core reachability,
+            the priority is controlled transport into private infrastructure and
+            centralized policy at scale. This is where EdgeConnect provides the
+            secure delivery model and SPECTRE Core-Orchestrated keeps operations
+            simple and centrally managed.
+          </p>
+          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+        </div>
+      </div>
+      <div class="gov-mission-profile">
+        <div class="gov-mission-profile-header">
+          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <div class="gov-mission-profile-header-inner top">
+            <span>Need</span>
+            <p>
+              Controlled delivery, routing assurance, visibility, and
+              centralized policy.
+            </p>
+          </div>
+          <div class="gov-mission-profile-header-inner bottom">
+            <span>Recommended Posture</span>
+            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+          </div>
+        </div>
+        <div class="gov-mission-profile-img">
+          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+        </div>
+        <div class="gov-mission-profile-footer">
+          <p>
+            For fixed Government environments with reliable core reachability,
+            the priority is controlled transport into private infrastructure and
+            centralized policy at scale. This is where EdgeConnect provides the
+            secure delivery model and SPECTRE Core-Orchestrated keeps operations
+            simple and centrally managed.
+          </p>
+          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+        </div>
+      </div>
+      <div class="gov-mission-profile">
+        <div class="gov-mission-profile-header">
+          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <div class="gov-mission-profile-header-inner top">
+            <span>Need</span>
+            <p>
+              Controlled delivery, routing assurance, visibility, and
+              centralized policy.
+            </p>
+          </div>
+          <div class="gov-mission-profile-header-inner bottom">
+            <span>Recommended Posture</span>
+            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+          </div>
+        </div>
+        <div class="gov-mission-profile-img">
+          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+        </div>
+        <div class="gov-mission-profile-footer">
+          <p>
+            For fixed Government environments with reliable core reachability,
+            the priority is controlled transport into private infrastructure and
+            centralized policy at scale. This is where EdgeConnect provides the
+            secure delivery model and SPECTRE Core-Orchestrated keeps operations
+            simple and centrally managed.
+          </p>
+          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+        </div>
+      </div>
+      <div class="gov-mission-profile">
+        <div class="gov-mission-profile-header">
+          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <div class="gov-mission-profile-header-inner top">
+            <span>Need</span>
+            <p>
+              Controlled delivery, routing assurance, visibility, and
+              centralized policy.
+            </p>
+          </div>
+          <div class="gov-mission-profile-header-inner bottom">
+            <span>Recommended Posture</span>
+            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+          </div>
+        </div>
+        <div class="gov-mission-profile-img">
+          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+        </div>
+        <div class="gov-mission-profile-footer">
+          <p>
+            For fixed Government environments with reliable core reachability,
+            the priority is controlled transport into private infrastructure and
+            centralized policy at scale. This is where EdgeConnect provides the
+            secure delivery model and SPECTRE Core-Orchestrated keeps operations
+            simple and centrally managed.
+          </p>
+          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg bg-outcome">
+  <div class="gov-container gap-48">
+    <h2 class="max-w-529">Outcomes that matter across environments</h2>
+    <div class="gov-outcome-card-wrap">
+      <div class="gov-outcome-card">
+        <span class="gov-outcome-card-number">[01]</span>
+        <div class="gov-outcome-card-content">
+          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <p class="gov-outcome-card-description">
+            Keep mission traffic on controlled delivery paths before
+            uncontrollel internet exposure.
+          </p>
+        </div>
+      </div>
+      <div class="gov-outcome-card">
+        <span class="gov-outcome-card-number">[01]</span>
+        <div class="gov-outcome-card-content">
+          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <p class="gov-outcome-card-description">
+            Keep mission traffic on controlled delivery paths before
+            uncontrollel internet exposure.
+          </p>
+        </div>
+      </div>
+      <div class="gov-outcome-card">
+        <span class="gov-outcome-card-number">[01]</span>
+        <div class="gov-outcome-card-content">
+          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <p class="gov-outcome-card-description">
+            Keep mission traffic on controlled delivery paths before
+            uncontrollel internet exposure.
+          </p>
+        </div>
+      </div>
+      <div class="gov-outcome-card">
+        <span class="gov-outcome-card-number">[01]</span>
+        <div class="gov-outcome-card-content">
+          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <p class="gov-outcome-card-description">
+            Keep mission traffic on controlled delivery paths before
+            uncontrollel internet exposure.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-alt">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap center gap-16">
+      <h2>Go deeper into the architecture</h2>
+    </div>
+    <div class="gov-usecase-card-wrap">
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-1.png"
+            alt="EdgeConnect Secure Facilities"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Secure Facilities</h3>
+          <p class="gov-usecase-card-description">
+            Private Layer 2 transport from carrier network into controlled
+            infrastructure
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-2.png"
+            alt="EdgeConnect Forward-Deployed Teams"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Forward-Deployed Teams</h3>
+          <p class="gov-usecase-card-description">
+            Private IP addressing and isolated customer environments
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-3.png"
+            alt="EdgeConnect ISR and Unmanned Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">ISR and Unmanned Systems</h3>
+          <p class="gov-usecase-card-description">
+            VLAN separation and VRF segmentation
+          </p>
+        </div>
+      </div>
+      <div class="gov-usecase-card">
+        <div class="gov-usecase-card-img">
+          <img
+            src="/assets/ec-card-4.png"
+            alt="EdgeConnect Coalition-Connected Systems"
+          />
+        </div>
+        <div class="gov-usecase-card-content">
+          <h3 class="gov-usecase-card-title">Coalition-Connected Systems</h3>
+          <p class="gov-usecase-card-description">
+            Policy-controlled Layer 3 routing
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-8">
+    <h2>Bring us the mission environment</h2>
+    <div class="gov-img-760">
+      <img src="/assets/env.png" alt="Environments" />
+    </div>
+    <div class="gov-wrapper">
+      <p class="max-w-696 gov-description">
+        Share the operational conditions, device assumptions, and reachability
+        constraints. IDSECURE will help define the right EdgeConnect and SPECTRE
+        posture for your Government deployment.
+      </p>
+      <div class="gov-button-wrapper">
+        <a href="#" class="btn-primary">Request Government Briefing</a>
+        <a href="#" class="btn-secondary">Schedule Architecture Review</a>
+      </div>
+    </div>
+  </div>
+</section>

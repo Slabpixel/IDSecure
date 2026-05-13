@@ -75,7 +75,7 @@
       </button>
       <button type="button" class="nav-menu-btn">
         <i class="fa-solid fa-bars" style="width: 24px;"></i>
-      <button>
+      </button>
     </div>
   </div> 
   
@@ -94,7 +94,7 @@
             <path d="M1 1L25 9" stroke="white" stroke-width="2" stroke-linecap="round"/>
             <path d="M1 9L25 1" stroke="white" stroke-width="2" stroke-linecap="round"/>
           </svg>
-        <button>
+        </button>
       </div>
     </div>
     <div class="nav-main-content">
@@ -175,8 +175,8 @@
                   <squarespace:block-field id="navContactNumber"/>
                 </li>
                 <li class="nav-menu-item">
-                </li> -->
-              </ul>
+                </li> 
+              </ul> -->
             </div>
           </div>
         </div>
