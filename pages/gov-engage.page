@@ -212,3 +212,13 @@
     </div>
   </div>
 </section>
+
+<script>
+  document
+    .querySelectorAll('.gov-form-wrap input[type="checkbox"]')
+    .forEach((input) => {
+      if (input.value === "Government Briefing") {
+        input.checked = true;
+      }
+    });
+</script>
