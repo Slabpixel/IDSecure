@@ -188,8 +188,101 @@
       </svg>
     </a>
     <div class="gov-nav-menu">
-      <a class="gov-nav-link" href="#">Secure Mission Connectivity</a>
-      <a class="gov-nav-link" href="#">Intelligence Collection</a>
+      <div class="gov-nav-item gov-nav-item--dropdown">
+        <a class="gov-nav-link" href="#"
+          >Secure Mission Connectivity
+          <svg
+            width="13"
+            height="7"
+            viewBox="0 0 13 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div class="gov-nav-dropdown">
+          <div class="gov-nav-dropdown-panel">
+            <div class="gov-nav-dropdown-main">
+              <nav class="gov-nav-dropdown-links" aria-label="Secure Mission Connectivity">
+                <a href="/gov-edgeconnect">EdgeConnect</a>
+                <a href="/gov-spectre">SPECTRE</a>
+                <a href="/gov-mission">Mission Environments</a>
+                <a href="/gov-platform">Platform &amp; Operations</a>
+                <a href="/gov-engage">Engage</a>
+              </nav>
+              <div class="gov-nav-dropdown-visual">
+                <img
+                  src="/assets/gov-nav-dropdown-lifecycle.png"
+                  alt=""
+                  width="466"
+                  height="260"
+                />
+              </div>
+            </div>
+            <div class="gov-nav-dropdown-footer">
+              <p>
+                IDSECURE provides secure mobile connectivity for reliable
+                transmission.
+              </p>
+              <a href="/government" class="btn-secondary sm gov-nav-dropdown-cta"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-nav-item gov-nav-item--dropdown">
+        <a class="gov-nav-link" href="#"
+          >Intelligence Collection
+          <svg
+            width="13"
+            height="7"
+            viewBox="0 0 13 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div class="gov-nav-dropdown">
+          <div class="gov-nav-dropdown-panel">
+            <div class="gov-nav-dropdown-main">
+              <nav class="gov-nav-dropdown-links" aria-label="Intelligence Collection">
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
+                <a href="/biometric-jump-kits">Mobile Biometric Collection Kits</a>
+                <a href="/biometric-handhelds">Mobile Biometric Handhelds</a>
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+              </nav>
+              <div class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence">
+                <img
+                  src="/assets/gov-nav-dropdown-intelligence.png"
+                  alt=""
+                  width="438"
+                  height="246"
+                />
+              </div>
+            </div>
+            <div class="gov-nav-dropdown-footer">
+              <p>
+                IDSECURE provides secure mobile connectivity for reliable
+                transmission.
+              </p>
+              <a href="/identity-biometrics" class="btn-secondary sm gov-nav-dropdown-cta"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
       <a class="gov-nav-link" href="/about-us">About Us</a>
       <a class="gov-nav-link" href="/login">Support</a>
       <a class="gov-nav-link" href="/blog">Press</a>

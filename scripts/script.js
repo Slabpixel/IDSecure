@@ -1,4 +1,39 @@
-// Nav Dropdown Interaction 
+// Nav Dropdown Interaction
+
+const govNavDropToggle = document.querySelectorAll('.gov-nav-item--dropdown');
+
+govNavDropToggle.forEach((item) => {
+  const govDropMenu = item.querySelector('.gov-nav-dropdown');
+  const trigger = item.querySelector('.gov-nav-link');
+  if (!govDropMenu || !trigger) return;
+
+  let mouseIsOver = false;
+
+  const mouseState = () => {
+    if (mouseIsOver) {
+      govDropMenu.classList.add('gov-nav-hover-active');
+    } else {
+      govDropMenu.classList.remove('gov-nav-hover-active');
+    }
+  };
+
+  trigger.addEventListener('mouseenter', () => {
+    mouseIsOver = true;
+    mouseState();
+  });
+  trigger.addEventListener('mouseleave', () => {
+    mouseIsOver = false;
+    mouseState();
+  });
+  govDropMenu.addEventListener('mouseenter', () => {
+    mouseIsOver = true;
+    mouseState();
+  });
+  govDropMenu.addEventListener('mouseleave', () => {
+    mouseIsOver = false;
+    mouseState();
+  });
+});
 
 const navDropToggle = document.querySelectorAll('.nav-menu-toggle');
 
