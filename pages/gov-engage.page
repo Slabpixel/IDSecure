@@ -193,6 +193,64 @@
     </div>
   </div>
 </section>
+<section class="gov-section lg bg-alt">
+  <div class="gov-container col gap-48 center">
+    <h2>Explore before you engage</h2>
+    <div class="gov-explore-grid">
+      <div class="gov-explore-row">
+        <a href="/edgeconnect" class="gov-explore-card">
+          <div class="gov-explore-card-img">
+            <img src="/assets/hero-gov-ec.png" alt="" />
+          </div>
+          <div class="gov-explore-card-content">
+            <h3>EdgeConnect</h3>
+            <p>See how secure transport and controlled handoff work.</p>
+          </div>
+        </a>
+        <a href="/spectre" class="gov-explore-card">
+          <div class="gov-explore-card-img">
+            <img src="/assets/hero-gov-sp.png" alt="" />
+          </div>
+          <div class="gov-explore-card-content">
+            <h3>SPECTRE</h3>
+            <p>See how intelligent orchestration adapts to mission conditions.</p>
+          </div>
+        </a>
+        <a href="/platform-operations" class="gov-explore-card">
+          <div class="gov-explore-card-img">
+            <img src="/assets/po-hero.png" alt="" />
+          </div>
+          <div class="gov-explore-card-content">
+            <h3>Platform &amp; Operations</h3>
+            <p>
+              Start a Government technical review or architecture discussion.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="gov-explore-row gov-explore-row--two">
+        <a href="/government" class="gov-explore-card">
+          <div class="gov-explore-card-img">
+            <img src="/assets/government-hero-bg.png" alt="" />
+          </div>
+          <div class="gov-explore-card-content">
+            <h3>Government Home</h3>
+            <p>See how secure transport and controlled handoff work.</p>
+          </div>
+        </a>
+        <a href="/mission-environments" class="gov-explore-card">
+          <div class="gov-explore-card-img">
+            <img src="/assets/hero-gov-me.png" alt="" />
+          </div>
+          <div class="gov-explore-card-content">
+            <h3>Mission Environments</h3>
+            <p>See how intelligent orchestration adapts to mission conditions.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="gov-section lg">
   <div class="gov-container col center gap-8">
     <h2>Bring us the mission environment</h2>

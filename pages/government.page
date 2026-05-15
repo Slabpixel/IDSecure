@@ -175,61 +175,80 @@
       >
       <h2>Secure the path. <br />Select the path.</h2>
     </div>
-    <div class="gov-content-column">
-      <div class="gov-content-column-arrow-long">
-        <img src="/assets/arrow-long.svg" alt="Arrow Long" />
+    <div class="gov-content-column-wrapper">
+      <div class="gov-content-column-arrow-long mobile">
+        <img src="/assets/arrow-long-mobile.svg" alt="Arrow Long" />
       </div>
-      <div class="gov-content-column-cards">
-        <div class="gov-content-column-card">
-          <div class="gov-content-column-card-icon">
-            <img src="/assets/rocket.svg" alt="Rocket" width="20" height="20" />
+      <div class="gov-content-column">
+        <div class="gov-content-column-arrow-long">
+          <img src="/assets/arrow-long.svg" alt="Arrow Long" />
+        </div>
+        <div class="gov-content-column-cards">
+          <div class="gov-content-column-card">
+            <div class="gov-content-column-card-icon">
+              <img
+                src="/assets/rocket.svg"
+                alt="Rocket"
+                width="20"
+                height="20"
+              />
+            </div>
+            <div class="gov-content-column-card-main">
+              <span class="gov-content-column-card-subtitle"
+                >Secure Transport</span
+              >
+              <h3 class="gov-content-column-card-title">EdgeConnect</h3>
+            </div>
+            <div class="gov-content-column-card-description">
+              <p>
+                EdgeConnect is IDSECURE's secure transport and handoff
+                architecture. It delivers traffic from carrier networks into
+                IDSECURE-controlled infrastructure through private transport and
+                controlled handoff before uncontrolled public internet exposure.
+              </p>
+            </div>
           </div>
-          <div class="gov-content-column-card-main">
-            <span class="gov-content-column-card-subtitle"
-              >Secure Transport</span
-            >
-            <h3 class="gov-content-column-card-title">EdgeConnect</h3>
+          <div class="gov-content-column-arrow">
+            <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
           </div>
-          <div class="gov-content-column-card-description">
-            <p>
-              EdgeConnect is IDSECURE's secure transport and handoff
-              architecture. It delivers traffic from carrier networks into
-              IDSECURE-controlled infrastructure through private transport and
-              controlled handoff before uncontrolled public internet exposure.
-            </p>
+          <div class="gov-content-column-arrow mobile">
+            <img src="/assets/arrow-mid-mobile.svg" alt="Arrow Mid" />
+          </div>
+          <div class="gov-content-column-title">
+            Controlled Resilient Connectivity
+          </div>
+          <div class="gov-content-column-arrow rotate">
+            <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
+          </div>
+          <div class="gov-content-column-arrow mobile rotate">
+            <img src="/assets/arrow-mid-mobile.svg" alt="Arrow Mid" />
+          </div>
+          <div class="gov-content-column-card">
+            <div class="gov-content-column-card-icon">
+              <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
+            </div>
+            <div class="gov-content-column-card-main">
+              <span class="gov-content-column-card-subtitle"
+                >Orchestration Logic</span
+              >
+              <h3 class="gov-content-column-card-title">SPECTRE</h3>
+            </div>
+            <div class="gov-content-column-card-description">
+              <p>
+                SPECTRE is IDSECURE's intelligent orchestration layer. It
+                determines which connectivity path a device should use, when it
+                should switch, and how to maintain continuity as conditions
+                change.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="gov-content-column-arrow">
-          <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
-        </div>
-        <div class="gov-content-column-title">
-          Controlled Resilient Connectivity
-        </div>
-        <div class="gov-content-column-arrow rotate">
-          <img src="/assets/arrow-mid.svg" alt="Arrow Mid" />
-        </div>
-        <div class="gov-content-column-card">
-          <div class="gov-content-column-card-icon">
-            <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
-          </div>
-          <div class="gov-content-column-card-main">
-            <span class="gov-content-column-card-subtitle"
-              >Orchestration Logic</span
-            >
-            <h3 class="gov-content-column-card-title">SPECTRE</h3>
-          </div>
-          <div class="gov-content-column-card-description">
-            <p>
-              SPECTRE is IDSECURE's intelligent orchestration layer. It
-              determines which connectivity path a device should use, when it
-              should switch, and how to maintain continuity as conditions
-              change.
-            </p>
-          </div>
+        <div class="gov-content-column-arrow-long rotate">
+          <img src="/assets/arrow-long.svg" alt="Arrow Long" />
         </div>
       </div>
-      <div class="gov-content-column-arrow-long rotate">
-        <img src="/assets/arrow-long.svg" alt="Arrow Long" />
+      <div class="gov-content-column-arrow-long mobile rotate">
+        <img src="/assets/arrow-long-mobile.svg" alt="Arrow Long" />
       </div>
     </div>
     <div class="gov-description-column-text">
@@ -267,40 +286,74 @@
         <a href="#" class="btn-secondary">Explore EdgeConnect</a>
       </div>
       <div class="gov-tab">
-        <div class="gov-tab-header" role="tablist" aria-label="SPECTRE highlights">
-          <button type="button" class="gov-tab-button active" role="tab" id="gov-edgeconnect-tab-0" aria-selected="true" aria-controls="gov-edgeconnect-panel-0" tabindex="0">Outcomes-based features</button>
-          <button type="button" class="gov-tab-button" role="tab" id="gov-edgeconnect-tab-1" aria-selected="false" aria-controls="gov-edgeconnect-panel-1" tabindex="0">Technical capabilities</button>
+        <div
+          class="gov-tab-header"
+          role="tablist"
+          aria-label="SPECTRE highlights"
+        >
+          <button
+            type="button"
+            class="gov-tab-button active"
+            role="tab"
+            id="gov-edgeconnect-tab-0"
+            aria-selected="true"
+            aria-controls="gov-edgeconnect-panel-0"
+            tabindex="0"
+          >
+            Outcomes-based features
+          </button>
+          <button
+            type="button"
+            class="gov-tab-button"
+            role="tab"
+            id="gov-edgeconnect-tab-1"
+            aria-selected="false"
+            aria-controls="gov-edgeconnect-panel-1"
+            tabindex="0"
+          >
+            Technical capabilities
+          </button>
         </div>
         <div class="gov-tab-content">
-          <div class="gov-tab-content-item active" role="tabpanel" id="gov-edgeconnect-panel-0" aria-labelledby="gov-edgeconnect-tab-0">
+          <div
+            class="gov-tab-content-item active"
+            role="tabpanel"
+            id="gov-edgeconnect-panel-0"
+            aria-labelledby="gov-edgeconnect-tab-0"
+          >
             <ul class="gov-content-list sm">
-              <li class="gov-content-list-item ">
+              <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Preserve control before internet egress 
+                Preserve control before internet egress
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Reduce exposure through private transport and controlled handoff 
+                Reduce exposure through private transport and controlled handoff
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Support sovereign or low-latency breakout where required 
+                Support sovereign or low-latency breakout where required
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Apply segmentation, policy, and inspection in-line 
+                Apply segmentation, policy, and inspection in-line
               </li>
             </ul>
           </div>
-          <div class="gov-tab-content-item" role="tabpanel" id="gov-edgeconnect-panel-1" aria-labelledby="gov-edgeconnect-tab-1">
+          <div
+            class="gov-tab-content-item"
+            role="tabpanel"
+            id="gov-edgeconnect-panel-1"
+            aria-labelledby="gov-edgeconnect-tab-1"
+          >
             <ul class="gov-content-list sm">
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
@@ -371,40 +424,74 @@
         <a href="#" class="btn-secondary">Explore SPECTRE</a>
       </div>
       <div class="gov-tab">
-        <div class="gov-tab-header" role="tablist" aria-label="SPECTRE highlights">
-          <button type="button" class="gov-tab-button active" role="tab" id="gov-spectre-tab-0" aria-selected="true" aria-controls="gov-spectre-panel-0" tabindex="0">Outcomes-based features</button>
-          <button type="button" class="gov-tab-button" role="tab" id="gov-spectre-tab-1" aria-selected="false" aria-controls="gov-spectre-panel-1" tabindex="0">Technical capabilities</button>
+        <div
+          class="gov-tab-header"
+          role="tablist"
+          aria-label="SPECTRE highlights"
+        >
+          <button
+            type="button"
+            class="gov-tab-button active"
+            role="tab"
+            id="gov-spectre-tab-0"
+            aria-selected="true"
+            aria-controls="gov-spectre-panel-0"
+            tabindex="0"
+          >
+            Outcomes-based features
+          </button>
+          <button
+            type="button"
+            class="gov-tab-button"
+            role="tab"
+            id="gov-spectre-tab-1"
+            aria-selected="false"
+            aria-controls="gov-spectre-panel-1"
+            tabindex="0"
+          >
+            Technical capabilities
+          </button>
         </div>
         <div class="gov-tab-content">
-          <div class="gov-tab-content-item active" role="tabpanel" id="gov-spectre-panel-0" aria-labelledby="gov-spectre-tab-0">
+          <div
+            class="gov-tab-content-item active"
+            role="tabpanel"
+            id="gov-spectre-panel-0"
+            aria-labelledby="gov-spectre-tab-0"
+          >
             <ul class="gov-content-list sm">
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Dynamically select across available connectivity paths 
+                Dynamically select across available connectivity paths
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Centralize control where core reachability exists 
+                Centralize control where core reachability exists
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Enable autonomous device behavior in tactical and DIL conditions  
+                Enable autonomous device behavior in tactical and DIL conditions
               </li>
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
                   <div class="gov-marker-point sm"></div>
                 </div>
-                Match orchestration mode to the mission environment 
+                Match orchestration mode to the mission environment
               </li>
             </ul>
           </div>
-          <div class="gov-tab-content-item" role="tabpanel" id="gov-spectre-panel-1" aria-labelledby="gov-spectre-tab-1">
+          <div
+            class="gov-tab-content-item"
+            role="tabpanel"
+            id="gov-spectre-panel-1"
+            aria-labelledby="gov-spectre-tab-1"
+          >
             <ul class="gov-content-list sm">
               <li class="gov-content-list-item">
                 <div class="gov-marker sm">
@@ -526,7 +613,7 @@
 </section>
 <section class="gov-section sm">
   <div class="gov-container col gap-16">
-    <div class="gov-title-wrap">
+    <div class="gov-title-wrap mobile-left">
       <span class="gov-eyebrow">[One operating model]</span>
       <h2 class="max-w-586">
         More than transport. <br />

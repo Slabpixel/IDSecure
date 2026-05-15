@@ -49,7 +49,7 @@
 </section>
 <section class="gov-section sm">
   <div class="gov-container col gap-48">
-    <div class="gov-title-wrap">
+    <div class="gov-title-wrap mobile-left">
       <span class="gov-eyebrow muted"
         >[Representative Government environments]</span
       >
@@ -181,7 +181,7 @@
 <section class="gov-section md">
   <div class="gov-container gap-80">
     <div class="gov-content col between max-w-480">
-      <div class="gov-title-wrap">
+      <div class="gov-title-wrap mobile-left">
         <span class="gov-eyebrow muted">[Selecting the right model]</span>
         <h2>The right connectivity posture depends on two questions</h2>
       </div>

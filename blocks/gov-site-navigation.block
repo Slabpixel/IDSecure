@@ -212,11 +212,11 @@
                 class="gov-nav-dropdown-links"
                 aria-label="Secure Mission Connectivity"
               >
-                <a href="/gov-edgeconnect">EdgeConnect</a>
-                <a href="/gov-spectre">SPECTRE</a>
-                <a href="/gov-mission">Mission Environments</a>
-                <a href="/gov-platform">Platform &amp; Operations</a>
-                <a href="/gov-engage">Engage</a>
+                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/spectre">SPECTRE</a>
+                <a href="/mission-environments">Mission Environments</a>
+                <a href="/platform-operations">Platform &amp; Operations</a>
+                <a href="/engage">Engage</a>
               </nav>
               <div class="gov-nav-dropdown-visual">
                 <img
@@ -346,11 +346,11 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Secure Mission Connectivity"
               >
-                <a href="/gov-edgeconnect">EdgeConnect</a>
-                <a href="/gov-spectre">SPECTRE</a>
-                <a href="/gov-mission">Mission Environments</a>
-                <a href="/gov-platform">Platform &amp; Operations</a>
-                <a href="/gov-engage">Engage</a>
+                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/spectre">SPECTRE</a>
+                <a href="/mission-environments">Mission Environments</a>
+                <a href="/platform-operations">Platform &amp; Operations</a>
+                <a href="/engage">Engage</a>
               </nav>
             </div>
           </div>

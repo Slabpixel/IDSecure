@@ -72,7 +72,7 @@
     <img src="/assets/ec-tech.png" alt="EdgeConnect Technical Capabilities" />
   </div>
   <div class="gov-container col gap-64">
-    <div class="gov-title-wrap">
+    <div class="gov-title-wrap mobile-left">
       <span class="gov-eyebrow muted">[Technical capabilities]</span>
       <div class="gov-title-content">
         <h2 class="max-w-550">Security by architecture, not by overlay</h2>
