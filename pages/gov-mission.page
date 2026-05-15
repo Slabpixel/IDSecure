@@ -82,95 +82,192 @@
             secure delivery model and SPECTRE Core-Orchestrated keeps operations
             simple and centrally managed.
           </p>
-          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+          <a href="/edgeconnect" class="btn-secondary">Explore EdgeConnect</a>
         </div>
       </div>
       <div class="gov-mission-profile">
         <div class="gov-mission-profile-header">
-          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <h3 class="gov-mission-profile-header-title">
+            Expeditionary Operations
+          </h3>
           <div class="gov-mission-profile-header-inner top">
             <span>Need</span>
             <p>
-              Controlled delivery, routing assurance, visibility, and
-              centralized policy.
+              Resilient connectivity across changing paths and unpredictable
+              reachability.
             </p>
           </div>
           <div class="gov-mission-profile-header-inner bottom">
             <span>Recommended Posture</span>
-            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+            <p>EdgeConnect with SPECTRE matched to operational reachability</p>
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+          <img src="/assets/me-prof-2.png" alt="Expeditionary Operations" />
         </div>
         <div class="gov-mission-profile-footer">
           <p>
-            For fixed Government environments with reliable core reachability,
-            the priority is controlled transport into private infrastructure and
-            centralized policy at scale. This is where EdgeConnect provides the
-            secure delivery model and SPECTRE Core-Orchestrated keeps operations
-            simple and centrally managed.
+            Expeditionary deployments need flexibility. Some environments can
+            rely on centralized orchestration, while others require autonomy
+            when core reachability cannot be guaranteed. IDSECURE supports both,
+            while preserving secure delivery through EdgeConnect.
           </p>
-          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+          <a href="/spectre" class="btn-secondary">Explore SPECTRE</a>
         </div>
       </div>
       <div class="gov-mission-profile">
         <div class="gov-mission-profile-header">
-          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <h3 class="gov-mission-profile-header-title">
+            ISR and unmanned Systems
+          </h3>
           <div class="gov-mission-profile-header-inner top">
             <span>Need</span>
             <p>
-              Controlled delivery, routing assurance, visibility, and
-              centralized policy.
+              Adaptive path selection and controlled delivery back to mission
+              systems.
             </p>
           </div>
           <div class="gov-mission-profile-header-inner bottom">
             <span>Recommended Posture</span>
-            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+            <p>SPECTRE-led orchestration with EdgeConnect secure delivery</p>
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+          <img src="/assets/me-prof-3.png" alt="ISR and unmanned Systems" />
         </div>
         <div class="gov-mission-profile-footer">
           <p>
-            For fixed Government environments with reliable core reachability,
-            the priority is controlled transport into private infrastructure and
-            centralized policy at scale. This is where EdgeConnect provides the
-            secure delivery model and SPECTRE Core-Orchestrated keeps operations
-            simple and centrally managed.
+            When devices or platforms operate across multiple available paths,
+            intelligent selection becomes central to continuity. SPECTRE
+            determines the best available path, and EdgeConnect ensures every
+            selected path is delivered through controlled infrastructure.
           </p>
-          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+          <a href="#" class="btn-secondary">View the Combined Architecture</a>
         </div>
       </div>
       <div class="gov-mission-profile">
         <div class="gov-mission-profile-header">
-          <h3 class="gov-mission-profile-header-title">Secure Facilities</h3>
+          <h3 class="gov-mission-profile-header-title">
+            Coalition / Allied Environments
+          </h3>
           <div class="gov-mission-profile-header-inner top">
             <span>Need</span>
             <p>
-              Controlled delivery, routing assurance, visibility, and
-              centralized policy.
+              Controlled interconnect, segmentation, and policy-governed
+              delivery across connected partners.
             </p>
           </div>
           <div class="gov-mission-profile-header-inner bottom">
             <span>Recommended Posture</span>
-            <p>EdgeConnect with SPECTRE Core-Orchestrated</p>
+            <p>EdgeConnect with mission-specific SPECTRE policy</p>
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+          <img src="/assets/me-prof-4.png" alt="Secure Facilities" />
         </div>
         <div class="gov-mission-profile-footer">
           <p>
-            For fixed Government environments with reliable core reachability,
-            the priority is controlled transport into private infrastructure and
-            centralized policy at scale. This is where EdgeConnect provides the
-            secure delivery model and SPECTRE Core-Orchestrated keeps operations
-            simple and centrally managed.
+            Coalition-connected environments require controlled boundaries,
+            segmented routing, and a consistent operating model across
+            partner-connected paths. IDSECURE supports this through
+            architecture-based control and mission-aligned orchestration.
           </p>
-          <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+          <a href="#" class="btn-secondary">Request Architecture Review</a>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container gap-80">
+    <div class="gov-content col between max-w-480">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow muted">[Selecting the right model]</span>
+        <h2>The right connectivity posture depends on two questions</h2>
+      </div>
+      <p class="gov-description muted sm">
+        First, can the device reliably reach the core? Second, how much local
+        autonomy does the mission require? When core reachability is assured,
+        centralized orchestration is usually the right model. As operating
+        conditions become more contested, intermittent, or denied, autonomous
+        decision-making becomes more important. EdgeConnect remains the secure
+        transport foundation in both cases.
+      </p>
+    </div>
+    <div class="gov-content col between">
+      <div class="gov-image-wrapper aspect-43-24">
+        <img src="/assets/me-posture.png" alt="Posture" />
+      </div>
+      <ul class="gov-content-list sm">
+        <li class="gov-content-list-item">
+          <div class="gov-marker sm">
+            <div class="gov-marker-point sm"></div>
+          </div>
+          Use SPECTRE Core-Orchestrated when central control is available.
+        </li>
+        <li class="gov-content-list-item">
+          <div class="gov-marker sm">
+            <div class="gov-marker-point sm"></div>
+          </div>
+          Use SPECTRE Device-Autonomous when the mission must continue without
+          guaranteed core access.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="gov-section py-96">
+  <div class="gov-container col gap-40">
+    <div class="gov-title-wrap horizontal arch">
+      <h2 class="max-w-414">How to think about the architecture</h2>
+      <span class="gov-eyebrow muted">[Mission-specific orchestration]</span>
+    </div>
+    <div class="gov-content-arch">
+      <div class="gov-content-arch-item">
+        <div class="gov-content-arch-item-header">
+          <h3 class="gov-content-arch-item-title">EdgeConnect-led</h3>
+          <span class="gov-content-arch-item-description"
+            >When controlled delivery is the lead requirement</span
+          >
+        </div>
+        <div class="gov-content-arch-item-img">
+          <img src="/assets/me-arch-1.png" alt="EdgeConnect-led" />
+        </div>
+        <p class="gov-content-arch-item-description">
+          If the primary requirement is secure transport, private handoff,
+          routing assurance, or controlled ingress into mission infrastructure,
+          start with EdgeConnect. This is often the foundation for secure
+          facilities, sovereign breakout requirements, and environments where
+          transport control is non-negotiable.
+        </p>
+      </div>
+      <div class="gov-content-arch-item">
+        <div class="gov-content-arch-item-header">
+          <h3 class="gov-content-arch-item-title">SPECTRE-led</h3>
+          <span class="gov-content-arch-item-description"
+            >When adaptive path selection is the lead requirement</span
+          >
+        </div>
+        <div class="gov-content-arch-item-img">
+          <img src="/assets/me-arch-2.png" alt="SPECTRE-led" />
+        </div>
+        <p class="gov-content-arch-item-description">
+          If the environment demands dynamic switching across available paths, changing reachability conditions, or local device decisions, start with SPECTRE. This is especially relevant for expeditionary, tactical, and DIL-aligned environments.
+        </p>
+      </div>
+      <div class="gov-content-arch-item">
+        <div class="gov-content-arch-item-header">
+          <h3 class="gov-content-arch-item-title">Combined architecture</h3>
+          <span class="gov-content-arch-item-description"
+            >When the mission requires both control and adaptability</span
+          >
+        </div>
+        <div class="gov-content-arch-item-img">
+          <img src="/assets/me-arch-3.png" alt="Combined architecture" />
+        </div>
+        <p class="gov-content-arch-item-description">
+          Most Government environments need both. SPECTRE determines how the device should connect. EdgeConnect ensures that every selected path is delivered through controlled infrastructure. Together they provide resilient, mission-ready connectivity from endpoint to destination.
+        </p>
       </div>
     </div>
   </div>
@@ -190,32 +287,34 @@
         </div>
       </div>
       <div class="gov-outcome-card">
-        <span class="gov-outcome-card-number">[01]</span>
+        <span class="gov-outcome-card-number">[02]</span>
         <div class="gov-outcome-card-content">
-          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <h3 class="gov-outcome-card-title">Preserve continuity</h3>
           <p class="gov-outcome-card-description">
-            Keep mission traffic on controlled delivery paths before
-            uncontrollel internet exposure.
+            Support connectivity across fixed, mobile, expeditionary, and denied
+            operating conditions.
           </p>
         </div>
       </div>
       <div class="gov-outcome-card">
-        <span class="gov-outcome-card-number">[01]</span>
+        <span class="gov-outcome-card-number">[03]</span>
         <div class="gov-outcome-card-content">
-          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <h3 class="gov-outcome-card-title">Reduce operational complexity</h3>
           <p class="gov-outcome-card-description">
-            Keep mission traffic on controlled delivery paths before
-            uncontrollel internet exposure.
+            Match orchestration and transport to the mission rather than forcing
+            one model everywhere.
           </p>
         </div>
       </div>
       <div class="gov-outcome-card">
-        <span class="gov-outcome-card-number">[01]</span>
+        <span class="gov-outcome-card-number">[04]</span>
         <div class="gov-outcome-card-content">
-          <h3 class="gov-outcome-card-title">Maintain control</h3>
+          <h3 class="gov-outcome-card-title">
+            Support coalition-ready architecture
+          </h3>
           <p class="gov-outcome-card-description">
-            Keep mission traffic on controlled delivery paths before
-            uncontrollel internet exposure.
+            Use segmentation, policy, and controlled interconnect to support
+            connected mission environments.
           </p>
         </div>
       </div>

@@ -46,13 +46,8 @@
     return function () {};
   });
 
-  mm.add('(max-width: 768px)', function () {
-    fallbackStaticStack();
-    return function () {};
-  });
-
   mm.add(
-    '(min-width: 769px) and (prefers-reduced-motion: no-preference)',
+    '(prefers-reduced-motion: no-preference)',
     function () {
       gsap.set(images, {
         autoAlpha: function (i) {

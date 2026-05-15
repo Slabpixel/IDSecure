@@ -49,11 +49,11 @@
 </section>
 <section class="gov-section xs">
   <div class="gov-container col center">
-    <div class="gov-title-wrap center gap-12 z-2">
-      <span class="gov-eyebrow muted">Five coordinated layers</span>
-      <h2 class="max-w-586">The platform behind EdgeConnect and SPECTRE</h2>
-    </div>
     <div class="gov-platform-layers">
+      <div class="gov-title-wrap center gap-12 z-10">
+        <span class="gov-eyebrow muted">Five coordinated layers</span>
+        <h2 class="max-w-586">The platform behind EdgeConnect and SPECTRE</h2>
+      </div>
       <div class="gov-platform-layers-stage">
         <div class="gov-platform-layers-images">
           <img
@@ -158,34 +158,34 @@
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-sim.png" alt="SIM" />
+            <img src="/assets/icon-subs.png" alt="Subscriber" />
           </div>
           <h3 class="gov-platform-control-content-card-title">
-            SIM and eSIM lifecycle management
+            Subscriber provisioning and control
           </h3>
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-sim.png" alt="SIM" />
+            <img src="/assets/icon-policy.png" alt="Policy" />
           </div>
           <h3 class="gov-platform-control-content-card-title">
-            SIM and eSIM lifecycle management
+            Profile policy configuration
           </h3>
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-sim.png" alt="SIM" />
+            <img src="/assets/icon-ota.png" alt="OTA" />
           </div>
           <h3 class="gov-platform-control-content-card-title">
-            SIM and eSIM lifecycle management
+            OTA update distribution
           </h3>
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-sim.png" alt="SIM" />
+            <img src="/assets/icon-unified.png" alt="Unified" />
           </div>
           <h3 class="gov-platform-control-content-card-title">
-            SIM and eSIM lifecycle management
+            Unified CMP and eIM operations
           </h3>
         </div>
       </div>
@@ -193,54 +193,46 @@
   </div>
 </section>
 <section class="gov-section sm">
-  <div class="gov-container">
-    <div class="gov-content-image-551">
+  <div class="gov-container no-padding">
+    <div class="gov-content-image-720">
       <img src="/assets/po-automation.png" alt="Automation" />
     </div>
-    <div class="gov-col one">
-      <div class="gov-title-wrap max-w-442">
-        <h2>Local breakout where the mission requires it</h2>
-        <p class="gov-description sm white">
-          The platform is API-first by design. Control and configuration can be
-          exposed through APIs and webhooks, supporting provisioning, service
-          configuration, policy-driven routing, telemetry export, and
-          integration with external operational systems. For Government teams,
-          that means the platform can fit into broader operational and security
-          workflows rather than becoming another silo.
-        </p>
-        <ul class="gov-content-orchestration-card-list-items">
-          <li class="gov-content-orchestration-card-list-item compact">
-            <span class="gov-content-orchestration-card-list-item-icon">
-              <img src="/assets/check-circle.svg" alt="" />
-            </span>
-            <p>One profile, one provisioning event</p>
-          </li>
-          <li class="gov-content-orchestration-card-list-item compact">
-            <span class="gov-content-orchestration-card-list-item-icon">
-              <img src="/assets/check-circle.svg" alt="" />
-            </span>
-            <p>Fast switching without on-device profile cycling</p>
-          </li>
-          <li class="gov-content-orchestration-card-list-item compact">
-            <span class="gov-content-orchestration-card-list-item-icon">
-              <img src="/assets/check-circle.svg" alt="" />
-            </span>
-            <p>Broad device compatibility</p>
-          </li>
-          <li class="gov-content-orchestration-card-list-item compact">
-            <span class="gov-content-orchestration-card-list-item-icon">
-              <img src="/assets/check-circle.svg" alt="" />
-            </span>
-            <p>Centralized policy and control</p>
-          </li>
-          <li class="gov-content-orchestration-card-list-item compact">
-            <span class="gov-content-orchestration-card-list-item-icon">
-              <img src="/assets/check-circle.svg" alt="" />
-            </span>
-            <p>Reduced credential exposure on device</p>
-          </li>
-        </ul>
-      </div>
+    <div class="gov-title-wrap automation">
+      <h2>Built for automation and integration</h2>
+      <p class="gov-description sm white">
+        The platform is API-first by design. Control and configuration can be
+        exposed through APIs and webhooks, supporting provisioning, service
+        configuration, policy-driven routing, telemetry export, and integration
+        with external operational systems. For Government teams, that means the
+        platform can fit into broader operational and security workflows rather
+        than becoming another silo.
+      </p>
+      <ul class="gov-content-orchestration-card-list-items mt-16">
+        <li class="gov-content-orchestration-card-list-item compact">
+          <span class="gov-content-orchestration-card-list-item-icon">
+            <img src="/assets/check-circle.svg" alt="" />
+          </span>
+          <p>API-first control model</p>
+        </li>
+        <li class="gov-content-orchestration-card-list-item compact">
+          <span class="gov-content-orchestration-card-list-item-icon">
+            <img src="/assets/check-circle.svg" alt="" />
+          </span>
+          <p>Operational system compatibility</p>
+        </li>
+        <li class="gov-content-orchestration-card-list-item compact">
+          <span class="gov-content-orchestration-card-list-item-icon">
+            <img src="/assets/check-circle.svg" alt="" />
+          </span>
+          <p>Webhooks and event integration</p>
+        </li>
+        <li class="gov-content-orchestration-card-list-item compact">
+          <span class="gov-content-orchestration-card-list-item-icon">
+            <img src="/assets/check-circle.svg" alt="" />
+          </span>
+          <p>Telemetry export for external tools</p>
+        </li>
+      </ul>
     </div>
   </div>
 </section>

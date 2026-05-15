@@ -1,3 +1,214 @@
-<div>
-    <h1>Engage</h1>
-</div>
+<section class="gov-section hero engage">
+  <div class="gov-hero-overlay"></div>
+  <div class="gov-container">
+    <div class="gov-hero-content">
+      <div class="gov-hero-content-main">
+        <span class="gov-eyebrow muted">[ENGAGE]</span>
+        <h1 class="gov-hero-title">Start with the mission environment</h1>
+        <div class="gov-hero-button-wrapper">
+          <a href="#engageFormSection" class="btn-primary sm"
+            >Submit Government Inquiry</a
+          >
+        </div>
+      </div>
+      <p class="gov-hero-content-description">
+        Share the operating conditions, device assumptions, reachability
+        constraints, and security requirements. IDSECURE will help define the
+        right Government architecture across EdgeConnect, SPECTRE, and the
+        broader operational platform.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-48">
+    <h2>Choose the right starting point</h2>
+    <div class="gov-starting-point">
+      <div class="gov-starting-point-card">
+        <div class="gov-starting-point-card-img">
+          <img src="/assets/en-starting-1.png" alt="Starting Point 1" />
+        </div>
+        <div class="gov-starting-point-card-content">
+          <div class="gov-starting-point-card-header">
+            <h3 class="gov-starting-point-card-title">Executive Overview</h3>
+            <p class="gov-starting-point-card-description">
+              For leadership teams evaluating the mission fit, platform scope,
+              and strategic role of IDSECURE in a Government deployment.
+            </p>
+          </div>
+          <a href="#" class="btn-secondary">Request Executive Overview</a>
+        </div>
+      </div>
+      <div class="gov-starting-point-card">
+        <div class="gov-starting-point-card-img">
+          <img src="/assets/en-starting-2.png" alt="Starting Point 2" />
+        </div>
+        <div class="gov-starting-point-card-content">
+          <div class="gov-starting-point-card-header">
+            <h3 class="gov-starting-point-card-title">Architecture Session</h3>
+            <p class="gov-starting-point-card-description">
+              For technical teams that want to review transport, orchestration,
+              operating mode selection, and deployment assumptions.
+            </p>
+          </div>
+          <a href="#" class="btn-secondary">Request Architecture Session</a>
+        </div>
+      </div>
+      <div class="gov-starting-point-card">
+        <div class="gov-starting-point-card-img">
+          <img src="/assets/en-starting-3.png" alt="Starting Point 3" />
+        </div>
+        <div class="gov-starting-point-card-content">
+          <div class="gov-starting-point-card-header">
+            <h3 class="gov-starting-point-card-title">
+              Pilot / Field Evaluation
+            </h3>
+            <p class="gov-starting-point-card-description">
+              For teams exploring proof-of-concept, field validation, or
+              mission-environment testing.
+            </p>
+          </div>
+          <a href="#" class="btn-secondary">Discuss Evaluation</a>
+        </div>
+      </div>
+      <div class="gov-starting-point-card">
+        <div class="gov-starting-point-card-img">
+          <img src="/assets/en-starting-4.png" alt="Starting Point 4" />
+        </div>
+        <div class="gov-starting-point-card-content">
+          <div class="gov-starting-point-card-header">
+            <h3 class="gov-starting-point-card-title">Deployment Planning</h3>
+            <p class="gov-starting-point-card-description">
+              For teams that are further along and want to work through device,
+              policy, reachability, and operational rollout considerations.
+            </p>
+          </div>
+          <a href="#" class="btn-secondary">Start Deployment Discussion</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="engageFormSection" class="gov-section lg bg-engage-form">
+  <div class="gov-container col gap-40">
+    <div class="gov-title-wrap horizontal">
+      <h2>Request a Government briefing or review</h2>
+      <span class="gov-description xs"
+        >Tell us what you are evaluating and what operating conditions matter
+        most. We'll route the conversation to the right architecture and mission
+        context.</span
+      >
+    </div>
+    <div class="gov-form-wrap">
+      <div class="gov-form-wrap-content">
+        <div class="gov-title-wrap">
+          <h3 class="gov-form-wrap-title max-w-303">
+            Useful inputs for the first discussion
+          </h3>
+          <span class="gov-description sm max-w-414"
+            >The most productive first session starts with the mission
+            conditions and deployment assumptions.</span
+          >
+        </div>
+        <ul class="gov-content-list">
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Operating environment
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Device type and deployment profile
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Core reachability assumptions
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Security and routing requirements
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Autonomy or DIL constraints
+          </li>
+          <li class="gov-content-list-item">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            Sovereignty or local breakout needs
+          </li>
+        </ul>
+      </div>
+      <div class="gov-form-wrap-form">
+        <squarespace:block-field id="engageForm" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container no-padding">
+    <div class="gov-content-image-640">
+      <img src="/assets/en-mission.png" alt="Mission" />
+    </div>
+    <div class="gov-title-wrap mission">
+      <div class="gov-title-wrap">
+        <h2 class="max-w-414">A mission-aligned engagement path</h2>
+        <p class="gov-description sm">
+          The goal of the first discussion is not a generic sales conversation.
+          It is to understand the operating environment, define the relevant
+          transport and orchestration posture, and determine whether IDSECURE is
+          the right fit for the mission.
+        </p>
+      </div>
+      <div class="gov-badge-wrap gap-sm">
+        <div class="gov-badge sm">
+          <div class="gov-marker sm">
+            <div class="gov-marker-point sm"></div>
+          </div>
+          <p>Architecture-led discussion</p>
+        </div>
+        <div class="gov-badge sm">
+          <div class="gov-marker sm">
+            <div class="gov-marker-point sm"></div>
+          </div>
+          <p>Government-specific path</p>
+        </div>
+        <div class="gov-badge sm">
+          <div class="gov-marker sm">
+            <div class="gov-marker-point sm"></div>
+          </div>
+          <p>Mission environment first</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section lg">
+  <div class="gov-container col center gap-8">
+    <h2>Bring us the mission environment</h2>
+    <div class="gov-img-760">
+      <img src="/assets/env.png" alt="Environments" />
+    </div>
+    <div class="gov-wrapper">
+      <p class="max-w-696 gov-description">
+        Share the operational conditions, device assumptions, and reachability
+        constraints. IDSECURE will help define the right EdgeConnect and SPECTRE
+        posture for your Government deployment.
+      </p>
+      <div class="gov-button-wrapper">
+        <a href="#" class="btn-primary">Request Government Briefing</a>
+        <a href="#" class="btn-secondary">Schedule Architecture Review</a>
+      </div>
+    </div>
+  </div>
+</section>
