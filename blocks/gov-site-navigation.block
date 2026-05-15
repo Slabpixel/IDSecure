@@ -208,7 +208,10 @@
         <div class="gov-nav-dropdown">
           <div class="gov-nav-dropdown-panel">
             <div class="gov-nav-dropdown-main">
-              <nav class="gov-nav-dropdown-links" aria-label="Secure Mission Connectivity">
+              <nav
+                class="gov-nav-dropdown-links"
+                aria-label="Secure Mission Connectivity"
+              >
                 <a href="/gov-edgeconnect">EdgeConnect</a>
                 <a href="/gov-spectre">SPECTRE</a>
                 <a href="/gov-mission">Mission Environments</a>
@@ -229,7 +232,9 @@
                 IDSECURE provides secure mobile connectivity for reliable
                 transmission.
               </p>
-              <a href="/government" class="btn-secondary sm gov-nav-dropdown-cta"
+              <a
+                href="/government"
+                class="btn-secondary sm gov-nav-dropdown-cta"
                 >Learn more</a
               >
             </div>
@@ -256,13 +261,20 @@
         <div class="gov-nav-dropdown">
           <div class="gov-nav-dropdown-panel">
             <div class="gov-nav-dropdown-main">
-              <nav class="gov-nav-dropdown-links" aria-label="Intelligence Collection">
+              <nav
+                class="gov-nav-dropdown-links"
+                aria-label="Intelligence Collection"
+              >
                 <a href="/livescan-kiosks">Livescan Kiosks</a>
-                <a href="/biometric-jump-kits">Mobile Biometric Collection Kits</a>
+                <a href="/biometric-jump-kits"
+                  >Mobile Biometric Collection Kits</a
+                >
                 <a href="/biometric-handhelds">Mobile Biometric Handhelds</a>
                 <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
               </nav>
-              <div class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence">
+              <div
+                class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence"
+              >
                 <img
                   src="/assets/gov-nav-dropdown-intelligence.png"
                   alt=""
@@ -276,7 +288,9 @@
                 IDSECURE provides secure mobile connectivity for reliable
                 transmission.
               </p>
-              <a href="/identity-biometrics" class="btn-secondary sm gov-nav-dropdown-cta"
+              <a
+                href="/identity-biometrics"
+                class="btn-secondary sm gov-nav-dropdown-cta"
                 >Learn more</a
               >
             </div>
@@ -291,8 +305,100 @@
       <a href="" class="btn-link">Government Briefing</a>
       <a href="/contact" class="btn-secondary">Contact Us</a>
     </div>
-    <button type="button" class="gov-nav-btn">
-      <i class="fa-solid fa-bars"></i>
+    <button
+      type="button"
+      class="gov-nav-btn"
+      aria-expanded="false"
+      aria-controls="gov-nav-mobile"
+      aria-label="Open menu"
+    >
+      <i
+        class="fa-solid fa-bars gov-nav-btn-icon gov-nav-btn-icon--menu"
+        aria-hidden="true"
+      ></i>
+      <i
+        class="fa-solid fa-xmark gov-nav-btn-icon gov-nav-btn-icon--close"
+        aria-hidden="true"
+      ></i>
     </button>
+  </div>
+
+  <div class="gov-nav-mobile" id="gov-nav-mobile" aria-hidden="true">
+    <div class="gov-nav-mobile-body">
+      <div class="gov-nav-mobile-group">
+        <button
+          type="button"
+          class="gov-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span>Secure Mission Connectivity</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div class="gov-nav-mobile-panel">
+          <div class="gov-nav-mobile-panel-collapse">
+            <div
+              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--connectivity"
+            >
+              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
+                <img src="/assets/gov-nav-dropdown-lifecycle.png" alt="" />
+              </div>
+              <nav
+                class="gov-nav-mobile-panel-links"
+                aria-label="Secure Mission Connectivity"
+              >
+                <a href="/gov-edgeconnect">EdgeConnect</a>
+                <a href="/gov-spectre">SPECTRE</a>
+                <a href="/gov-mission">Mission Environments</a>
+                <a href="/gov-platform">Platform &amp; Operations</a>
+                <a href="/gov-engage">Engage</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-nav-mobile-group">
+        <button
+          type="button"
+          class="gov-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span>Intelligence Collection</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div class="gov-nav-mobile-panel">
+          <div class="gov-nav-mobile-panel-collapse">
+            <div
+              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--intelligence"
+            >
+              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
+                <img src="/assets/gov-nav-dropdown-intelligence.png" alt="" />
+              </div>
+              <nav
+                class="gov-nav-mobile-panel-links"
+                aria-label="Intelligence Collection"
+              >
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
+                <a href="/biometric-jump-kits"
+                  >Mobile Biometric Collection Kits</a
+                >
+                <a href="/biometric-handhelds">Mobile Biometric Handhelds</a>
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="gov-nav-mobile-link" href="/about-us">About us</a>
+      <a class="gov-nav-mobile-link" href="/login">Support</a>
+      <a class="gov-nav-mobile-link" href="/blog">Press</a>
+    </div>
+    <div class="gov-nav-mobile-actions">
+      <a href="" class="btn-link gov-nav-mobile-briefing"
+        >Government briefing</a
+      >
+      <a href="/contact" class="btn-secondary gov-nav-mobile-contact"
+        >Contact us</a
+      >
+    </div>
   </div>
 </nav>

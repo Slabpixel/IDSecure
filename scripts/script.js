@@ -1,5 +1,6 @@
 // Nav Dropdown Interaction
 
+const govNavDesktopMq = window.matchMedia('(min-width: 1025px)');
 const govNavDropToggle = document.querySelectorAll('.gov-nav-item--dropdown');
 
 govNavDropToggle.forEach((item) => {
@@ -10,6 +11,10 @@ govNavDropToggle.forEach((item) => {
   let mouseIsOver = false;
 
   const mouseState = () => {
+    if (!govNavDesktopMq.matches) {
+      govDropMenu.classList.remove('gov-nav-hover-active');
+      return;
+    }
     if (mouseIsOver) {
       govDropMenu.classList.add('gov-nav-hover-active');
     } else {
@@ -32,6 +37,48 @@ govNavDropToggle.forEach((item) => {
   govDropMenu.addEventListener('mouseleave', () => {
     mouseIsOver = false;
     mouseState();
+  });
+  trigger.addEventListener('click', (e) => {
+    if (!govNavDesktopMq.matches) {
+      e.preventDefault();
+    }
+  });
+});
+
+// Gov mobile menu
+const govNavBtn = document.querySelector('.gov-nav-btn');
+const govNavMobile = document.querySelector('.gov-nav-mobile');
+const govSiteNav = document.querySelector('.gov-site-navigation');
+
+const setGovMobileMenuOpen = (open) => {
+  if (!govNavBtn || !govNavMobile || !govSiteNav) return;
+
+  govNavBtn.classList.toggle('is-active', open);
+  govNavMobile.classList.toggle('is-open', open);
+  govSiteNav.classList.toggle('is-menu-open', open);
+  govNavBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  govNavBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  govNavMobile.setAttribute('aria-hidden', open ? 'false' : 'true');
+  document.body.style.overflow = open ? 'hidden' : '';
+};
+
+govNavBtn?.addEventListener('click', () => {
+  setGovMobileMenuOpen(!govNavMobile.classList.contains('is-open'));
+});
+
+document.querySelectorAll('.gov-nav-mobile-trigger').forEach((trigger) => {
+  trigger.addEventListener('click', () => {
+    const group = trigger.closest('.gov-nav-mobile-group');
+    if (!group) return;
+
+    const isOpen = group.classList.toggle('is-open');
+    trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+});
+
+govNavMobile?.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => {
+    setGovMobileMenuOpen(false);
   });
 });
 
