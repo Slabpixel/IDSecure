@@ -189,7 +189,7 @@
     </a>
     <div class="gov-nav-menu">
       <div class="gov-nav-item gov-nav-item--dropdown">
-        <a class="gov-nav-link" href="#"
+        <a class="gov-nav-link" href="/government"
           >Secure Mission Connectivity
           <svg
             width="13"
@@ -242,7 +242,7 @@
         </div>
       </div>
       <div class="gov-nav-item gov-nav-item--dropdown">
-        <a class="gov-nav-link" href="#"
+        <a class="gov-nav-link" href="/"
           >Intelligence Collection
           <svg
             width="13"
@@ -288,9 +288,7 @@
                 IDSECURE provides secure mobile connectivity for reliable
                 transmission.
               </p>
-              <a
-                href="/identity-biometrics"
-                class="btn-secondary sm gov-nav-dropdown-cta"
+              <a href="/" class="btn-secondary sm gov-nav-dropdown-cta"
                 >Learn more</a
               >
             </div>

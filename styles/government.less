@@ -1424,16 +1424,42 @@
   }
   &-grid-card {
     height: 240px;
+    position: relative;
     padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(22px);
     color: @text-primary;
     font-size: 20px;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      pointer-events: none;
+      inset: 0px;
+
+      border-radius: inherit;
+      /* this is the border width */
+      padding: 1px;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.05) 100%
+      );
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
 
     @media (max-width: 1024px) {
       font-size: 16px;
@@ -1449,12 +1475,36 @@
     &.tech {
       height: auto;
       gap: 48px;
-      border: 1px solid rgba(91, 252, 251, 0.3);
       background: rgba(5, 11, 22, 0.4);
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        pointer-events: none;
+        inset: 0px;
+
+        border-radius: inherit;
+        /* this is the border width */
+        padding: 1px;
+        background: linear-gradient(
+          to bottom,
+          rgba(91, 252, 251, 0.1) 0%,
+          rgba(91, 252, 251, 0.3) 100%
+        );
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
     }
 
     &.tech.compact {
-      gap: 8px;
+      gap: 16px;
       padding: 32px;
       min-height: 196px;
       text-align: center;
@@ -1469,7 +1519,29 @@
       }
 
       &.tech-sky {
-        border-color: #99ccff;
+        &::before {
+          content: "";
+          position: absolute;
+          pointer-events: none;
+          inset: 0px;
+  
+          border-radius: inherit;
+          /* this is the border width */
+          padding: 1px;
+          background: linear-gradient(
+            to bottom,
+            rgba(153, 204, 255, 0.33) 0%,
+            rgba(153, 204, 255, 0.1) 100%
+          );
+          -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+          mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+        }
       }
 
       @media (max-width: 768px) {
@@ -1484,15 +1556,63 @@
       justify-content: flex-start;
       text-align: left;
       border-radius: 8px;
-      border: 1px solid rgba(255, 255, 255, 0.5);
       background: rgba(5, 11, 22, 0.01);
       backdrop-filter: blur(30px);
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        pointer-events: none;
+        inset: 0px;
+
+        border-radius: inherit;
+        /* this is the border width */
+        padding: 1px;
+        background: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.16) 0%,
+          rgba(255, 255, 255, 0.1) 100%
+        );
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
     }
 
     &.lg {
       height: 280px;
-      border: 1px solid rgba(91, 252, 251, 0.3);
       background: rgba(5, 11, 22, 0.6);
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        pointer-events: none;
+        inset: 0px;
+
+        border-radius: inherit;
+        /* this is the border width */
+        padding: 1px;
+        background: linear-gradient(
+          to bottom,
+          rgba(91, 252, 251, 0.1) 0%,
+          rgba(91, 252, 251, 0.3) 100%
+        );
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
     }
   }
   &-grid-card-icon {
@@ -1694,11 +1814,11 @@
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
+    overflow: hidden;
     gap: 24px;
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(0, 0, 0, 0.03);
     backdrop-filter: blur(80px);
     box-shadow:
@@ -1706,6 +1826,32 @@
       0px 1px 4px 0px rgba(0, 0, 0, 0.05);
 
     &::before {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      z-index: -1;
+      inset: 0px;
+
+      border-radius: inherit;
+      /* this is the border width */
+      padding: 1px;
+      background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.1) 100%
+      );
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+
+    &::after {
       content: "";
       position: absolute;
       pointer-events: none;
@@ -2010,9 +2156,32 @@
       text-align: left;
       position: relative;
       border-radius: 8px;
-      border: 1px solid rgba(91, 252, 251, 0.3);
       background: linear-gradient(180deg, #050b16 0%, #0a1f31 100%);
       overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+        inset: 0px;
+
+        border-radius: inherit;
+        /* this is the border width */
+        padding: 1px;
+        background: linear-gradient(
+          to bottom,
+          rgba(91, 252, 251, 0.1) 0%,
+          rgba(91, 252, 251, 0.33) 100%
+        );
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
 
       &-content {
         padding: 32px;
@@ -2124,9 +2293,33 @@
 .gov-usecase-card {
   height: 455px;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
   background: #050b16;
   overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+
+    border-radius: inherit;
+    /* this is the border width */
+    padding: 1px;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0.13) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
 
   @media (max-width: 1280px) {
     height: 500px;
@@ -2216,9 +2409,33 @@
   text-align: left;
   min-height: 370px;
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
   background: #050b16;
   flex: 1;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+
+    border-radius: inherit;
+    /* this is the border width */
+    padding: 1px;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.20) 0%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
 
   &-wrap {
     display: flex;
@@ -2300,15 +2517,35 @@
   min-width: min(100%, 260px);
   overflow: hidden;
   border-radius: 8px;
-  border: 1px solid rgba(91, 252, 251, 0.4);
   background: @primary-darkest;
   text-align: left;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.3s ease-out;
+  position: relative;
 
-  &:hover {
-    border-color: @brand-cyan-light;
+  &::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+
+    border-radius: inherit;
+    z-index: 2;
+    /* this is the border width */
+    padding: 1px;
+    background: linear-gradient(
+      to bottom,
+      rgba(91, 252, 251, 0.13) 0%,
+      rgba(91, 252, 251, 0.06) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
   }
 
   &-img {
@@ -2413,6 +2650,7 @@
 
     &-card {
       display: flex;
+      flex: 1;
       height: 240px;
       padding: 24px 48px;
       flex-direction: column;
@@ -2420,9 +2658,34 @@
       align-items: center;
       gap: 16px;
       border-radius: 8px;
-      border: 1px solid rgba(91, 252, 251, 0.3);
       background: rgba(5, 11, 22, 0.4);
       backdrop-filter: blur(6px);
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+        inset: 0px;
+
+        border-radius: inherit;
+        /* this is the border width */
+        padding: 1px;
+        background: linear-gradient(
+          to bottom,
+          rgba(91, 252, 251, 0.1) 0%,
+          rgba(91, 252, 251, 0.33) 100%
+        );
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
 
       @media (min-width: 1024px) {
         &:nth-child(2),
@@ -2802,17 +3065,41 @@
   flex: 1 0 0;
   justify-content: space-between;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(14px);
   position: relative;
   overflow: hidden;
 
+  &::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+
+    border-radius: inherit;
+    /* this is the border width */
+    padding: 1px;
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.05) 50%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
   @media (max-width: 768px) {
     height: 300px;
   }
 
-  &::before {
+  &::after {
     content: "";
     position: absolute;
     pointer-events: none;
@@ -3890,7 +4177,7 @@ h2.h2-po {
 
   &.md {
     min-height: 38px;
-    padding: 14px 8px;
+    padding: 8px 14px;
   }
 
   &.lg {

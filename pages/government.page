@@ -540,41 +540,45 @@
   <div class="gov-container sm">
     <div class="gov-title-wrap gap-16">
       <span class="gov-eyebrow">[Built for what missions actually need]</span>
-      <h2>Connectivity outcomes aligned to operational reality</h2>
+      <h2 class="max-w-586">Connectivity outcomes aligned to operational reality</h2>
     </div>
     <div class="gov-content center">
       <div class="gov-content-grid-2">
         <div class="gov-content-grid-card lg">
           <h3 class="gov-content-grid-card-title">Maintain control</h3>
           <p class="gov-content-grid-card-description">
-            Secure transport before uncontrolled internet exposure
+            Keep mission traffic on controlled delivery paths before
+            uncontrolled internet exposure.
           </p>
           <div class="gov-content-grid-card-icon">
             <img src="/assets/brain.svg" alt="Brain" width="20" height="20" />
           </div>
         </div>
         <div class="gov-content-grid-card lg">
-          <h3 class="gov-content-grid-card-title">Orchestrate resilience</h3>
+          <h3 class="gov-content-grid-card-title">Adapt in motion</h3>
           <p class="gov-content-grid-card-description">
-            Intelligent orchestration across available network paths
+            Shift across available network paths as operating conditions,
+            coverage, or mission priorities change.
           </p>
           <div class="gov-content-grid-card-icon">
             <img src="/assets/bolt.svg" alt="Bolt" width="20" height="20" />
           </div>
         </div>
         <div class="gov-content-grid-card lg">
-          <h3 class="gov-content-grid-card-title">Control the path</h3>
+          <h3 class="gov-content-grid-card-title">Support Resilience</h3>
           <p class="gov-content-grid-card-description">
-            Centralized control by default, autonomous fallback when required
+            Use centralized control where possible and autonomous behavior where
+            necessary.
           </p>
           <div class="gov-content-grid-card-icon">
             <img src="/assets/shield.svg" alt="Shield" width="20" height="20" />
           </div>
         </div>
         <div class="gov-content-grid-card lg">
-          <h3 class="gov-content-grid-card-title">Control the path</h3>
+          <h3 class="gov-content-grid-card-title">Enable mission continuity</h3>
           <p class="gov-content-grid-card-description">
-            Platform-level visibility, policy, and lifecycle control
+            Support secure facilities, forward deployments, ISR, unmanned
+            systems, and coalition-connected missions.
           </p>
           <div class="gov-content-grid-card-icon">
             <img src="/assets/rocket.svg" alt="Rocket" width="20" height="20" />

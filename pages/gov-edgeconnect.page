@@ -94,7 +94,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/binary-lock-alt.svg" alt="Binary Lock" />
         </div>
         <p class="gov-content-grid-card-description">
             Private IP addressing and isolated customer environments
@@ -102,7 +102,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/network-wired-alt.svg" alt="Network Wired" />
         </div>
         <p class="gov-content-grid-card-description">
             VLAN separation and VRF segmentation
@@ -110,7 +110,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/layer-group-alt.svg" alt="Layer Group" />
         </div>
         <p class="gov-content-grid-card-description">
             Policy-controlled Layer 
@@ -119,7 +119,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/building-magnifying-glass-alt.svg" alt="Building Magnifying Glass" />
         </div>
         <p class="gov-content-grid-card-description">
             Inline inspection and 
@@ -128,7 +128,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/sliders-sq.svg" alt="Sliders Square" />
         </div>
         <p class="gov-content-grid-card-description">
             Application-aware control 
@@ -137,7 +137,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/tower-broadcast-alt.svg" alt="Tower Broadcast" />
         </div>
         <p class="gov-content-grid-card-description">
             Local packet gateways for in-country or low-latency breakout
@@ -145,7 +145,7 @@
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/router.svg" alt="Router" />
+          <img src="/assets/shield-check-alt.svg" alt="Shield Check" />
         </div>
         <p class="gov-content-grid-card-description">
             Consistent policy across central and local breakout models
