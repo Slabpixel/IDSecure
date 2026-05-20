@@ -66,7 +66,7 @@
         <div class="footer-menu-list">
             <span class="fs-14 cl-grey uppercase">Government Solutions</span>
             <ul class="footer-ul">
-                    {.repeated section items.4.items}
+                    {.repeated section items.5.items}
                     <li class="foot-menu-item uppercase">
                     <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
                     </li>
@@ -76,7 +76,7 @@
         <div class="footer-menu-list">
             <span class="fs-14 cl-grey uppercase">Enterprise Solutions</span>
             <ul class="footer-ul">
-                    {.repeated section items.4.items}
+                    {.repeated section items.5.items}
                     <li class="foot-menu-item uppercase">
                     <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
                     </li>

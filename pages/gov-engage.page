@@ -1,5 +1,8 @@
-<section class="gov-section hero engage">
+<section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
+  <div class="gov-hero-bg">
+    <video src="/assets/vid-hero-gov-en.webm" autoplay muted loop playsinline />
+  </div>
   <div class="gov-container">
     <div class="gov-hero-content">
       <div class="gov-hero-content-main">
@@ -26,7 +29,10 @@
     <div class="gov-starting-point">
       <div class="gov-starting-point-card">
         <div class="gov-starting-point-card-img">
-          <img src="/assets/en-starting-1.png" alt="Starting Point 1" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/89611eca-9b6d-493f-8dc2-01cc6147eed9/en-starting-1.webp?content-type=image%2Fwebp"
+            alt="Starting Point 1"
+          />
         </div>
         <div class="gov-starting-point-card-content">
           <div class="gov-starting-point-card-header">
@@ -41,7 +47,10 @@
       </div>
       <div class="gov-starting-point-card">
         <div class="gov-starting-point-card-img">
-          <img src="/assets/en-starting-2.png" alt="Starting Point 2" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/9302b72e-0948-45fb-9bef-ab4dca51c0be/en-starting-2.webp?content-type=image%2Fwebp"
+            alt="Starting Point 2"
+          />
         </div>
         <div class="gov-starting-point-card-content">
           <div class="gov-starting-point-card-header">
@@ -56,7 +65,10 @@
       </div>
       <div class="gov-starting-point-card">
         <div class="gov-starting-point-card-img">
-          <img src="/assets/en-starting-3.png" alt="Starting Point 3" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/61aa0cb6-49c4-4b5d-9fe9-a3615cbd5f91/en-starting-3.webp?content-type=image%2Fwebp"
+            alt="Starting Point 3"
+          />
         </div>
         <div class="gov-starting-point-card-content">
           <div class="gov-starting-point-card-header">
@@ -73,7 +85,10 @@
       </div>
       <div class="gov-starting-point-card">
         <div class="gov-starting-point-card-img">
-          <img src="/assets/en-starting-4.png" alt="Starting Point 4" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/8be1a5fc-2f2c-4d72-9c0b-31a5a1c905e0/en-starting-4.webp?content-type=image%2Fwebp"
+            alt="Starting Point 4"
+          />
         </div>
         <div class="gov-starting-point-card-content">
           <div class="gov-starting-point-card-header">
@@ -158,7 +173,10 @@
 <section class="gov-section sm">
   <div class="gov-container no-padding">
     <div class="gov-content-image-640">
-      <img src="/assets/en-mission.png" alt="Mission" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/0f7430b8-e681-472a-ad7e-e10caaac68a2/en-mission.webp?content-type=image%2Fwebp"
+        alt="Mission"
+      />
     </div>
     <div class="gov-title-wrap mission">
       <div class="gov-title-wrap">
@@ -200,7 +218,7 @@
       <div class="gov-explore-row">
         <a href="/edgeconnect" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="/assets/hero-gov-ec.png" alt="" />
+            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2978e6d8-d4b3-47fd-aff7-94aa39bf5bbe/hero-gov-ec.webp?content-type=image%2Fwebp" alt="" />
           </div>
           <div class="gov-explore-card-content">
             <h3>EdgeConnect</h3>
@@ -209,16 +227,18 @@
         </a>
         <a href="/spectre" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="/assets/hero-gov-sp.png" alt="" />
+            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e17527f2-15ac-4b95-8cd1-ed9b469f1622/hero-gov-sp.webp?content-type=image%2Fwebp" alt="" />
           </div>
           <div class="gov-explore-card-content">
             <h3>SPECTRE</h3>
-            <p>See how intelligent orchestration adapts to mission conditions.</p>
+            <p>
+              See how intelligent orchestration adapts to mission conditions.
+            </p>
           </div>
         </a>
         <a href="/platform-operations" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="/assets/po-hero.png" alt="" />
+            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/a88d8d81-b863-4b75-ab87-c35d1af1ef12/po-hero.webp?content-type=image%2Fwebp" alt="" />
           </div>
           <div class="gov-explore-card-content">
             <h3>Platform &amp; Operations</h3>
@@ -231,7 +251,7 @@
       <div class="gov-explore-row gov-explore-row--two">
         <a href="/government" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="/assets/government-hero-bg.png" alt="" />
+            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/07048a55-7665-41c8-9115-57bc5f663e0a/government-hero-bg.webp?content-type=image%2Fwebp" alt="" />
           </div>
           <div class="gov-explore-card-content">
             <h3>Government Home</h3>
@@ -240,11 +260,13 @@
         </a>
         <a href="/mission-environments" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="/assets/hero-gov-me.png" alt="" />
+            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/136f4a66-b407-4fdf-a058-f7aa6d331c37/hero-gov-me.webp?content-type=image%2Fwebp" alt="" />
           </div>
           <div class="gov-explore-card-content">
             <h3>Mission Environments</h3>
-            <p>See how intelligent orchestration adapts to mission conditions.</p>
+            <p>
+              See how intelligent orchestration adapts to mission conditions.
+            </p>
           </div>
         </a>
       </div>
@@ -255,7 +277,10 @@
   <div class="gov-container col center gap-8">
     <h2>Bring us the mission environment</h2>
     <div class="gov-img-760">
-      <img src="/assets/env.png" alt="Environments" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/15cdc5df-cdfa-4f01-8ff9-de15443db58d/env.webp?content-type=image%2Fwebp"
+        alt="Environments"
+      />
     </div>
     <div class="gov-wrapper">
       <p class="max-w-696 gov-description">

@@ -1,5 +1,8 @@
-<section class="gov-section hero mission">
+<section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
+  <div class="gov-hero-bg">
+    <video src="/assets/vid-hero-gov-me.webm" autoplay muted loop playsinline />
+  </div>
   <div class="gov-container">
     <div class="gov-hero-content">
       <div class="gov-hero-content-main">
@@ -72,7 +75,7 @@
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-1.png" alt="Secure Facilities" />
+          <video src="/assets/profile-a .webm" autoplay muted loop playsinline></video>
         </div>
         <div class="gov-mission-profile-footer">
           <p>
@@ -196,7 +199,10 @@
     </div>
     <div class="gov-content col between">
       <div class="gov-image-wrapper aspect-43-24">
-        <img src="/assets/me-posture.png" alt="Posture" />
+        <img
+          src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/4ba90cd7-abb7-4019-8466-c8b45136607a/me-posture.webp?content-type=image%2Fwebp"
+          alt="Posture"
+        />
       </div>
       <ul class="gov-content-list sm">
         <li class="gov-content-list-item">
@@ -231,7 +237,10 @@
           >
         </div>
         <div class="gov-content-arch-item-img">
-          <img src="/assets/me-arch-1.png" alt="EdgeConnect-led" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/3c9ca0ba-b89f-41f6-b8e4-164c1c7bd8ae/me-arch-1.webp?content-type=image%2Fwebp"
+            alt="EdgeConnect-led"
+          />
         </div>
         <p class="gov-content-arch-item-description">
           If the primary requirement is secure transport, private handoff,
@@ -249,10 +258,16 @@
           >
         </div>
         <div class="gov-content-arch-item-img">
-          <img src="/assets/me-arch-2.png" alt="SPECTRE-led" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/8e5391d1-ada1-450e-9229-decfb40ac02e/me-arch-2.webp?content-type=image%2Fwebp"
+            alt="SPECTRE-led"
+          />
         </div>
         <p class="gov-content-arch-item-description">
-          If the environment demands dynamic switching across available paths, changing reachability conditions, or local device decisions, start with SPECTRE. This is especially relevant for expeditionary, tactical, and DIL-aligned environments.
+          If the environment demands dynamic switching across available paths,
+          changing reachability conditions, or local device decisions, start
+          with SPECTRE. This is especially relevant for expeditionary, tactical,
+          and DIL-aligned environments.
         </p>
       </div>
       <div class="gov-content-arch-item">
@@ -263,10 +278,16 @@
           >
         </div>
         <div class="gov-content-arch-item-img">
-          <img src="/assets/me-arch-3.png" alt="Combined architecture" />
+          <img
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/c60f65bf-8797-4d26-b5a2-9cdd854566aa/me-arch-3.webp?content-type=image%2Fwebp"
+            alt="Combined architecture"
+          />
         </div>
         <p class="gov-content-arch-item-description">
-          Most Government environments need both. SPECTRE determines how the device should connect. EdgeConnect ensures that every selected path is delivered through controlled infrastructure. Together they provide resilient, mission-ready connectivity from endpoint to destination.
+          Most Government environments need both. SPECTRE determines how the
+          device should connect. EdgeConnect ensures that every selected path is
+          delivered through controlled infrastructure. Together they provide
+          resilient, mission-ready connectivity from endpoint to destination.
         </p>
       </div>
     </div>
@@ -330,7 +351,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-1.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/bef91c5a-6ff7-4c50-b6f3-16c1c4ca52eb/ec-card-1.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Secure Facilities"
           />
         </div>
@@ -345,7 +366,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-2.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/4b65882a-9d0e-4b31-be38-1951baca8714/ec-card-2.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Forward-Deployed Teams"
           />
         </div>
@@ -359,7 +380,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-3.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/0777360a-d06d-4923-baf3-9ee03df39625/ec-card-3.webp?content-type=image%2Fwebp"
             alt="EdgeConnect ISR and Unmanned Systems"
           />
         </div>
@@ -373,7 +394,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-4.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/31b9859e-898d-4ea5-a04b-63ccc24e9425/ec-card-4.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Coalition-Connected Systems"
           />
         </div>
@@ -391,7 +412,10 @@
   <div class="gov-container col center gap-8">
     <h2>Bring us the mission environment</h2>
     <div class="gov-img-760">
-      <img src="/assets/env.png" alt="Environments" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/15cdc5df-cdfa-4f01-8ff9-de15443db58d/env.webp?content-type=image%2Fwebp"
+        alt="Environments"
+      />
     </div>
     <div class="gov-wrapper">
       <p class="max-w-696 gov-description">

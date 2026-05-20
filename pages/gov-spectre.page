@@ -1,5 +1,8 @@
-<section class="gov-section hero spectre">
+<section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
+  <div class="gov-hero-bg">
+    <video src="/assets/vid-hero-gov-sp.webm" autoplay muted loop playsinline />
+  </div>
   <div class="gov-container">
     <div class="gov-hero-content">
       <div class="gov-hero-content-main">
@@ -48,7 +51,10 @@
       </div>
     </div>
     <div class="gov-image-wrapper">
-      <img src="/assets/sp-gap.png" alt="SPECTRE Plan" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e9d5dd45-b56c-4ac0-bbec-b08d5eeab694/sp-gap.webp?content-type=image%2Fwebp"
+        alt="SPECTRE Plan"
+      />
     </div>
   </div>
 </section>
@@ -232,7 +238,7 @@
         </div>
         <div class="gov-content-orchestration-card-image">
           <img
-            src="/assets/sp-orchestration-l.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e7f9e2ad-d1fb-4825-98d2-0b96f9f6bb09/sp-orchestration-l.webp?content-type=image%2Fwebp"
             alt="Core-Orchestrated model: single profile, core intelligence, switching at platform"
           />
         </div>
@@ -337,7 +343,7 @@
         </div>
         <div class="gov-content-orchestration-card-image">
           <img
-            src="/assets/sp-orchestration-r.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/56131266-4b42-410a-b466-16628bbf9f95/sp-orchestration-r.webp?content-type=image%2Fwebp"
             alt="Device-Autonomous model: multiple profiles, on-device logic, local switching"
           />
         </div>
@@ -360,8 +366,9 @@
       EdgeConnect then delivers that selected path through controlled
       infrastructure.
     </p>
-    <div class="gov-image-wrapper">
-      <img src="/assets/sp-fits.png" alt="SPECTRE Fits" />
+    <div class="gov-image-wrapper logic">
+      <video src="/assets/logic.webm" autoplay muted loop playsinline></video>
+      <img src="/assets/sp-fits-txt.svg" alt="SPECTRE Fits" />
     </div>
   </div>
 </section>
@@ -451,8 +458,8 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-1.png"
-            alt="EdgeConnect Secure Facilities"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/bef91c5a-6ff7-4c50-b6f3-16c1c4ca52eb/ec-card-1.webp?content-type=image%2Fwebp"
+            alt="Secure Facilities"
           />
         </div>
         <div class="gov-usecase-card-content">
@@ -466,8 +473,8 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-2.png"
-            alt="EdgeConnect Forward-Deployed Teams"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/4b65882a-9d0e-4b31-be38-1951baca8714/ec-card-2.webp?content-type=image%2Fwebp"
+            alt="Forward-Deployed Teams"
           />
         </div>
         <div class="gov-usecase-card-content">
@@ -480,8 +487,8 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-3.png"
-            alt="EdgeConnect ISR and Unmanned Systems"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/0777360a-d06d-4923-baf3-9ee03df39625/ec-card-3.webp?content-type=image%2Fwebp"
+            alt="ISR and Unmanned Systems"
           />
         </div>
         <div class="gov-usecase-card-content">
@@ -494,8 +501,8 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-4.png"
-            alt="EdgeConnect Coalition-Connected Systems"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/31b9859e-898d-4ea5-a04b-63ccc24e9425/ec-card-4.webp?content-type=image%2Fwebp"
+            alt="Coalition-Connected Systems"
           />
         </div>
         <div class="gov-usecase-card-content">
@@ -515,7 +522,10 @@
       EdgeConnect secures the path.
     </h2>
     <div class="gov-img-760">
-      <img src="/assets/env.png" alt="Environments" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/15cdc5df-cdfa-4f01-8ff9-de15443db58d/env.webp?content-type=image%2Fwebp"
+        alt="Environments"
+      />
     </div>
     <div class="gov-wrapper">
       <p class="max-w-720 gov-description">

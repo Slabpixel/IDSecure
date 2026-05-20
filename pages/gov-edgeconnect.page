@@ -1,5 +1,8 @@
-<section class="gov-section hero edgeconnect">
+<section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
+  <div class="gov-hero-bg">
+    <video src="/assets/vid-hero-gov-ec.webm" autoplay muted loop playsinline />
+  </div>
   <div class="gov-container">
     <div class="gov-hero-content">
       <div class="gov-hero-content-main">
@@ -44,7 +47,10 @@
       </div>
     </div>
     <div class="gov-image-wrapper">
-      <img src="/assets/ec-gap.png" alt="EdgeConnect Trust Gap" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/1f0c69a4-fa9e-4218-aba3-2dd823822ea9/ec-gap.webp?content-type=image%2Fwebp"
+        alt="EdgeConnect Trust Gap"
+      />
     </div>
   </div>
 </section>
@@ -63,13 +69,19 @@
       </div>
     </div>
     <div class="gov-image-wrapper">
-      <img src="/assets/ec-architecture.png" alt="EdgeConnect Architecture" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/ee7c7197-31da-449f-a462-c7f90fd1807f/ec-architecture.webp?content-type=image%2Fwebp"
+        alt="EdgeConnect Architecture"
+      />
     </div>
   </div>
 </section>
 <section class="gov-section sm">
   <div class="gov-bg-644">
-    <img src="/assets/ec-tech.png" alt="EdgeConnect Technical Capabilities" />
+    <img
+      src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/9edbc8a5-2391-4dd5-ab66-12bf1cbf81bc/ec-tech.webp?content-type=image%2Fwebp"
+      alt="EdgeConnect Technical Capabilities"
+    />
   </div>
   <div class="gov-container col gap-64">
     <div class="gov-title-wrap mobile-left">
@@ -97,7 +109,7 @@
           <img src="/assets/binary-lock-alt.svg" alt="Binary Lock" />
         </div>
         <p class="gov-content-grid-card-description">
-            Private IP addressing and isolated customer environments
+          Private IP addressing and isolated customer environments
         </p>
       </div>
       <div class="gov-content-grid-card tech">
@@ -105,7 +117,7 @@
           <img src="/assets/network-wired-alt.svg" alt="Network Wired" />
         </div>
         <p class="gov-content-grid-card-description">
-            VLAN separation and VRF segmentation
+          VLAN separation and VRF segmentation
         </p>
       </div>
       <div class="gov-content-grid-card tech">
@@ -113,17 +125,18 @@
           <img src="/assets/layer-group-alt.svg" alt="Layer Group" />
         </div>
         <p class="gov-content-grid-card-description">
-            Policy-controlled Layer 
-            3 routing
+          Policy-controlled Layer 3 routing
         </p>
       </div>
       <div class="gov-content-grid-card tech">
         <div class="gov-content-grid-card-icon">
-          <img src="/assets/building-magnifying-glass-alt.svg" alt="Building Magnifying Glass" />
+          <img
+            src="/assets/building-magnifying-glass-alt.svg"
+            alt="Building Magnifying Glass"
+          />
         </div>
         <p class="gov-content-grid-card-description">
-            Inline inspection and 
-            security enforcement
+          Inline inspection and security enforcement
         </p>
       </div>
       <div class="gov-content-grid-card tech">
@@ -131,8 +144,7 @@
           <img src="/assets/sliders-sq.svg" alt="Sliders Square" />
         </div>
         <p class="gov-content-grid-card-description">
-            Application-aware control 
-            and filtering
+          Application-aware control and filtering
         </p>
       </div>
       <div class="gov-content-grid-card tech">
@@ -140,7 +152,7 @@
           <img src="/assets/tower-broadcast-alt.svg" alt="Tower Broadcast" />
         </div>
         <p class="gov-content-grid-card-description">
-            Local packet gateways for in-country or low-latency breakout
+          Local packet gateways for in-country or low-latency breakout
         </p>
       </div>
       <div class="gov-content-grid-card tech">
@@ -148,7 +160,7 @@
           <img src="/assets/shield-check-alt.svg" alt="Shield Check" />
         </div>
         <p class="gov-content-grid-card-description">
-            Consistent policy across central and local breakout models
+          Consistent policy across central and local breakout models
         </p>
       </div>
     </div>
@@ -176,7 +188,7 @@
       </p>
     </div>
     <div class="gov-content-image-551">
-      <img src="/assets/ec-one.png" alt="EdgeConnect Operating Model" />
+      <video src="/assets/model.webm" autoplay muted loop playsinline />
     </div>
   </div>
 </section>
@@ -190,7 +202,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-1.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/bef91c5a-6ff7-4c50-b6f3-16c1c4ca52eb/ec-card-1.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Secure Facilities"
           />
         </div>
@@ -205,7 +217,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-2.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/4b65882a-9d0e-4b31-be38-1951baca8714/ec-card-2.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Forward-Deployed Teams"
           />
         </div>
@@ -219,7 +231,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-3.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/0777360a-d06d-4923-baf3-9ee03df39625/ec-card-3.webp?content-type=image%2Fwebp"
             alt="EdgeConnect ISR and Unmanned Systems"
           />
         </div>
@@ -233,7 +245,7 @@
       <div class="gov-usecase-card">
         <div class="gov-usecase-card-img">
           <img
-            src="/assets/ec-card-4.png"
+            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/31b9859e-898d-4ea5-a04b-63ccc24e9425/ec-card-4.webp?content-type=image%2Fwebp"
             alt="EdgeConnect Coalition-Connected Systems"
           />
         </div>
@@ -250,10 +262,14 @@
 <section class="gov-section lg">
   <div class="gov-container col center gap-8">
     <h2>
-      EdgeConnect secures every path. <br/> SPECTRE decides which path to use.
+      EdgeConnect secures every path. <br />
+      SPECTRE decides which path to use.
     </h2>
     <div class="gov-img-760">
-      <img src="/assets/env.png" alt="Environments" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/15cdc5df-cdfa-4f01-8ff9-de15443db58d/env.webp?content-type=image%2Fwebp"
+        alt="Environments"
+      />
     </div>
     <div class="gov-wrapper">
       <p class="max-w-720 gov-description">

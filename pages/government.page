@@ -1,5 +1,8 @@
 <section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
+  <div class="gov-hero-bg">
+    <video src="/assets/vid-hero-gov.webm" autoplay muted loop playsinline />
+  </div>
   <div class="gov-container">
     <div class="gov-hero-content">
       <div class="gov-hero-content-main">
@@ -23,7 +26,7 @@
   <div class="gov-container sm">
     <div class="gov-bg-image-right">
       <img
-        src="/assets/cinemated-defense-techno.png"
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/9ccec18d-39a9-4fd4-bd6d-5ffe6c5cfca4/cinemated-defense-techno.webp?content-type=image%2Fwebp"
         alt="Background Image Right"
         width="100%"
         height="100%"
@@ -165,8 +168,8 @@
   </div>
 </section>
 <section class="gov-section sm-bl">
-  <div class="gov-bg-image-bottom">
-    <img src="/assets/bg-two.png" alt="Background Image Bottom" />
+  <div class="gov-bg-video-two">
+    <video src="/assets/two.webm" autoplay muted loop playsinline />
   </div>
   <div class="gov-container col center gap-48">
     <div class="gov-title-wrap center gap-16">
@@ -391,7 +394,10 @@
       </div>
     </div>
     <div class="gov-content-products-image">
-      <img src="/assets/edgeconnect.png" alt="EdgeConnect Image" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/94d8506f-72e1-4e58-9bcc-c78a906d2fad/edgeconnect.webp?content-type=image%2Fwebp"
+        alt="EdgeConnect Image"
+      />
     </div>
   </div>
 </section>
@@ -529,7 +535,10 @@
       </div>
     </div>
     <div class="gov-content-products-image">
-      <img src="/assets/spectre.png" alt="Spectre Image" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/dac912ba-19e5-43c2-988c-3158717bf4f5/spectre.webp?content-type=image%2Fwebp"
+        alt="Spectre Image"
+      />
     </div>
   </div>
 </section>
@@ -540,7 +549,9 @@
   <div class="gov-container sm">
     <div class="gov-title-wrap gap-16">
       <span class="gov-eyebrow">[Built for what missions actually need]</span>
-      <h2 class="max-w-586">Connectivity outcomes aligned to operational reality</h2>
+      <h2 class="max-w-586">
+        Connectivity outcomes aligned to operational reality
+      </h2>
     </div>
     <div class="gov-content center">
       <div class="gov-content-grid-2">
@@ -598,7 +609,7 @@
     </div>
     <div class="gov-image-wrapper big">
       <img
-        src="/assets/stack.png"
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/67129aa6-5cc0-4d53-ae80-504da1a4abd4/stack.webp?content-type=image%2Fwebp"
         alt="Stack Government"
         width="100%"
         height="100%"
@@ -667,7 +678,10 @@
         </ul>
       </div>
       <div class="gov-content-image-563">
-        <img src="/assets/stacked.png" alt="Stacked" />
+        <img
+          src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e60a739a-2cc5-4193-ab3f-2d7399635821/stacked.webp?content-type=image%2Fwebp"
+          alt="Stacked"
+        />
       </div>
     </div>
   </div>
@@ -676,7 +690,10 @@
   <div class="gov-container col center gap-8">
     <h2 class="max-w-586">Bring us the mission environment</h2>
     <div class="gov-img-760">
-      <img src="/assets/env.png" alt="Environments" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/15cdc5df-cdfa-4f01-8ff9-de15443db58d/env.webp?content-type=image%2Fwebp"
+        alt="Environments"
+      />
     </div>
     <div class="gov-wrapper">
       <p class="max-w-720">
