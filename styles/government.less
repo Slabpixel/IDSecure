@@ -1459,6 +1459,11 @@
     color: @text-primary;
     font-size: 20px;
     overflow: hidden;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
 
     &::before {
       content: "";
@@ -1483,6 +1488,11 @@
         linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
+      transition: padding 0.3s ease;
+    }
+
+    &:hover::before {
+      padding: 2px;
     }
 
     @media (max-width: 1024px) {
@@ -1848,6 +1858,11 @@
     box-shadow:
       0px 1px 2px 0px rgba(0, 0, 0, 0.05),
       0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
 
     &::before {
       content: "";
@@ -1873,6 +1888,11 @@
         linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
+      transition: padding 0.3s ease;
+    }
+
+    &:hover::before {
+      padding: 2px;
     }
 
     &::after {
@@ -2282,6 +2302,11 @@
       border-radius: 8px;
       background: linear-gradient(180deg, #050b16 0%, #0a1f31 100%);
       overflow: hidden;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
 
       &::before {
         content: "";
@@ -2305,6 +2330,11 @@
           linear-gradient(#fff 0 0);
         -webkit-mask-composite: xor;
         mask-composite: exclude;
+        transition: padding 0.3s ease;
+      }
+
+      &:hover::before {
+        padding: 2px;
       }
 
       &-content {
@@ -2420,6 +2450,11 @@
   background: #050b16;
   overflow: hidden;
   position: relative;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 
   &::before {
     content: "";
@@ -2443,6 +2478,11 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    transition: padding 0.3s ease;
+  }
+
+  &:hover::before {
+    padding: 2px;
   }
 
   @media (max-width: 1280px) {
@@ -2536,6 +2576,11 @@
   background: #050b16;
   flex: 1;
   position: relative;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 
   &::before {
     content: "";
@@ -2559,6 +2604,11 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    transition: padding 0.3s ease;
+  }
+
+  &:hover::before {
+    padding: 2px;
   }
 
   &-wrap {
@@ -2646,6 +2696,11 @@
   text-decoration: none;
   color: inherit;
   position: relative;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 
   &::before {
     content: "";
@@ -2670,6 +2725,11 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    transition: padding 0.3s ease;
+  }
+
+  &:hover::before {
+    padding: 2px;
   }
 
   &-img {
@@ -3272,6 +3332,11 @@
   backdrop-filter: blur(14px);
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 
   &::before {
     content: "";
@@ -3296,6 +3361,11 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    transition: padding 0.3s ease;
+  }
+
+  &:hover::before {
+    padding: 2px;
   }
 
   @media (max-width: 768px) {
@@ -3481,6 +3551,14 @@
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(18px);
 
+  transition: border-color 0.3s ease, backdrop-filter 0.3s ease;
+
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(22px);
+  }
+
   @media (max-width: 1024px) {
     flex-direction: column;
   }
@@ -3529,6 +3607,7 @@
     isolation: isolate !important;
     overflow: visible !important;
     cursor: pointer !important;
+    letter-spacing: 0 !important;
 
     &:hover {
       &:before {
@@ -3916,6 +3995,14 @@ h2.h2-po {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: #050b16;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
 
   &-wrap {
     display: grid;
@@ -4315,6 +4402,19 @@ h2.h2-po {
     display: flex;
     flex-direction: column;
     text-align: left;
+    overflow: hidden;
+    transition:
+      transform 0.3s ease,
+      border-color 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    &:hover &-img > img {
+      transform: scale(1.05);
+    }
 
     &-img {
       width: 100%;
@@ -4324,6 +4424,8 @@ h2.h2-po {
         width: 100%;
         height: 100%;
         object-fit: cover;
+
+        transition: transform 0.3s ease;
       }
 
       @media (max-width: 1024px) {
@@ -4415,7 +4517,13 @@ h2.h2-po {
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
+  background-color: transparent;
   border: 1px solid @line-default;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
 
   &.sm {
     min-height: 36px;
