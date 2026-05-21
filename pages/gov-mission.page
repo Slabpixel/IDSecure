@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <video src="/assets/profile-a .webm" autoplay muted loop playsinline></video>
+          <video src="/assets/profile-a.webm" autoplay muted loop playsinline></video>
         </div>
         <div class="gov-mission-profile-footer">
           <p>
@@ -106,7 +106,7 @@
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-2.png" alt="Expeditionary Operations" />
+          <video src="/assets/profile-b.webm" autoplay muted loop playsinline></video>
         </div>
         <div class="gov-mission-profile-footer">
           <p>
@@ -136,7 +136,7 @@
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-3.png" alt="ISR and unmanned Systems" />
+          <video src="/assets/profile-c.webm" autoplay muted loop playsinline></video>
         </div>
         <div class="gov-mission-profile-footer">
           <p>
@@ -166,7 +166,7 @@
           </div>
         </div>
         <div class="gov-mission-profile-img">
-          <img src="/assets/me-prof-4.png" alt="Secure Facilities" />
+          <video src="/assets/profile-d.webm" autoplay muted loop playsinline></video>
         </div>
         <div class="gov-mission-profile-footer">
           <p>
