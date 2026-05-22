@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
     <script src="https://kit.fontawesome.com/e9514e7c04.js" crossorigin="anonymous"></script>
 
     <!-- include system scripts, page meta, and header code injection -->
@@ -38,8 +39,10 @@
    
 
     <!-- other scripts, and footer code injection -->
+    <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+    <script src="scripts/lenis.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/gov-hero.js"></script>
     <script src="scripts/gov-platform-layers.js"></script>
