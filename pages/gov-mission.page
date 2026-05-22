@@ -17,7 +17,7 @@
           <a href="#" class="btn-secondary">Explore the Architecture</a>
         </div>
       </div>
-      <p class="gov-hero-content-description wider">
+      <p class="gov-hero-content-description mid">
         Not every Government deployment needs the same transport model,
         orchestration layer, or autonomy posture. IDSECURE aligns EdgeConnect,
         SPECTRE, and the broader platform to the mission environment, from
