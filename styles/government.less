@@ -1108,12 +1108,27 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: 0;
 
-  video {
+  video,
+  img {
+    position: absolute;
+    left: 0;
+    top: -10%;
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
     object-position: center;
+    will-change: transform;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    video,
+    img {
+      top: 0;
+      height: 100%;
+      will-change: auto;
+    }
   }
 }
 
@@ -1132,6 +1147,23 @@
   gap: 20px;
   max-width: 782px;
   width: 100%;
+
+  @media (min-width: 769px) {
+    position: sticky;
+    top: 120px;
+    padding-bottom: 160px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    position: relative;
+    top: auto;
+  }
+
+  &.alt {
+    @media (min-width: 769px) {
+      padding-bottom: 120px;
+    }
+  }
 
   &::before {
     content: "";
@@ -3551,8 +3583,9 @@
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(18px);
 
-  transition: border-color 0.3s ease, backdrop-filter 0.3s ease;
-
+  transition:
+    border-color 0.3s ease,
+    backdrop-filter 0.3s ease;
 
   &:hover {
     border-color: rgba(255, 255, 255, 0.2);
