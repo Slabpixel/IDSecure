@@ -151,7 +151,10 @@
       <div class="gov-platform-control-content">
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-sim.webp" alt="SIM" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/74f5c2bd-1022-4c5e-a603-a82abc868e69/icon-sim.webp?content-type=image%2Fwebp"
+              alt="SIM"
+            />
           </div>
           <h3 class="gov-platform-control-content-card-title">
             SIM and eSIM lifecycle management
@@ -159,7 +162,10 @@
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-subs.webp" alt="Subscriber" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/c65262f0-7451-4a0b-91f2-41fc312451a2/icon-subs.webp?content-type=image%2Fwebp"
+              alt="Subscriber"
+            />
           </div>
           <h3 class="gov-platform-control-content-card-title">
             Subscriber provisioning and control
@@ -167,7 +173,10 @@
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-policy.webp" alt="Policy" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/74da56b2-44bf-4858-89ae-a5303abac7b9/icon-policy.webp?content-type=image%2Fwebp"
+              alt="Policy"
+            />
           </div>
           <h3 class="gov-platform-control-content-card-title">
             Profile policy configuration
@@ -175,7 +184,10 @@
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-ota.webp" alt="OTA" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/f47fe514-8679-4303-a1e1-938c945f01df/icon-ota.webp?content-type=image%2Fwebp"
+              alt="OTA"
+            />
           </div>
           <h3 class="gov-platform-control-content-card-title">
             OTA update distribution
@@ -183,7 +195,10 @@
         </div>
         <div class="gov-platform-control-content-card">
           <div class="gov-platform-control-content-card-img">
-            <img src="/assets/icon-unified.webp" alt="Unified" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/272b73e7-6de7-4791-bc34-51c6c4fb5f32/icon-unified.webp?content-type=image%2Fwebp"
+              alt="Unified"
+            />
           </div>
           <h3 class="gov-platform-control-content-card-title">
             Unified CMP and eIM operations
@@ -445,25 +460,32 @@
 </section>
 <section class="gov-section-contact">
   <div class="container section-contact-cont">
-      <div class="flex-col-left flex-24 gov-contact-details">
-          {@|apply eyebrow-48.block}
-          <div class="gov-contact-title" id="sec-contact-title">Contact us for more Details!</div>
-          <div class="flex-col-left flex-16">
-              <div class="grid-item-p fs-14"><squarespace:block-field id="secContactEmail"/></div>
-              <div class="grid-item-p fs-14"><squarespace:block-field id="secContactAddress"/></div>
-          </div>
-          
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
       </div>
-      <div class="gov-contact-banner">
-          <div class="gov-contact-banner-top">
-              <h2>See the platform 
-                behind the products</h2>
-          </div>
-          <div class="gov-contact-banner-bottom">
-              <div class="contact-banner-bottom-text">If the mission requires controlled delivery, routing assurance, or secure handoff into a private environment, start with EdgeConnect.</div>
-              <a href="/contact" class="btn-ghost">Request EdgeConnect Briefing</a>
-          </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
       </div>
-      <div class="gov-contact-bg"></div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>See the platform behind the products</h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires controlled delivery, routing assurance, or
+          secure handoff into a private environment, start with EdgeConnect.
+        </div>
+        <a href="/contact" class="btn-ghost">Request EdgeConnect Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
   </div>
 </section>

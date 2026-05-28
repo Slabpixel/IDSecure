@@ -1,19 +1,19 @@
 <section class="gov-section hero-ic">
   <div class="gov-container hero-ic">
     <div class="gov-hero-ic">
-      <div class="gov-title-wrap gap-16">
+      <div class="gov-title-wrap gap-16 mobile-left">
         <span class="gov-eyebrow muted">[INTELLIGENCE COLLECTION]</span>
-        <h1 class="mobile-visible">Intelligence Collection</h1>
+        <h1 class="mobile-visible">Intelligence<br />Collection</h1>
       </div>
       <div class="gov-hero-content-ic-main">
-        <h1 class="mobile-hidden">Intelligence Collection</h1>
-        <div class="gov-hero-content-description-ic">
+        <h1 class="mobile-hidden">Intelligence<br />Collection</h1>
+        <div class="gov-hero-content-ic-description">
           <p>
             IDSECURE designs, engineers and manufactures rugged biometric
             collection solutions that meet and exceed the identity industry's
             unique requirements across local, state, and federal jurisdictions.
           </p>
-          <div class="gov-hero-button-wrapper">
+          <div class="gov-hero-button-wrapper ic">
             <a class="btn-primary sm">Explore Products</a>
             <a class="btn-secondary">About us</a>
           </div>
@@ -24,16 +24,19 @@
 </section>
 <section class="gov-section md">
   <div class="gov-container col gap-24">
-    <div class="gov-title-wrap gap-16">
-      <h2 class="mobile-visible">
+    <div class="gov-title-wrap gap-16 mobile-left">
+      <span class="gov-eyebrow muted">[ABOUT US]</span>
+      <h2 class="h2-small mobile-visible">
         Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
         Mission-Environments.
       </h2>
-      <span class="gov-eyebrow muted">[ABOUT US]</span>
     </div>
-    <div class="gov-content">
-      <div class="gov-content-image-563">
-        <img src="/assets/about.png" alt="fingerprint" />
+    <div class="gov-image-content">
+      <div class="gov-content-image-560">
+        <img
+          src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/7fc6e1e7-2945-44d2-85c6-bf1a73af9f2b/about.webp?content-type=image%2Fwebp"
+          alt="fingerprint"
+        />
       </div>
       <div class="gov-content col between">
         <h2 class="mobile-hidden">
@@ -46,12 +49,10 @@
   </div>
 </section>
 <section class="gov-section md">
-  <div class="gov-container col gap-48">
+  <div class="gov-container col center gap-48 industry-bg">
     <div class="gov-title-wrap gap-16 max-w-480">
       <span class="gov-eyebrow muted">[WHO WE SERVED]</span>
-      <h2>
-        Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
-      </h2>
+      <h2>Industries We Serve</h2>
       <p class="gov-description sm">
         We are dedicated to developing and deploying value-driven technology
         solutions for the following markets.
@@ -98,7 +99,7 @@
   </div>
 </section>
 <section class="gov-section sm">
-  <div class="gov-container">
+  <div class="gov-container col">
     <div class="gov-title-wrap products">
       <span class="gov-eyebrow muted">[OUR PRODUCTS]</span>
       <h2>Our Products</h2>
@@ -106,21 +107,136 @@
     <div class="gov-home-products">
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
-          <h3>Livescan Kiosks</h3>
-          <a href="/livescan-kiosks" class="btn-secondary">Learn More</a>
+          <h3 class="max-w-240">Livescan Kiosks</h3>
+          <a href="/livescan-kiosks" class="btn-secondary mobile-hidden"
+            >Learn More</a
+          >
         </div>
         <div class="gov-home-products-content">
           <div class="gov-home-products-image">
-            <img src="/assets/livescan-kiosk.png" alt="Livescan Kiosk" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/d6e2fa59-0030-4e58-a1d1-a5774e978b35/livescankiosks.webp?content-type=image%2Fwebp"
+              alt="Livescan Kiosk"
+            />
           </div>
+
           <div class="gov-home-products-description">
-            <div class="gov-marker sm">
-              <div class="gov-marker-point sm"></div>
+            <div class="gov-marker md">
+              <div class="gov-marker-point sm glow"></div>
             </div>
-            <p>
-              Our Livescan Kiosks are designed to provide a secure and efficient
-              way to collect biometric data from individuals.
-            </p>
+            <div class="gov-home-products-description-wrapper">
+              <p>
+                IDSECURE Livescan kiosks support FBI-certified fingerprint
+                capture, palm print, face, iris, document, and biographic data
+                collection for law enforcement, public safety, criminal booking,
+                offender registration, and applicant background checks.
+              </p>
+              <a href="/livescan-kiosks" class="btn-secondary mobile-visible"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-home-products-item">
+        <div class="gov-home-products-title">
+          <h3 class="max-w-280">Mobile Biometric Collection Kits</h3>
+          <a href="/biometric-jump-kits" class="btn-secondary mobile-hidden"
+            >Learn More</a
+          >
+        </div>
+        <div class="gov-home-products-content">
+          <div class="gov-home-products-image">
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/fa284f2c-adbf-4844-94ae-f7454aa204c5/biometrickits.webp?content-type=image%2Fwebp"
+              alt="Biometric Jump Kits"
+            />
+          </div>
+
+          <div class="gov-home-products-description">
+            <div class="gov-marker md">
+              <div class="gov-marker-point sm glow"></div>
+            </div>
+            <div class="gov-home-products-description-wrapper">
+              <p>
+                IDSECURE jumpkits are rugged, customizable and deployable for
+                multimodal enrollment, verification, and intelligence collection
+                in field, tactical, border, law enforcement, and expeditionary
+                environments.
+              </p>
+              <a
+                href="/biometric-jump-kits"
+                class="btn-secondary mobile-visible"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-home-products-item">
+        <div class="gov-home-products-title">
+          <h3 class="max-w-370">Mobile Biometric Identification Devices</h3>
+          <a href="/biometric-handhelds" class="btn-secondary mobile-hidden"
+            >Learn More</a
+          >
+        </div>
+        <div class="gov-home-products-content">
+          <div class="gov-home-products-image">
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/db4f1edd-66b8-4ee6-9e88-13adb7f40ada/biometriciden.webp?content-type=image%2Fwebp"
+              alt="Biometric Handhelds"
+            />
+          </div>
+
+          <div class="gov-home-products-description">
+            <div class="gov-marker md">
+              <div class="gov-marker-point sm glow"></div>
+            </div>
+            <div class="gov-home-products-description-wrapper">
+              <p>
+                IDSECURE mobile biometric identification devices support
+                fingerprint, face, iris, and biographic data capture for field
+                identification, enrollment, border security, law enforcement,
+                defense, and public safety operations.
+              </p>
+              <a
+                href="/biometric-handhelds"
+                class="btn-secondary mobile-visible"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-home-products-item">
+        <div class="gov-home-products-title">
+          <h3 class="max-w-280">Remote Identity Verification</h3>
+          <a href="/r-idv" class="btn-secondary mobile-hidden">Learn More</a>
+        </div>
+        <div class="gov-home-products-content">
+          <div class="gov-home-products-image">
+            <img
+              class="position-center"
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/9e863c1a-8a4f-4512-8251-69edb1abc0d0/ridv.webp?content-type=image%2Fwebp"
+              alt="Remote Identity Verification"
+            />
+          </div>
+
+          <div class="gov-home-products-description">
+            <div class="gov-marker md">
+              <div class="gov-marker-point sm glow"></div>
+            </div>
+            <div class="gov-home-products-description-wrapper">
+              <p>
+                IDSECURE R-IDV is designed for remote identity verification
+                services that specialize in digital reading and verification of
+                passports, ID cards, driver’s licenses, visas, and other
+                government issued ID documents.
+              </p>
+              <a href="/r-idv" class="btn-secondary mobile-visible"
+                >Learn More</a
+              >
+            </div>
           </div>
         </div>
       </div>

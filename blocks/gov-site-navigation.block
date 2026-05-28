@@ -220,7 +220,7 @@
               </nav>
               <div class="gov-nav-dropdown-visual">
                 <img
-                  src="/assets/gov-nav-dropdown-lifecycle.png"
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b8f15159-6f2b-4e0d-a44c-835a28816a5d/gov-nav-dropdown-lifecycle.webp?content-type=image%2Fwebp"
                   alt=""
                   width="466"
                   height="260"
@@ -276,7 +276,7 @@
                 class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence"
               >
                 <img
-                  src="/assets/gov-nav-dropdown-intelligence.png"
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/269d2bc4-d8d4-48cd-8491-2c46e5c89e8a/gov-nav-dropdown-intelligence.webp?content-type=image%2Fwebp"
                   alt=""
                   width="438"
                   height="246"
@@ -338,7 +338,10 @@
               class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--connectivity"
             >
               <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
-                <img src="/assets/gov-nav-dropdown-lifecycle.png" alt="" />
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b8f15159-6f2b-4e0d-a44c-835a28816a5d/gov-nav-dropdown-lifecycle.webp?content-type=image%2Fwebp"
+                  alt=""
+                />
               </div>
               <nav
                 class="gov-nav-mobile-panel-links"
@@ -369,7 +372,10 @@
               class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--intelligence"
             >
               <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
-                <img src="/assets/gov-nav-dropdown-intelligence.png" alt="" />
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/269d2bc4-d8d4-48cd-8491-2c46e5c89e8a/gov-nav-dropdown-intelligence.webp?content-type=image%2Fwebp"
+                  alt=""
+                />
               </div>
               <nav
                 class="gov-nav-mobile-panel-links"
