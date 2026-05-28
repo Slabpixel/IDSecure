@@ -1,0 +1,165 @@
+<section class="gov-section hero-ic">
+  <div class="gov-container hero-ic">
+    <div class="gov-hero-ic">
+      <div class="gov-title-wrap gap-16">
+        <span class="gov-eyebrow muted">[INTELLIGENCE COLLECTION]</span>
+        <h1 class="mobile-visible">Intelligence Collection</h1>
+      </div>
+      <div class="gov-hero-content-ic-main">
+        <h1 class="mobile-hidden">Intelligence Collection</h1>
+        <div class="gov-hero-content-description-ic">
+          <p>
+            IDSECURE designs, engineers and manufactures rugged biometric
+            collection solutions that meet and exceed the identity industry's
+            unique requirements across local, state, and federal jurisdictions.
+          </p>
+          <div class="gov-hero-button-wrapper">
+            <a class="btn-primary sm">Explore Products</a>
+            <a class="btn-secondary">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col gap-24">
+    <div class="gov-title-wrap gap-16">
+      <h2 class="mobile-visible">
+        Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
+        Mission-Environments.
+      </h2>
+      <span class="gov-eyebrow muted">[ABOUT US]</span>
+    </div>
+    <div class="gov-content">
+      <div class="gov-content-image-563">
+        <img src="/assets/about.png" alt="fingerprint" />
+      </div>
+      <div class="gov-content col between">
+        <h2 class="mobile-hidden">
+          Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
+          Mission-Environments.
+        </h2>
+        <a href="" class="btn-secondary">Explore Our Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="gov-container col gap-48">
+    <div class="gov-title-wrap gap-16 max-w-480">
+      <span class="gov-eyebrow muted">[WHO WE SERVED]</span>
+      <h2>
+        Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
+      </h2>
+      <p class="gov-description sm">
+        We are dedicated to developing and deploying value-driven technology
+        solutions for the following markets.
+      </p>
+    </div>
+    <div class="gov-content-grid-industry">
+      <div class="gov-content-grid-card industry">
+        <h3>Defense</h3>
+        <div class="icon-industry">
+          <img src="/assets/digitizing.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Intelligence</h3>
+        <div class="icon-industry">
+          <img src="/assets/intelligence.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Law Enforcement</h3>
+        <div class="icon-industry">
+          <img src="/assets/fraudprevention.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Border Management</h3>
+        <div class="icon-industry">
+          <img src="/assets/checkin.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Citizen ID</h3>
+        <div class="icon-industry">
+          <img src="/assets/document.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Security</h3>
+        <div class="icon-industry">
+          <img src="/assets/security.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container">
+    <div class="gov-title-wrap products">
+      <span class="gov-eyebrow muted">[OUR PRODUCTS]</span>
+      <h2>Our Products</h2>
+    </div>
+    <div class="gov-home-products">
+      <div class="gov-home-products-item">
+        <div class="gov-home-products-title">
+          <h3>Livescan Kiosks</h3>
+          <a href="/livescan-kiosks" class="btn-secondary">Learn More</a>
+        </div>
+        <div class="gov-home-products-content">
+          <div class="gov-home-products-image">
+            <img src="/assets/livescan-kiosk.png" alt="Livescan Kiosk" />
+          </div>
+          <div class="gov-home-products-description">
+            <div class="gov-marker sm">
+              <div class="gov-marker-point sm"></div>
+            </div>
+            <p>
+              Our Livescan Kiosks are designed to provide a secure and efficient
+              way to collect biometric data from individuals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>

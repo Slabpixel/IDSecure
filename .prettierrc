@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": "*.page",
+      "options": { "parser": "html" }
+    }
+  ]
+}
