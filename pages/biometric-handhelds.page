@@ -5,7 +5,10 @@
       <h1><squarespace:block-field id="handheldHeroTitle" /></h1>
     </div>
     <div class="gov-ic-hero-img">
-      <squarespace:block-field id="handheldHeroImage" />
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b416d6d7-e7da-4466-b37d-446fb99f4c94/biohand.webp?content-type=image%2Fwebp"
+        alt=""
+      />
     </div>
   </div>
 </section>
