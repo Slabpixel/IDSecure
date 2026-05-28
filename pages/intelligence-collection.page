@@ -99,7 +99,7 @@
   </div>
 </section>
 <section class="gov-section sm">
-  <div class="gov-container col">
+  <div class="gov-container col mobile-gap-8">
     <div class="gov-title-wrap products">
       <span class="gov-eyebrow muted">[OUR PRODUCTS]</span>
       <h2>Our Products</h2>
