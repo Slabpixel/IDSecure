@@ -202,7 +202,7 @@
       </ul>
     </div>
     <div class="footer-menu-list">
-      <span class="fs-14 cl-grey uppercase">Secure Mission Connectivity</span>
+      <a href="/government" class="fs-14 cl-grey uppercase">Secure Mission Connectivity</a>
       <ul class="footer-ul">
         {.repeated section items.4.items}
         <li class="foot-menu-item uppercase">
@@ -212,7 +212,7 @@
       </ul>
     </div>
     <div class="footer-menu-list">
-      <span class="fs-14 cl-grey uppercase">Government Solutions</span>
+      <a href="/intelligence-collection" class="fs-14 cl-grey uppercase">Intelligence Collection</a>
       <ul class="footer-ul">
         {.repeated section items.5.items}
         <li class="foot-menu-item uppercase">

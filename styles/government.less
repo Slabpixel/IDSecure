@@ -875,6 +875,7 @@
   &.ic {
     padding: 72px 0 0 0;
     height: 500px;
+    overflow: hidden;
 
     @media (max-width: 768px) {
       height: 600px;
@@ -985,6 +986,27 @@
       inset: 0;
       background: rgba(5, 11, 22, 0.55);
       pointer-events: none;
+    }
+  }
+  &.dots {
+    background-image: url("https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/009f6a4d-2f93-4934-9be8-a6aed5d52517/industrycon.webp?content-type=image%2Fwebp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (max-width: 1024px) {
+      background-size: 1024px;
+    }
+  }
+
+  &.bg-multimodal {
+    background-image: url("/assets/fingerbg.png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+      background-position: center;
     }
   }
 
@@ -1138,6 +1160,13 @@
     @media (max-width: 1024px) {
       background-size: 1024px;
     }
+  }
+
+  &.fingerbg {
+    background-image: url("/assets/industrybg.svg");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1339,6 +1368,27 @@
   }
 }
 
+.bg-overlay-multimodal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 326px;
+  background: linear-gradient(180deg, #050b16 0%, rgba(5, 11, 22, 0) 100%);
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  &.bottom {
+    top: auto;
+    bottom: 0;
+    height: 604px;
+    background: linear-gradient(0deg, #050b16 0%, rgba(5, 11, 22, 0) 100%);
+  }
+}
+
 .gov-hero-overlay {
   position: absolute;
   bottom: 0;
@@ -1418,6 +1468,11 @@
     flex-direction: column;
   }
 
+  &.certifications {
+    gap: 32px;
+    justify-content: space-between;
+  }
+
   &.about {
     flex: 1;
     flex-direction: column;
@@ -1475,6 +1530,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &-multimodal {
+      gap: 32px;
+      justify-content: space-between;
+      display: flex;
+
+      @media (max-width: 1024px) {
+        flex-direction: column;
+      }
   }
   &-grid-tech {
     display: grid;
@@ -3552,6 +3617,28 @@ img.position-center {
       max-width: 100%;
     }
   }
+
+  &.ic {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: end;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    & > div {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      align-items: flex-start;
+      text-align: left;
+      flex-direction: column;
+      gap: 24px;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
   &.horizontal {
     flex-direction: row;
     justify-content: space-between;
@@ -3870,6 +3957,11 @@ img.position-center {
   width: 100%;
   max-width: 830px;
 }
+.max-w-860 {
+  width: 100%;
+  max-width: 860px;
+}
+
 .max-w-944 {
   width: 100%;
   max-width: 944px;
@@ -3878,6 +3970,77 @@ img.position-center {
 .max-w-1034 {
   width: 100%;
   max-width: 1034px;
+}
+
+.multimodal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 817px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &-text {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: @font-weight-medium;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 240px;
+    padding: 24px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(5, 11, 22, 0.01);
+    position: relative;
+    backdrop-filter: blur(30px);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      pointer-events: none;
+      inset: 0px;
+
+      border-radius: inherit;
+      /* this is the border width */
+      padding: 1px;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.16) 0%,
+        rgba(255, 255, 255, 0.1) 100%
+      );
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      transition: padding 0.3s ease;
+    }
+
+    &:hover::before {
+      padding: 2px;
+    }
+  }
 }
 
 .gov-image-content {
@@ -3919,6 +4082,14 @@ img.position-center {
   }
   @media (max-width: 480px) {
     font-size: 14px;
+  }
+
+  &.xl {
+    font-size: 32px;
+    line-height: 140%;
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   &.center {
@@ -4299,6 +4470,11 @@ h2.h2-small {
   @media (max-width: 768px) {
     font-size: 24px;
   }
+}
+
+h2.md {
+  font-size: 32px;
+  line-height: 120%;
 }
 
 .gov-title-content {

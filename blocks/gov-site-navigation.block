@@ -242,7 +242,7 @@
         </div>
       </div>
       <div class="gov-nav-item gov-nav-item--dropdown">
-        <a class="gov-nav-link" href="/"
+        <a class="gov-nav-link" href="/intelligence-collection"
           >Intelligence Collection
           <svg
             width="13"
@@ -285,10 +285,12 @@
             </div>
             <div class="gov-nav-dropdown-footer">
               <p>
-                IDSECURE provides secure mobile connectivity for reliable
-                transmission.
+                IDSECURE provides rugged biometric collection devices in various
+                form factors.
               </p>
-              <a href="/" class="btn-secondary sm gov-nav-dropdown-cta"
+              <a
+                href="/intelligence-collection"
+                class="btn-secondary sm gov-nav-dropdown-cta"
                 >Learn more</a
               >
             </div>
