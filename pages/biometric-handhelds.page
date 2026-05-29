@@ -142,7 +142,7 @@
             <squarespace:block-field id="handHeldBlockText1" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon1" />
+            <img src="/assets/fingerprint.svg" alt="Fingerprint Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -150,7 +150,7 @@
             <squarespace:block-field id="handHeldBlockText2" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon2" />
+            <img src="/assets/face.svg" alt="Face Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -158,7 +158,7 @@
             <squarespace:block-field id="handHeldBlockText3" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon3" />
+            <img src="/assets/iris.svg" alt="Iris Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -166,7 +166,7 @@
             <squarespace:block-field id="handHeldBlockText4" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon4" />
+            <img src="/assets/voice.svg" alt="Voice Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -174,7 +174,7 @@
             <squarespace:block-field id="handHeldBlockText9" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon9" />
+            <img src="/assets/ip64.svg" alt="IP64 Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -182,7 +182,7 @@
             <squarespace:block-field id="handHeldBlockText5" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon5" />
+            <img src="/assets/mrzreading.svg" alt="MRZ Reading Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -190,7 +190,7 @@
             <squarespace:block-field id="handHeldBlockText6" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon6" />
+            <img src="/assets/contactless.svg" alt="Contactless Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -198,7 +198,7 @@
             <squarespace:block-field id="handHeldBlockText7" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon7" />
+            <img src="/assets/barcode-reading.svg" alt="Digital Barcode Reading Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -206,7 +206,7 @@
             <squarespace:block-field id="handHeldBlockText8" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon8" />
+            <img src="/assets/hot-swap-battery.svg" alt="Hot Swap Battery Icon" />
           </div>
         </div>
         <div class="multimodal-grid-item">
@@ -214,7 +214,7 @@
             <squarespace:block-field id="handHeldBlockText10" />
           </div>
           <div class="value-grid-icon">
-            <squarespace:block-field id="handHeldBlockIcon10" />
+            <img src="/assets/badge.svg" alt="Badge Icon" />
           </div>
         </div>
       </div>
