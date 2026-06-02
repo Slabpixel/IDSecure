@@ -1008,6 +1008,15 @@
     @media (max-width: 768px) {
       background-position: center;
     }
+
+    &.alt {
+      background-image: url("/assets/bg-iris.png");
+      background-position: center;
+    }
+  }
+
+  &.no-padding {
+    padding: 0;
   }
 
   &.xs {
@@ -1059,6 +1068,16 @@
   gap: 16px;
   position: relative;
   z-index: 2;
+
+  &.xs {
+    padding: 0 40px;
+    justify-content: space-between;
+    gap: 40px;
+
+    @media (max-width: 768px) {
+      padding: 0 8px;
+    }
+  }
 
   &.sm {
     padding: 0 40px;
@@ -3570,6 +3589,15 @@ img.position-center {
     }
   }
 
+  &.px {
+    padding: 0 24px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      padding: 0 16px;
+    }
+  }
+
   &.padding {
     flex-direction: row;
     justify-content: space-between;
@@ -3614,6 +3642,20 @@ img.position-center {
 
     @media (max-width: 768px) {
       gap: 24px;
+      max-width: 100%;
+    }
+  }
+
+  &.kiosk-support {
+    padding: 64px 40px 64px 64px;
+    text-align: left;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 720px;
+
+    @media (max-width: 768px) {
+      padding: 48px 24px 48px 24px;
+      gap: 16px;
       max-width: 100%;
     }
   }
@@ -3978,6 +4020,15 @@ img.position-center {
   gap: 12px;
   width: 100%;
   max-width: 817px;
+
+  &.alt {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+    & > .multimodal-grid-item {
+      backdrop-filter: blur(22px);
+    }
+  }
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
