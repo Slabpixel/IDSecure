@@ -143,7 +143,7 @@
           <img src="/assets/rfid.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
+      <div class="gov-content-grid-card industry last">
         <h3><squarespace:block-field id="rIdvBlockText9" /></h3>
         <div class="icon-industry">
           <img src="/assets/doc.svg" alt="" />
