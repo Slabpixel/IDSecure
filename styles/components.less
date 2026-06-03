@@ -383,6 +383,7 @@
     &-item {
         .flex-box(column, flex-start, stretch, 16px);
         grid-column: span 3;
+        transition: transform 0.3s ease;
         &.large {
             grid-column: span 4;
             @media(max-width: 768px) {
@@ -391,6 +392,10 @@
         }
         @media(max-width: 768px) {
             grid-column: span 1;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
         }
     }
     &-card {

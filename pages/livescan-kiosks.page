@@ -159,13 +159,16 @@
   </div>
 </section>
 
-<section class="gov-section md">
-  <div class="gov-container col center gap-48 industry-bg">
+<section class="gov-section md dots alt">
+  <div class="overlay-circle-glow">
+    <img src="/assets/circle-glow.svg" alt="Circle Glow" />
+  </div>
+  <div class="gov-container col center gap-48">
     <div class="gov-title-wrap gap-16 max-w-480">
       <span class="gov-eyebrow muted">[Our configurations]</span>
       <h2>Multimodal Configurations</h2>
     </div>
-    <div class="gov-content-grid-industry">
+    <div class="gov-content-grid-industry alt">
       <div class="gov-content-grid-card industry">
         <h3><squarespace:block-field id="kiosksBlock2Text1" /></h3>
         <div class="icon-industry">
