@@ -246,7 +246,7 @@
 
 <section class="gov-section sm">
   <div class="gov-container col center gap-56">
-    <div class="gov-title-wrap center">
+    <div class="gov-title-wrap center max-w-720">
       <span class="gov-eyebrow muted">[OUR INTEGRATION]</span>
       <h2>Accelerated Deployment</h2>
       <p class="gov-description sm">

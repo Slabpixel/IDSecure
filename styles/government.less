@@ -4075,6 +4075,11 @@ img.position-center {
   width: 100%;
   max-width: 696px;
 }
+
+.max-w-720 {
+  width: 100%;
+  max-width: 720px;
+}
 .max-w-780 {
   width: 100%;
   max-width: 720px;
@@ -4123,6 +4128,12 @@ img.position-center {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     max-width: 872px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px;
+      max-width: 100%;
+    }
   }
 
   &.bg {
