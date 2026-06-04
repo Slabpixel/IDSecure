@@ -1,0 +1,221 @@
+<section class="gov-section ic">
+  <div class="gov-container no-gap no-padding">
+    <div class="gov-content-ic">
+      <span class="gov-eyebrow muted">[Biometric Jumpkits]</span>
+      <h1>Mobile Biometric Collection Kits</h1>
+    </div>
+    <div class="gov-ic-hero-img">
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/11a3629c-cd63-4ee2-8dd9-431f242e4f66/jumpkit.webp?content-type=image%2Fwebp"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col">
+    <div class="gov-title-wrap gap-16 mobile-left">
+      <span class="gov-eyebrow muted">[Our Products]</span>
+      <div class="gov-title-wrap ic">
+        <h2 class="md">
+          Deployable Biometric Jumpkits for Field Identity Operations
+        </h2>
+        <p class="gov-description sm">
+          IDSECURE jumpkits are rugged, customizable and deployable for
+          multimodal enrollment, verification, and intelligence collection in
+          field, tactical, border, law enforcement, and expeditionary
+          environments.
+        </p>
+      </div>
+    </div>
+    <div class="hardware-grid-cont">
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[01]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle1" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg1" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[02]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle2" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg2" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[03]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle3" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg3" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[04]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle4" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg4" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[05]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle5" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg5" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[06]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="jumpKitssGridTitle6" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="jumpKitssGridImg6" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md">
+  <div class="bg-overlay-multimodal"></div>
+  <div class="bg-overlay-multimodal bottom"></div>
+  <div class="gov-container col gap-24">
+    <span class="gov-eyebrow muted">[OUR CONFIGURATIONS]</span>
+    <div class="gov-content-multimodal">
+      <h2 class="max-w-303">Multimodal Configurations</h2>
+      <div class="multimodal-grid alt bg">
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText1" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/fingerprint.svg" alt="Fingerprint Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText2" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/face.svg" alt="Face Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText3" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/iris.svg" alt="Iris Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText4" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/voice.svg" alt="Voice Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText5" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/document.svg" alt="Document Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText6" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/idprinter.svg" alt="ID Printer Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText7" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/printer.svg" alt="Printer Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText8" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/mrzreading.svg" alt="MRZ Reading Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="jumpKitssBlockText9" />
+          </div>
+          <div class="value-grid-icon alt">
+            <img src="/assets/hot-swap-battery.svg" alt="Hot Swap Battery Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{@|apply howwedoit.block} {@|apply certifications.block}
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>

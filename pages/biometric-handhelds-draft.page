@@ -1,0 +1,260 @@
+<section class="gov-section ic">
+  <div class="gov-container no-gap no-padding">
+    <div class="gov-content-ic">
+      <span class="gov-eyebrow muted">[Biometric Handhelds]</span>
+      <h1>Mobile Biometric Identification Devices</h1>
+    </div>
+    <div class="gov-ic-hero-img">
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b416d6d7-e7da-4466-b37d-446fb99f4c94/biohand.webp?content-type=image%2Fwebp"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
+<section class="gov-section sm">
+  <div class="gov-container col">
+    <div class="gov-title-wrap gap-16 mobile-left">
+      <span class="gov-eyebrow muted">[Our Products]</span>
+      <div class="gov-title-wrap ic">
+        <h2 class="md">
+          Rugged handheld biometric devices for field identification,
+          enrollment, verification, and intelligence collection.
+        </h2>
+        <p class="gov-description sm">
+          IDSECURE mobile biometric identification devices support fingerprint,
+          face, iris, and biographic data capture for field identification,
+          enrollment, border security, law enforcement, defense, and public
+          safety operations.
+        </p>
+      </div>
+    </div>
+    <div class="hardware-grid-cont">
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[01]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle5" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg5" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[02]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle6" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg6" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item large">
+        <span class="gov-eyebrow muted">[03]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle7" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg7" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item">
+        <span class="gov-eyebrow muted">[04]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle1" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg1" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item">
+        <span class="gov-eyebrow muted">[05]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle2" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg2" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item">
+        <span class="gov-eyebrow muted">[06]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle3" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg3" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-item">
+        <span class="gov-eyebrow muted">[07]</span>
+        <div class="hardware-grid-title">
+          <squarespace:block-field id="handHeldGridTitle4" />
+        </div>
+        <div class="hardware-grid-card">
+          <div class="hardware-grid-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg4" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gov-section md dots">
+  <div class="gov-container col center gap-40 max-w-860 fingerbg">
+    <div class="gov-quote-icon">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+    <div class="gov-title-wrap center gap-24">
+      <p class="gov-description xl white">
+        Our FBI certified biometric handhelds are rugged, multi-modal and truly
+        configurable. A single Android base device with three (3) variations of
+        FAP profile clip-on modules (FAP30, FAP45, FAP50), provide an adaptable
+        solution that streamlines application development and mobile device
+        management.
+      </p>
+    </div>
+    <div class="gov-quote-icon end">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-multimodal">
+  <div class="bg-overlay-multimodal"></div>
+  <div class="bg-overlay-multimodal bottom"></div>
+  <div class="gov-container col gap-24">
+    <span class="gov-eyebrow muted">[OUR CONFIGURATIONS]</span>
+    <div class="gov-content-multimodal">
+      <h2 class="max-w-303">Multimodal Configurations</h2>
+      <div class="multimodal-grid">
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText1" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/fingerprint.svg" alt="Fingerprint Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText2" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/face.svg" alt="Face Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText3" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/iris.svg" alt="Iris Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText4" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/voice.svg" alt="Voice Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText9" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/ip64.svg" alt="IP64 Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText5" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/mrzreading.svg" alt="MRZ Reading Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText6" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/contactless.svg" alt="Contactless Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText7" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/barcode-reading.svg" alt="Digital Barcode Reading Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText8" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/hot-swap-battery.svg" alt="Hot Swap Battery Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText10" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/badge.svg" alt="Badge Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{@|apply certifications.block}
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>
