@@ -265,12 +265,14 @@
                 class="gov-nav-dropdown-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="/livescan-kiosks">Livescan Kiosks</a>
-                <a href="/biometric-jump-kits"
+                <a href="/livescan-kiosks-draft">Livescan Kiosks</a>
+                <a href="/mobile-biometric-collection-kits"
                   >Mobile Biometric Collection Kits</a
                 >
-                <a href="/biometric-handhelds">Mobile Biometric Handhelds</a>
-                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+                <a href="/mobile-biometric-identification-devices"
+                  >Mobile Biometric Identification Devices</a
+                >
+                <a href="/remote-identity-verification">R-IDV (Remote Identity Verification)</a>
               </nav>
               <div
                 class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence"
@@ -381,12 +383,14 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="/livescan-kiosks">Livescan Kiosks</a>
-                <a href="/biometric-jump-kits"
+                <a href="/livescan-kiosks-draft">Livescan Kiosks</a>
+                <a href="/mobile-biometric-collection-kits"
                   >Mobile Biometric Collection Kits</a
                 >
-                <a href="/biometric-handhelds">Mobile Biometric Handhelds</a>
-                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+                <a href="/mobile-biometric-identification-devices"
+                  >Mobile Biometric Identification Devices</a
+                >
+                <a href="/remote-identity-verification">R-IDV (Remote Identity Verification)</a>
               </nav>
             </div>
           </div>
