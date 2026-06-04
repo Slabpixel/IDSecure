@@ -221,7 +221,7 @@
     </div>
   </div>
 </section>
-{@|apply certifications.block}
+{@|apply certifications-new.block}
 
 <section class="gov-section-contact">
   <div class="container section-contact-cont">

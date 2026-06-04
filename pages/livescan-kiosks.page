@@ -1,246 +1,119 @@
-<section class="gov-section ic">
-  <div class="gov-container no-gap no-padding">
-    <div class="gov-content-ic">
-      <span class="gov-eyebrow muted">[Livescan Kiosks]</span>
-      <h1>Livescan Kiosks</h1>
-    </div>
-    <div class="gov-ic-hero-img">
-      <img
-        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/6fe05c55-d813-4a64-bd44-80e513ebc479/livekio.webp?content-type=image%2Fwebp"
-        alt=""
-      />
-    </div>
+<section class="inner-hero live-kiosk-hero">
+  <div class="container inner-hero-cont">
+      <div class="h1-wrapper">
+          <h1><squarespace:block-field id="kioskh1"/></h1>
+      </div>
+      <div class="cont-bg-left"></div>
+  </div>
+  <div class="container page-desc-cont">
+      <div class="page-desc-title"><squarespace:block-field id="kiosksDesc1"/></div>
+      <div class="page-desc-text"><squarespace:block-field id="kiosksDesc2"/></div>
   </div>
 </section>
-<section class="gov-section sm">
-  <div class="gov-container col">
-    <div class="gov-title-wrap gap-16 mobile-left">
-      <span class="gov-eyebrow muted">[Our Products]</span>
-      <div class="gov-title-wrap ic">
-        <h2 class="md">
-          Livescan Kiosks For Law Enforcement | Multimodal Biometric Collection
-        </h2>
-        <p class="gov-description sm">
-          IDSECURE Livescan kiosks support FBI-certified fingerprint capture,
-          palm print, face, iris, document, and biographic data collection for
-          law enforcement, public safety, criminal booking, offender
-          registration, and applicant background checks.
-        </p>
-      </div>
-    </div>
-    <div class="hardware-grid-cont">
-      <div class="hardware-grid-item large">
-        <span class="gov-eyebrow muted">[01]</span>
-        <div class="hardware-grid-title">
-          <squarespace:block-field id="kiosksGridTitle2" />
-        </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
-            <squarespace:block-field id="kiosksGridImg1" />
+<section class="hardware-grid">
+  <div class="container hardware-grid-cont">
+      <div class="hardware-grid-item w-30">
+          <div class="hardware-grid-img">
+              <squarespace:block-field id="kiosksGridImg1"/>
           </div>
-        </div>
+          <div class="h4"><squarespace:block-field id="kiosksGridTitle2"/></div>
       </div>
-      <div class="hardware-grid-item large">
-        <span class="gov-eyebrow muted">[02]</span>
-        <div class="hardware-grid-title">
-          <squarespace:block-field id="kiosksGridTitle1" />
-        </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
-            <squarespace:block-field id="kiosksGridImg3" />
+      <div class="hardware-grid-item w-30">
+          <div class="hardware-grid-img">
+              <squarespace:block-field id="kiosksGridImg3"/>
           </div>
-        </div>
+          <div class="h4"><squarespace:block-field id="kiosksGridTitle1"/></div>
       </div>
-      <div class="hardware-grid-item large">
-        <span class="gov-eyebrow muted">[03]</span>
-        <div class="hardware-grid-title">
-          <squarespace:block-field id="kiosksGridTitle3" />
-        </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
-            <squarespace:block-field id="kiosksGridImg2" />
+      <div class="hardware-grid-item w-30">
+          <div class="hardware-grid-img">
+              <squarespace:block-field id="kiosksGridImg2"/>
           </div>
-        </div>
+          <div class="h4"><squarespace:block-field id="kiosksGridTitle3"/></div>
       </div>
-    </div>
   </div>
 </section>
-<section class="gov-section md bg-multimodal alt">
-  <div class="bg-overlay-multimodal"></div>
-  <div class="bg-overlay-multimodal bottom"></div>
-  <div class="gov-container col gap-24">
-    <span class="gov-eyebrow muted">[OUR CONFIGURATIONS]</span>
-    <div class="gov-content-multimodal">
-      <h2 class="max-w-303">Multimodal Configurations</h2>
-      <div class="multimodal-grid alt">
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText1" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/fingerprint.svg" alt="Fingerprint Icon" />
-          </div>
-        </div>
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText2" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/face.svg" alt="Face Icon" />
-          </div>
-        </div>
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText3" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/iris.svg" alt="Iris Icon" />
-          </div>
-        </div>
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText4" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/smt.svg" alt="SMT Icon" />
-          </div>
-        </div>
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText5" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/document.svg" alt="Document Icon" />
-          </div>
-        </div>
-        <div class="multimodal-grid-item">
-          <div class="multimodal-grid-text">
-            <squarespace:block-field id="kiosksBlockText6" />
-          </div>
-          <div class="value-grid-icon alt">
-            <img src="/assets/printer.svg" alt="Printer Icon" />
-          </div>
-        </div>
+<section class="block-blue">
+  <div class="container block-blue-cont">
+      <div class="section-grid-title h3 uppercase">
+          <squarespace:block-field id="kiosksBlueTitle"/>
       </div>
-    </div>
+      <div class="block-content block-grid-6">
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon1"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText1"/></div>
+          </div>
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon2"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText2"/></div>
+          </div>
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon3"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText3"/></div>
+          </div>
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon4"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText4"/></div>
+          </div>
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon5"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText5"/></div>
+          </div>
+          <div class="block-content-item block-grid-6-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlockIcon6"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlockText6"/></div>
+          </div>
+      </div>
+      <div class="cont-bg-right"></div>
   </div>
 </section>
-
-
 {@|apply howwedoit.block}
 {@|apply certifications.block}
-
-<section class="gov-section no-padding">
-  <div class="gov-container no-padding">
-    <div class="mobile-visible">
-      <div class="gov-title-wrap kiosk-support">
-        <h2><squarespace:block-field id="kiosksSupportTitle" /></h2>
-        <p class="gov-description white">
-          <squarespace:block-field id="kiosksSupportText1" />
-        </p>
+<section class="deliv-support">
+  <div class="container deliv-support-cont">
+      <div class="h2-wrapper">
+          <div class="h2 uppercase"><squarespace:block-field id="kiosksSupportTitle"/></div>
       </div>
-    </div>
-    <div class="gov-content-image-720">
-      <video src="/assets/hand.webm" autoplay muted loop playsinline></video>
-    </div>
-    <div class="gov-title-wrap kiosk-support">
-      <div class="mobile-hidden">
-        <div class="gov-title-wrap">
-          <h2><squarespace:block-field id="kiosksSupportTitle" /></h2>
-          <p class="gov-description white">
-            <squarespace:block-field id="kiosksSupportText1" />
-          </p>
-        </div>
+      <div class="about-text-wrapper">
+          <div class="p fs-20 fw-500"><squarespace:block-field id="kiosksSupportText1"/></div>
+          <div class="p"><squarespace:block-field id="kiosksSupportText2"/>
+          </div>
       </div>
-      <p class="gov-description sm">
-        <squarespace:block-field id="kiosksSupportText2" />
-      </p>
-    </div>
   </div>
 </section>
-
-<section class="gov-section md dots alt">
-  <div class="overlay-circle-glow">
-    <img src="/assets/circle-glow.svg" alt="Circle Glow" />
-  </div>
-  <div class="gov-container col center gap-48">
-    <div class="gov-title-wrap gap-16 max-w-480">
-      <span class="gov-eyebrow muted">[Our configurations]</span>
-      <h2>Multimodal Configurations</h2>
-    </div>
-    <div class="gov-content-grid-industry alt">
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text1" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/truck.svg" alt="" />
-        </div>
+<section class="block-blue">
+  <div class="container block-blue-cont">
+      <div class="section-grid-title h3 uppercase">
+          <squarespace:block-field id="kiosksBlueTitle"/>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text2" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/glove.svg" alt="" />
-        </div>
+      <div class="block-content block-grid-6">
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon7"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text7"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon1"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text1"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon3"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text3"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon2"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text2"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon4"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text4"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon5"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text5"/></div>
+          </div>
+          <div class="block-content-item bg-dark block-grid-4-item">
+              <div class="value-grid-icon"><squarespace:block-field id="kiosksBlock2Icon6"/></div>
+              <div class="h4"><squarespace:block-field id="kiosksBlock2Text6"/></div>
+          </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text3" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/pyramid.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text4" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/stock.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text5" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/shields.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="kiosksBlock2Text6" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/wrench.svg" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="gov-section-contact">
-  <div class="container section-contact-cont">
-    <div class="flex-col-left flex-24 gov-contact-details">
-      {@|apply eyebrow-48.block}
-      <div class="gov-contact-title" id="sec-contact-title">
-        Contact us for more Details!
-      </div>
-      <div class="flex-col-left flex-16">
-        <div class="grid-item-p fs-14">
-          <squarespace:block-field id="secContactEmail" />
-        </div>
-        <div class="grid-item-p fs-14">
-          <squarespace:block-field id="secContactAddress" />
-        </div>
-      </div>
-    </div>
-    <div class="gov-contact-banner">
-      <div class="gov-contact-banner-top">
-        <h2>
-          Start with the <br />
-          Collection Environment
-        </h2>
-      </div>
-      <div class="gov-contact-banner-bottom">
-        <div class="contact-banner-bottom-text">
-          If the mission requires multi-modal biometric and biographic
-          intelligence to be collected in a rugged, customizable and deployable
-          modality, start with Mobile Biometric Collection Kits.
-        </div>
-        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
-      </div>
-    </div>
-    <div class="gov-contact-bg"></div>
   </div>
 </section>

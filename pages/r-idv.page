@@ -1,300 +1,186 @@
-<section class="gov-section ic">
-  <div class="gov-container no-gap no-padding">
-    <div class="gov-content-ic alt">
-      <div class="gov-title-wrap mobile-left">
-        <span class="gov-eyebrow muted">[R-IDV]</span>
-        <h1>Remote Identity Verification</h1>
-        <p class="tablet-hidden gov-description">
-          R-IDV is a powerful remote identity document verification tool
-          providing instant verification of government issued documents
-        </p>
-      </div>
-      <p class="tablet-hidden gov-description sm">
-        IDSECURE R-IDV is designed for remote identity verification services
-        that specialize in digital reading and verification of passports, ID
-        cards, driver’s licenses, visas, and other government issued ID
-        documents.
-      </p>
+<section class="inner-hero r-idv-hero">
+    <div class="container inner-hero-cont">
+        <div class="h1-wrapper">
+            <h1><squarespace:block-field id="rIdvh1"/></h1>
+        </div>
+        <div class="p-wrapper">
+            <squarespace:block-field id="rIdvSubTitle"/>
+        </div>
+        <div class="cont-bg-left"></div>
     </div>
-    <div class="gov-ic-hero-img">
-      <img
-        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/20db46b4-c5c2-4623-bf5f-8328065f36c1/ridv.webp?content-type=image%2Fwebp"
-        alt=""
-      />
+    <div class="container page-desc-cont">
+        <div class="page-desc-title"><squarespace:block-field id="rIdvDesc1"/></div>
+        <div class="page-desc-text"><squarespace:block-field id="rIdvDesc2"/></div>
     </div>
-  </div>
 </section>
-
-<section class="gov-section md">
-  <div class="gov-container col gap-24">
-    <span class="gov-eyebrow muted">[OUR DATABASE]</span>
-    <div class="gov-content-multimodal">
-      <h2 class="max-w-303">Global Document Database</h2>
-      <div class="multimodal-grid gap-16">
-        <div class="multimodal-grid-item-stat">
-          <div class="multimodal-grid-item-stat-icon">
-            <img
-              class="multimodal-grid-item-stat-icon-img"
-              src="/assets/rocket.svg"
-              alt=""
-            />
-          </div>
-          <div>
-            <div class="multimodal-grid-item-stat-number">138+</div>
-            <div class="gov-description sm tertiary">Languages</div>
-          </div>
+<section class="statistics">
+    <div class="container statistics-cont">
+        <div class="statistics-head section-grid-title h3 uppercase"><squarespace:block-field id="rIdvStatsTitle"/></div>
+        <div class="statistics-content">
+            <div class="statistics-item">
+                <div class="statistics-item-number"><squarespace:block-field id="rIdvStatsTitle1"/></div>
+                <div class="statistics-item-text txt-center"><squarespace:block-field id="rIdvStatsText1"/></div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item-number"><squarespace:block-field id="rIdvStatsTitle2"/></div>
+                <div class="statistics-item-text txt-center"><squarespace:block-field id="rIdvStatsText2"/></div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item-number"><squarespace:block-field id="rIdvStatsTitle3"/></div>
+                <div class="statistics-item-text txt-center"><squarespace:block-field id="rIdvStatsText3"/></div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item-number"><squarespace:block-field id="rIdvStatsTitle4"/></div>
+                <div class="statistics-item-text txt-center"><squarespace:block-field id="rIdvStatsText4"/></div>
+            </div>
         </div>
-        <div class="multimodal-grid-item-stat">
-          <div class="multimodal-grid-item-stat-icon">
-            <img
-              class="multimodal-grid-item-stat-icon-img"
-              src="/assets/flag.svg"
-              alt=""
-            />
-          </div>
-          <div>
-            <div class="multimodal-grid-item-stat-number">16,000+</div>
-            <div class="gov-description sm tertiary">Document Templates</div>
-          </div>
-        </div>
-        <div class="multimodal-grid-item-stat">
-          <div class="multimodal-grid-item-stat-icon">
-            <img
-              class="multimodal-grid-item-stat-icon-img"
-              src="/assets/files.svg"
-              alt=""
-            />
-          </div>
-          <div>
-            <div class="multimodal-grid-item-stat-number">254</div>
-            <div class="gov-description sm tertiary">Countries and Territories</div>
-          </div>
-        </div>
-        <div class="multimodal-grid-item-stat">
-          <div class="multimodal-grid-item-stat-icon">
-            <img
-              class="multimodal-grid-item-stat-icon-img"
-              src="/assets/globe.svg"
-              alt=""
-            />
-          </div>
-          <div>
-            <div class="multimodal-grid-item-stat-number">100%</div>
-            <div class="gov-description sm tertiary">On-Premise</div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
-
-<section class="gov-section md dots alt">
-  <div class="gov-container col center gap-48">
-    <div class="gov-title-wrap gap-16 max-w-480">
-      <span class="gov-eyebrow muted">[Our technologies]</span>
-      <h2>Embedded Technologies</h2>
+<section class="block-blue">
+    <div class="container block-blue-cont">
+        <div class="section-grid-title h3 uppercase">
+            <squarespace:block-field id="rIdvBlueTitle"/>
+        </div>
+        <div class="block-content block-grid-6">
+            <div class="block-content-item block-grid-5-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon1"/></div>
+                <div class="h4"><squarespace:block-field id="rIdvBlockText1"/></div>
+            </div>
+            <div class="block-content-item block-grid-5-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon7"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText7"/></div>
+            </div>
+            <div class="block-content-item block-grid-5-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon4"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText4"/></div>
+            </div>
+            <div class="block-content-item block-grid-5-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon5"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText5"/></div>
+            </div>
+            <div class="block-content-item block-grid-5-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon8"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText8"/></div>
+            </div>
+            <div class="block-content-item block-grid-4-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon2"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText2"/></div>
+            </div>
+            <div class="block-content-item block-grid-4-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon3"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText3"/></div>
+            </div>
+            <div class="block-content-item block-grid-4-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon9"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText9"/></div>
+            </div>
+            <div class="block-content-item block-grid-4-item">
+                <div class="value-grid-icon"><squarespace:block-field id="rIdvBlockIcon6"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="rIdvBlockText6"/></div>
+            </div>
+        </div>
     </div>
-    <div class="gov-content-grid-industry alt circle">
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText1" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/mrzreading.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText2" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/ocr.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText3" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/hardware.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText4" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/matching.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText5" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/liveness.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText6" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/barcode.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText7" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/cc.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry">
-        <h3><squarespace:block-field id="rIdvBlockText8" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/rfid.svg" alt="" />
-        </div>
-      </div>
-      <div class="gov-content-grid-card industry last">
-        <h3><squarespace:block-field id="rIdvBlockText9" /></h3>
-        <div class="icon-industry">
-          <img src="/assets/doc.svg" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
-
-<section class="gov-section md bg-fed">
-  <div class="bg-overlay-multimodal"></div>
-  <div class="bg-overlay-multimodal bottom"></div>
-  <div class="gov-container col gap-24">
-    <span class="gov-eyebrow muted">[OUR TECHNOLOGIES]</span>
-    <div class="gov-content-multimodal">
-      <h2 class="max-w-303">Product Use Cases</h2>
-      <div class="multimodal-grid triple">
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/mrzreading.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText1" />
-            </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails1" />
-            </p>
-          </div>
+<section class="section-grid">
+    <div class="container section-grid-cont">
+        <div class="section-grid-title h3 uppercase">
+            <squarespace:block-field id="rIdvGrid2Ttile"/>
         </div>
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/onboard.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText2" />
+        <div class="section-grid-main">
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg1"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText1"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails1"/>
+                    </div>
+                </div>
             </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails2" />
-            </p>
-          </div>
-        </div>
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/kyc.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText3" />
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg2"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText2"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails2"/>
+                    </div>
+                </div>
             </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails3" />
-            </p>
-          </div>
-        </div>
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/check.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText4" />
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg3"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText3"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails3"/>
+                    </div>
+                </div>
             </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails4" />
-            </p>
-          </div>
-        </div>
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/age.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText5" />
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg4"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText4"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails4"/>
+                    </div>
+                </div>
             </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails5" />
-            </p>
-          </div>
-        </div>
-        <div class="multimodal-grid-item alt">
-          <div class="value-grid-icon">
-            <img src="/assets/fraud.svg" alt="" />
-          </div>
-          <div class="gov-title-wrap gap-16 mobile-left">
-            <div class="multimodal-grid-text">
-              <squarespace:block-field id="rIdvGridText6" />
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg5"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText5"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails5"/>
+                    </div>
+                </div>
             </div>
-            <p class="gov-description xs">
-              <squarespace:block-field id="rIdvGridDetails6" />
-            </p>
-          </div>
+            <div class="section-grid-item w-33 large">
+                <div class="section-grid-icon">
+                    <squarespace:block-field id="rIdvGridImg6"/>
+                </div>
+                <div class="section-grid-item-content">
+                    <div class="h5 uppercase">
+                        <squarespace:block-field id="rIdvGridText6"/>
+                    </div>
+                    <div class="fs-14">
+                        <squarespace:block-field id="rIdvGridDetails6"/>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
-
-<section class="gov-section sm">
-  <div class="gov-container col center gap-56">
-    <div class="gov-title-wrap center max-w-720">
-      <span class="gov-eyebrow muted">[OUR INTEGRATION]</span>
-      <h2>Accelerated Deployment</h2>
-      <p class="gov-description sm">
-        Reduce integration complexity and accelerate development with Linux,
-        Windows, and Docker deployment options, clear technical documentation,
-        and sample code. Whether you’re building a new identity verification
-        application or enhancing an existing workflow, R-IDV assists your team
-        move from integration to deployment with confidence.
-      </p>
-    </div>
-    <div class="gov-integration">
-      <img src="/assets/integration.svg" alt="Integration" />
-    </div>
-  </div>
-</section>
-
-<section class="gov-section-contact">
-  <div class="container section-contact-cont">
-    <div class="flex-col-left flex-24 gov-contact-details">
-      {@|apply eyebrow-48.block}
-      <div class="gov-contact-title" id="sec-contact-title">
-        Contact us for more Details!
+<section class="certification">
+    <div class="container certification-cont">
+      <div class="section-grid-title h3 uppercase">
+        References
       </div>
-      <div class="flex-col-left flex-16">
-        <div class="grid-item-p fs-14">
-          <squarespace:block-field id="secContactEmail" />
-        </div>
-        <div class="grid-item-p fs-14">
-          <squarespace:block-field id="secContactAddress" />
-        </div>
+      <div class="certification-item-list">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/86faef53-7409-4087-a38f-f71f3048b8ba/v5.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2844888f-75c7-4326-93a0-bdbdd57c4b3c/v4.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2acacd07-ddbd-4d9e-b067-84bea0bf6a95/v6.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/bf4712d5-0fa9-49e7-9822-230d6ebb7314/aalogo.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/212cf88b-352b-45bc-9699-b0407ec921e5/uscbp.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/0d2c9d99-a292-4f3e-8ce6-429247a61f74/mtnlogo.png?content-type=image%2Fpng" alt="" class="certification-item">
+        <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/be62d38d-ce8c-4c4a-a3ef-f1527b8e689b/v2.png?content-type=image%2Fpng" alt="" class="certification-item">
       </div>
     </div>
-    <div class="gov-contact-banner">
-      <div class="gov-contact-banner-top">
-        <h2>
-          Start with the <br />
-          Collection Environment
-        </h2>
-      </div>
-      <div class="gov-contact-banner-bottom">
-        <div class="contact-banner-bottom-text">
-          If the mission requires multi-modal biometric and biographic
-          intelligence to be collected in a rugged, customizable and deployable
-          modality, start with Mobile Biometric Collection Kits.
-        </div>
-        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
-      </div>
-    </div>
-    <div class="gov-contact-bg"></div>
-  </div>
 </section>

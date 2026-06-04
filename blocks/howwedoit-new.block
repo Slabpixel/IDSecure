@@ -1,0 +1,136 @@
+<section class="gov-section md">
+    <div class="gov-container col xs">
+      <div class="gov-title-wrap px gap-16">
+        <span class="gov-eyebrow muted">[How We Deliver]</span>
+        <div class="gov-title-wrap horizontal">
+          <h2>How We Do It:</h2>
+          <p class="gov-description sm max-w-414">
+            We focus on innovative strategies and collaborative efforts to achieve
+            exceptional results.
+          </p>
+        </div>
+      </div>
+      <div class="hwd-block">
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[01]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd-start.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-a.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/bulb.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText1" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[02]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-b.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/gear.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText2" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[03]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-a.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/rapid.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText3" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[04]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-b.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/graph.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText4" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[05]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-a.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/graphic.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText5" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[06]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-b.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/mrzreading.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText6" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[07]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-a.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/logistic.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText7" /></h3>
+          </div>
+        </div>
+        <div class="hwd-block-item">
+          <div class="hwd-block-item-title">[08]</div>
+          <div class="hwd-block-item-point">
+            <img src="/assets/hwd.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-line">
+            <img src="/assets/hwd-line-b.svg" alt="" />
+          </div>
+          <div class="hwd-block-item-content">
+            <div class="hwd-block-item-content-img">
+              <img src="/assets/support.svg" alt="" />
+            </div>
+            <h3><squarespace:block-field id="hwdText8" /></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

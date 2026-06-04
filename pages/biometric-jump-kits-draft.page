@@ -182,7 +182,7 @@
     </div>
   </div>
 </section>
-{@|apply howwedoit.block} {@|apply certifications.block}
+{@|apply howwedoit-new.block} {@|apply certifications-new.block}
 
 <section class="gov-section-contact">
   <div class="container section-contact-cont">
