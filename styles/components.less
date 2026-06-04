@@ -220,85 +220,87 @@
   }
 
 
-// Certifications
+// Certifications (legacy — certifications.block, id-dex, etc.)
 
 .certification {
     &-cont {
         .flex-box(column, flex-start, center, 32px);
     }
     &-item-list {
-        .flex-box(row, space-around, center, 32px); 
+        .flex-box(row, space-around, center, 32px);
         flex-wrap: wrap;
         width: 100%;
     }
+    &-item {
+        height: 60px;
+    }
+}
 
-    &-item-more {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 120%;
-        text-transform: uppercase;
+// Certifications grid (draft / certifications-new.block)
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 873px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    &-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        width: 100%;
-        max-width: 873px;
+    &-item {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        @media(max-width: 768px) {
-            grid-template-columns: repeat(3, 1fr);
+        &:not(:nth-child(4n)) {
+            border-right: 1px solid #282d37;
         }
 
-        &-item {
-            height: 120px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        &:nth-child(-n + 4) {
+            border-bottom: 1px solid #282d37;
+        }
 
-            /* DESKTOP DIVIDERS */
+        &.empty {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
             &:not(:nth-child(4n)) {
-                border-right: 1px solid #282D37;
+                border-right: none;
             }
-            
+
             &:nth-child(-n + 4) {
-                border-bottom: 1px solid #282D37;
+                border-bottom: none;
             }
 
             &.empty {
-                display: none;
+                display: flex;
             }
 
-            @media(max-width: 768px) {
+            &:not(:nth-child(3n)) {
+                border-right: 1px solid #282d37;
+            }
 
-                &:not(:nth-child(4n)) {
-                    border-right: none;
-                }
-                
-                &:nth-child(-n + 4) {
-                    border-bottom: none;
-                }
-                /* show empty item */
-                &.empty {
-                    display: flex;
-                }
-
-                /* vertical dividers */
-                &:not(:nth-child(3n)) {
-                    border-right: 1px solid #282D37;
-                }
-
-                /* horizontal dividers */
-                &:nth-child(-n + 6) {
-                    border-bottom: 1px solid #282D37;
-                }
+            &:nth-child(-n + 6) {
+                border-bottom: 1px solid #282d37;
             }
         }
     }
-    &-img {
-        height: 48px;
-        object-fit: contain;
-    }
+}
+
+.certification-img {
+    height: 48px;
+    object-fit: contain;
+}
+
+.certification-item-more {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
 }
 
 
@@ -363,10 +365,94 @@
     }
   }
 
-  // Hardware Grid
+  // Hardware Grid (legacy — live product pages)
 
   .hardware-grid {
     padding-top: 0px;
+
+    &-cont {
+        .flex-box(row, center, stretch, 8px);
+        flex-wrap: wrap;
+    }
+    &-item {
+        .flex-box(column, flex-start, center, 32px);
+        padding: 30px;
+        border-radius: 32px;
+        background: radial-gradient(117.36% 77.71% at 23.77% 31.08%, #2F3765 0%, #272E59 100%);
+        backdrop-filter: blur(25px);
+        position: relative;
+        text-align: center;
+
+        &.w-25 {
+            width: calc(~"25% - 8px");
+
+            .hardware-grid-img {
+                height: 170px;
+            }
+        }
+        &.w-30 {
+            width: calc(~"33% - 4px");
+        }
+        &.w-50 {
+            width: calc(~"50% - 4px");
+        }
+        &-bg {
+            width: 96px;
+            height: 96px;
+            background-color: #D9D9D9;
+            filter: blur(100px);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &-img {
+        width: 100%;
+        height: 100%;
+        max-height: 343px;
+        object-fit: contain;
+        position: relative;
+
+        img {
+            max-height: 343px;
+            height: 100%;
+            object-fit: contain !important;
+        }
+        &::after {
+            content: '';
+            width: 96px;
+            height: 96px;
+            border-radius: 100%;
+            background-color: #d9d9d9;
+            filter: blur(100px);
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 3;
+        }
+    }
+    .grid-img-center {
+        position: relative;
+    }
+    .grid-img-center > * {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+  }
+  @media (max-width: 768px) {
+    .hardware-grid .grid-img-center > * {
+        top: unset;
+        transform: unset;
+    }
+  }
+
+  // Hardware Grid v2 (draft pages — card + CSS grid layout)
+
+  .hardware-grid-v2 {
+    padding-top: 0;
 
     &-cont {
         display: grid;
@@ -374,7 +460,7 @@
         row-gap: 24px;
         column-gap: 32px;
 
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             grid-template-columns: repeat(2, 1fr);
             row-gap: 16px;
             column-gap: 16px;
@@ -384,13 +470,16 @@
         .flex-box(column, flex-start, stretch, 16px);
         grid-column: span 3;
         transition: transform 0.3s ease;
+
         &.large {
             grid-column: span 4;
-            @media(max-width: 768px) {
+
+            @media (max-width: 768px) {
                 grid-column: span 1;
             }
         }
-        @media(max-width: 768px) {
+
+        @media (max-width: 768px) {
             grid-column: span 1;
         }
 
@@ -408,32 +497,30 @@
         position: relative;
         overflow: hidden;
         transition: transform 0.3s ease;
-      
-          &::before {
+
+        &::before {
             content: "";
             position: absolute;
             z-index: -1;
             pointer-events: none;
-            inset: 0px;
-      
+            inset: 0;
             border-radius: inherit;
-            /* this is the border width */
             padding: 1px;
             background: linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.15) 0%,
-              rgba(255, 255, 255, 0.1) 100%
+                to bottom,
+                rgba(255, 255, 255, 0.15) 0%,
+                rgba(255, 255, 255, 0.1) 100%
             );
             -webkit-mask:
-              linear-gradient(#fff 0 0) content-box,
-              linear-gradient(#fff 0 0);
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
             mask:
-              linear-gradient(#fff 0 0) content-box,
-              linear-gradient(#fff 0 0);
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
             -webkit-mask-composite: xor;
             mask-composite: exclude;
             transition: padding 0.3s ease;
-          }
+        }
 
         &::after {
             content: "";
@@ -443,14 +530,15 @@
             inset: 0;
             border-radius: inherit;
             padding: 1px;
-            background-image: url(/assets/handheldbg.svg); 
+            background-image: url(/assets/handheldbg.svg);
             background-position: top;
             background-repeat: no-repeat;
         }
+
         &-bg {
             width: 96px;
             height: 96px;
-            background-color: #D9D9D9;
+            background-color: #d9d9d9;
             filter: blur(100px);
             position: absolute;
             top: 50%;
@@ -458,16 +546,15 @@
             transform: translate(-50%, -50%);
         }
     }
-
     &-title {
         font-size: 24px;
         font-weight: 500;
         line-height: 140%;
 
-        @media(max-width: 1024px) {
+        @media (max-width: 1024px) {
             font-size: 20px;
         }
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             font-size: 16px;
         }
     }
@@ -492,8 +579,8 @@
         transform: translateY(-50%);
     }
   }
-  @media(max-width: 768px) {
-    .hardware-grid .grid-img-center > * {
+  @media (max-width: 768px) {
+    .hardware-grid-v2 .grid-img-center > * {
         top: unset;
         transform: unset;
     }
@@ -602,6 +689,18 @@
 
             img {
                 height: 60px;
+            }
+        }
+        &-line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
             }
         }
 
@@ -850,6 +949,15 @@
             height: 80px !important;
         }
     }
+    .hardware-grid-item {
+        &.w-25 {
+            width: calc(~"33% - 8px");
+
+            .hardware-grid-img {
+                height: 170px;
+            }
+        }
+    }
     .form-item.fields.name {
         .flex-box(column, flex-start, stretch, 0);
     }
@@ -973,6 +1081,14 @@
             }
         }
     }
+    .hardware-grid {
+        &-cont {
+            flex-direction: row;
+        }
+        &-item {
+            width: calc(~"50% - 8px") !important;
+        }
+    }
     .reference {
         &-companies {
             gap: 48px;
@@ -1000,6 +1116,14 @@
     }
 }
 @media (max-width: 480px) {
+    .hardware-grid {
+        &-cont {
+            flex-direction: column;
+        }
+        &-item {
+            width: 100% !important;
+        }
+    }
     .block-blue {
         .mobile-full {
             width: 100%;

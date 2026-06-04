@@ -28,36 +28,36 @@
         </p>
       </div>
     </div>
-    <div class="hardware-grid-cont">
-      <div class="hardware-grid-item large">
+    <div class="hardware-grid-v2-cont">
+      <div class="hardware-grid-v2-item large">
         <span class="gov-eyebrow muted">[01]</span>
-        <div class="hardware-grid-title">
+        <div class="hardware-grid-v2-title">
           <squarespace:block-field id="kiosksGridTitle2" />
         </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
             <squarespace:block-field id="kiosksGridImg1" />
           </div>
         </div>
       </div>
-      <div class="hardware-grid-item large">
+      <div class="hardware-grid-v2-item large">
         <span class="gov-eyebrow muted">[02]</span>
-        <div class="hardware-grid-title">
+        <div class="hardware-grid-v2-title">
           <squarespace:block-field id="kiosksGridTitle1" />
         </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
             <squarespace:block-field id="kiosksGridImg3" />
           </div>
         </div>
       </div>
-      <div class="hardware-grid-item large">
+      <div class="hardware-grid-v2-item large">
         <span class="gov-eyebrow muted">[03]</span>
-        <div class="hardware-grid-title">
+        <div class="hardware-grid-v2-title">
           <squarespace:block-field id="kiosksGridTitle3" />
         </div>
-        <div class="hardware-grid-card">
-          <div class="hardware-grid-img grid-img-center">
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
             <squarespace:block-field id="kiosksGridImg2" />
           </div>
         </div>
