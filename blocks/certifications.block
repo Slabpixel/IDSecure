@@ -1,63 +1,16 @@
-<section class="gov-section lg">
-  <div class="gov-container col gap-24">
-    <span class="gov-eyebrow muted">[Our Certifications]</span>
-    <div class="gov-content certifications">
-      <h2 class="max-w-280">Solutions Certifications</h2>
-      <div class="certification-grid">
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/3acf98c8-7919-4b02-9394-b41f9239cd57/UL+LISTED+LOGO.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/adf40567-f74a-4be9-a8aa-24ff8a902810/image+46.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/8e2ccea7-1351-4b72-927d-d1bd389bac3b/FC+Logo.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/3b7b7c0e-5ff5-472d-95be-bba74b80bbca/GSA+Logo.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/f7e39a6d-7203-46a9-baef-0b481a8ccd53/RoHS+Compliant+Logo.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/25dfe454-37c6-4020-8de8-73c890c55bf5/ISO+Logo.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <img
-            src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/00197da5-e685-41ce-816c-14f233cea2d8/Seal_of_the_FBI+1.png?content-type=image%2Fpng"
-            alt=""
-            class="certification-img"
-          />
-        </div>
-        <div class="certification-grid-item">
-          <span class="certification-item-more">& more...</span>
-        </div>
-        <div class="certification-grid-item empty"></div>
-      </div>
+<section class="certification">
+  <div class="container certification-cont">
+    <div class="section-grid-title h3 uppercase">
+      Solutions Certifications
+    </div>
+    <div class="certification-item-list">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/3acf98c8-7919-4b02-9394-b41f9239cd57/UL+LISTED+LOGO.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/adf40567-f74a-4be9-a8aa-24ff8a902810/image+46.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/8e2ccea7-1351-4b72-927d-d1bd389bac3b/FC+Logo.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/25dfe454-37c6-4020-8de8-73c890c55bf5/ISO+Logo.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/f7e39a6d-7203-46a9-baef-0b481a8ccd53/RoHS+Compliant+Logo.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/3b7b7c0e-5ff5-472d-95be-bba74b80bbca/GSA+Logo.png?content-type=image%2Fpng" alt="" class="certification-item">
+      <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/00197da5-e685-41ce-816c-14f233cea2d8/Seal_of_the_FBI+1.png?content-type=image%2Fpng" alt="" class="certification-item">
     </div>
   </div>
 </section>

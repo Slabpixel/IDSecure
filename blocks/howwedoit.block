@@ -1,136 +1,192 @@
-<section class="gov-section md">
-    <div class="gov-container col xs">
-      <div class="gov-title-wrap px gap-16">
-        <span class="gov-eyebrow muted">[How We Deliver]</span>
-        <div class="gov-title-wrap horizontal">
-          <h2>How We Do It:</h2>
-          <p class="gov-description sm max-w-414">
-            We focus on innovative strategies and collaborative efforts to achieve
-            exceptional results.
-          </p>
-        </div>
-      </div>
-      <div class="hwd-block">
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[01]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd-start.svg" alt="" />
+<section class="hwd-timeline">
+  <div class="container hwd-timeline-cont">
+          <div class="section-grid-title h3 uppercase">How We Do It</div>
+          <div class="hwd-timeline-content">
+              <div class="hwd-timeline-line"></div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon1"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText1"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon2"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText2"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon3"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText3"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon4"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText4"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon5"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText5"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>  
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon6"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText6"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon7"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText7"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
+              <div class="hwd-timeline-item">
+                  <div class="hwd-timeline-item-wrapper">
+                      <div class="hwd-timeline-indicator">
+                          <div class="hwd-timeline-indicator-head"></div>
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="url(#paint0_radial_312_100)" fill-opacity="0.19"/>
+                              <circle cx="20" cy="20" r="8" fill="#0F36F6" stroke="white" stroke-width="4"/>
+                              <defs>
+                              <radialGradient id="paint0_radial_312_100" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 20) rotate(90) scale(29.375)">
+                              <stop offset="0.290739" stop-color="#040423"/>
+                              <stop offset="1" stop-color="white"/>
+                              </radialGradient>
+                              </defs>
+                          </svg>
+                      </div>
+                      <div class="line-connector"></div>
+                      <div class="hwd-timeline-flex">
+                          <div class="hwd-timeline-img"><squarespace:block-field id="hwdIcon8"/></div>
+                          <div class="h4 txt-center"><squarespace:block-field id="hwdText8"/></div>
+                      </div>
+                  </div>
+                  <div class="hwd-timeline-item-wrapper"></div>
+              </div>
           </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-a.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/bulb.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText1" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[02]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-b.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/gear.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText2" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[03]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-a.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/rapid.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText3" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[04]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-b.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/graph.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText4" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[05]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-a.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/graphic.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText5" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[06]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-b.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/mrzreading.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText6" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[07]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-a.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/logistic.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText7" /></h3>
-          </div>
-        </div>
-        <div class="hwd-block-item">
-          <div class="hwd-block-item-title">[08]</div>
-          <div class="hwd-block-item-point">
-            <img src="/assets/hwd.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-line">
-            <img src="/assets/hwd-line-b.svg" alt="" />
-          </div>
-          <div class="hwd-block-item-content">
-            <div class="hwd-block-item-content-img">
-              <img src="/assets/support.svg" alt="" />
-            </div>
-            <h3><squarespace:block-field id="hwdText8" /></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
