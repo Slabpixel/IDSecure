@@ -1,0 +1,84 @@
+<!-- <script>console.log({@|json-pretty})</script> -->
+
+<section class="gov-section xs-hero smaller">
+  <div class="gov-container">
+    <span class="gov-eyebrow muted">[OUR PRESS]</span>
+    <div class="gov-title-wrap mobile-left">
+      <h1 class="h1-small"><squarespace:block-field id="pressPageH1" /></h1>
+    </div>
+  </div>
+</section>
+<section class="press-grid">
+  <div class="container">
+    <div class="press-grid-cont" style="z-index: 1">
+      {.repeated section items} {.section assetUrl}
+      <div class="press-grid-item" style="background-image: url({assetUrl})">
+        {.or}
+        <div class="press-grid-item">
+          {.end}
+          <a href="{fullUrl}" class="press-grid-item-inner">
+            <div class="press-grid-category">
+              <div class="p">{categories}</div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 18L18 6M18 6H10M18 6V14"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="press-grid-title">{title}</div>
+            <div class="press-grid-date">{addedOn|date %b %d, %Y}</div>
+          </a>
+        </div>
+        {.end}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>
+
+<script src="../scripts/script.js"></script>

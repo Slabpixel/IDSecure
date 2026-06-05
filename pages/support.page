@@ -1,0 +1,93 @@
+<section class="gov-section xs-hero">
+  <div class="bg-dots-top">
+    <img src="/assets/dots-top.png" alt="Dots Top" />
+  </div>
+  <div class="gov-container justify-center gap-64">
+    <div class="max-w-560-mobile-full gov-title-wrap mobile-left gap-64">
+      <span class="gov-eyebrow muted">[SUPPORT]</span>
+      <div class="gov-content-image-560-mobile-full">
+        <img
+          src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/7fc6e1e7-2945-44d2-85c6-bf1a73af9f2b/about.webp?content-type=image%2Fwebp"
+          alt="fingerprint"
+        />
+      </div>
+    </div>
+    <div class="max-w-560-mobile-full gov-title-wrap gap-40 mobile-left">
+      <div class="gov-title-wrap mobile-left">
+        <h1 class="h1-small">Login For Support</h1>
+        <p class="gov-description sm">
+          Customer login to submit and track support requests.
+        </p>
+      </div>
+      <div class="gov-login-form">
+        <form action="/api/auth/login" method="POST">
+          <label class="gov-login-form-label" for="email"
+            >Email <span>*</span></label
+          >
+          <input
+            class="gov-login-form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email"
+            required
+          />
+          <label class="gov-login-form-label" for="password"
+            >Password <span>*</span></label
+          >
+          <input
+            class="gov-login-form-input"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your Password"
+            required
+          />
+          <button
+            class="btn-primary"
+            type="submit"
+            style="width: 100%; border: 0; border-radius: 4px; margin-top: 32px;"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>

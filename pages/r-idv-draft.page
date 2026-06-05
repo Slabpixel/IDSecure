@@ -17,8 +17,12 @@
       </p>
     </div>
     <div class="gov-ic-hero-img">
-      <img
-        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/20db46b4-c5c2-4623-bf5f-8328065f36c1/ridv.webp?content-type=image%2Fwebp"
+      <video
+        src="/assets/ridv-hero.webm"
+        autoplay
+        muted
+        loop
+        playsinline
         alt=""
       />
     </div>

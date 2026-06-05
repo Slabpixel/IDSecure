@@ -5,10 +5,13 @@
       <h1>Livescan Kiosks</h1>
     </div>
     <div class="gov-ic-hero-img">
-      <img
-        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/6fe05c55-d813-4a64-bd44-80e513ebc479/livekio.webp?content-type=image%2Fwebp"
-        alt=""
-      />
+      <video
+        src="/assets/kiosks-hero.webm"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
     </div>
   </div>
 </section>
@@ -126,9 +129,7 @@
   </div>
 </section>
 
-
-{@|apply howwedoit-new.block}
-{@|apply certifications-new.block}
+{@|apply howwedoit-new.block} {@|apply certifications-new.block}
 
 <section class="gov-section no-padding">
   <div class="gov-container no-padding">

@@ -5,8 +5,12 @@
       <h1>Mobile Biometric Collection Kits</h1>
     </div>
     <div class="gov-ic-hero-img">
-      <img
-        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/11a3629c-cd63-4ee2-8dd9-431f242e4f66/jumpkit.webp?content-type=image%2Fwebp"
+      <video
+        src="/assets/biometric-jumpkits-hero.webm"
+        autoplay
+        muted
+        loop
+        playsinline
         alt=""
       />
     </div>
@@ -175,7 +179,10 @@
             <squarespace:block-field id="jumpKitssBlockText9" />
           </div>
           <div class="value-grid-icon alt">
-            <img src="/assets/hot-swap-battery.svg" alt="Hot Swap Battery Icon" />
+            <img
+              src="/assets/hot-swap-battery.svg"
+              alt="Hot Swap Battery Icon"
+            />
           </div>
         </div>
       </div>

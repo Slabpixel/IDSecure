@@ -1,4 +1,7 @@
 <section class="gov-section hero-ic">
+  <div class="gov-hero-ic-bg">
+    <video src="/assets/intelligence-hero.webm" autoplay muted loop playsinline></video>
+  </div>
   <div class="gov-container hero-ic">
     <div class="gov-hero-ic">
       <div class="gov-title-wrap gap-16 mobile-left">

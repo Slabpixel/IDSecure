@@ -1,7 +1,7 @@
 {
     "overrides": [
       {
-        "files": ["*.page", "*.block", "*.region"],
+        "files": ["*.page", "*.block", "*.region", "*.item", "*.list"],
         "options": { "parser": "html" }
       }
     ]
