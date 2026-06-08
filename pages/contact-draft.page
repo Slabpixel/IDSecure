@@ -1,0 +1,94 @@
+<section class="gov-section xs-hero">
+  <div class="bg-dots-top">
+    <img src="/assets/dots-top.png" alt="Dots Top" />
+  </div>
+  <div class="gov-container justify-center gap-64">
+    <div class="max-w-586 gov-title-wrap mobile-left gap-52">
+      <div>
+        <span class="gov-eyebrow muted">[CONTACT US]</span>
+        <h1>Contact Us</h1>
+        <p class="gov-description sm">
+            Reach out to us using this form and specify which Solution you are interested in.
+        </p>
+      </div>
+      <div class="">
+        <img
+          src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/52a37f5a-48d7-4339-a70e-b134440cf64c/Group+1261156615.png?content-type=image%2Fpng"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="max-w-560-mobile-full mobile-left">
+      <squarespace:block-field id="contactForm" />
+    </div>
+  </div>
+</section>
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>
+
+<section class="contact-hero section-hero">
+  <div class="container hero-cont contact-hero-cont">
+    <div class="cont-bg-left" style="z-index: -1"></div>
+    <div class="h1-wrapper">
+      <h1 class="uppercase">Contact Us</h1>
+    </div>
+    <div class="p-wrapper">
+      <p>
+        Reach out to us using this form and specify which Solution you are
+        interested in.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="contact-main">
+  <div class="container contact-main-cont">
+    <img
+      src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/52a37f5a-48d7-4339-a70e-b134440cf64c/Group+1261156615.png?content-type=image%2Fpng"
+      alt=""
+    />
+  </div>
+</section>
+
+<script>
+  // Contact Form Placeholder Input
+  window.addEventListener("load", (event) => {
+    const myTimeout = setTimeout(() => {
+      document.querySelector('[name="fname"]').placeholder = "First Name";
+      document.querySelector('[name="lname"]').placeholder = "Last Name";
+    }, 100);
+  });
+</script>
