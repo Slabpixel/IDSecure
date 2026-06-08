@@ -135,6 +135,34 @@
   .form-wrapper .field-list .field .caption {
     display: none;
   }
+  .form-wrapper .description.required {
+    font-size: 0 !important;
+    line-height: 0 !important;
+    display: inline !important;
+    vertical-align: baseline;
+    margin-left: 2px;
+    opacity: 1 !important;
+    color: transparent !important;
+
+    &::after {
+      content: "*";
+      font-size: 16px;
+      line-height: 1;
+      color: #ff2b2b;
+      opacity: 1 !important;
+    }
+  }
+  .form-wrapper
+    fieldset.form-item.fields:has(.field.first-name input[aria-required="true"])
+    legend
+    .title
+    span::after {
+    content: "*";
+    font-size: 16px;
+    line-height: 1;
+    color: #ff2b2b;
+    margin-left: 2px;
+  }
   .form-wrapper .field-list svg {
     fill: white;
   }
