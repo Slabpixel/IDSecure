@@ -1102,6 +1102,9 @@
   &.justify-center {
     justify-content: center;
   }
+  &.justify-between {
+    justify-content: space-between;
+  }
 
   &.xs {
     padding: 0 40px;
@@ -4409,6 +4412,25 @@ img.position-center {
   }
 }
 
+.gov-image-contact {
+  width: 100%;
+  max-width: 594px;
+  aspect-ratio: 125/83;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  @media (max-width: 768px) {
+    max-width: none;
+  }
+}
+
 .gov-description {
   font-size: 20px;
   color: @text-secondary;
@@ -4470,7 +4492,7 @@ img.position-center {
   }
 }
 
-.gov-login-form {
+.gov-form {
   display: flex;
   padding: 24px;
   flex-direction: column;

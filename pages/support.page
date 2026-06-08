@@ -19,7 +19,7 @@
           Customer login to submit and track support requests.
         </p>
       </div>
-      <div class="gov-login-form">
+      <div class="gov-form">
         <form action="/api/auth/login" method="POST">
           <label class="gov-login-form-label" for="email"
             >Email <span>*</span></label
