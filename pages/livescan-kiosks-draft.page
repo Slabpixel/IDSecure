@@ -68,7 +68,10 @@
     </div>
   </div>
 </section>
-<section class="gov-section md bg-multimodal alt">
+<section class="gov-section md">
+  <div class="gov-hero-bg">
+    <video src="/assets/kiosk-config.webm" autoplay muted loop playsinline />
+  </div>
   <div class="bg-overlay-multimodal"></div>
   <div class="bg-overlay-multimodal bottom"></div>
   <div class="gov-container col gap-24">
