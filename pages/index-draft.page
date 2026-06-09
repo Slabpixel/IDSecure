@@ -1,0 +1,179 @@
+<section class="home-hero">
+    <div class="container hero-cont home-hero-cont">
+        <div class="h1-wrapper">
+            <h1 class="h1-56 h1-gradient h1-animation">
+
+            </h1>
+            <h1 class="h1-56"><squarespace:block-field id="homeH11"/></h1>
+        </div>
+        <div class="home-hero-bg"></div>
+        <div class="cont-bg-left"></div>
+        <div class="home-hero-block-wrapper">
+            <div class="home-hero-block">
+                <div class="home-hero-block-image">
+                    <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/116d7cc9-479e-4813-8811-495456d1c7b7/img-home-hero1.png?content-type=image%2Fpng" alt="image">
+                    <!-- <squarespace:block-field id="homeHeroImage1"/> -->
+                </div>
+                <div class="home-hero-block-text uppercase">
+                    IDENTITY & BIOMETRIC Solutions
+                    <!-- <squarespace:block-field id="homeHeroCard1"/> -->
+                </div>
+            </div>
+            <div class="home-hero-block">
+                <div class="home-hero-block-image">
+                    <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/35b5444f-dd49-4cbe-829f-ff43304b2a81/img-home-hero2.png?content-type=image%2Fpng" alt="image">
+                    <!-- <squarespace:block-field id="homeHeroImage2"/> -->
+                </div>
+                <div class="home-hero-block-text uppercase">
+                    Private network solutions
+                    <!-- <squarespace:block-field id="homeHeroCard2"/> -->
+                </div>
+            </div>
+        </div>
+        <div class="home-hero-quote-wrapper w-full">
+            <squarespace:block-field id="homeQuote"/>
+        </div>
+    </div>
+</section>
+<section class="value-grid">
+    <div class="container value-grid-cont">
+        <div class="h2-wrapper gap-16">
+            <div class="h2 uppercase">Industries We Serve</div>
+            <div class="fs-14">WE ARE DEDICATED TO DEVELOPING AND DEPLOYING VALUE-DRIVEN TECHNOLOGY SOLUTIONS FOR THE FOLLOWING MARKETS:</div>
+        </div>
+        <div class="value-grid-wrapper">
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg1"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle1"/></div>
+            </div>
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg2"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle2"/></div>
+            </div>
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg3"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle3"/></div>
+            </div>
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg4"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle4"/></div>
+            </div>
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg5"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle5"/></div>
+            </div>
+            <div class="value-grid-item">
+                <div class="value-grid-icon"><squarespace:block-field id="homeGridImg6"/></div>
+                <div class="h4 uppercase"><squarespace:block-field id="homeGridTitle6"/></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-main">
+    <div class="container home-main-cont">
+        <div class="home-main-item">
+            <div class="home-main-image">
+                <squarespace:block-field id="homeImage1"/>
+            </div>
+            <div class="home-main-content">
+                {@|apply eyebrow-100.block}
+                <div class="uppercase"><squarespace:block-field id="homeMainSub1"/></div>
+                <div class="uppercase"><squarespace:block-field id="homeMainTitle1"/></div>
+                <div class="home-main-grid-small">
+                    <div class="home-grid-item home-grid-item-small">
+                        <div class="icon-48"><squarespace:block-field id="hardwareIcon1"/></div>
+                        <div><squarespace:block-field id="hardwareText1"/></div>
+                    </div>
+                    <div class="home-grid-item home-grid-item-small">
+                        <div class="icon-48"><squarespace:block-field id="hardwareIcon2"/></div>
+                        <div><squarespace:block-field id="hardwareText2"/></div>
+                    </div>
+                    <div class="home-grid-item home-grid-item-small">
+                        <div class="icon-48"><squarespace:block-field id="hardwareIcon3"/></div>
+                        <div><squarespace:block-field id="hardwareText3"/></div>
+                    </div>
+                </div>
+                <div><squarespace:block-field id="homeMainTxt1"/></div>
+                <button type="button" class="button-primary">
+                    <a class="uppercase" href="/biometric-kiosks">Learn More</a>
+                </button>
+            </div>
+        </div>
+        <div class="home-main-item">
+            <div class="home-main-content">
+                {@|apply eyebrow-100.block}
+                <div class="uppercase"><squarespace:block-field id="homeMainSub2"/></div>
+                <div class="uppercase"><squarespace:block-field id="homeMainTitle2"/></div>
+                <div class="home-main-grid-small">
+                    <div class="home-grid-item home-grid-item-small">
+                        <div class="icon-48"><squarespace:block-field id="softwareIcon1"/></div>
+                        <div><squarespace:block-field id="softwareText1"/></div>
+                    </div>
+                    <div class="home-grid-item home-grid-item-small">
+                        <div class="icon-48"><squarespace:block-field id="softwareIcon2"/></div>
+                        <div><squarespace:block-field id="softwareText2"/></div>
+                    </div>
+                </div>
+                <div><squarespace:block-field id="homeMainTxt2"/></div>
+                <button type="button" class="button-primary">
+                    <a class="uppercase" href="/r-idv">Learn More</a>
+                </button>
+            </div>
+            <div class="home-main-image">
+                <squarespace:block-field id="homeImage2"/>
+            </div>
+        </div>
+        <div class="home-main-item">
+            <div class="home-main-image">
+                <squarespace:block-field id="homeImage3"/>
+            </div>
+            <div class="home-main-content">
+                {@|apply eyebrow-100.block}
+                <div class="uppercase"><squarespace:block-field id="homeMainSub3"/></div>
+                <div class="uppercase" style="white-space: nowrap"><squarespace:block-field id="homeMainTitle3"/></div>
+                <div class="home-main-grid-small">
+                    <div class="home-grid-item home-grid-item-small" style="justify-content: flex-start">
+                        <div class="icon-48"><squarespace:block-field id="networkIcon1"/></div>
+                        <div><squarespace:block-field id="networkText1"/></div>
+                    </div>
+                    <div class="home-grid-item home-grid-item-small" style="justify-content: flex-start">
+                        <div class="icon-48"><squarespace:block-field id="networkIcon2"/></div>
+                        <div><squarespace:block-field id="networkText2"/></div>
+                    </div>
+                    <div class="home-grid-item home-grid-item-small" style="justify-content: flex-start">
+                        <div class="icon-48"><squarespace:block-field id="networkIcon3"/></div>
+                        <div><squarespace:block-field id="networkText3"/></div>
+                    </div>
+                </div>
+                <div><squarespace:block-field id="homeMainTxt3"/></div>
+                <button type="button" class="button-primary">
+                    <a class="uppercase" href="/private-mobile">Learn More</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="marquee-home">
+    <div class="marquee-overlay marquee-overlay-left"></div>
+        {@|apply marquee-company.block}
+    <div class="marquee-overlay marquee-overlay-right"></div>
+</section>
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    // const h1height = document.querySelector('.h1-animation p').offsetHeight;
+    // document.querySelector('.h1-animation').style.height = h1height;
+
+    var typed = new Typed('.h1-animation', {
+        strings: ["CONFIGURABLE", "TACTICAL", "MULTIMODAL", "ZERO TRUST"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        startDelay: 50,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: false,
+    });
+
+</script>

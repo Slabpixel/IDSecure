@@ -1,0 +1,107 @@
+<section class="about-hero section-hero">
+    <div class="container hero-cont about-hero-cont">
+        <div class="h1-wrapper txt-left">
+            {#  <squarespace:block-field id="aboutUsH1"/>  }
+            <h1 class="h1-56 h1-gradient">
+                CURIOSITY
+                <span class="h1-white">, </span>
+                CREATIVITY
+                <span class="h1-white">, </span> 
+                <span class="h1-white">AND </span>
+                INDUSTRY KNOWLEDGE 
+                <span class="h1-white">DRIVE OUR PASSION AND PURPOSE</span>
+            </h1>
+        </div>
+        <img class="about-hero-bg" src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/5ad44a05-c0e8-4c16-a0af-cc9031aa03a6/Mask+group.png?content-type=image%2Fpng" alt="">
+        <div class="about-hero-shadow"></div>
+        <div class="about-main-cont">
+            <div class="h2-wrapper">
+                <div class="h2 uppercase"><squarespace:block-field id="aboutUsTitle"/></div>
+            </div>
+            <div class="about-text-wrapper">
+                <div class="p"><squarespace:block-field id="aboutUsText"/>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<section class="about-vision">
+    <div class="container about-vision-cont">
+        <div class="about-vision-title">
+            <div class="h3 uppercase">Our Vision</div>
+        </div>
+        <div class="about-vision-text">
+            <div class="h2 uppercase">
+            {#  <squarespace:block-field id="aboutVisionText"/>  }
+            <h2 class="h1-gradient">
+               <span class="h1-white">TO BE A</span>
+                GLOBAL LEADER
+               <span class="h1-white">IN <br></span> 
+                DEFENSE TECHNOLOGY
+               <span class="h1-white">SOLUTIONS<span> 
+            </h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block-blue">
+    <div class="container block-blue-cont">
+        <div class="section-grid-title h3 uppercase">
+            <squarespace:block-field id="aboutValuesTitle"/>
+        </div>
+        <div class="block-content">
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg1"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle1"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText1"/></div>
+            </div>
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg2"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle2"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText2"/></div>
+            </div>
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg3"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle3"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText3"/></div>
+            </div>
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg4"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle4"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText4"/></div>
+            </div>
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg5"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle5"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText5"/></div>
+            </div>
+            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
+                <div class="value-grid-icon"><squarespace:block-field id="gridImg6"/></div>
+                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle6"/></div>
+                <div class="p txt-center"><squarespace:block-field id="gridText6"/></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-mission">
+    <div class="container about-mission-cont">
+        <img class="about-mission-bg" src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/6c10923f-25aa-46d0-b751-665ebe769a86/Frame+%281%29.png?content-type=image%2Fpng" alt="">
+        <div class="about-mission-content">
+            <div class="about-mission-title">
+                <div class="h3 uppercase"><squarespace:block-field id="missionTitle"/></div>
+            </div>
+            <div class="about-mission-text">
+                {#  <div class="h2 uppercase"><squarespace:block-field id="aboutMissionText"/>
+                </div>  }
+                <h2 class="h2 uppercase h1-gradient">
+                    EMPOWER
+                    <span class="h1-white">OUR CUSTOMERS WITH </span> 
+                    VALUE-ADDING 
+                    <span class="h1-white">TECHNOLOGY SOLUTIONS ACHIEVING </span>
+                    TRUST IN TRANSACTIONS
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
