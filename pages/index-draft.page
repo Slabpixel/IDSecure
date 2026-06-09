@@ -16,5 +16,8 @@
                 <h2 class="gov-master-heading">Government</h2>
             </a>
         </div>
+        <div class="gov-master-footer">
+            <p>Copyright © 2025, ID Secure. All Rights Reserved.</p>
+        </div>
     </div>
 </section>
