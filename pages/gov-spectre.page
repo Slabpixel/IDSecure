@@ -1,6 +1,6 @@
 <section class="gov-section hero">
   <div class="gov-hero-overlay"></div>
-  <div class="gov-hero-bg">
+  <div class="gov-hero-bg right">
     <video src="/assets/vid-hero-gov-sp.webm" autoplay muted loop playsinline />
   </div>
   <div class="gov-container">
