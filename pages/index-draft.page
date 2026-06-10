@@ -6,14 +6,15 @@
                 <div class="gov-master-card-bg">
                     <img src="/assets/master-enterprise.png" alt="Enterprise">
                 </div>
-                <h2 class="gov-master-heading">Enterprise</h2>
+                <h2 class="gov-master-heading">Commercial</h2>
                 <span class="gov-master-text">Coming Soon</span>
             </a>
-            <a class="gov-master-card">
+            <a href="/government" class="gov-master-card">
                 <div class="gov-master-card-bg">
                     <img src="/assets/master-government.png" alt="Government">
                 </div>
                 <h2 class="gov-master-heading">Government</h2>
+                <span class="gov-master-text hide">Coming Soon</span>
             </a>
         </div>
         <div class="gov-master-footer">
