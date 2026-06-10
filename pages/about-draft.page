@@ -1,4 +1,4 @@
-<section class="gov-section hero-ic">
+<section class="gov-section about">
   <div class="gov-hero-bg">
     <video src="/assets/about.webm" autoplay muted loop playsinline></video>
   </div>
