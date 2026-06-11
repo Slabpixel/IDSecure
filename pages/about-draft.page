@@ -9,3 +9,158 @@
     </h1>
   </div>
 </section>
+
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="gov-content-image-551">
+      <img src="/assets/about.png" alt="About Us" />
+    </div>
+    <div class="gov-col about">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow">[About Us]</span>
+        <h2 class="max-w-442">About Us</h2>
+      </div>
+      <p class="gov-description sm">
+        IDSECURE is a government-focused technology partner supporting missions
+        that require secure communications, reliable mobile access, and trusted
+        identity data collection. Our work is grounded in a clear understanding
+        of operational environments where standard commercial architectures may
+        not provide the control, visibility, resilience, or security posture
+        required by government users. We design and deliver solutions that help
+        agencies preserve control of mission traffic, adapt connectivity as
+        conditions change, and collect biometric and biographic intelligence in
+        the environments where missions actually happen. From secure facilities
+        to forward-deployed teams, from border operations to expeditionary
+        environments, IDSECURE provides technology designed to support mission
+        continuity, identity assurance, and secure operational outcomes.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="gov-col one">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow">[Our Vision]</span>
+        <h2 class="max-w-442">Our Vision</h2>
+      </div>
+      <p class="gov-description lg">
+        To be a trusted government technology partner for secure mission
+        connectivity and intelligence collection.
+      </p>
+    </div>
+    <div class="gov-content-image-551">
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
+        alt="About Us"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="gov-section md">
+  <div class="gov-container col center gap-48 industry-bg">
+    <div class="gov-title-wrap gap-16 max-w-480">
+      <span class="gov-eyebrow muted">[WHO WE SERVED]</span>
+      <h2>Industries We Serve</h2>
+      <p class="gov-description sm">
+        We are dedicated to developing and deploying value-driven technology
+        solutions for the following markets.
+      </p>
+    </div>
+    <div class="gov-content-grid-industry">
+      <div class="gov-content-grid-card industry">
+        <h3>Defense</h3>
+        <div class="icon-industry">
+          <img src="/assets/digitizing.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Intelligence</h3>
+        <div class="icon-industry">
+          <img src="/assets/intelligence.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Law Enforcement</h3>
+        <div class="icon-industry">
+          <img src="/assets/fraudprevention.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Border Management</h3>
+        <div class="icon-industry">
+          <img src="/assets/checkin.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Citizen ID</h3>
+        <div class="icon-industry">
+          <img src="/assets/document.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card industry">
+        <h3>Security</h3>
+        <div class="icon-industry">
+          <img src="/assets/security.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="gov-col about">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow">[Our Mission]</span>
+        <h2 class="max-w-442">Our Mission</h2>
+      </div>
+      <p class="gov-description lg">
+        Enable Government Teams to Connect Securely, Collect Confidently, and Operate with Control
+      </p>
+    </div>
+    <div class="gov-content-image-551">
+      <img
+        src="/assets/hand.png"
+        alt="About Us"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="gov-section-contact">
+  <div class="container section-contact-cont">
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
+      </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
+      </div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>
+          Start with the <br />
+          Collection Environment
+        </h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires multi-modal biometric and biographic
+          intelligence to be collected in a rugged, customizable and deployable
+          modality, start with Mobile Biometric Collection Kits.
+        </div>
+        <a href="/contact" class="btn-ghost">Request Product Briefing</a>
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
+  </div>
+</section>
