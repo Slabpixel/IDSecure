@@ -212,7 +212,7 @@
                 class="gov-nav-dropdown-links"
                 aria-label="Secure Mission Connectivity"
               >
-                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/edgeconnect">EDGECONNECT</a>
                 <a href="/spectre">SPECTRE</a>
                 <a href="/mission-environments">Mission Environments</a>
                 <a href="/platform-operations">Platform &amp; Operations</a>
@@ -349,7 +349,7 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Secure Mission Connectivity"
               >
-                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/edgeconnect">EDGECONNECT</a>
                 <a href="/spectre">SPECTRE</a>
                 <a href="/mission-environments">Mission Environments</a>
                 <a href="/platform-operations">Platform &amp; Operations</a>

@@ -45,6 +45,7 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/gov-hero.js"></script>
     <script src="scripts/gov-platform-layers.js"></script>
+    <script src="scripts/gov-master.js"></script>
     {squarespace-footers}
 
   </body>

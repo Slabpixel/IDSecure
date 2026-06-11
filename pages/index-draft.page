@@ -4,14 +4,14 @@
         <div class="gov-content master">
             <a class="gov-master-card">
                 <div class="gov-master-card-bg">
-                    <img src="/assets/master-enterprise.png" alt="Enterprise">
+                    <video src="/assets/master-commercial.webm" muted loop playsinline></video>
                 </div>
                 <h2 class="gov-master-heading">Commercial</h2>
                 <span class="gov-master-text">Coming Soon</span>
             </a>
             <a href="/government" class="gov-master-card">
                 <div class="gov-master-card-bg">
-                    <img src="/assets/master-government.png" alt="Government">
+                    <video src="/assets/master-government.webm" muted loop playsinline></video>
                 </div>
                 <h2 class="gov-master-heading">Government</h2>
                 <span class="gov-master-text hide">Coming Soon</span>
