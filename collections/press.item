@@ -27,7 +27,7 @@
       <h1 class="h1 uppercase">{title}</h1>
       <span>{addedOn|date %b %d, %Y}</span>
     </div>
-    <div class="blog-main-content">{body}</div>
+    <div class="blog-main-content gov">{body}</div>
   </div>
 </section>
 
