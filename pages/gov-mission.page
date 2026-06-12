@@ -11,10 +11,10 @@
           Connectivity architecture aligned to operational reality
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a href="#" class="btn-primary sm"
+          <a href="/engage" class="btn-primary sm"
             >Request Mission Architecture Review</a
           >
-          <a href="#" class="btn-secondary">Explore the Architecture</a>
+          <a href="/engage" class="btn-secondary">Explore the Architecture</a>
         </div>
       </div>
       <p class="gov-hero-content-description mid">
@@ -145,7 +145,7 @@
             determines the best available path, and EdgeConnect ensures every
             selected path is delivered through controlled infrastructure.
           </p>
-          <a href="#" class="btn-secondary">View the Combined Architecture</a>
+          <a href="/engage" class="btn-secondary">View the Combined Architecture</a>
         </div>
       </div>
       <div class="gov-mission-profile">
@@ -175,7 +175,7 @@
             partner-connected paths. IDSECURE supports this through
             architecture-based control and mission-aligned orchestration.
           </p>
-          <a href="#" class="btn-secondary">Request Architecture Review</a>
+          <a href="/engage" class="btn-secondary">Request Architecture Review</a>
         </div>
       </div>
     </div>
@@ -424,8 +424,8 @@
         posture for your Government deployment.
       </p>
       <div class="gov-button-wrapper">
-        <a href="#" class="btn-primary">Request Government Briefing</a>
-        <a href="#" class="btn-secondary">Schedule Architecture Review</a>
+        <a href="/engage" class="btn-primary">Request Government Briefing</a>
+        <a href="/engage" class="btn-secondary">Schedule Architecture Review</a>
       </div>
     </div>
   </div>

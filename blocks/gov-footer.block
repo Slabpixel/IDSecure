@@ -192,9 +192,9 @@
       <span class="fs-14 cl-grey uppercase">Navigations</span>
       <ul class="footer-ul">
         <li class="foot-menu-item uppercase">
-          <a href="/">Home</a>
+          <a href="/index-draft">Home</a>
         </li>
-        {.repeated section items.0.items}
+        {.repeated section items.6.items}
         <li class="foot-menu-item uppercase">
           <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
         </li>

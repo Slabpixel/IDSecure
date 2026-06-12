@@ -11,8 +11,8 @@
           Operational control behind every deployment
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a href="#" class="btn-primary sm">Request Technical Review</a>
-          <a href="#" class="btn-secondary">View Platform Architecture</a>
+          <a href="/engage" class="btn-primary sm">Request Technical Review</a>
+          <a href="/engage" class="btn-secondary">View Platform Architecture</a>
         </div>
       </div>
       <p class="gov-hero-content-description widen">
@@ -398,7 +398,7 @@
   <div class="gov-container col center">
     <h2>Explore the mission capabilities</h2>
     <div class="gov-cta-card-wrap">
-      <a href="#" class="gov-cta-card">
+      <a href="/edgeconnect" class="gov-cta-card">
         <div class="gov-cta-card-img">
           <img
             src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2978e6d8-d4b3-47fd-aff7-94aa39bf5bbe/hero-gov-ec.webp?content-type=image%2Fwebp"
@@ -417,11 +417,11 @@
           </p>
         </div>
       </a>
-      <a href="#" class="gov-cta-card">
+      <a href="/spectre" class="gov-cta-card">
         <div class="gov-cta-card-img">
           <img
             src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e17527f2-15ac-4b95-8cd1-ed9b469f1622/hero-gov-sp.webp?content-type=image%2Fwebp"
-            alt="EdgeConnect Secure Facilities"
+            alt="SPECTRE Intelligent Orchestration"
           />
         </div>
         <div class="gov-cta-card-content">
@@ -436,11 +436,11 @@
           </p>
         </div>
       </a>
-      <a href="#" class="gov-cta-card">
+      <a href="/engage" class="gov-cta-card">
         <div class="gov-cta-card-img">
           <img
             src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/c724f36b-4599-49d6-a896-d025b7464489/hero-gov-en.webp"
-            alt="EdgeConnect Secure Facilities"
+            alt="Engage Government Technical Review"
           />
         </div>
         <div class="gov-cta-card-content">
@@ -483,7 +483,7 @@
           If the mission requires controlled delivery, routing assurance, or
           secure handoff into a private environment, start with EdgeConnect.
         </div>
-        <a href="/contact" class="btn-ghost">Request EdgeConnect Briefing</a>
+        <a href="/engage" class="btn-ghost">Request EdgeConnect Briefing</a>
       </div>
     </div>
     <div class="gov-contact-bg"></div>

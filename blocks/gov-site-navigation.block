@@ -297,13 +297,13 @@
           </div>
         </div>
       </div>
-      <a class="gov-nav-link" href="/about-us">About Us</a>
-      <a class="gov-nav-link" href="/login">Support</a>
-      <a class="gov-nav-link" href="/blog">Press</a>
+      <a class="gov-nav-link" href="/about-draft">About Us</a>
+      <a class="gov-nav-link" href="/support">Support</a>
+      <a class="gov-nav-link" href="/press-draft">Press</a>
     </div>
     <div class="gov-nav-end">
-      <a href="" class="btn-link">Government Briefing</a>
-      <a href="/contact" class="btn-secondary">Contact Us</a>
+      <a href="#" class="btn-link">Government Briefing</a>
+      <a href="/contact-draft" class="btn-secondary">Contact Us</a>
     </div>
     <button
       type="button"
@@ -396,15 +396,15 @@
           </div>
         </div>
       </div>
-      <a class="gov-nav-mobile-link" href="/about-us">About us</a>
-      <a class="gov-nav-mobile-link" href="/login">Support</a>
-      <a class="gov-nav-mobile-link" href="/blog">Press</a>
+      <a class="gov-nav-mobile-link" href="/about-draft">About us</a>
+      <a class="gov-nav-mobile-link" href="/support">Support</a>
+      <a class="gov-nav-mobile-link" href="/press-draft">Press</a>
     </div>
     <div class="gov-nav-mobile-actions">
-      <a href="" class="btn-link gov-nav-mobile-briefing"
+      <a href="#" class="btn-link gov-nav-mobile-briefing"
         >Government briefing</a
       >
-      <a href="/contact" class="btn-secondary gov-nav-mobile-contact"
+      <a href="/contact-draft" class="btn-secondary gov-nav-mobile-contact"
         >Contact us</a
       >
     </div>

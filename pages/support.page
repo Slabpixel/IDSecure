@@ -21,22 +21,22 @@
       </div>
       <div class="gov-form">
         <form action="/api/auth/login" method="POST">
-          <label class="gov-login-form-label" for="email"
+          <label class="gov-form-label" for="email"
             >Email <span>*</span></label
           >
           <input
-            class="gov-login-form-input"
+            class="gov-form-input"
             type="email"
             id="email"
             name="email"
             placeholder="Enter your Email"
             required
           />
-          <label class="gov-login-form-label" for="password"
+          <label class="gov-form-label" for="password"
             >Password <span>*</span></label
           >
           <input
-            class="gov-login-form-input"
+            class="gov-form-input"
             type="password"
             id="password"
             name="password"

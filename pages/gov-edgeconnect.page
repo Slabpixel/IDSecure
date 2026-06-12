@@ -11,8 +11,8 @@
           Secure the path before mission traffic reaches uncontrolled networks
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a class="btn-primary sm">Request EdgeConnect Briefing</a>
-          <a class="btn-secondary">See How SPECTRE Works with EdgeConnect</a>
+          <a href="/engage" class="btn-primary sm">Request EdgeConnect Briefing</a>
+          <a href="/spectre" class="btn-secondary">See How SPECTRE Works with EdgeConnect</a>
         </div>
       </div>
       <p class="gov-hero-content-description wide">
@@ -279,8 +279,8 @@
         environments.
       </p>
       <div class="gov-button-wrapper">
-        <a href="#" class="btn-primary">Explore SPECTRE</a>
-        <a href="#" class="btn-secondary">Request Architecture Review</a>
+        <a href="/spectre" class="btn-primary">Explore SPECTRE</a>
+        <a href="/engage" class="btn-secondary">Request Architecture Review</a>
       </div>
     </div>
   </div>

@@ -11,7 +11,7 @@
           Assured mobile connectivity for defense and intelligence missions
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a class="btn-primary sm">Request government briefing</a>
+          <a href="/engage" class="btn-primary sm">Request government briefing</a>
           <a class="btn-secondary">View Architecture</a>
         </div>
       </div>
@@ -286,7 +286,7 @@
             into the architecture itself.
           </p>
         </div>
-        <a href="#" class="btn-secondary">Explore EdgeConnect</a>
+        <a href="/edgeconnect" class="btn-secondary">Explore EdgeConnect</a>
       </div>
       <div class="gov-tab">
         <div
@@ -427,7 +427,7 @@
             reachability cannot be assured.
           </p>
         </div>
-        <a href="#" class="btn-secondary">Explore SPECTRE</a>
+        <a href="/spectre" class="btn-secondary">Explore SPECTRE</a>
       </div>
       <div class="gov-tab">
         <div
@@ -702,8 +702,8 @@
         posture for your Government deployment.
       </p>
       <div class="gov-button-wrapper">
-        <a href="#" class="btn-primary">Request Government Briefing</a>
-        <a href="#" class="btn-secondary">Schedule Architecture Review</a>
+        <a href="/engage" class="btn-primary">Request Government Briefing</a>
+        <a href="/engage" class="btn-secondary">Schedule Architecture Review</a>
       </div>
     </div>
   </div>

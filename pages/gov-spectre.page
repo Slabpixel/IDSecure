@@ -11,8 +11,8 @@
           Choose the right path under the right mission conditions
         </h1>
         <div class="gov-hero-button-wrapper">
-          <a href="#" class="btn-primary sm">Request SPECTRE Briefing</a>
-          <a href="#" class="btn-secondary">View EdgeConnect</a>
+          <a href="/engage" class="btn-primary sm">Request SPECTRE Briefing</a>
+          <a href="/edgeconnect" class="btn-secondary">View EdgeConnect</a>
         </div>
       </div>
       <p class="gov-hero-content-description wider">
@@ -535,8 +535,8 @@
         environments.
       </p>
       <div class="gov-button-wrapper">
-        <a href="#" class="btn-primary">Explore EdgeConnect</a>
-        <a href="#" class="btn-secondary">Request Technical Review</a>
+        <a href="/edgeconnect" class="btn-primary">Explore EdgeConnect</a>
+        <a href="/engage" class="btn-secondary">Request Technical Review</a>
       </div>
     </div>
   </div>
@@ -560,7 +560,7 @@
           </div>
           <div class="gov-contact-banner-bottom">
               <div class="contact-banner-bottom-text">If the mission requires controlled delivery, routing assurance, or secure handoff into a private environment, start with EdgeConnect.</div>
-              <a href="/contact" class="btn-ghost">Request EdgeConnect Briefing</a>
+              <a href="/engage" class="btn-ghost">Request EdgeConnect Briefing</a>
           </div>
       </div>
       <div class="gov-contact-bg"></div>

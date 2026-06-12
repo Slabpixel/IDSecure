@@ -1,6 +1,12 @@
 <section class="gov-section hero-ic">
   <div class="gov-hero-ic-bg">
-    <video src="/assets/intelligence-hero.webm" autoplay muted loop playsinline></video>
+    <video
+      src="/assets/intelligence-hero.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
   </div>
   <div class="gov-container hero-ic">
     <div class="gov-hero-ic">
@@ -17,8 +23,8 @@
             unique requirements across local, state, and federal jurisdictions.
           </p>
           <div class="gov-hero-button-wrapper ic">
-            <a class="btn-primary sm">Explore Products</a>
-            <a class="btn-secondary">About us</a>
+            <a href="#our-products" class="btn-primary sm">Explore Products</a>
+            <a href="/about-draft" class="btn-secondary">About us</a>
           </div>
         </div>
       </div>
@@ -46,7 +52,7 @@
           Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
           Mission-Environments.
         </h2>
-        <a href="" class="btn-secondary">Explore Our Solutions</a>
+        <a href="/about-draft" class="btn-secondary">Explore Our Solutions</a>
       </div>
     </div>
   </div>
@@ -101,7 +107,7 @@
     </div>
   </div>
 </section>
-<section class="gov-section sm">
+<section id="our-products" class="gov-section sm">
   <div class="gov-container col mobile-gap-8">
     <div class="gov-title-wrap products">
       <span class="gov-eyebrow muted">[OUR PRODUCTS]</span>
@@ -111,7 +117,7 @@
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
           <h3 class="max-w-240">Livescan Kiosks</h3>
-          <a href="/livescan-kiosks" class="btn-secondary mobile-hidden"
+          <a href="/livescan-kiosks-draft" class="btn-secondary mobile-hidden"
             >Learn More</a
           >
         </div>
@@ -134,7 +140,9 @@
                 collection for law enforcement, public safety, criminal booking,
                 offender registration, and applicant background checks.
               </p>
-              <a href="/livescan-kiosks" class="btn-secondary mobile-visible"
+              <a
+                href="/livescan-kiosks-draft"
+                class="btn-secondary mobile-visible"
                 >Learn More</a
               >
             </div>
@@ -144,7 +152,9 @@
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
           <h3 class="max-w-280">Mobile Biometric Collection Kits</h3>
-          <a href="/biometric-jump-kits" class="btn-secondary mobile-hidden"
+          <a
+            href="/mobile-biometric-collection-kits"
+            class="btn-secondary mobile-hidden"
             >Learn More</a
           >
         </div>
@@ -168,7 +178,7 @@
                 environments.
               </p>
               <a
-                href="/biometric-jump-kits"
+                href="/mobile-biometric-collection-kits"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >
@@ -179,7 +189,9 @@
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
           <h3 class="max-w-370">Mobile Biometric Identification Devices</h3>
-          <a href="/biometric-handhelds" class="btn-secondary mobile-hidden"
+          <a
+            href="/mobile-biometric-identification-devices"
+            class="btn-secondary mobile-hidden"
             >Learn More</a
           >
         </div>
@@ -203,7 +215,7 @@
                 defense, and public safety operations.
               </p>
               <a
-                href="/biometric-handhelds"
+                href="/mobile-biometric-identification-devices"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >
@@ -214,7 +226,11 @@
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
           <h3 class="max-w-280">Remote Identity Verification</h3>
-          <a href="/r-idv" class="btn-secondary mobile-hidden">Learn More</a>
+          <a
+            href="/remote-identity-verification"
+            class="btn-secondary mobile-hidden"
+            >Learn More</a
+          >
         </div>
         <div class="gov-home-products-content">
           <div class="gov-home-products-image">
@@ -236,7 +252,9 @@
                 passports, ID cards, driver’s licenses, visas, and other
                 government issued ID documents.
               </p>
-              <a href="/r-idv" class="btn-secondary mobile-visible"
+              <a
+                href="/remote-identity-verification"
+                class="btn-secondary mobile-visible"
                 >Learn More</a
               >
             </div>

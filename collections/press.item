@@ -1,7 +1,7 @@
-<section class="blog-return">
+<section class="press-return">
   <div class="container blog-return-cont">
     <div class="cont-bg-left" style="z-index: -1"></div>
-    <a href="/blog">
+    <a href="/press-draft">
       <button class="btn-return">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

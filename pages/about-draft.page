@@ -1,5 +1,5 @@
 <section class="gov-section about">
-  <div class="gov-hero-bg">
+  <div class="gov-hero-bg about">
     <video src="/assets/about.webm" autoplay muted loop playsinline></video>
   </div>
   <div class="gov-container justify-center text-center">
@@ -15,9 +15,9 @@
     <div class="gov-content-image-551">
       <img src="/assets/about.png" alt="About Us" />
     </div>
-    <div class="gov-col about">
-      <div class="gov-title-wrap">
-        <span class="gov-eyebrow">[About Us]</span>
+    <div class="gov-col about gap-40">
+      <div class="gov-title-wrap gap-16">
+        <span class="gov-eyebrow muted">[About Us]</span>
         <h2 class="max-w-442">About Us</h2>
       </div>
       <p class="gov-description sm">
@@ -39,9 +39,9 @@
 </section>
 <section class="gov-section xs">
   <div class="gov-container">
-    <div class="gov-col one">
+    <div class="max-w-656 gov-col about">
       <div class="gov-title-wrap">
-        <span class="gov-eyebrow">[Our Vision]</span>
+        <span class="gov-eyebrow muted">[Our Vision]</span>
         <h2 class="max-w-442">Our Vision</h2>
       </div>
       <p class="gov-description lg">
@@ -61,48 +61,77 @@
 <section class="gov-section md">
   <div class="gov-container col center gap-48 industry-bg">
     <div class="gov-title-wrap gap-16 max-w-480">
-      <span class="gov-eyebrow muted">[WHO WE SERVED]</span>
-      <h2>Industries We Serve</h2>
-      <p class="gov-description sm">
-        We are dedicated to developing and deploying value-driven technology
-        solutions for the following markets.
-      </p>
+      <span class="gov-eyebrow muted">[Our Values]</span>
+      <h2>Our Values</h2>
     </div>
-    <div class="gov-content-grid-industry">
-      <div class="gov-content-grid-card industry">
-        <h3>Defense</h3>
+    <div class="gov-content-grid-about">
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Innovation</h3>
+          <p class="gov-description sm">
+            We continually improve our technologies, expand our capabilities,
+            and develop new ways to solve mission-critical security,
+            connectivity, and identity challenges.
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/digitizing.svg" alt="" />
+          <img src="/assets/bulb-alt.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3>Intelligence</h3>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Communication</h3>
+          <p class="gov-description sm">
+            We believe clear, consistent communication is essential to trusted
+            partnerships.
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/intelligence.svg" alt="" />
+          <img src="/assets/coms.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3>Law Enforcement</h3>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Ownership</h3>
+          <p class="gov-description sm">
+            We take responsibility for the challenge, the solution, and the mission outcome
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/fraudprevention.svg" alt="" />
+          <img src="/assets/owner.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3>Border Management</h3>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Learning</h3>
+          <p class="gov-description sm">
+            We listen attentively to customer requirements and apply our technical expertise to the operational realities they face. 
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/checkin.svg" alt="" />
+          <img src="/assets/learning-spirit.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3>Citizen ID</h3>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Service</h3>
+          <p class="gov-description sm">
+            We support our customers with responsiveness, accountability, and a commitment to long-term mission success.
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/document.svg" alt="" />
+          <img src="/assets/crown.svg" alt="" />
         </div>
       </div>
-      <div class="gov-content-grid-card industry">
-        <h3>Security</h3>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Relationships</h3>
+          <p class="gov-description sm">
+            We work with customers, partners, and colleagues with transparency, respect, and integrity.
+          </p>
+        </div>
         <div class="icon-industry">
-          <img src="/assets/security.svg" alt="" />
+          <img src="/assets/relation.svg" alt="" />
         </div>
       </div>
     </div>
@@ -111,20 +140,18 @@
 
 <section class="gov-section xs">
   <div class="gov-container">
-    <div class="gov-col about">
+    <div class="max-w-632 gov-col about">
       <div class="gov-title-wrap">
-        <span class="gov-eyebrow">[Our Mission]</span>
-        <h2 class="max-w-442">Our Mission</h2>
+        <span class="gov-eyebrow muted">[Our Mission]</span>
+        <h2>Our Mission</h2>
       </div>
       <p class="gov-description lg">
-        Enable Government Teams to Connect Securely, Collect Confidently, and Operate with Control
+        Enable Government Teams to Connect Securely, Collect Confidently, and
+        Operate with Control
       </p>
     </div>
-    <div class="gov-content-image-551">
-      <img
-        src="/assets/hand.png"
-        alt="About Us"
-      />
+    <div class="gov-content-image-551 hand">
+      <img src="/assets/hand.png" alt="About Us" />
     </div>
   </div>
 </section>
