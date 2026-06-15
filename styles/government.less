@@ -176,9 +176,12 @@
 
     select {
       padding-right: 36px;
+      cursor: pointer;
     }
 
-    > div:has(svg) {
+    /* Squarespace chevron wrapper (class names are hashed, structure is stable) */
+    > div:has(svg),
+    > div:last-child:has(svg) {
       position: absolute;
       right: 14px;
       top: 50%;
@@ -297,27 +300,39 @@
 .gov-nav-wrapper {
   margin: auto;
   max-width: 1440px;
-  padding: 8px 24px;
+  padding: 16px 64px;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
+
+  @media (max-width: 1024px) {
+    padding: 16px 32px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 16px 24px;
+  }
 
   &.master {
-    padding: 8px 64px;
+    padding: 16px 64px;
     max-width: none;
 
     @media (max-width: 1024px) {
-      padding: 8px 24px;
+      padding: 16px 24px;
     }
   }
 }
 
 .gov-nav-logo {
-  max-width: 185px;
+  max-width: 153px;
+  width: 100%;
   height: 100%;
-  img, svg {
+  img,
+  svg {
+    width: 100%;
     height: 100%;
   }
 }
@@ -3447,7 +3462,7 @@
 .press-return {
   padding-top: 100px;
   padding-bottom: 24px;
-  
+
   a {
     color: @text-primary;
   }
@@ -5082,6 +5097,8 @@ img.position-center {
     }
 
     > .form-item.field.text,
+    > .form-item.field.email,
+    > .form-item.field.select,
     > fieldset.form-item.fields {
       width: 100%;
       min-width: 0;
@@ -5089,7 +5106,9 @@ img.position-center {
       box-sizing: border-box;
     }
 
-    .form-item.field.text {
+    .form-item.field.text,
+    .form-item.field.email,
+    .form-item.field.select {
       display: flex;
       flex-direction: column;
       align-items: stretch;
@@ -5129,6 +5148,25 @@ img.position-center {
 
     .sqs-form-required-asterisk();
     .sqs-form-block-input();
+
+    .form-item.field.select {
+      select {
+        cursor: pointer;
+
+        &.show-placeholder {
+          color: @text-placeholder;
+        }
+
+        option {
+          color: @text-primary;
+          background-color: @primary-darkest;
+        }
+
+        option[disabled] {
+          color: @text-placeholder;
+        }
+      }
+    }
 
     .form-input-effects {
       display: none;
@@ -5213,6 +5251,184 @@ img.position-center {
     width: 100%;
     margin-top: 0;
     padding: 0;
+  }
+
+  .form-item.field.select {
+    overflow: visible;
+  }
+
+  .form-item.field.select > div:has(.gov-custom-select) {
+    position: relative;
+    overflow: visible;
+
+    > select {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      min-height: 0 !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      visibility: hidden !important;
+    }
+
+    > .form-input-effects,
+    > span.form-input-effects {
+      display: none !important;
+    }
+
+    > div:has(svg) {
+      display: none !important;
+    }
+  }
+
+  .gov-custom-select__native {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
+
+/* Custom select dropdown — Squarespace form block */
+.gov-custom-select {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  &.is-open {
+    z-index: 30;
+  }
+
+  &__trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    min-height: 40px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.01);
+    color: @text-placeholder;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    cursor: pointer;
+    transition:
+      border-color 0.2s ease,
+      border-radius 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    &.has-value {
+      color: @text-primary;
+    }
+  }
+
+  &__value {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.is-placeholder {
+      color: @text-placeholder;
+    }
+  }
+
+  &__chevron {
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    color: @text-tertiary;
+    transition: transform 0.2s ease;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 7px;
+      height: 7px;
+      margin: 0 auto;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: rotate(45deg) translateY(-1px);
+    }
+  }
+
+  &.is-open &__chevron {
+    transform: rotate(180deg);
+  }
+
+  &__list {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.34);
+    overflow: hidden;
+
+    &[hidden] {
+      display: none;
+    }
+  }
+
+  &__option {
+    padding: 12px 14px;
+    font-size: 14px;
+    line-height: 140%;
+    color: @primary-darkest;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      pointer-events: none;
+      margin: 0 14px;
+    }
+
+    &:last-child:before {
+      border-bottom: none;
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+      background: rgba(5, 11, 22, 0.05);
+    }
+
+    &[aria-selected="true"] {
+      background: rgba(5, 11, 22, 0.1);
+    }
   }
 }
 

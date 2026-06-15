@@ -2,7 +2,7 @@
 <nav class="gov-site-navigation">
   <div class="gov-nav-wrapper">
     <a href="/" class="gov-nav-logo">
-      <img src="/assets/logo.svg" alt="IDSecure">
+      <img src="/assets/wordmark.svg" alt="IDSecure">
     </a>
     <div class="gov-nav-menu">
       <div class="gov-nav-item gov-nav-item--dropdown">
