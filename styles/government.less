@@ -286,25 +286,38 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(5, 11, 22, 0.2);
   backdrop-filter: blur(10px);
+
+  &.master {
+    background: transparent;
+    backdrop-filter: none;
+    border-bottom: none;
+  }
 }
 
 .gov-nav-wrapper {
   margin: auto;
   max-width: 1440px;
-  padding: 12px 24px;
+  padding: 8px 24px;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &.master {
+    padding: 8px 64px;
+    max-width: none;
+
+    @media (max-width: 1024px) {
+      padding: 8px 24px;
+    }
+  }
 }
 
 .gov-nav-logo {
-  width: 100%;
-  max-width: 159px;
+  max-width: 185px;
   height: 100%;
-  svg {
-    width: 100%;
+  img, svg {
     height: 100%;
   }
 }
@@ -506,6 +519,7 @@
   line-height: 140%;
   text-decoration: none;
   align-items: center;
+  z-index: 4;
   transition: color 0.3s ease-out;
   cursor: pointer;
   &:hover {
@@ -583,9 +597,6 @@
         /* Bottom Left */ right 4px bottom 4px,
         right 4px bottom 4px; /* Bottom Right */
     }
-  }
-  .gov-nav-logo {
-    max-width: 105.5px;
   }
   .gov-nav-menu {
     display: none;
@@ -1281,6 +1292,7 @@
     flex-direction: column;
     padding: 0 16px;
     gap: 0;
+    max-width: none;
   }
 
   &.gap-80 {
@@ -1434,9 +1446,9 @@
   img {
     position: absolute;
     left: 0;
-    top: -10%;
+    top: 0;
     width: 100%;
-    height: 120%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     will-change: transform;
@@ -3325,6 +3337,10 @@
       .gov-master-card-bg {
         opacity: 1;
       }
+    }
+
+    &.disabled {
+      cursor: not-allowed;
     }
 
     &::before {
@@ -5333,6 +5349,7 @@ img.position-center {
     }
 
     > .form-item.field.text,
+    > .form-item.field.email,
     > fieldset.form-item.fields {
       width: 100%;
       min-width: 0;
@@ -5340,33 +5357,52 @@ img.position-center {
       box-sizing: border-box;
     }
 
-    /* Name fieldset: fieldsets default to min-content width and break grid columns */
-    fieldset.form-item.fields {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
+    /* Name row: first + last side by side */
+    fieldset.form-item.fields:has(.field.first-name) {
+      grid-column: span 2;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 16px;
+      row-gap: 0;
       border: none;
       margin: 0;
       padding: 0;
       min-inline-size: 0;
 
       legend {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        float: none;
+        display: none;
       }
 
-      .field.first-name {
-        display: block;
+      .field.first-name,
+      .field.last-name {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
         width: 100% !important;
         max-width: 100%;
         margin: 0;
         padding: 0;
       }
+
+      .field.first-name .caption,
+      .field.last-name .caption {
+        display: block;
+        margin-bottom: 8px;
+        font-size: @body-m-size;
+        line-height: @body-line;
+        color: #e5e7eb;
+        font-weight: @font-weight-regular;
+      }
+
+      @media (max-width: 768px) {
+        grid-column: 1;
+        grid-template-columns: 1fr;
+        row-gap: 24px;
+      }
     }
 
-    .form-item.field.text {
+    .form-item.field.text,
+    .form-item.field.email {
       display: flex;
       flex-direction: column;
       align-items: stretch;
@@ -5396,8 +5432,9 @@ img.position-center {
       }
     }
 
-    /* Field labels (text inputs + textarea) */
+    /* Field labels (text inputs + textarea + email) */
     .form-item.field.text .title,
+    .form-item.field.email .title,
     .form-item.field.textarea .title,
     .form-item.fields legend .title {
       display: block;
@@ -5408,8 +5445,25 @@ img.position-center {
       font-weight: @font-weight-regular;
     }
 
-    .form-item.fields .field.first-name .caption {
-      display: none;
+    .form-item.fields .field.first-name .caption,
+    .form-item.fields .field.last-name .caption {
+      .description.required {
+        font-size: 0 !important;
+        line-height: 0 !important;
+        display: inline !important;
+        vertical-align: baseline;
+        margin-left: 2px;
+        opacity: 1 !important;
+        color: transparent !important;
+
+        &::after {
+          content: "*";
+          font-size: 16px;
+          line-height: 1;
+          color: #ff2b2b;
+          opacity: 1 !important;
+        }
+      }
     }
 
     .description.required {

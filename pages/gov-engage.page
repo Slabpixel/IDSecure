@@ -42,7 +42,9 @@
               and strategic role of IDSECURE in a Government deployment.
             </p>
           </div>
-          <a href="#engageFormSection" class="btn-secondary">Request Executive Overview</a>
+          <a href="#engageFormSection" class="btn-secondary"
+            >Request Executive Overview</a
+          >
         </div>
       </div>
       <div class="gov-starting-point-card">
@@ -60,7 +62,9 @@
               operating mode selection, and deployment assumptions.
             </p>
           </div>
-          <a href="#engageFormSection" class="btn-secondary">Request Architecture Session</a>
+          <a href="#engageFormSection" class="btn-secondary"
+            >Request Architecture Session</a
+          >
         </div>
       </div>
       <div class="gov-starting-point-card">
@@ -80,7 +84,9 @@
               mission-environment testing.
             </p>
           </div>
-          <a href="#engageFormSection" class="btn-secondary">Discuss Evaluation</a>
+          <a href="#engageFormSection" class="btn-secondary"
+            >Discuss Evaluation</a
+          >
         </div>
       </div>
       <div class="gov-starting-point-card">
@@ -98,7 +104,9 @@
               policy, reachability, and operational rollout considerations.
             </p>
           </div>
-          <a href="#engageFormSection" class="btn-secondary">Start Deployment Discussion</a>
+          <a href="#engageFormSection" class="btn-secondary"
+            >Start Deployment Discussion</a
+          >
         </div>
       </div>
     </div>
@@ -218,7 +226,10 @@
       <div class="gov-explore-row">
         <a href="/edgeconnect" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2978e6d8-d4b3-47fd-aff7-94aa39bf5bbe/hero-gov-ec.webp?content-type=image%2Fwebp" alt="" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/2978e6d8-d4b3-47fd-aff7-94aa39bf5bbe/hero-gov-ec.webp?content-type=image%2Fwebp"
+              alt=""
+            />
           </div>
           <div class="gov-explore-card-content">
             <h3>EdgeConnect</h3>
@@ -227,7 +238,10 @@
         </a>
         <a href="/spectre" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e17527f2-15ac-4b95-8cd1-ed9b469f1622/hero-gov-sp.webp?content-type=image%2Fwebp" alt="" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/e17527f2-15ac-4b95-8cd1-ed9b469f1622/hero-gov-sp.webp?content-type=image%2Fwebp"
+              alt=""
+            />
           </div>
           <div class="gov-explore-card-content">
             <h3>SPECTRE</h3>
@@ -238,7 +252,10 @@
         </a>
         <a href="/platform-operations" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/a88d8d81-b863-4b75-ab87-c35d1af1ef12/po-hero.webp?content-type=image%2Fwebp" alt="" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/a88d8d81-b863-4b75-ab87-c35d1af1ef12/po-hero.webp?content-type=image%2Fwebp"
+              alt=""
+            />
           </div>
           <div class="gov-explore-card-content">
             <h3>Platform &amp; Operations</h3>
@@ -251,7 +268,10 @@
       <div class="gov-explore-row gov-explore-row--two">
         <a href="/government" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/07048a55-7665-41c8-9115-57bc5f663e0a/government-hero-bg.webp?content-type=image%2Fwebp" alt="" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/07048a55-7665-41c8-9115-57bc5f663e0a/government-hero-bg.webp?content-type=image%2Fwebp"
+              alt=""
+            />
           </div>
           <div class="gov-explore-card-content">
             <h3>Government Home</h3>
@@ -260,7 +280,10 @@
         </a>
         <a href="/mission-environments" class="gov-explore-card">
           <div class="gov-explore-card-img">
-            <img src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/136f4a66-b407-4fdf-a058-f7aa6d331c37/hero-gov-me.webp?content-type=image%2Fwebp" alt="" />
+            <img
+              src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/136f4a66-b407-4fdf-a058-f7aa6d331c37/hero-gov-me.webp?content-type=image%2Fwebp"
+              alt=""
+            />
           </div>
           <div class="gov-explore-card-content">
             <h3>Mission Environments</h3>
@@ -289,34 +312,47 @@
         posture for your Government deployment.
       </p>
       <div class="gov-button-wrapper">
-        <a href="#engageFormSection" class="btn-primary">Request Government Briefing</a>
-        <a href="#engageFormSection" class="btn-secondary">Schedule Architecture Review</a>
+        <a href="#engageFormSection" class="btn-primary"
+          >Request Government Briefing</a
+        >
+        <a href="#engageFormSection" class="btn-secondary"
+          >Schedule Architecture Review</a
+        >
       </div>
     </div>
   </div>
 </section>
 <section class="gov-section-contact">
   <div class="container section-contact-cont">
-      <div class="flex-col-left flex-24 gov-contact-details">
-          {@|apply eyebrow-48.block}
-          <div class="gov-contact-title" id="sec-contact-title">Contact us for more Details!</div>
-          <div class="flex-col-left flex-16">
-              <div class="grid-item-p fs-14"><squarespace:block-field id="secContactEmail"/></div>
-              <div class="grid-item-p fs-14"><squarespace:block-field id="secContactAddress"/></div>
-          </div>
-          
+    <div class="flex-col-left flex-24 gov-contact-details">
+      {@|apply eyebrow-48.block}
+      <div class="gov-contact-title" id="sec-contact-title">
+        Contact us for more Details!
       </div>
-      <div class="gov-contact-banner">
-          <div class="gov-contact-banner-top">
-              <h2>See the platform 
-                behind the products</h2>
-          </div>
-          <div class="gov-contact-banner-bottom">
-              <div class="contact-banner-bottom-text">If the mission requires controlled delivery, routing assurance, or secure handoff into a private environment, start with EdgeConnect.</div>
-              <a href="#engageFormSection" class="btn-ghost">Request EdgeConnect Briefing</a>
-          </div>
+      <div class="flex-col-left flex-16">
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactEmail" />
+        </div>
+        <div class="grid-item-p fs-14">
+          <squarespace:block-field id="secContactAddress" />
+        </div>
       </div>
-      <div class="gov-contact-bg"></div>
+    </div>
+    <div class="gov-contact-banner">
+      <div class="gov-contact-banner-top">
+        <h2>See the platform behind the products</h2>
+      </div>
+      <div class="gov-contact-banner-bottom">
+        <div class="contact-banner-bottom-text">
+          If the mission requires controlled delivery, routing assurance, or
+          secure handoff into a private environment, start with EdgeConnect.
+        </div>
+        <a href="#engageFormSection" class="btn-ghost"
+          >Request EdgeConnect Briefing</a
+        >
+      </div>
+    </div>
+    <div class="gov-contact-bg"></div>
   </div>
 </section>
 
@@ -328,4 +364,14 @@
         input.checked = true;
       }
     });
+
+  // Contact Form Placeholder Input
+  window.addEventListener("load", (event) => {
+    const myTimeout = setTimeout(() => {
+      document.querySelector('[name="fname"]').placeholder =
+        "Write your first name here";
+      document.querySelector('[name="lname"]').placeholder =
+        "Write your last name here";
+    }, 100);
+  });
 </script>

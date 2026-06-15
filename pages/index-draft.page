@@ -2,7 +2,7 @@
     <div class="gov-container master">
         <h1 class="sr-only">IDSecure Master Page</h1>
         <div class="gov-content master">
-            <a class="gov-master-card" >
+            <a class="gov-master-card disabled">
                 <div class="gov-master-card-bg">
                     <video src="/assets/master-commercial.webm" muted loop playsinline></video>
                 </div>

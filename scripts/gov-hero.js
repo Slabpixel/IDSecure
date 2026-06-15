@@ -54,9 +54,9 @@
     killParallax();
     parallaxTween = gsap.fromTo(
       media,
-      { yPercent: -10 },
+      { yPercent: 0 },
       {
-        yPercent: 10,
+        yPercent: 20,
         ease: 'none',
         scrollTrigger: {
           trigger: section,
