@@ -1,7 +1,7 @@
 <!-- <script>console.log({@|json-pretty})</script> -->
 <nav class="gov-site-navigation master">
   <div class="gov-nav-wrapper master">
-    <a href="/" class="gov-nav-logo">
+    <a href="/index-draft" class="gov-nav-logo">
       <img src="/assets/wordmark.svg" alt="IDSecure">
     </a>
     <a href="/contact-draft" class="btn-secondary">Contact Us</a>

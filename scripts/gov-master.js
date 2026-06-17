@@ -4,6 +4,11 @@
 (function () {
   'use strict';
 
+  var yearEl = document.querySelector('.gov-copyright-year');
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+
   var cards = document.querySelectorAll('.gov-master-card');
   if (!cards.length) {
     return;

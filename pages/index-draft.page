@@ -18,7 +18,7 @@
             </a>
         </div>
         <div class="gov-master-footer">
-            <p>Copyright © 2025, ID Secure. All Rights Reserved.</p>
+            <p>Copyright © <span class="gov-copyright-year">2026</span>, IDSECURE®. All Rights Reserved.</p>
         </div>
     </div>
 </section>
