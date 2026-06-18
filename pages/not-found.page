@@ -3,9 +3,6 @@
     <img src="/assets/dots-top.png" alt="" />
   </div>
   <div class="gov-container col center text-center gap-24">
-    <div class="gov-404-visual" aria-hidden="true">
-      <img src="/assets/fingerprint.svg" alt="" />
-    </div>
     <span class="gov-eyebrow muted">[PAGE NOT FOUND]</span>
     <p class="gov-404-code" aria-hidden="true">404</p>
     <div class="gov-title-wrap center gap-16 max-w-480">
