@@ -194,7 +194,7 @@
         <li class="foot-menu-item uppercase">
           <a href="/">Home</a>
         </li>
-        {.repeated section items.6.items}
+        {.repeated section items.0.items}
         <li class="foot-menu-item uppercase">
           <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
         </li>
@@ -204,7 +204,7 @@
     <div class="footer-menu-list">
       <a href="/government" class="fs-14 cl-grey uppercase">Secure Mission Connectivity</a>
       <ul class="footer-ul">
-        {.repeated section items.4.items}
+        {.repeated section items.1.items}
         <li class="foot-menu-item uppercase">
           <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
         </li>
@@ -214,7 +214,7 @@
     <div class="footer-menu-list">
       <a href="/intelligence-collection" class="fs-14 cl-grey uppercase">Intelligence Collection</a>
       <ul class="footer-ul">
-        {.repeated section items.5.items}
+        {.repeated section items.2.items}
         <li class="foot-menu-item uppercase">
           <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
         </li>
