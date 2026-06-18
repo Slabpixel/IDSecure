@@ -83,13 +83,13 @@
                 aria-label="Intelligence Collection"
               >
                 <a href="/livescan-kiosks">Livescan Kiosks</a>
-                <a href="/mobile-biometric-collection-kits"
+                <a href="/biometric-jump-kits"
                   >Mobile Biometric Collection Kits</a
                 >
-                <a href="/mobile-biometric-identification-devices"
+                <a href="/biometric-handhelds"
                   >Mobile Biometric Identification Devices</a
                 >
-                <a href="/remote-identity-verification">R-IDV (Remote Identity Verification)</a>
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
               </nav>
               <div
                 class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence"
@@ -201,13 +201,13 @@
                 aria-label="Intelligence Collection"
               >
                 <a href="/livescan-kiosks">Livescan Kiosks</a>
-                <a href="/mobile-biometric-collection-kits"
+                <a href="/biometric-jump-kits"
                   >Mobile Biometric Collection Kits</a
                 >
-                <a href="/mobile-biometric-identification-devices"
+                <a href="/biometric-handhelds"
                   >Mobile Biometric Identification Devices</a
                 >
-                <a href="/remote-identity-verification">R-IDV (Remote Identity Verification)</a>
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
               </nav>
             </div>
           </div>

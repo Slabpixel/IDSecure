@@ -153,7 +153,7 @@
         <div class="gov-home-products-title">
           <h3 class="max-w-280">Mobile Biometric Collection Kits</h3>
           <a
-            href="/mobile-biometric-collection-kits"
+            href="/biometric-jump-kits"
             class="btn-secondary mobile-hidden"
             >Learn More</a
           >
@@ -178,7 +178,7 @@
                 environments.
               </p>
               <a
-                href="/mobile-biometric-collection-kits"
+                href="/biometric-jump-kits"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >
@@ -190,7 +190,7 @@
         <div class="gov-home-products-title">
           <h3 class="max-w-370">Mobile Biometric Identification Devices</h3>
           <a
-            href="/mobile-biometric-identification-devices"
+            href="/biometric-handhelds"
             class="btn-secondary mobile-hidden"
             >Learn More</a
           >
@@ -215,7 +215,7 @@
                 defense, and public safety operations.
               </p>
               <a
-                href="/mobile-biometric-identification-devices"
+                href="/biometric-handhelds"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >
@@ -227,7 +227,7 @@
         <div class="gov-home-products-title">
           <h3 class="max-w-280">Remote Identity Verification</h3>
           <a
-            href="/remote-identity-verification"
+            href="/r-idv"
             class="btn-secondary mobile-hidden"
             >Learn More</a
           >
@@ -253,7 +253,7 @@
                 government issued ID documents.
               </p>
               <a
-                href="/remote-identity-verification"
+                href="/r-idv"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >
