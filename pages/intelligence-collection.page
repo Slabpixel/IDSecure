@@ -24,7 +24,7 @@
           </p>
           <div class="gov-hero-button-wrapper ic">
             <a href="#our-products" class="btn-primary sm">Explore Products</a>
-            <a href="/about" class="btn-secondary">About us</a>
+            <a href="/about-us" class="btn-secondary">About us</a>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
           Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
           Mission-Environments.
         </h2>
-        <a href="/about" class="btn-secondary">Explore Our Solutions</a>
+        <a href="/about-us" class="btn-secondary">Explore Our Solutions</a>
       </div>
     </div>
   </div>
