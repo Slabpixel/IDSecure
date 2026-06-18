@@ -7085,3 +7085,58 @@ h2.md {
     height: 100%;
   }
 }
+
+.gov-section.gov-404 {
+  display: flex;
+  align-items: center;
+  min-height: ~"100dvh";
+  padding: 136px 0 80px;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding: 120px 0 64px;
+  }
+
+  .gov-container {
+    align-items: center;
+  }
+}
+
+.gov-404-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  opacity: 0.35;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.gov-404-code {
+  margin: -8px 0 0;
+  font-size: clamp(112px, 20vw, 200px);
+  line-height: 0.9;
+  font-weight: @font-weight-medium;
+  letter-spacing: -0.04em;
+  background: linear-gradient(
+    180deg,
+    @text-primary 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gov-404-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}

@@ -3,17 +3,23 @@
  * Requires lenis.min.js, gsap, and ScrollTrigger (government.region).
  */
 (function () {
-  'use strict';
+  "use strict";
 
-  if (typeof Lenis === 'undefined' || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+  if (
+    typeof Lenis === "undefined" ||
+    typeof gsap === "undefined" ||
+    typeof ScrollTrigger === "undefined"
+  ) {
     return;
   }
 
   gsap.registerPlugin(ScrollTrigger);
 
-  var lenis = new Lenis();
+  var lenis = new Lenis({
+    anchors: true,
+  });
 
-  lenis.on('scroll', ScrollTrigger.update);
+  lenis.on("scroll", ScrollTrigger.update);
 
   gsap.ticker.add(function (time) {
     lenis.raf(time * 1000);
