@@ -192,7 +192,7 @@
       <span class="fs-14 cl-grey uppercase">Navigations</span>
       <ul class="footer-ul">
         <li class="foot-menu-item uppercase">
-          <a href="/index-draft">Home</a>
+          <a href="/">Home</a>
         </li>
         {.repeated section items.6.items}
         <li class="foot-menu-item uppercase">

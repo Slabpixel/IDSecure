@@ -1,107 +1,159 @@
-<section class="about-hero section-hero">
-    <div class="container hero-cont about-hero-cont">
-        <div class="h1-wrapper txt-left">
-            {#  <squarespace:block-field id="aboutUsH1"/>  }
-            <h1 class="h1-56 h1-gradient">
-                CURIOSITY
-                <span class="h1-white">, </span>
-                CREATIVITY
-                <span class="h1-white">, </span> 
-                <span class="h1-white">AND </span>
-                INDUSTRY KNOWLEDGE 
-                <span class="h1-white">DRIVE OUR PASSION AND PURPOSE</span>
-            </h1>
-        </div>
-        <img class="about-hero-bg" src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/5ad44a05-c0e8-4c16-a0af-cc9031aa03a6/Mask+group.png?content-type=image%2Fpng" alt="">
-        <div class="about-hero-shadow"></div>
-        <div class="about-main-cont">
-            <div class="h2-wrapper">
-                <div class="h2 uppercase"><squarespace:block-field id="aboutUsTitle"/></div>
-            </div>
-            <div class="about-text-wrapper">
-                <div class="p"><squarespace:block-field id="aboutUsText"/>
-                </div>
-            </div>
-        </div>
-        
-    </div>
+<section class="gov-section about">
+  <div class="gov-hero-bg about">
+    <video src="/assets/about.webm" autoplay muted loop playsinline></video>
+  </div>
+  <div class="gov-container justify-center text-center">
+    <h1>
+      Curiosity, Creativity, and <br />Industry Knowledge Drive <br />
+      Our Passion and Purpose
+    </h1>
+  </div>
 </section>
-<section class="about-vision">
-    <div class="container about-vision-cont">
-        <div class="about-vision-title">
-            <div class="h3 uppercase">Our Vision</div>
-        </div>
-        <div class="about-vision-text">
-            <div class="h2 uppercase">
-            {#  <squarespace:block-field id="aboutVisionText"/>  }
-            <h2 class="h1-gradient">
-               <span class="h1-white">TO BE A</span>
-                GLOBAL LEADER
-               <span class="h1-white">IN <br></span> 
-                DEFENSE TECHNOLOGY
-               <span class="h1-white">SOLUTIONS<span> 
-            </h2>
-            </div>
-        </div>
+
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="gov-content-image-551">
+      <img src="/assets/about.png" alt="About Us" />
     </div>
-</section>
-<section class="block-blue">
-    <div class="container block-blue-cont">
-        <div class="section-grid-title h3 uppercase">
-            <squarespace:block-field id="aboutValuesTitle"/>
-        </div>
-        <div class="block-content">
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg1"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle1"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText1"/></div>
-            </div>
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg2"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle2"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText2"/></div>
-            </div>
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg3"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle3"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText3"/></div>
-            </div>
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg4"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle4"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText4"/></div>
-            </div>
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg5"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle5"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText5"/></div>
-            </div>
-            <div class="block-content-item block-grid-3-item bg-dark mobile-full">
-                <div class="value-grid-icon"><squarespace:block-field id="gridImg6"/></div>
-                <div class="txt-center fs-24"><squarespace:block-field id="gridTitle6"/></div>
-                <div class="p txt-center"><squarespace:block-field id="gridText6"/></div>
-            </div>
-        </div>
+    <div class="gov-col about gap-40">
+      <div class="gov-title-wrap gap-16">
+        <span class="gov-eyebrow muted">[About Us]</span>
+        <h2 class="max-w-442">About Us</h2>
+      </div>
+      <p class="gov-description sm">
+        IDSECURE is a government-focused technology partner supporting missions
+        that require secure communications, reliable mobile access, and trusted
+        identity data collection. Our work is grounded in a clear understanding
+        of operational environments where standard commercial architectures may
+        not provide the control, visibility, resilience, or security posture
+        required by government users. We design and deliver solutions that help
+        agencies preserve control of mission traffic, adapt connectivity as
+        conditions change, and collect biometric and biographic intelligence in
+        the environments where missions actually happen. From secure facilities
+        to forward-deployed teams, from border operations to expeditionary
+        environments, IDSECURE provides technology designed to support mission
+        continuity, identity assurance, and secure operational outcomes.
+      </p>
     </div>
+  </div>
 </section>
-<section class="about-mission">
-    <div class="container about-mission-cont">
-        <img class="about-mission-bg" src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/6c10923f-25aa-46d0-b751-665ebe769a86/Frame+%281%29.png?content-type=image%2Fpng" alt="">
-        <div class="about-mission-content">
-            <div class="about-mission-title">
-                <div class="h3 uppercase"><squarespace:block-field id="missionTitle"/></div>
-            </div>
-            <div class="about-mission-text">
-                {#  <div class="h2 uppercase"><squarespace:block-field id="aboutMissionText"/>
-                </div>  }
-                <h2 class="h2 uppercase h1-gradient">
-                    EMPOWER
-                    <span class="h1-white">OUR CUSTOMERS WITH </span> 
-                    VALUE-ADDING 
-                    <span class="h1-white">TECHNOLOGY SOLUTIONS ACHIEVING </span>
-                    TRUST IN TRANSACTIONS
-                </h2>
-            </div>
-        </div>
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="max-w-656 gov-col about">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow muted">[Our Vision]</span>
+        <h2 class="max-w-442">Our Vision</h2>
+      </div>
+      <p class="gov-description lg">
+        To be a trusted government technology partner for secure mission
+        connectivity and intelligence collection.
+      </p>
     </div>
+    <div class="gov-content-image-551">
+      <img
+        src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
+        alt="About Us"
+      />
+    </div>
+  </div>
 </section>
+
+<section class="gov-section md">
+  <div class="gov-container col center gap-48 industry-bg">
+    <div class="gov-title-wrap gap-16 max-w-480">
+      <span class="gov-eyebrow muted">[Our Values]</span>
+      <h2>Our Values</h2>
+    </div>
+    <div class="gov-content-grid-about">
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Innovation</h3>
+          <p class="gov-description sm">
+            We continually improve our technologies, expand our capabilities,
+            and develop new ways to solve mission-critical security,
+            connectivity, and identity challenges.
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/bulb-alt.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Communication</h3>
+          <p class="gov-description sm">
+            We believe clear, consistent communication is essential to trusted
+            partnerships.
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/coms.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Ownership</h3>
+          <p class="gov-description sm">
+            We take responsibility for the challenge, the solution, and the mission outcome
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/owner.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Learning</h3>
+          <p class="gov-description sm">
+            We listen attentively to customer requirements and apply our technical expertise to the operational realities they face. 
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/learning-spirit.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Service</h3>
+          <p class="gov-description sm">
+            We support our customers with responsiveness, accountability, and a commitment to long-term mission success.
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/crown.svg" alt="" />
+        </div>
+      </div>
+      <div class="gov-content-grid-card about">
+        <div class="gov-content-grid-card-inner">
+          <h3>Relationships</h3>
+          <p class="gov-description sm">
+            We work with customers, partners, and colleagues with transparency, respect, and integrity.
+          </p>
+        </div>
+        <div class="icon-industry">
+          <img src="/assets/relation.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gov-section xs">
+  <div class="gov-container">
+    <div class="max-w-632 gov-col about">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow muted">[Our Mission]</span>
+        <h2>Our Mission</h2>
+      </div>
+      <p class="gov-description lg">
+        Enable Government Teams to Connect Securely, Collect Confidently, and
+        Operate with Control
+      </p>
+    </div>
+    <div class="gov-content-image-551 hand">
+      <img src="/assets/hand.png" alt="About Us" />
+    </div>
+  </div>
+</section>
+
+{@|apply gov-section-contact-collection.block}

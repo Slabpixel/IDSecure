@@ -24,7 +24,7 @@
           </p>
           <div class="gov-hero-button-wrapper ic">
             <a href="#our-products" class="btn-primary sm">Explore Products</a>
-            <a href="/about-draft" class="btn-secondary">About us</a>
+            <a href="/about" class="btn-secondary">About us</a>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
           Cutting Edge Identity Collection Solutions Built for Fixed and Mobile
           Mission-Environments.
         </h2>
-        <a href="/about-draft" class="btn-secondary">Explore Our Solutions</a>
+        <a href="/about" class="btn-secondary">Explore Our Solutions</a>
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@
       <div class="gov-home-products-item">
         <div class="gov-home-products-title">
           <h3 class="max-w-240">Livescan Kiosks</h3>
-          <a href="/livescan-kiosks-draft" class="btn-secondary mobile-hidden"
+          <a href="/livescan-kiosks" class="btn-secondary mobile-hidden"
             >Learn More</a
           >
         </div>
@@ -141,7 +141,7 @@
                 offender registration, and applicant background checks.
               </p>
               <a
-                href="/livescan-kiosks-draft"
+                href="/livescan-kiosks"
                 class="btn-secondary mobile-visible"
                 >Learn More</a
               >

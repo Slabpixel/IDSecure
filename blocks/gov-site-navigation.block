@@ -1,7 +1,7 @@
 <!-- <script>console.log({@|json-pretty})</script> -->
 <nav class="gov-site-navigation">
   <div class="gov-nav-wrapper">
-    <a href="/index-draft" class="gov-nav-logo">
+    <a href="/" class="gov-nav-logo">
       <img src="/assets/wordmark.svg" alt="IDSecure">
     </a>
     <div class="gov-nav-menu">
@@ -82,7 +82,7 @@
                 class="gov-nav-dropdown-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="/livescan-kiosks-draft">Livescan Kiosks</a>
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
                 <a href="/mobile-biometric-collection-kits"
                   >Mobile Biometric Collection Kits</a
                 >
@@ -114,13 +114,13 @@
           </div>
         </div>
       </div>
-      <a class="gov-nav-link" href="/about-draft">About Us</a>
+      <a class="gov-nav-link" href="/about">About Us</a>
       <a class="gov-nav-link" href="/support">Support</a>
-      <a class="gov-nav-link" href="/press-draft">Press</a>
+      <a class="gov-nav-link" href="/blog">Press</a>
     </div>
     <div class="gov-nav-end">
       <a href="/engage" class="btn-link">Government Briefing</a>
-      <a href="/contact-draft" class="btn-secondary">Contact Us</a>
+      <a href="/contact" class="btn-secondary">Contact Us</a>
     </div>
     <button
       type="button"
@@ -200,7 +200,7 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="/livescan-kiosks-draft">Livescan Kiosks</a>
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
                 <a href="/mobile-biometric-collection-kits"
                   >Mobile Biometric Collection Kits</a
                 >
@@ -213,15 +213,15 @@
           </div>
         </div>
       </div>
-      <a class="gov-nav-mobile-link" href="/about-draft">About us</a>
+      <a class="gov-nav-mobile-link" href="/about">About us</a>
       <a class="gov-nav-mobile-link" href="/support">Support</a>
-      <a class="gov-nav-mobile-link" href="/press-draft">Press</a>
+      <a class="gov-nav-mobile-link" href="/blog">Press</a>
     </div>
     <div class="gov-nav-mobile-actions">
       <a href="#" class="btn-link gov-nav-mobile-briefing"
         >Government briefing</a
       >
-      <a href="/contact-draft" class="btn-secondary gov-nav-mobile-contact"
+      <a href="/contact" class="btn-secondary gov-nav-mobile-contact"
         >Contact us</a
       >
     </div>

@@ -1,109 +1,230 @@
-<section class="inner-hero bio-hand-hero">
-  <div class="container inner-hero-cont">
-      <div class="h1-wrapper">
-          <h1><squarespace:block-field id="handHeldh1"/></h1>
-      </div>
-      <div class="cont-bg-left"></div>
-  </div>
-  <div class="container page-desc-cont">
-      <div class="page-desc-title"><squarespace:block-field id="handHeldDesc1"/></div>
-      <div class="page-desc-text"><squarespace:block-field id="handHeldDesc2"/></div>
-  </div>
-</section>
-<section class="hardware-grid">
-  <div class="container hardware-grid-cont">
-      <div class="hardware-grid-item w-30">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg5"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle5"/></div>
-      </div>
-      <div class="hardware-grid-item w-30">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg6"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle6"/></div>
-      </div>
-      <div class="hardware-grid-item w-30">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg7"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle7"/></div>
-      </div>
-      <div class="hardware-grid-item w-25">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg1"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle1"/></div>
-      </div>
-      <div class="hardware-grid-item w-25">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg2"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle2"/></div>
-      </div>
-      <div class="hardware-grid-item w-25">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg3"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle3"/></div>
-      </div>
-      <div class="hardware-grid-item w-25">
-          <div class="hardware-grid-img grid-img-center">
-              <squarespace:block-field id="handHeldGridImg4"/>
-          </div>
-          <div class="h4"><squarespace:block-field id="handHeldGridTitle4"/></div>
-      </div>
+<section class="gov-section ic">
+  <div class="gov-container no-gap no-padding">
+    <div class="gov-content-ic">
+      <span class="gov-eyebrow muted">[Biometric Handhelds]</span>
+      <h1>Mobile Biometric Identification Devices</h1>
+    </div>
+    <div class="gov-ic-hero-img">
+      <video
+        src="/assets/biometric-handheld-hero.webm"
+        autoplay
+        muted
+        loop
+        playsinline
+        alt=""
+      />
+    </div>
   </div>
 </section>
-<section class="block-blue">
-  <div class="container block-blue-cont">
-      <div class="section-grid-title h3 uppercase">
-          <squarespace:block-field id="handHeldBlueTitle"/>
+<section class="gov-section sm">
+  <div class="gov-container col">
+    <div class="gov-title-wrap gap-16 mobile-left">
+      <span class="gov-eyebrow muted">[Our Products]</span>
+      <div class="gov-title-wrap ic">
+        <h2 class="md">
+          Rugged handheld biometric devices for field identification,
+          enrollment, verification, and intelligence collection.
+        </h2>
+        <p class="gov-description sm">
+          IDSECURE mobile biometric identification devices support fingerprint,
+          face, iris, and biographic data capture for field identification,
+          enrollment, border security, law enforcement, defense, and public
+          safety operations.
+        </p>
       </div>
-      <div class="block-content block-grid-6">
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon1"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText1"/></div>
+    </div>
+    <div class="hardware-grid-v2-cont">
+      <div class="hardware-grid-v2-item large">
+        <span class="gov-eyebrow muted">[01]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle5" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg5" />
           </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon2"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText2"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon3"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText3"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon4"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText4"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon9"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText9"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon5"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText5"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon6"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText6"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon7"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText7"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon8"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText8"/></div>
-          </div>
-          <div class="block-content-item block-grid-5-item">
-              <div class="value-grid-icon"><squarespace:block-field id="handHeldBlockIcon10"/></div>
-              <div class="h4"><squarespace:block-field id="handHeldBlockText10"/></div>
-          </div>
+        </div>
       </div>
-      <div class="cont-bg-right"></div>
+      <div class="hardware-grid-v2-item large">
+        <span class="gov-eyebrow muted">[02]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle6" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg6" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-v2-item large">
+        <span class="gov-eyebrow muted">[03]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle7" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg7" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-v2-item">
+        <span class="gov-eyebrow muted">[04]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle1" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg1" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-v2-item">
+        <span class="gov-eyebrow muted">[05]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle2" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg2" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-v2-item">
+        <span class="gov-eyebrow muted">[06]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle3" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg3" />
+          </div>
+        </div>
+      </div>
+      <div class="hardware-grid-v2-item">
+        <span class="gov-eyebrow muted">[07]</span>
+        <div class="hardware-grid-v2-title">
+          <squarespace:block-field id="handHeldGridTitle4" />
+        </div>
+        <div class="hardware-grid-v2-card">
+          <div class="hardware-grid-v2-img grid-img-center">
+            <squarespace:block-field id="handHeldGridImg4" />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-{@|apply certifications.block}
+<section class="gov-section md dots">
+  <div class="gov-container col center gap-40 max-w-860 fingerbg">
+    <div class="gov-quote-icon">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+    <div class="gov-title-wrap center gap-24">
+      <p class="gov-description xl white">
+        Our FBI certified biometric handhelds are rugged, multi-modal and truly
+        configurable. A single Android base device with three (3) variations of
+        FAP profile clip-on modules (FAP30, FAP45, FAP50), provide an adaptable
+        solution that streamlines application development and mobile device
+        management.
+      </p>
+    </div>
+    <div class="gov-quote-icon end">
+      <img src="/assets/quote-right.svg" alt="Quote Icon" />
+    </div>
+  </div>
+</section>
+<section class="gov-section md bg-multimodal">
+  <div class="bg-overlay-multimodal"></div>
+  <div class="bg-overlay-multimodal bottom"></div>
+  <div class="gov-container col gap-24">
+    <span class="gov-eyebrow muted">[OUR CONFIGURATIONS]</span>
+    <div class="gov-content-multimodal">
+      <h2 class="max-w-303">Multimodal Configurations</h2>
+      <div class="multimodal-grid">
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText1" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/fingerprint.svg" alt="Fingerprint Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText2" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/face.svg" alt="Face Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText3" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/iris.svg" alt="Iris Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText4" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/voice.svg" alt="Voice Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText9" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/ip64.svg" alt="IP64 Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText5" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/mrzreading.svg" alt="MRZ Reading Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText6" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/contactless.svg" alt="Contactless Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText7" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/barcode-reading.svg" alt="Digital Barcode Reading Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText8" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/hot-swap-battery.svg" alt="Hot Swap Battery Icon" />
+          </div>
+        </div>
+        <div class="multimodal-grid-item">
+          <div class="multimodal-grid-text">
+            <squarespace:block-field id="handHeldBlockText10" />
+          </div>
+          <div class="value-grid-icon">
+            <img src="/assets/badge.svg" alt="Badge Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{@|apply certifications-new.block}
+
+{@|apply gov-section-contact-collection.block}

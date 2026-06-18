@@ -1,4 +1,4 @@
-<section class="blog-return">
+<section class="press-return">
   <div class="container blog-return-cont">
     <div class="cont-bg-left" style="z-index: -1"></div>
     <a href="/blog">
@@ -27,9 +27,11 @@
       <h1 class="h1 uppercase">{title}</h1>
       <span>{addedOn|date %b %d, %Y}</span>
     </div>
-    <div class="blog-main-content">{body}</div>
+    <div class="blog-main-content gov">{body}</div>
   </div>
 </section>
 
 {.end}
+
+{@|apply gov-section-contact-collection.block}
 <script src="../scripts/script.js"></script>

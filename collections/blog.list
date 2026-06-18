@@ -1,41 +1,57 @@
-<script>console.log({@|json-pretty})</script>
-<section class="press-hero">
-    <div class="container hero-cont">
-      <div class="cont-bg-left"></div>
-        <div class="h1-wrapper">
-            <h1 class="txt-center" style="text-align: center !important"><squarespace:block-field id="pressPageH1"/></h1>
-        </div>
-        <div class="p-wrapper">
-            <p><squarespace:block-field id="pressPageSubTitle"/></p>
-        </div>
-    </div>
-</section>
-<section class="press-grid">
-    <div class="container">
-      <div class="press-grid-cont" style="z-index: 1;">
-        {.repeated section items}
-          {.section assetUrl}
-          <div 
-            class="press-grid-item" 
-            style="background-image: url({assetUrl});"
-          >
-          {.or}
-          <div class="press-grid-item">
-          {.end}
-            <a href="{fullUrl}" class="press-grid-item-inner">
-              <div class="press-grid-category">
-                <div class="p">{categories}</div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 18L18 6M18 6H10M18 6V14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="press-grid-title">{title}</div>
-              <div class="press-grid-date">{addedOn|date %b %d, %Y}</div>
-            </a>
-          </div>
-        {.end}
+<section class="gov-section gov-press">
+  <div class="bg-dots-top">
+    <img src="/assets/dots-top.png" alt="Dots Top" />
+  </div>
+  <div class="gov-container gov-press-cont">
+    <div class="gov-press-intro">
+      <div class="gov-title-wrap">
+        <span class="gov-eyebrow muted">[OUR PRESS]</span>
+        <h1>Who's Talking<br />About us</h1>
       </div>
     </div>
+    <div class="gov-press-grid-wrap">
+      <template id="gov-press-soon-template">
+        <div class="gov-press-card gov-press-card--placeholder gov-press-card--soon">
+          <div class="gov-press-card-glow" aria-hidden="true"></div>
+          <div class="gov-press-card-fingerprint" aria-hidden="true">
+            <img src="/assets/fingerprint.png" alt="" />
+          </div>
+          <div class="gov-press-card-inner soon">
+            <h2 class="gov-press-card-title">Coming<br />Soon</h2>
+          </div>
+        </div>
+      </template>
+      <div class="gov-press-grid">
+        {.repeated section items}
+          {.section assetUrl}
+          <a href="{fullUrl}" class="gov-press-card gov-press-card--image">
+            <div class="gov-press-card-media" aria-hidden="true">
+              <img src="{assetUrl}" alt="" />
+            </div>
+          {.or}
+          <a href="{fullUrl}" class="gov-press-card gov-press-card--placeholder">
+            <div class="gov-press-card-glow" aria-hidden="true"></div>
+            <div class="gov-press-card-fingerprint" aria-hidden="true">
+              <img src="/assets/fingerprint.svg" alt="" />
+            </div>
+          {.end}
+            <div class="gov-press-card-inner">
+              <div class="gov-press-card-meta">
+                <span class="gov-press-card-category">{categories}</span>
+                <span class="gov-press-card-dot" aria-hidden="true"></span>
+                <time class="gov-press-card-date">{addedOn|date %b %d, %Y}</time>
+              </div>
+              <h2 class="gov-press-card-title">{title}</h2>
+            </div>
+          </a>
+        {.end}
+      </div>
+      <div class="gov-press-grid-fade gov-press-grid-fade--top" aria-hidden="true"></div>
+      <div class="gov-press-grid-fade gov-press-grid-fade--bottom" aria-hidden="true"></div>
+    </div>
+  </div>
 </section>
+
+{@|apply gov-section-contact-collection.block}
 
 <script src="../scripts/script.js"></script>
