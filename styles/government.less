@@ -5,13 +5,9 @@
 @base-black: #000000;
 @base-white: #ffffff;
 @base-white-transparent: rgba(255, 255, 255, 0);
-@base-black-transparent: rgba(0, 0, 0, 0);
 
 /* Primary */
 @primary-darkest: #050b16;
-@primary-dark: #0a1322;
-@primary-mid: #131e33;
-@primary-light: #1c2a45;
 @primary-accent: #0c1822;
 
 /* Text */
@@ -19,8 +15,6 @@
 @text-secondary: rgba(255, 255, 255, 0.8);
 @text-tertiary: rgba(255, 255, 255, 0.6);
 @text-placeholder: rgba(255, 255, 255, 0.5);
-@text-muted: rgba(255, 255, 255, 0.4);
-@text-disabled: rgba(255, 255, 255, 0.2);
 
 /* Line */
 @line-strong: rgba(255, 255, 255, 0.2);
@@ -31,8 +25,6 @@
 /* Brand */
 @brand-cyan: #71fcfb;
 @brand-cyan-light: #5bfcfb;
-@brand-cyan-dim: rgba(113, 252, 251, 0.6);
-@brand-cyan-glow: rgba(113, 252, 251, 0.2);
 @brand-cyan-dark: #0c4949;
 
 /* Font */
@@ -40,46 +32,23 @@
 @font-weight-regular: 400;
 @font-weight-medium: 500;
 
-/* Typography - Heading */
-@heading-xl-size: 64px;
-@heading-xl-line: 1;
+/* Type scale */
+@text-xs: 12px;
+@text-sm: 14px;
+@text-md: 16px;
+@text-lg: 20px;
+@text-xl: 24px;
+@text-2xl: 32px;
+@text-3xl: 40px;
+@text-4xl: 64px;
 
-@heading-l-size: 40px;
-@heading-l-line: 1.2;
+/* Line height */
+@line-tight: 1;
+@line-heading: 1.2;
+@line-body: 1.4;
 
-@heading-m-size: 32px;
-@heading-m-line: 1.2;
-
-@heading-s-size: 24px;
-@heading-s-line: 1.2;
-
-/* Typography - Body */
-@body-xl-size: 20px;
-@body-l-size: 16px;
-@body-m-size: 14px;
-@body-s-size: 12px;
-@body-line: 1.4;
-
-/* Typography - Paragraph */
-@paragraph-xl-size: 20px;
-@paragraph-l-size: 16px;
-@paragraph-m-size: 14px;
-@paragraph-s-size: 12px;
-@paragraph-line: 1.6;
-
-/* Typography - Label */
-@label-l-size: 16px;
-@label-l-tracking: 0.04em;
-
-@label-m-size: 14px;
-@label-m-tracking: 0.06em;
-
-@label-s-size: 12px;
-@label-s-tracking: 0.08em;
-
-@label-tracking: 0.1em;
-
-@label-line: 1.4;
+/* Letter spacing */
+@tracking-eyebrow: 0.1em;
 
 /* Squarespace form: replace "(required)" label with "*" */
 .sqs-form-required-asterisk() {
@@ -121,7 +90,7 @@
   .form-item.field.select .title,
   .form-item.fields legend .title {
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: @text-sm;
     line-height: 140%;
     color: @text-primary;
     font-weight: @font-weight-regular;
@@ -144,7 +113,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: none;
-    font-size: 14px;
+    font-size: @text-sm;
     line-height: 140%;
     color: @text-primary;
     box-shadow: none;
@@ -206,12 +175,6 @@
   }
 }
 
-/* Typography - Button */
-@button-l-size: 16px;
-@button-m-size: 14px;
-@button-s-size: 12px;
-@button-line: 1.4;
-
 /* Government Site */
 .gov-site-container {
   line-height: 140%;
@@ -229,13 +192,13 @@
     font-weight: @font-weight-medium;
   }
   h1 {
-    font-size: @heading-xl-size;
-    line-height: @heading-xl-line;
+    font-size: @text-4xl;
+    line-height: @line-tight;
     font-weight: @font-weight-medium;
   }
   h2 {
-    font-size: @heading-l-size;
-    line-height: @heading-l-line;
+    font-size: @text-3xl;
+    line-height: @line-heading;
     font-weight: @font-weight-medium;
   }
   a {
@@ -259,20 +222,20 @@
   }
 
   h1.h1-small {
-    font-size: 40px;
-    line-height: 1;
+    font-size: @text-3xl;
+    line-height: @line-tight;
   }
 }
 
 @media (max-width: 768px) {
   .gov-site-container {
     h1 {
-      font-size: 40px;
-      line-height: 1;
+      font-size: @text-3xl;
+      line-height: @line-tight;
     }
     h2 {
-      font-size: 32px;
-      line-height: 1.2;
+      font-size: @text-2xl;
+      line-height: @line-heading;
     }
   }
 }
@@ -886,8 +849,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: @text-sm;
+  font-weight: @font-weight-medium;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -1599,8 +1562,8 @@
 .gov-eyebrow {
   position: relative;
   z-index: 1;
-  font-size: @label-m-size;
-  letter-spacing: @label-tracking;
+  font-size: @text-sm;
+  letter-spacing: @tracking-eyebrow;
   text-transform: uppercase;
   color: @text-primary;
 
@@ -1609,7 +1572,7 @@
   }
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: @text-xs;
   }
 }
 
@@ -3957,7 +3920,7 @@ img.position-center {
     padding: 20px 24px;
     font-size: 16px;
     text-transform: uppercase;
-    color: @text-disabled;
+    color: @line-strong;
     font-weight: @font-weight-medium;
     line-height: 100%;
     cursor: pointer;
@@ -4854,7 +4817,7 @@ img.position-center {
 }
 
 .gov-description {
-  font-size: 20px;
+  font-size: @text-lg;
   color: @text-secondary;
 
   &.90 {
@@ -4873,30 +4836,30 @@ img.position-center {
   }
 
   &.sm {
-    font-size: 16px;
+    font-size: @text-md;
   }
 
   &.xs {
-    font-size: 14px;
+    font-size: @text-sm;
   }
 
   @media (max-width: 768px) {
-    font-size: 16px;
+    font-size: @text-md;
   }
   @media (max-width: 480px) {
-    font-size: 14px;
+    font-size: @text-sm;
   }
 
   &.lg {
-    font-size: 24px;
+    font-size: @text-xl;
     line-height: 140%;
   }
 
   &.xl {
-    font-size: 32px;
+    font-size: @text-2xl;
     line-height: 140%;
     @media (max-width: 768px) {
-      font-size: 24px;
+      font-size: @text-xl;
     }
   }
 
@@ -4904,14 +4867,14 @@ img.position-center {
     text-align: center;
   }
   &.overview {
-    font-size: 16px;
+    font-size: @text-md;
     max-width: 642px;
     width: 100%;
   }
   &-column-text {
     max-width: 426px;
     width: 100%;
-    font-size: 24px;
+    font-size: @text-xl;
     color: @text-primary;
     font-weight: @font-weight-medium;
     line-height: 120%;
@@ -5061,10 +5024,10 @@ img.position-center {
   }
 
   .form-button-wrapper button span {
-    font-family: "Space Grotesk";
-    font-size: 14px !important;
+    font-family: @font-family;
+    font-size: @text-sm !important;
     font-style: normal;
-    font-weight: 500 !important;
+    font-weight: @font-weight-medium !important;
     line-height: 100% !important;
     text-transform: none !important;
   }
@@ -5221,8 +5184,8 @@ img.position-center {
           }
 
           span {
-            font-size: @body-m-size;
-            line-height: @body-line;
+            font-size: @text-sm;
+            line-height: @line-body;
             font-weight: @font-weight-regular;
             color: @text-primary;
             white-space: nowrap;
@@ -5525,10 +5488,10 @@ img.position-center {
   }
 
   .form-button-wrapper button span {
-    font-family: "Space Grotesk";
-    font-size: 14px !important;
+    font-family: @font-family;
+    font-size: @text-sm !important;
     font-style: normal;
-    font-weight: 500 !important;
+    font-weight: @font-weight-medium !important;
     line-height: 100% !important;
     text-transform: none !important;
   }
@@ -5604,8 +5567,8 @@ img.position-center {
       .field.last-name .caption {
         display: block;
         margin-bottom: 8px;
-        font-size: @body-m-size;
-        line-height: @body-line;
+        font-size: @text-sm;
+        line-height: @line-body;
         color: #e5e7eb;
         font-weight: @font-weight-regular;
       }
@@ -5655,8 +5618,8 @@ img.position-center {
     .form-item.fields legend .title {
       display: block;
       margin-bottom: 0;
-      font-size: @body-m-size;
-      line-height: @body-line;
+      font-size: @text-sm;
+      line-height: @line-body;
       color: #e5e7eb;
       font-weight: @font-weight-regular;
     }
@@ -5706,8 +5669,8 @@ img.position-center {
       border-bottom: 1px solid @line-strong;
       backdrop-filter: none;
       border-radius: 0;
-      font-size: @body-m-size;
-      line-height: @body-line;
+      font-size: @text-sm;
+      line-height: @line-body;
       color: @text-primary;
       box-shadow: none;
 
@@ -5778,8 +5741,8 @@ img.position-center {
           }
 
           span {
-            font-size: @body-m-size;
-            line-height: @body-line;
+            font-size: @text-sm;
+            line-height: @line-body;
             font-weight: @font-weight-regular;
             color: @text-primary;
             white-space: nowrap;
@@ -6787,9 +6750,9 @@ h2.md {
     }
 
     h1 {
-      font-size: @heading-xl-size;
+      font-size: @text-4xl;
       font-weight: @font-weight-medium;
-      line-height: @heading-xl-line;
+      line-height: @line-tight;
       color: @text-primary;
       margin: 0;
 
@@ -7037,8 +7000,8 @@ h2.md {
       display: flex;
       align-items: flex-start;
       gap: 0;
-      font-size: @body-m-size;
-      line-height: @body-line;
+      font-size: @text-sm;
+      line-height: @line-body;
       color: @text-secondary;
       text-transform: uppercase;
     }
@@ -7056,7 +7019,7 @@ h2.md {
       &::before {
         content: "•";
         display: block;
-        line-height: @body-line;
+        line-height: @line-body;
       }
     }
 
@@ -7068,9 +7031,9 @@ h2.md {
 
     & h2.gov-press-card-title {
       margin: 0;
-      font-size: @heading-s-size;
+      font-size: @text-xl;
       font-weight: @font-weight-medium;
-      line-height: @heading-s-line;
+      line-height: @line-heading;
       color: @text-primary;
     }
   }

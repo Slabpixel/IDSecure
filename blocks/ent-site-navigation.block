@@ -1,0 +1,228 @@
+<nav class="ent-site-navigation">
+  <div class="ent-nav-wrapper">
+    <a href="/" class="gov-nav-logo">
+      <img src="/assets/wordmark-alt.svg" alt="IDSecure" />
+    </a>
+    <div class="gov-nav-menu">
+      <!-- <div class="gov-nav-item gov-nav-item--dropdown">
+        <a class="gov-nav-link" href="/government"
+          >Secure Mission Connectivity
+          <svg
+            width="13"
+            height="7"
+            viewBox="0 0 13 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div class="gov-nav-dropdown">
+          <div class="gov-nav-dropdown-panel">
+            <div class="gov-nav-dropdown-main">
+              <nav
+                class="gov-nav-dropdown-links"
+                aria-label="Secure Mission Connectivity"
+              >
+                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/spectre">SPECTRE</a>
+                <a href="/mission-environments">Mission Environments</a>
+                <a href="/platform-operations">Platform &amp; Operations</a>
+                <a href="/engage">Engage</a>
+              </nav>
+              <div class="gov-nav-dropdown-visual">
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b8f15159-6f2b-4e0d-a44c-835a28816a5d/gov-nav-dropdown-lifecycle.webp?content-type=image%2Fwebp"
+                  alt=""
+                  width="466"
+                  height="260"
+                />
+              </div>
+            </div>
+            <div class="gov-nav-dropdown-footer">
+              <p>
+                IDSECURE provides secure mobile connectivity for reliable
+                transmission.
+              </p>
+              <a
+                href="/government"
+                class="btn-secondary sm gov-nav-dropdown-cta"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-nav-item gov-nav-item--dropdown">
+        <a class="gov-nav-link" href="/intelligence-collection"
+          >Intelligence Collection
+          <svg
+            width="13"
+            height="7"
+            viewBox="0 0 13 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div class="gov-nav-dropdown">
+          <div class="gov-nav-dropdown-panel">
+            <div class="gov-nav-dropdown-main">
+              <nav
+                class="gov-nav-dropdown-links"
+                aria-label="Intelligence Collection"
+              >
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
+                <a href="/biometric-jump-kits"
+                  >Mobile Biometric Collection Kits</a
+                >
+                <a href="/biometric-handhelds"
+                  >Mobile Biometric Identification Devices</a
+                >
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+              </nav>
+              <div
+                class="gov-nav-dropdown-visual gov-nav-dropdown-visual--intelligence"
+              >
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="gov-nav-dropdown-footer">
+              <p>
+                IDSECURE provides rugged biometric collection devices in various
+                form factors.
+              </p>
+              <a
+                href="/intelligence-collection"
+                class="btn-secondary sm gov-nav-dropdown-cta"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <a class="gov-nav-link" href="/solutions">Solutions</a>
+      <a class="gov-nav-link" href="/use-cases">Use Cases</a>
+      <a class="gov-nav-link" href="/industries">Industries</a>
+      <a class="gov-nav-link" href="/resources">Resources</a>
+      <a class="gov-nav-link" href="/about-us">About</a>
+    </div>
+    <div class="gov-nav-end">
+      <a href="/contact" class="btn-secondary">Contact Us</a>
+    </div>
+    <button
+      type="button"
+      class="gov-nav-btn"
+      aria-expanded="false"
+      aria-controls="gov-nav-mobile"
+      aria-label="Open menu"
+    >
+      <i
+        class="fa-solid fa-bars gov-nav-btn-icon gov-nav-btn-icon--menu"
+        aria-hidden="true"
+      ></i>
+      <i
+        class="fa-solid fa-xmark gov-nav-btn-icon gov-nav-btn-icon--close"
+        aria-hidden="true"
+      ></i>
+    </button>
+  </div>
+
+  <div class="gov-nav-mobile" id="gov-nav-mobile" aria-hidden="true">
+    <div class="gov-nav-mobile-body">
+      <!-- <div class="gov-nav-mobile-group">
+        <button
+          type="button"
+          class="gov-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span>Secure Mission Connectivity</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div class="gov-nav-mobile-panel">
+          <div class="gov-nav-mobile-panel-collapse">
+            <div
+              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--connectivity"
+            >
+              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b8f15159-6f2b-4e0d-a44c-835a28816a5d/gov-nav-dropdown-lifecycle.webp?content-type=image%2Fwebp"
+                  alt=""
+                />
+              </div>
+              <nav
+                class="gov-nav-mobile-panel-links"
+                aria-label="Secure Mission Connectivity"
+              >
+                <a href="/edgeconnect">EdgeConnect</a>
+                <a href="/spectre">SPECTRE</a>
+                <a href="/mission-environments">Mission Environments</a>
+                <a href="/platform-operations">Platform &amp; Operations</a>
+                <a href="/engage">Engage</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gov-nav-mobile-group">
+        <button
+          type="button"
+          class="gov-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span>Intelligence Collection</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div class="gov-nav-mobile-panel">
+          <div class="gov-nav-mobile-panel-collapse">
+            <div
+              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--intelligence"
+            >
+              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
+                <img
+                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
+                  alt=""
+                />
+              </div>
+              <nav
+                class="gov-nav-mobile-panel-links"
+                aria-label="Intelligence Collection"
+              >
+                <a href="/livescan-kiosks">Livescan Kiosks</a>
+                <a href="/biometric-jump-kits"
+                  >Mobile Biometric Collection Kits</a
+                >
+                <a href="/biometric-handhelds"
+                  >Mobile Biometric Identification Devices</a
+                >
+                <a href="/r-idv">R-IDV (Remote Identity Verification)</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <a class="gov-nav-mobile-link" href="/solutions">Solutions</a>
+      <a class="gov-nav-mobile-link" href="/use-cases">Use Cases</a>
+      <a class="gov-nav-mobile-link" href="/industries">Industries</a>
+      <a class="gov-nav-mobile-link" href="/resources">Resources</a>
+      <a class="gov-nav-mobile-link" href="/about-us">About</a>
+    </div>
+    <div class="gov-nav-mobile-actions">
+      <a href="/contact" class="btn-secondary gov-nav-mobile-contact"
+        >Contact us</a
+      >
+    </div>
+  </div>
+</nav>
