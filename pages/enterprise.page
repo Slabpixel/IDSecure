@@ -1,5 +1,5 @@
 <section class="ent-section hero">
-  <div class="ent-container">
+  <div class="ent-container hero">
     <div class="ent-content max-w-1032">
         <div class="ent-title-wrap">
             <div class="ent-eyebrow">
@@ -14,11 +14,12 @@
             </p>
         </div>
         <div class="ent-button-wrap">
-
+            <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+            <a href="#" class="btn-ent-ghost">Explore Solutions</a>
         </div>
     </div>
   </div>
-  <div class="ent-hero-image">
+  <div class="ent-hero-bg">
     <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image">
   </div>
 </section>

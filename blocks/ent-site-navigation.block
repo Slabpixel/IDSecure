@@ -113,14 +113,14 @@
           </div>
         </div>
       </div> -->
-      <a class="gov-nav-link" href="/solutions">Solutions</a>
-      <a class="gov-nav-link" href="/use-cases">Use Cases</a>
-      <a class="gov-nav-link" href="/industries">Industries</a>
-      <a class="gov-nav-link" href="/resources">Resources</a>
-      <a class="gov-nav-link" href="/about-us">About</a>
+      <a class="ent-nav-link" href="/solutions">Solutions</a>
+      <a class="ent-nav-link" href="/use-cases">Use Cases</a>
+      <a class="ent-nav-link" href="/industries">Industries</a>
+      <a class="ent-nav-link" href="/resources">Resources</a>
+      <a class="ent-nav-link" href="/about-us">About</a>
     </div>
     <div class="gov-nav-end">
-      <a href="/contact" class="btn-secondary">Contact Us</a>
+      <a href="/contact" class="btn-ent-outline">Contact Us</a>
     </div>
     <button
       type="button"
