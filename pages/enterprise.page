@@ -1,25 +1,26 @@
 <section class="ent-section hero">
   <div class="ent-container hero">
     <div class="ent-content max-w-1032">
-        <div class="ent-title-wrap">
-            <div class="ent-eyebrow">
-                <img src="/assets/fp-icon.svg" alt="">
-                <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
-            </div>
-            <h1>
-                Connect, monitor, and manage distributed enterprise operations
-            </h1>
-            <p>
-                IDSECURE delivers enterprise IoT connectivity, satellite connectivity, real-time monitoring, and centralized management for enterprise operations across remote sites, facilities, fleets, assets, and critical environments.
-            </p>
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
         </div>
-        <div class="ent-button-wrap">
-            <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-            <a href="#" class="btn-ent-ghost">Explore Solutions</a>
-        </div>
+        <h1>Connect, monitor, and manage distributed enterprise operations</h1>
+        <p class="ent-description max-w-718">
+          IDSECURE delivers enterprise IoT connectivity, satellite connectivity,
+          real-time monitoring, and centralized management for enterprise
+          operations across remote sites, facilities, fleets, assets, and
+          critical environments.
+        </p>
+      </div>
+      <div class="ent-button-wrap">
+        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+        <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+      </div>
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image">
+    <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image" />
   </div>
 </section>
