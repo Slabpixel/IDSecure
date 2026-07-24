@@ -1,7 +1,7 @@
 <section class="ent-section hero">
   <div class="ent-container hero">
     <div class="ent-content max-w-1032">
-      <div class="ent-title-wrap">
+      <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
           <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
@@ -22,5 +22,131 @@
   </div>
   <div class="ent-hero-bg">
     <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image" />
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container md">
+    <div class="ent-content gap-80">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>ABOUT US</span>
+        </div>
+        <h2>Connected visibility for modern <br />enterprise operations</h2>
+      </div>
+      <div class="ent-content_inner">
+        <div class="ent-content_img">
+          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+        </div>
+        <div class="ent-description_wrap max-w-626">
+          <hr class="ent-description_divider" />
+          <p class="text-md text-primary-lighter">
+            Enterprise operations are becoming more distributed, more connected,
+            and more dependent on real-time visibility. But many organizations
+            still manage connectivity, sensors, assets, and site operations
+            through fragmented systems, manual checks, disconnected portals, and
+            limited network coverage.
+          </p>
+          <p class="text-md text-primary-lighter">
+            IDSECURE helps bring those environments into one connected operating
+            model — connecting IoT devices, extending connectivity to remote and
+            mobile environments, monitoring real-world conditions, and managing
+            usage, policies, alerts, reports, and connected assets through
+            centralized platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-y">
+  <div class="ent-container sm no-px">
+    <div class="ent-content start gap-48">
+      <div class="ent-title-wrap start px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>THE OPERATING MODEL</span>
+        </div>
+        <h2>What IDSECURE helps you do</h2>
+      </div>
+      <div class="ent-block_wrap">
+        <div class="ent-block_item">
+          <div class="ent-block_item_icon">
+            <img src="/assets/circle-nodes.svg" alt="" />
+          </div>
+          <div class="ent-block_item_content">
+            <h3>Connect</h3>
+            <p class="text-primary-light">
+              Connect devices, sensors, sites, vehicles, and assets across
+              terrestrial, cellular, satellite, and IoT environments.
+            </p>
+          </div>
+        </div>
+        <div class="ent-block_item">
+          <div class="ent-block_item_icon">
+            <img src="/assets/monitor-waveform.svg" alt="" />
+          </div>
+          <div class="ent-block_item_content">
+            <h3>Monitor</h3>
+            <p class="text-primary-light">
+              See conditions, locations, usage, status, and environmental data
+              in near real time.
+            </p>
+          </div>
+        </div>
+        <div class="ent-block_item">
+          <div class="ent-block_item_icon">
+            <img src="/assets/brain-line.svg" alt="" />
+          </div>
+          <div class="ent-block_item_content">
+            <h3>Manage</h3>
+            <p class="text-primary-light">
+              Centralize visibility, policies, alerts, reporting, data
+              allocation, and lifecycle actions.
+            </p>
+          </div>
+        </div>
+        <div class="ent-block_item">
+          <div class="ent-block_item_icon">
+            <img src="/assets/rocket-line.svg" alt="" />
+          </div>
+          <div class="ent-block_item_content">
+            <h3>Scale</h3>
+            <p class="text-primary-light">
+              Support distributed operations across sites, fleets, facilities,
+              and asset-intensive environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-y">
+  <div class="ent-container no-p">
+    <div class="ent-content_grid">
+      <div class="ent-wrapper top">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR SOLUTIONS</span>
+        </div>
+      </div>
+      <div class="ent-wrapper top">
+        <h2>
+          Four solutions.<br />
+          One connected operating model.
+        </h2>
+      </div>
+      <div class="ent-wrapper bottom"></div>
+      <div class="ent-wrapper bottom">
+        <div class="ent-content start">
+          <div class="ent-content_img">
+          <img src="/assets/ent-sol-1.jpg" alt="Enterprise Solution 1" />
+          </div>
+          <p class="text-lg text-primary-light">Resilient multi-network IoT connectivity for sensors, devices, assets, fleets, and distributed enterprise operations.</p>
+          <a href="#" class="btn-ent-primary">Learn more</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

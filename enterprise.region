@@ -43,8 +43,8 @@
         {squarespace.main-content}
       </main>
 
-      <footer class="gov-footer">
-        <squarespace:navigation navigationId="siteNav" template="gov-footer" />
+      <footer class="ent-footer">
+        <squarespace:navigation navigationId="siteNav" template="ent-footer" />
       </footer>
     </div>
 

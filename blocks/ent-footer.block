@@ -1,0 +1,42 @@
+<!-- <script>console.log({@|json-pretty})</script> -->
+
+<div class="container footer footer-cont">
+  <div class="gov-footer-logo">
+    <img src="/assets/logo-dark.svg" alt="Logo">
+  </div>
+  <div class="footer-menu">
+    <div class="footer-menu-list">
+      <span class="fs-14 cl-grey uppercase">Navigations</span>
+      <ul class="footer-ul">
+        <li class="foot-menu-item uppercase">
+          <a href="/">Home</a>
+        </li>
+        {.repeated section items.0.items}
+        <li class="foot-menu-item uppercase">
+          <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+        </li>
+        {.end}
+      </ul>
+    </div>
+    <div class="footer-menu-list">
+      <a href="/government" class="fs-14 cl-grey uppercase">Secure Mission Connectivity</a>
+      <ul class="footer-ul">
+        {.repeated section items.1.items}
+        <li class="foot-menu-item uppercase">
+          <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+        </li>
+        {.end}
+      </ul>
+    </div>
+    <div class="footer-menu-list">
+      <a href="/intelligence-collection" class="fs-14 cl-grey uppercase">Intelligence Collection</a>
+      <ul class="footer-ul">
+        {.repeated section items.2.items}
+        <li class="foot-menu-item uppercase">
+          <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+        </li>
+        {.end}
+      </ul>
+    </div>
+  </div>
+</div>
