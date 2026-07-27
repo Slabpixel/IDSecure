@@ -175,6 +175,11 @@
   position: relative;
   z-index: 1;
 
+
+  &.no-overflow {
+    overflow: hidden;
+  }
+
   &.no-p {
     padding: 0;
   }
@@ -377,6 +382,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
+    width: 100%;
   }
 
   &.px {
@@ -416,6 +422,11 @@
 
 .max-w-718 {
   max-width: 718px;
+  width: 100%;
+}
+
+.max-w-682 {
+  max-width: 682px;
   width: 100%;
 }
 
@@ -573,7 +584,8 @@
   justify-content: space-between;
   gap: 16px;
   padding: 24px;
-  border-right: 1px solid rgba(23, 28, 38, 0.1);
+  border: 1px solid rgba(23, 28, 38, 0.1);
+  border-left: none;
 
   &:last-child {
     border-right: none;
@@ -911,12 +923,13 @@
   &_pagination {
     display: flex;
     flex-direction: row;
-    gap: 16px;
-    justify-content: space-between;
 
     &-wrap {
       display: flex;
       flex-direction: row;
+      width: 100%;
+    align-items: center;
+    justify-content: space-between;
     }
     &-item {
       width: 64px;
@@ -931,7 +944,6 @@
 
   &_list {
     display: flex;
-    flex-direction: column;
     min-width: 100%;
   }
   &_item {
@@ -940,6 +952,13 @@
     display: flex;
     flex-direction: column;
     background: @base-white;
+    padding: 24px;
+    border: 1px solid rgba(23, 28, 38, 0.1);
+    border-left: none;
+
+    &:last-child {
+      border-right: none;
+    }
 
     & > span {
       font-size: @text-sm;
@@ -955,6 +974,7 @@
       border-radius: 8px;
       border: 1px solid rgba(62, 235, 234, 0.6);
       background: @base-white;
+      position: relative;
 
       &-bg {
         position: absolute;
@@ -993,6 +1013,7 @@
       
       h3 {
         font-size: @text-xl;
+        line-height: 140%;
       }
       p {
         color: @ent-text-primary-light;

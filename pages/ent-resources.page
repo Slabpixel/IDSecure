@@ -7,7 +7,7 @@
           <span>RESOURCES</span>
         </div>
         <h1>Resources for connected enterprise operations</h1>
-        <p class="ent-description max-w-718">
+        <p class="ent-description max-w-682">
           Explore solution briefs, use case guides, industry resources,
           insights, and FAQs for enterprise connectivity, monitoring, and
           connected operations management.
@@ -24,9 +24,9 @@
   </div>
 </section>
 <section class="ent-section border-b">
-  <div class="ent-container sm no-px">
+  <div class="ent-container sm no-px no-overflow">
     <div class="ent-content start">
-      <div class="ent-title-wrap">
+      <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
           <span>RESOURCE CATEGORIES</span>
@@ -45,7 +45,7 @@
       </div>
       <div class="ent-resources_list">
         <div class="ent-resources_item">
-          <span>[01]</span>
+          <span class="ent-resources_item-content">[01]</span>
           <div class="ent-resources_item-inner">
             <div class="ent-resources_item-inner-bg">
               <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
@@ -55,6 +55,76 @@
           </div>
           <div class="ent-resources_item-content">
             <h3>Solution Briefs</h3>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="ent-resources_item">
+          <span class="ent-resources_item-content">[02]</span>
+          <div class="ent-resources_item-inner">
+            <div class="ent-resources_item-inner-bg">
+              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
+              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+            </div>
+            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+          </div>
+          <div class="ent-resources_item-content">
+            <h3>Use Case Guides</h3>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="ent-resources_item">
+          <span class="ent-resources_item-content">[03]</span>
+          <div class="ent-resources_item-inner">
+            <div class="ent-resources_item-inner-bg">
+              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
+              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+            </div>
+            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+          </div>
+          <div class="ent-resources_item-content">
+            <h3>Industry Guides</h3>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="ent-resources_item">
+          <span class="ent-resources_item-content">[04]</span>
+          <div class="ent-resources_item-inner">
+            <div class="ent-resources_item-inner-bg">
+              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
+              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+            </div>
+            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+          </div>
+          <div class="ent-resources_item-content">
+            <h3>FAQs</h3>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="ent-resources_item">
+          <span class="ent-resources_item-content">[05]</span>
+          <div class="ent-resources_item-inner">
+            <div class="ent-resources_item-inner-bg">
+              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
+              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+            </div>
+            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+          </div>
+          <div class="ent-resources_item-content">
+            <h3>Insights</h3>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="ent-resources_item">
+          <span class="ent-resources_item-content">[06]</span>
+          <div class="ent-resources_item-inner">
+            <div class="ent-resources_item-inner-bg">
+              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
+              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+            </div>
+            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+          </div>
+          <div class="ent-resources_item-content">
+            <h3>Partner Resources</h3>
             <p>Coming Soon</p>
           </div>
         </div>
