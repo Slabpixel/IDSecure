@@ -46,92 +46,164 @@
         </div>
       </div>
       <div class="ent-resources_viewport">
-      <div class="ent-resources_list">
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[01]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
+        <div class="ent-resources_list">
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[01]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
             </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
+            <div class="ent-resources_item-content">
+              <h3>Solution Briefs</h3>
+              <p>Coming Soon</p>
+            </div>
           </div>
-          <div class="ent-resources_item-content">
-            <h3>Solution Briefs</h3>
-            <p>Coming Soon</p>
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[02]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="ent-resources_item-content">
+              <h3>Use Case Guides</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[03]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="ent-resources_item-content">
+              <h3>Industry Guides</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[04]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="ent-resources_item-content">
+              <h3>FAQs</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[05]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="ent-resources_item-content">
+              <h3>Insights</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="ent-resources_item">
+            <span class="ent-resources_item-content">[06]</span>
+            <div class="ent-resources_item-inner">
+              <div class="ent-resources_item-inner-bg">
+                <img
+                  class="ent-resources_item-inner-bg-top"
+                  src="/assets/ent-resources_top.svg"
+                  alt=""
+                />
+                <img
+                  class="ent-resources_item-inner-bg-bottom"
+                  src="/assets/ent-resources_bottom.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                class="ent-resources_item-inner-icon"
+                src="/assets/ent-resources-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="ent-resources_item-content">
+              <h3>Partner Resources</h3>
+              <p>Coming Soon</p>
+            </div>
           </div>
         </div>
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[02]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
-            </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
-          </div>
-          <div class="ent-resources_item-content">
-            <h3>Use Case Guides</h3>
-            <p>Coming Soon</p>
-          </div>
-        </div>
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[03]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
-            </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
-          </div>
-          <div class="ent-resources_item-content">
-            <h3>Industry Guides</h3>
-            <p>Coming Soon</p>
-          </div>
-        </div>
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[04]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
-            </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
-          </div>
-          <div class="ent-resources_item-content">
-            <h3>FAQs</h3>
-            <p>Coming Soon</p>
-          </div>
-        </div>
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[05]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
-            </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
-          </div>
-          <div class="ent-resources_item-content">
-            <h3>Insights</h3>
-            <p>Coming Soon</p>
-          </div>
-        </div>
-        <div class="ent-resources_item">
-          <span class="ent-resources_item-content">[06]</span>
-          <div class="ent-resources_item-inner">
-            <div class="ent-resources_item-inner-bg">
-              <img class="ent-resources_item-inner-bg-top" src="/assets/ent-resources_top.svg" alt="" />
-              <img class="ent-resources_item-inner-bg-bottom" src="/assets/ent-resources_bottom.svg" alt="" />
-            </div>
-            <img class="ent-resources_item-inner-icon" src="/assets/ent-resources-1.svg" alt="" />
-          </div>
-          <div class="ent-resources_item-content">
-            <h3>Partner Resources</h3>
-            <p>Coming Soon</p>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
   </div>

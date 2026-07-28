@@ -47,9 +47,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline"
-                >Learn more</a
-              >
+              <a href="#" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -92,10 +90,7 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img
-                  src="/assets/ent-nav-b.png"
-                  alt=""
-                />
+                <img src="/assets/ent-nav-b.png" alt="" />
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -103,9 +98,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline"
-                >Learn more</a
-              >
+              <a href="#" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -144,10 +137,7 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img
-                  src="/assets/ent-nav-c.png"
-                  alt=""
-                />
+                <img src="/assets/ent-nav-c.png" alt="" />
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -155,9 +145,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline"
-                >Learn more</a
-              >
+              <a href="#" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
