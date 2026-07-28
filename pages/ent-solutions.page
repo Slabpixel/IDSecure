@@ -1,0 +1,55 @@
+<section class="ent-section hero">
+  <div class="ent-container hero">
+    <div class="ent-content max-w-1032">
+      <div class="ent-title-wrap gap-24">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>SOLUTIONS</span>
+        </div>
+        <h1>Four solutions. One connected operating model.</h1>
+        <p class="ent-description max-w-682">
+          IDSECURE solutions help enterprise organizations connect devices,
+          extend coverage, monitor real-world conditions, and manage distributed
+          operations from one operational framework.
+        </p>
+      </div>
+      <div class="ent-button-wrap">
+        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+        <a href="#" class="btn-ent-ghost">Explore Use Cases</a>
+      </div>
+    </div>
+  </div>
+  <div class="ent-hero-bg">
+    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container md">
+    <div class="ent-content gap-80">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>APPROACH</span>
+        </div>
+        <h2>Use cases built around operational problems</h2>
+      </div>
+      <div class="ent-content_inner">
+        <div class="ent-content_img">
+          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+        </div>
+        <div class="ent-description_wrap max-w-626">
+          <hr class="ent-description_divider" />
+          <p class="text-md text-primary-lighter">
+            Enterprise teams need practical solutions for the environments they
+            operate in every day.
+          </p>
+          <p class="text-md text-primary-lighter">
+            IDSECURE use cases connect the right combination of Enterprise IoT,
+            Enterprise Satellite, SenseHQ, and CloudCore to solve problems
+            across sites, facilities, fleets, assets, and sensors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -23,26 +23,29 @@
     <img src="/assets/ent-resources-hero.png" alt="Enterprise Hero Image" />
   </div>
 </section>
-<section class="ent-section border-b">
-  <div class="ent-container sm no-px no-overflow">
-    <div class="ent-content start">
+<section class="ent-section border-b ent-resources-section">
+  <div class="ent-container sm no-px">
+    <div class="ent-content start ent-resources">
       <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
           <span>RESOURCE CATEGORIES</span>
         </div>
-        <div class="ent-resources_pagination-wrap">
+        <div class="ent-resources_progress-wrap">
           <h2>Resource categories</h2>
-          <div class="ent-resources_pagination">
-            <div class="ent-resources_pagination-item is-active"></div>
-            <div class="ent-resources_pagination-item"></div>
-            <div class="ent-resources_pagination-item"></div>
-            <div class="ent-resources_pagination-item"></div>
-            <div class="ent-resources_pagination-item"></div>
-            <div class="ent-resources_pagination-item"></div>
+          <div
+            class="ent-resources_progress"
+            role="progressbar"
+            aria-label="Resource categories scroll progress"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+          >
+            <span class="ent-resources_progress-fill"></span>
           </div>
         </div>
       </div>
+      <div class="ent-resources_viewport">
       <div class="ent-resources_list">
         <div class="ent-resources_item">
           <span class="ent-resources_item-content">[01]</span>
@@ -128,6 +131,7 @@
             <p>Coming Soon</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
