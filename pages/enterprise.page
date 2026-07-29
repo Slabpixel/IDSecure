@@ -22,6 +22,7 @@
   </div>
   <div class="ent-hero-bg">
     <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image" />
+    <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
 <section class="ent-section">
@@ -686,3 +687,5 @@
     </div>
   </div>
 </section>
+
+{@|apply ent-section-contact.block}

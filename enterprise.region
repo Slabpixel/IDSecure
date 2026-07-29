@@ -24,7 +24,7 @@
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} ent-body">
     <div class="ent-site-container">
       <header class="ent-site-header">
         <!-- site navigation -->

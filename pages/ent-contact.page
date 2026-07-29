@@ -12,5 +12,8 @@
   </div>
   <div class="ent-hero-bg">
     <img src="/assets/ent-contact-hero.png" alt="Enterprise Hero Image" />
+    <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
+
+{@|apply ent-section-contact.block}

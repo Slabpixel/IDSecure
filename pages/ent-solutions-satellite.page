@@ -4,18 +4,21 @@
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>SOLUTIONS</span>
+          <span>Enterprise Satellite</span>
         </div>
-        <h1>Four solutions. One connected operating model.</h1>
+        <h1>
+          Enterprise Satellite connectivity for remote, mobile, and
+          business-critical operations
+        </h1>
         <p class="ent-description max-w-682">
-          IDSECURE solutions help enterprise organizations connect devices,
-          extend coverage, monitor real-world conditions, and manage distributed
-          operations from one operational framework.
+          Extend connectivity beyond terrestrial networks with managed satellite
+          deployment, failover planning, usage visibility, and centralized
+          control through CloudCore.
         </p>
       </div>
       <div class="ent-button-wrap">
         <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Use Cases</a>
+        <a href="#" class="btn-ent-ghost">Explore Solutions</a>
       </div>
     </div>
   </div>
@@ -30,9 +33,9 @@
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>APPROACH</span>
+          <span>SOLUTIONS OVERVIEW</span>
         </div>
-        <h2>Use cases built around operational problems</h2>
+        <h2>Connectivity built for distributed enterprise operations</h2>
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
@@ -41,13 +44,11 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Enterprise teams need practical solutions for the environments they
-            operate in every day.
-          </p>
-          <p class="text-md text-primary-lighter">
-            IDSECURE use cases connect the right combination of Enterprise IoT,
-            Enterprise Satellite, SenseHQ, and CloudCore to solve problems
-            across sites, facilities, fleets, assets, and sensors.
+            Enterprise Satellite helps organizations bring reliable connectivity
+            to remote, temporary, mobile, maritime, and off-grid operations.
+            IDSECURE supports deployment planning, connectivity support,
+            centralized visibility, usage management, failover design, and
+            integration into broader enterprise network environments.
           </p>
         </div>
       </div>

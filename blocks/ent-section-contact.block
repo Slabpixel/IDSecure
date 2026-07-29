@@ -1,0 +1,24 @@
+<!-- <script>console.log({@|json-pretty})</script> -->
+<div class="ent-section cta">
+  <div class="ent-container no-p">
+    <div class="ent-footer_container">
+      <div class="ent-footer_side-logo-wrap">
+        <a href="/" class="gov-footer-logo">
+          <img src="/assets/logo-dark.svg" alt="IDSECURE Logo" />
+        </a>
+      </div>
+      <div class="ent-footer_cta">
+        <h2>
+          Ready to connect, monitor, and manage your enterprise operations?
+        </h2>
+        <div class="ent-footer_cta-inner">
+          <p>
+            Talk to IDSECURE about your sites, assets, devices, connectivity,
+            and monitoring requirements.
+          </p>
+          <a href="#" class="btn-ent-primary">Talk to IDSECURE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
