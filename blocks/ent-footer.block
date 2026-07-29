@@ -19,10 +19,7 @@
       <div class="footer-menu-list">
         <span class="fs-14 cl-grey uppercase">Solutions</span>
         <ul class="footer-ul">
-          <li class="foot-menu-item uppercase">
-            <a href="/">Home</a>
-          </li>
-          {.repeated section items.0.items}
+          {.repeated section items.3.items}
           <li class="foot-menu-item uppercase">
             <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
           </li>
@@ -34,7 +31,7 @@
           >Use Cases</a
         >
         <ul class="footer-ul">
-          {.repeated section items.1.items}
+          {.repeated section items.4.items}
           <li class="foot-menu-item uppercase">
             <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
           </li>
@@ -46,7 +43,7 @@
           >Industries</a
         >
         <ul class="footer-ul">
-          {.repeated section items.2.items}
+          {.repeated section items.5.items}
           <li class="foot-menu-item uppercase">
             <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
           </li>
@@ -58,7 +55,7 @@
           >Company</a
         >
         <ul class="footer-ul">
-          {.repeated section items.4.items}
+          {.repeated section items.6.items}
           <li class="foot-menu-item uppercase">
             <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
           </li>
