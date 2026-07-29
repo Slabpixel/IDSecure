@@ -17,7 +17,7 @@
     </div>
     <div class="ent-footer_menu">
       <div class="footer-menu-list">
-        <span class="fs-14 cl-grey uppercase">Solutions</span>
+        <a href="/solutions" class="fs-14 cl-grey uppercase">Solutions</a>
         <ul class="footer-ul">
           {.repeated section items.3.items}
           <li class="foot-menu-item uppercase">
@@ -27,7 +27,7 @@
         </ul>
       </div>
       <div class="footer-menu-list">
-        <a href="/government" class="fs-14 cl-grey uppercase">Use Cases</a>
+        <a href="/use-cases" class="fs-14 cl-grey uppercase">Use Cases</a>
         <ul class="footer-ul">
           {.repeated section items.4.items}
           <li class="foot-menu-item uppercase">
@@ -37,9 +37,7 @@
         </ul>
       </div>
       <div class="footer-menu-list">
-        <a href="/intelligence-collection" class="fs-14 cl-grey uppercase"
-          >Industries</a
-        >
+        <a href="/industries" class="fs-14 cl-grey uppercase">Industries</a>
         <ul class="footer-ul">
           {.repeated section items.5.items}
           <li class="foot-menu-item uppercase">
@@ -49,9 +47,7 @@
         </ul>
       </div>
       <div class="footer-menu-list">
-        <a href="/intelligence-collection" class="fs-14 cl-grey uppercase"
-          >Company</a
-        >
+        <span class="fs-14 cl-grey uppercase">Company</span>
         <ul class="footer-ul">
           <li class="foot-menu-item uppercase">
             <a href="/about-us">About Us</a>
