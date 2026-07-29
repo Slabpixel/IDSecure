@@ -27,9 +27,7 @@
         </ul>
       </div>
       <div class="footer-menu-list">
-        <a href="/government" class="fs-14 cl-grey uppercase"
-          >Use Cases</a
-        >
+        <a href="/government" class="fs-14 cl-grey uppercase">Use Cases</a>
         <ul class="footer-ul">
           {.repeated section items.4.items}
           <li class="foot-menu-item uppercase">
@@ -55,6 +53,9 @@
           >Company</a
         >
         <ul class="footer-ul">
+          <li class="foot-menu-item uppercase">
+            <a href="/about-us">About Us</a>
+          </li>
           {.repeated section items.6.items}
           <li class="foot-menu-item uppercase">
             <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
