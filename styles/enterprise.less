@@ -83,7 +83,7 @@
 }
 
 .ent-body {
-  background-color: @ent-background;  
+  background-color: @ent-background;
 }
 // Navigation
 .ent-site-navigation {
@@ -432,10 +432,6 @@
       background-color: @ent-background;
     }
   }
-
-  &.cta {
-    padding-top: 80px;
-  }
 }
 
 .ent-container {
@@ -484,6 +480,10 @@
     &.no-px {
       padding: 80px 0;
     }
+  }
+
+  &.cta {
+    padding: 80px 0 0 0;
   }
 }
 
@@ -736,6 +736,11 @@
   width: 100%;
 }
 
+.max-w-568 {
+  max-width: 568px;
+  width: 100%;
+}
+
 .max-w-468 {
   max-width: 468px;
   width: 100%;
@@ -743,6 +748,11 @@
 
 .max-w-450 {
   max-width: 450px;
+  width: 100%;
+}
+
+.max-w-350 {
+  max-width: 350px;
   width: 100%;
 }
 
@@ -868,7 +878,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 100%;
-    border-top: 1px solid rgba(23, 28, 38, 0.1);
+
+    &.border-y {
+      border-top: 1px solid rgba(23, 28, 38, 0.1);
+      border-bottom: 1px solid rgba(23, 28, 38, 0.1);
+    }
   }
 
   &_side {
@@ -925,11 +939,13 @@
     position: relative;
     isolation: isolate;
     border: transparent;
+    background-color: @base-white;
 
     &::before {
       content: "";
       position: absolute;
-      inset: 0;
+      inset: -1px;
+      left: 0;
       border-radius: inherit;
       border: 1px solid transparent;
       background: linear-gradient(
@@ -948,11 +964,76 @@
       -webkit-mask-composite: xor;
       pointer-events: none;
     }
+
+    h2 {
+      font-size: @text-2xl;
+    }
+
+    &-inner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      gap: 16px;
+      justify-content: space-between;
+      padding-top: 30px;
+      border-top: 1px solid rgba(23, 28, 38, 0.1);
+      font-size: @text-sm;
+    }
+
+    &-gradient {
+      position: absolute;
+
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(62, 235, 234, 0.18) 0%,
+        rgba(91, 252, 251, 0) 100%
+      );
+      border-radius: 50%;
+      width: 295px;
+      height: 295px;
+
+      opacity: 0.7;
+
+      &.a {
+        left: -79px;
+        bottom: -134px;
+      }
+
+      &.b {
+        width: 362px;
+        height: 362px;
+
+        left: 275px;
+        top: -142px;
+      }
+
+      &.c {
+        right: -126px;
+        top: -98px;
+      }
+
+      &-wrap {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        overflow: hidden;
+      }
+    }
   }
 }
 
 .ent-footer .foot-menu-item a {
   color: @ent-text-primary !important;
+  font-size: @text-sm;
+}
+
+.ent-footer .footer-menu-list {
+  gap: 16px;
+}
+
+.ent-footer .footer-ul {
+  gap: 10px;
 }
 
 .ent-footer .cl-grey {

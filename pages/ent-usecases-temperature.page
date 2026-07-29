@@ -4,16 +4,13 @@
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>Remote Site CONNECTIVITY</span>
+          <span>Temperature & Humidity Monitoring</span>
         </div>
-        <h1>
-          End-to-end IoT monitoring for assets, environments, facilities, and
-          field operations
-        </h1>
+        <h1>Temperature and humidity monitoring for sensitive environments</h1>
         <p class="ent-description max-w-682">
-          SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
-          automation, reports, and integrations so teams can see more, act
-          faster, and scale monitoring with confidence.
+          Monitor conditions across cold rooms, storage areas, warehouses,
+          greenhouses, production spaces, controlled environments, and
+          shipment-level temperature workflows.
         </p>
       </div>
       <div class="ent-button-wrap">
@@ -44,13 +41,12 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Remote operations often depend on sites that are outside reliable
-            terrestrial coverage.
-          </p>
-          <p class="text-md text-primary-lighter">
-            IDSECURE helps organizations extend connectivity to field locations,
-            rural facilities, construction sites, utility infrastructure, and
-            remote assets.
+            Temperature and humidity changes can create product loss, safety
+            risk, operational issues, and compliance exposure. SenseHQ helps
+            teams monitor conditions, receive alerts, and maintain visibility
+            across sensitive environments. SenseTag Sticker Temp extends
+            temperature visibility to cartons, totes, samples, parcels, and
+            pallet-level shipments where reusable trackers may be impractical.
           </p>
         </div>
       </div>

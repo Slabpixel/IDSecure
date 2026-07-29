@@ -4,21 +4,16 @@
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>Remote Site CONNECTIVITY</span>
+          <span>Manufacturing & Industrial Facilities</span>
         </div>
-        <h1>
-          End-to-end IoT monitoring for assets, environments, facilities, and
-          field operations
-        </h1>
+        <h1>Connected monitoring for manufacturing and industrial facilities</h1>
         <p class="ent-description max-w-682">
-          SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
-          automation, reports, and integrations so teams can see more, act
-          faster, and scale monitoring with confidence.
+          Monitor facilities, tanks, flow, environmental conditions, equipment, assets, and connectivity across industrial operations.
         </p>
       </div>
       <div class="ent-button-wrap">
         <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Related Solutions</a>
+        <a href="#" class="btn-ent-ghost">Explore Relevant Use Cases</a>
       </div>
     </div>
   </div>
@@ -33,9 +28,9 @@
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>OUR CHALLENGE</span>
+          <span>INDUSTRY CHALLENGE</span>
         </div>
-        <h2>The operational challenge</h2>
+        <h2>Industry challenge</h2>
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
@@ -44,13 +39,10 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Remote operations often depend on sites that are outside reliable
-            terrestrial coverage.
+            Manufacturing and industrial environments often rely on equipment, utilities, tanks, meters, assets, and facility conditions that are monitored through disconnected or manual processes.
           </p>
           <p class="text-md text-primary-lighter">
-            IDSECURE helps organizations extend connectivity to field locations,
-            rural facilities, construction sites, utility infrastructure, and
-            remote assets.
+            IDSECURE helps centralize visibility and improve operational awareness.
           </p>
         </div>
       </div>

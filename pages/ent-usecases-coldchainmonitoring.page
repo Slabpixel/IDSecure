@@ -4,16 +4,14 @@
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>Remote Site CONNECTIVITY</span>
+          <span>COLD CHAIN MONITORING</span>
         </div>
         <h1>
-          End-to-end IoT monitoring for assets, environments, facilities, and
-          field operations
+          Cold chain monitoring for storage, handling, transit, and delivery
         </h1>
         <p class="ent-description max-w-682">
-          SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
-          automation, reports, and integrations so teams can see more, act
-          faster, and scale monitoring with confidence.
+          Monitor temperature-sensitive products, storage areas, shipments, cold
+          rooms, freezers, route milestones, and chain-of-custody workflows.
         </p>
       </div>
       <div class="ent-button-wrap">
@@ -44,13 +42,15 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Remote operations often depend on sites that are outside reliable
-            terrestrial coverage.
+            Cold chain operations require visibility from storage through
+            handling and delivery.
           </p>
           <p class="text-md text-primary-lighter">
-            IDSECURE helps organizations extend connectivity to field locations,
-            rural facilities, construction sites, utility infrastructure, and
-            remote assets.
+            IDSECURE helps teams monitor conditions, locations, route
+            milestones, chain-of-custody context, and exceptions across
+            temperature-sensitive workflows. SenseTag Sticker Temp adds
+            lightweight temperature visibility at the carton, tote, sample,
+            parcel, and pallet level.
           </p>
         </div>
       </div>

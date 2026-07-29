@@ -4,16 +4,13 @@
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>Remote Site CONNECTIVITY</span>
+          <span>Backup Internet & Business Continuity</span>
         </div>
         <h1>
-          End-to-end IoT monitoring for assets, environments, facilities, and
-          field operations
+          Backup internet and business continuity for connected operations
         </h1>
         <p class="ent-description max-w-682">
-          SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
-          automation, reports, and integrations so teams can see more, act
-          faster, and scale monitoring with confidence.
+          Add resilient connectivity paths for critical sites and distributed businesses that cannot afford extended outages.
         </p>
       </div>
       <div class="ent-button-wrap">
@@ -44,13 +41,7 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Remote operations often depend on sites that are outside reliable
-            terrestrial coverage.
-          </p>
-          <p class="text-md text-primary-lighter">
-            IDSECURE helps organizations extend connectivity to field locations,
-            rural facilities, construction sites, utility infrastructure, and
-            remote assets.
+            Connectivity interruptions can stop operations, reduce visibility, and isolate critical sites. IDSECURE helps organizations add backup paths, satellite failover, usage visibility, and centralized management to improve business continuity.
           </p>
         </div>
       </div>
