@@ -527,6 +527,9 @@
   &-16 {
     gap: 16px;
   }
+  &-20 {
+    gap: 20px;
+  }
   &-24 {
     gap: 24px;
   }
@@ -569,8 +572,16 @@
 
     &-two {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr minmax(640px, 1fr);
       gap: 72px;
+    }
+
+    &-three {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      border-top: 1px solid rgba(23, 28, 38, 0.1);
+      border-bottom: 1px solid rgba(23, 28, 38, 0.1);
     }
   }
 
@@ -723,6 +734,11 @@
 
 .max-w-1032 {
   max-width: 1032px;
+  width: 100%;
+}
+
+.max-w-782 {
+  max-width: 782px;
   width: 100%;
 }
 
@@ -1184,6 +1200,26 @@
       }
     }
   }
+
+  &-center {
+    width: 100%;
+  }
+  &-side {
+    width: 100%;
+    padding: 24px;
+    padding-right: 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    justify-content: flex-end;
+    &.alt {
+      padding-right: 24px;
+      padding-left: 32px;
+      justify-content: center;
+    }
+  }
 }
 
 .ent-solutions {
@@ -1199,6 +1235,10 @@
     width: 100%;
     height: 412px;
     overflow: hidden;
+
+    &.alt {
+      height: 560px;
+    }
 
     &-item {
       position: absolute;
@@ -1224,6 +1264,10 @@
     width: 100%;
     min-height: 124px;
 
+    &.alt {
+      min-height: 170px;
+    }
+
     &-item {
       position: absolute;
       inset: 0;
@@ -1236,6 +1280,25 @@
 
       &:first-child {
         clip-path: inset(0 0 0 0);
+      }
+    }
+  }
+
+  &_pagination {
+    display: flex;
+
+    &-item {
+      flex: 1;
+      width: 100%;
+      height: 1px;
+      background: rgba(62, 235, 234, 0.1);
+
+      &.is-active {
+        background: linear-gradient(
+          90deg,
+          #3eebea 0%,
+          rgba(62, 235, 234, 0.1) 100%
+        );
       }
     }
   }
@@ -1824,6 +1887,8 @@
     }
   }
   &_form {
+    display: flex;
+    flex-direction: column;
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(23, 28, 38, 0.03);
@@ -1833,7 +1898,274 @@
 
     h3 {
       font-size: @text-xl;
-      
+    }
+
+    & .field-list {
+      display: grid;
+      width: 100%;
+      max-width: 100%;
+      column-gap: 16px;
+      row-gap: 16px;
+      /* Explicit track sizes (not 1fr) — px cap + % split so fieldsets fill each column */
+      grid-template-columns: repeat(2, min(280px, calc(55% - 4px)));
+      justify-content: space-between;
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        justify-content: stretch;
+        row-gap: 16px;
+      }
+
+      > .form-item,
+      > fieldset.form-item {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      > .form-item.field.text,
+      > .form-item.field.email,
+      > fieldset.form-item.fields {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      /* Name row: first + last side by side */
+      fieldset.form-item.fields:has(.field.first-name) {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 16px;
+        row-gap: 0;
+        border: none;
+        margin: 0;
+        padding: 0;
+        min-inline-size: 0;
+
+        legend {
+          display: none;
+        }
+
+        .field.first-name,
+        .field.last-name {
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          width: 100% !important;
+          max-width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        .field.first-name .caption,
+        .field.last-name .caption {
+          display: block;
+          margin-bottom: 8px;
+          font-size: @text-sm;
+          color: @ent-text-primary;
+          font-weight: @font-weight-regular;
+        }
+
+        @media (max-width: 768px) {
+          grid-column: 1;
+          grid-template-columns: 1fr;
+          row-gap: 16px;
+        }
+      }
+
+      .form-item.field.text,
+      .form-item.field.email,
+      .form-item.field.select,
+      .form-item.field.number {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0;
+
+        > label.title {
+          width: 100%;
+        }
+      }
+
+      /* Honeypot */
+      .btIyKrvyA6dTrftg {
+        display: none !important;
+      }
+
+      /* Full-width rows — span both columns */
+      .form-item.field.textarea {
+        grid-column: span 2;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 32px;
+      }
+
+      @media (max-width: 768px) {
+        .form-item.field.checkbox,
+        .form-item.field.textarea {
+          grid-column: 1;
+        }
+      }
+
+      /* Field labels (text inputs + textarea + email) */
+      .form-item.field.text .title,
+      .form-item.field.email .title,
+      .form-item.field.textarea .title,
+      .form-item.fields legend .title,
+      .form-item.field.select .title,
+      .form-item.field.number .title {
+        display: block;
+        margin-bottom: 4px;
+        font-size: @text-sm;
+        color: @ent-text-primary;
+        font-weight: @font-weight-regular;
+      }
+
+      .form-item.fields .field.first-name .caption,
+      .form-item.fields .field.last-name .caption {
+        .description.required {
+          font-size: 0 !important;
+          line-height: 0 !important;
+          display: inline !important;
+          vertical-align: baseline;
+          margin-left: 1px;
+          opacity: 1 !important;
+          color: transparent !important;
+
+          &::after {
+            content: "*";
+            font-size: @text-base;
+            line-height: 1;
+            color: #ff2b2b;
+            opacity: 1 !important;
+          }
+        }
+      }
+
+      .description.required {
+        display: none;
+      }
+
+      .form-input-effects {
+        display: none;
+      }
+
+      & textarea,
+      & input[type="text"],
+      & input[type="email"],
+      & input[type="tel"],
+      & input[type="number"],
+      & select {
+        display: block;
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+        padding: 10px 14px 10px 14px;
+        min-height: 40px;
+
+        backdrop-filter: none;
+
+        border-radius: 6px;
+        border: 1px solid #e0e5ed;
+        font-size: @text-sm;
+        line-height: @line-body;
+        color: @ent-text-primary;
+        box-shadow: none;
+
+        &:focus {
+          outline: none;
+          border-color: @ent-brand-primary;
+        }
+      }
+
+      & textarea {
+        min-height: 170px;
+        resize: vertical;
+        padding: 14px;
+      }
+
+      & textarea::placeholder,
+      & input::placeholder {
+        color: @ent-text-tertiary;
+        opacity: 1;
+      }
+    }
+
+    & .form-button-wrapper button {
+      .btn-ent-primary() !important;
+
+      span {
+        font-weight: @font-weight-medium !important;
+      }
+    }
+  }
+}
+
+.ent-solution-layers {
+  display: flex;
+  flex-direction: column;
+
+  &_image {
+    width: 100%;
+    height: 440px;
+    border-top: 1px solid rgba(23, 28, 38, 0.1);
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_cards {
+    display: flex;
+
+    &-item {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 24px;
+      gap: 16px;
+      flex: 1;
+      height: 260px;
+      border: 1px solid #e6e7e8;
+      color: @ent-text-placeholder;
+      background-color: transparent;
+      transition:
+        color 0.3s ease,
+        border-color 0.3s ease,
+        border-top 0.3s ease,
+        border-bottom 0.3s ease,
+        background-color 0.3s ease;
+      border-left: none;
+      &:last-child {
+        border-right: none;
+      }
+
+      &.is-active {
+        color: @ent-text-primary;
+        border-bottom: 0;
+        border-top: 1px solid #3eebea;
+        background-color: @base-white;
+
+        & > .ent-solution-layers_cards-item_number {
+          color: @ent-text-primary;
+        }
+      }
+
+      &_number {
+        position: absolute;
+        left: -4px;
+        bottom: -15px;
+        font-size: 100px;
+        line-height: 100px;
+        font-weight: @font-weight-medium;
+        color: rgba(23, 28, 38, 0.1);
+      }
     }
   }
 }

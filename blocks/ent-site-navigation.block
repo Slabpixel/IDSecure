@@ -5,7 +5,7 @@
     </a>
     <div class="ent-nav-menu">
       <div class="ent-nav-item ent-nav-item--dropdown">
-        <a class="ent-nav-link" href="/government"
+        <a class="ent-nav-link" href="/solutions"
           >Solutions
           <svg
             width="13"
@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="ent-nav-item ent-nav-item--dropdown">
-        <a class="ent-nav-link" href="#"
+        <a class="ent-nav-link" href="/use-cases"
           >Use Cases
           <svg
             width="13"
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="ent-nav-item ent-nav-item--dropdown">
-        <a class="ent-nav-link" href="/intelligence-collection"
+        <a class="ent-nav-link" href="/industries"
           >Industries
           <svg
             width="13"

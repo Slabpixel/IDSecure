@@ -62,3 +62,15 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Contact Form Placeholder Input
+  window.addEventListener("load", (event) => {
+    const myTimeout = setTimeout(() => {
+      document.querySelector('[name="fname"]').placeholder =
+        "Write your first name here";
+      document.querySelector('[name="lname"]').placeholder =
+        "Write your last name here";
+    }, 100);
+  });
+</script>
