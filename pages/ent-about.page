@@ -1,12 +1,12 @@
 <section class="ent-section contact">
   <div class="ent-container hero">
-    <div class="ent-content start">
-      <div class="ent-title-wrap start gap-24">
-        <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
-          <span>CONTACT US</span>
-        </div>
-        <h1>Talk to IDSECURE</h1>
+    <div class="ent-content">
+      <div class="ent-title-wrap gap-24">
+        <img src="/assets/wordmark-color.svg" alt="Enterprise About Wordmark" />
+        <h1 class="max-w-1032">
+          Curiosity, Creativity, and Industry Knowledge Drive Our Passion and
+          Purpose
+        </h1>
       </div>
     </div>
   </div>
@@ -27,18 +27,18 @@
             <img src="/assets/fp-icon.svg" alt="" />
             <span>ABOUT US</span>
           </div>
-          <h2>
+          <p class="text-xl text-medium leading-140">
             IDSECURE is an enterprise technology partner helping organizations
             connect people, vehicles, assets, and operations across diverse and
             often challenging environments.
-          </h2>
-          <p class="text-md text-primary-lighter">
+          </p>
+          <p class="text-md text-primary-lighter leading-150">
             Our solutions are built around the understanding that modern
             businesses rely on continuous connectivity, real-time visibility,
             and trusted data to operate efficiently, regardless of location or
             network availability.
           </p>
-          <p class="text-md text-primary-lighter">
+          <p class="text-md text-primary-lighter leading-150">
             We design and deliver enterprise connectivity and IoT solutions that
             combine global cellular, LEO satellite communications, intelligent
             asset monitoring, and centralized management into a single
@@ -48,7 +48,7 @@
             resilient communications, gain real-time operational insight, and
             simplify the management of globally connected assets.
           </p>
-          <p class="text-md text-primary-lighter">
+          <p class="text-md text-primary-lighter leading-150">
             By bringing together resilient connectivity, intelligent sensing,
             and centralized visibility, IDSECURE helps organizations improve
             operational resilience, increase efficiency, reduce downtime, and
@@ -99,10 +99,22 @@
       </div>
       <div class="ent-about_grid">
         <div class="ent-about_grid-card">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
           <div class="ent-about_grid-card-icon">
             <img src="/assets/lightbulb.svg" alt="" />
           </div>
-          <div class="title-wrap start">
+          <div class="ent-title-wrap start">
             <h3>Innovation</h3>
             <p>
               We continually improve our technologies, expand our capabilities,
@@ -112,67 +124,122 @@
           </div>
         </div>
         <div class="ent-about_grid-card">
-          <div class="ent-about_grid-card-icon">
-            <img src="/assets/lightbulb.svg" alt="" />
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
           </div>
-          <div class="title-wrap start">
-            <h3>Innovation</h3>
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/messages.svg" alt="" />
+          </div>
+          <div class="ent-title-wrap start">
+            <h3>Communication</h3>
             <p>
-              We continually improve our technologies, expand our capabilities,
-              and develop new ways to solve mission-critical security,
-              connectivity, and identity challenges.
+              We believe clear, consistent communication is essential to trusted
+              partnerships.
             </p>
           </div>
         </div>
         <div class="ent-about_grid-card">
-          <div class="ent-about_grid-card-icon">
-            <img src="/assets/lightbulb.svg" alt="" />
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
           </div>
-          <div class="title-wrap start">
-            <h3>Innovation</h3>
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/hand-holding-hand.svg" alt="" />
+          </div>
+          <div class="ent-title-wrap start">
+            <h3>Ownership</h3>
             <p>
-              We continually improve our technologies, expand our capabilities,
-              and develop new ways to solve mission-critical security,
-              connectivity, and identity challenges.
+              We believe clear, consistent communication is essential to trusted
+              partnerships.
             </p>
           </div>
         </div>
         <div class="ent-about_grid-card">
-          <div class="ent-about_grid-card-icon">
-            <img src="/assets/lightbulb.svg" alt="" />
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
           </div>
-          <div class="title-wrap start">
-            <h3>Innovation</h3>
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/book-open.svg" alt="" />
+          </div>
+          <div class="ent-title-wrap start">
+            <h3>Learning</h3>
             <p>
-              We continually improve our technologies, expand our capabilities,
-              and develop new ways to solve mission-critical security,
-              connectivity, and identity challenges.
+              We listen attentively to customer requirements and apply our
+              technical expertise to the operational realities they face.
             </p>
           </div>
         </div>
         <div class="ent-about_grid-card">
-          <div class="ent-about_grid-card-icon">
-            <img src="/assets/lightbulb.svg" alt="" />
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
           </div>
-          <div class="title-wrap start">
-            <h3>Innovation</h3>
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/rocket-alt.svg" alt="" />
+          </div>
+          <div class="ent-title-wrap start">
+            <h3>Service</h3>
             <p>
-              We continually improve our technologies, expand our capabilities,
-              and develop new ways to solve mission-critical security,
-              connectivity, and identity challenges.
+              We support our customers with responsiveness, accountability, and
+              a commitment to long-term mission success.
             </p>
           </div>
         </div>
         <div class="ent-about_grid-card">
-          <div class="ent-about_grid-card-icon">
-            <img src="/assets/lightbulb.svg" alt="" />
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
           </div>
-          <div class="title-wrap start">
-            <h3>Innovation</h3>
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/users.svg" alt="" />
+          </div>
+          <div class="ent-title-wrap start">
+            <h3>Relationships</h3>
             <p>
-              We continually improve our technologies, expand our capabilities,
-              and develop new ways to solve mission-critical security,
-              connectivity, and identity challenges.
+              We work with customers, partners, and colleagues with
+              transparency, respect, and integrity.
             </p>
           </div>
         </div>
@@ -183,12 +250,6 @@
 <section class="ent-section">
   <div class="ent-container no-p">
     <div class="ent-about_banner alt">
-      <div class="ent-about_banner-circle">
-        <img
-          src="/assets/ent-about_banner-a.svg"
-          alt="Enterprise About Circle"
-        />
-      </div>
       <div class="ent-about_banner-quote-alt">
         <img
           src="/assets/ent-about_banner-quote.svg"
@@ -197,14 +258,16 @@
       </div>
       <div class="ent-about_banner-gradient-a-alt"></div>
       <div class="ent-about_banner-gradient-b-alt"></div>
-      <div class="ent-eyebrow">
-        <img src="/assets/fp-icon.svg" alt="" />
-        <span>OUR MISSION</span>
+      <div class="ent-about_banner-inner">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR MISSION</span>
+        </div>
+        <h2 class="max-w-720">
+          Enable Enterprises to Connect Resiliently, Operate Intelligently, and
+          Manage with Confidence.
+        </h2>
       </div>
-      <h2 class="max-w-720">
-        Enable Enterprises to Connect Resiliently, Operate Intelligently, and
-        Manage with Confidence.
-      </h2>
     </div>
   </div>
 </section>

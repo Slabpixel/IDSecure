@@ -904,6 +904,18 @@
   }
 }
 
+.leading {
+  &-150 {
+    line-height: 1.5;
+  }
+  &-140 {
+    line-height: 1.4;
+  }
+  &-100 {
+    line-height: 1;
+  }
+}
+
 .ent-footer {
   width: 100%;
   position: relative;
@@ -2321,7 +2333,6 @@
     &.alt {
       text-align: left;
       align-items: flex-end;
-      
     }
 
     &-circle {
@@ -2333,13 +2344,12 @@
     &-quote {
       position: absolute;
       right: 0;
-      bottom: 0;
+      bottom: -8px;
 
       &-alt {
         position: absolute;
-        right: auto;
         left: 0;
-        top: 0;
+        top: -8px;
         transform: rotate(180deg);
       }
     }
@@ -2351,6 +2361,7 @@
       left: -44px;
       bottom: -143px;
       border-radius: 50%;
+      z-index: 1;
       background: radial-gradient(
         50% 50% at 50% 50%,
         rgba(62, 235, 234, 0.1) 0%,
@@ -2364,6 +2375,7 @@
         right: -202px;
         top: -281px;
         border-radius: 50%;
+        z-index: 1;
         background: radial-gradient(
           50% 50% at 50% 50%,
           rgba(62, 235, 234, 0.1) 0%,
@@ -2379,6 +2391,7 @@
       right: -28px;
       top: -193px;
       border-radius: 50%;
+      z-index: 1;
       background: radial-gradient(
         50% 50% at 50% 50%,
         rgba(62, 235, 234, 0.1) 0%,
@@ -2392,6 +2405,7 @@
         left: 254px;
         bottom: -236px;
         border-radius: 50%;
+        z-index: 1;
         background: radial-gradient(
           50% 50% at 50% 50%,
           rgba(62, 235, 234, 0.1) 0%,
@@ -2399,20 +2413,32 @@
         );
       }
     }
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
   }
 
   &_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
 
     &-card {
+      position: relative;
+      overflow: hidden;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 48px;
       padding: 24px;
+      height: 320px;
       border: 1px solid rgba(62, 235, 234, 0.4);
-      &:nth-child(3n) {
+      background-color: @base-white;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(4),
+      &:nth-child(5) {
         border-right: none;
       }
       &:nth-child(n + 4) {
