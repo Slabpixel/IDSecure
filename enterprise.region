@@ -60,12 +60,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
     <script src="scripts/lenis.js"></script>
     <script src="scripts/script.js"></script>
-    <script src="scripts/ent-nav.js"></script>
-    <script src="scripts/ent-resources-scroll.js"></script>
-    <script src="scripts/ent-solutions-scroll.js"></script>
-    <script src="scripts/ent-block-hover.js"></script>
-    <script src="scripts/ent-how-scroll.js"></script>
-    <script src="scripts/ent-industries-scroll.js"></script>
+    <script src="scripts/ent-animation.js"></script>
     {squarespace-footers}
   </body>
 </html>

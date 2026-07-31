@@ -1,0 +1,212 @@
+<section class="ent-section contact">
+  <div class="ent-container hero">
+    <div class="ent-content start">
+      <div class="ent-title-wrap start gap-24">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>CONTACT US</span>
+        </div>
+        <h1>Talk to IDSECURE</h1>
+      </div>
+    </div>
+  </div>
+  <div class="ent-hero-bg">
+    <img src="/assets/ent-about-hero.png" alt="Enterprise Hero Image" />
+    <div class="ent-hero-bg_overlay"></div>
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container md">
+    <div class="ent-content gap-80">
+      <div class="ent-content_inner">
+        <div class="ent-content_img">
+          <img src="/assets/ent-about.svg" alt="Enterprise About Image" />
+        </div>
+        <div class="ent-description_wrap max-w-626">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>ABOUT US</span>
+          </div>
+          <h2>
+            IDSECURE is an enterprise technology partner helping organizations
+            connect people, vehicles, assets, and operations across diverse and
+            often challenging environments.
+          </h2>
+          <p class="text-md text-primary-lighter">
+            Our solutions are built around the understanding that modern
+            businesses rely on continuous connectivity, real-time visibility,
+            and trusted data to operate efficiently, regardless of location or
+            network availability.
+          </p>
+          <p class="text-md text-primary-lighter">
+            We design and deliver enterprise connectivity and IoT solutions that
+            combine global cellular, LEO satellite communications, intelligent
+            asset monitoring, and centralized management into a single
+            operational ecosystem. From logistics fleets and remote field
+            operations to manufacturing facilities, energy infrastructure, and
+            distributed enterprises, IDSECURE enables organizations to maintain
+            resilient communications, gain real-time operational insight, and
+            simplify the management of globally connected assets.
+          </p>
+          <p class="text-md text-primary-lighter">
+            By bringing together resilient connectivity, intelligent sensing,
+            and centralized visibility, IDSECURE helps organizations improve
+            operational resilience, increase efficiency, reduce downtime, and
+            make faster, data-driven decisions across their entire enterprise.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container no-p">
+    <div class="ent-about_banner">
+      <div class="ent-about_banner-circle">
+        <img
+          src="/assets/ent-about_banner-a.svg"
+          alt="Enterprise About Circle"
+        />
+      </div>
+      <div class="ent-about_banner-quote">
+        <img
+          src="/assets/ent-about_banner-quote.svg"
+          alt="Enterprise About Quote"
+        />
+      </div>
+      <div class="ent-about_banner-gradient-a"></div>
+      <div class="ent-about_banner-gradient-b"></div>
+      <div class="ent-eyebrow">
+        <img src="/assets/fp-icon.svg" alt="" />
+        <span>OUR VISION</span>
+      </div>
+      <h2 class="max-w-776">
+        To be a trusted enterprise technology partner for resilient global
+        connectivity and intelligent operational visibility.
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container md no-px">
+    <div class="ent-content start gap-40">
+      <div class="ent-title-wrap start px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Our Values</span>
+        </div>
+        <h2>Our Values</h2>
+      </div>
+      <div class="ent-about_grid">
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+        <div class="ent-about_grid-card">
+          <div class="ent-about_grid-card-icon">
+            <img src="/assets/lightbulb.svg" alt="" />
+          </div>
+          <div class="title-wrap start">
+            <h3>Innovation</h3>
+            <p>
+              We continually improve our technologies, expand our capabilities,
+              and develop new ways to solve mission-critical security,
+              connectivity, and identity challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container no-p">
+    <div class="ent-about_banner alt">
+      <div class="ent-about_banner-circle">
+        <img
+          src="/assets/ent-about_banner-a.svg"
+          alt="Enterprise About Circle"
+        />
+      </div>
+      <div class="ent-about_banner-quote-alt">
+        <img
+          src="/assets/ent-about_banner-quote.svg"
+          alt="Enterprise About Quote"
+        />
+      </div>
+      <div class="ent-about_banner-gradient-a-alt"></div>
+      <div class="ent-about_banner-gradient-b-alt"></div>
+      <div class="ent-eyebrow">
+        <img src="/assets/fp-icon.svg" alt="" />
+        <span>OUR MISSION</span>
+      </div>
+      <h2 class="max-w-720">
+        Enable Enterprises to Connect Resiliently, Operate Intelligently, and
+        Manage with Confidence.
+      </h2>
+    </div>
+  </div>
+</section>
+
+{@|apply ent-section-contact.block}

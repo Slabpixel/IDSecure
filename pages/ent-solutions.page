@@ -54,7 +54,7 @@
     </div>
   </div>
 </section>
-<section class="ent-section vh border-y ent-solutions-section">
+<section class="ent-section vh border-y ent-solutions-section ent-solutions-section--overview" data-solutions-layout="overview">
   <div class="ent-container md no-px">
     <div class="ent-content gap-32">
       <div class="ent-title-wrap">
@@ -64,7 +64,7 @@
         </div>
         <h2>Solutions overview</h2>
       </div>
-      <div class="ent-content_grid-three">
+      <div class="ent-content_grid-three ent-solutions">
         <div class="ent-solution-side">
           <nav class="ent-solution_navigation" aria-label="Solutions">
             <a
@@ -153,7 +153,7 @@
   </div>
 </section>
 
-<section class="ent-section">
+<section class="ent-section ent-solution-layers-section">
   <div class="ent-container md no-px">
     <div class="ent-content start gap-48">
       <div class="ent-title-wrap start px gap-20">
@@ -165,7 +165,18 @@
       </div>
       <div class="ent-solution-layers">
         <div class="ent-solution-layers_image">
-          <img src="/assets/multi-network-failover.png" alt="Solution Layers" />
+          <div class="ent-solution-layers_image-item is-active">
+            <img src="/assets/ent-sol-layer-1.png" alt="Enterprise IoT" />
+          </div>
+          <div class="ent-solution-layers_image-item">
+            <img src="/assets/ent-sol-layer-2.png" alt="Enterprise Satellite" />
+          </div>
+          <div class="ent-solution-layers_image-item">
+            <img src="/assets/ent-sol-layer-3.png" alt="SenseHQ" />
+          </div>
+          <div class="ent-solution-layers_image-item">
+            <img src="/assets/ent-sol-layer-4.png" alt="CloudCore" />
+          </div>
         </div>
         <div class="ent-solution-layers_cards">
           <div class="ent-solution-layers_cards-item is-active">
@@ -195,7 +206,7 @@
           <div class="ent-solution-layers_cards-item">
             <div class="ent-solution-layers_cards-item_number">04</div>
             <div class="ent-solution-layers_cards-item_gradient"></div>
-            <h3>Enterprise IoT</h3>
+            <h3>CloudCore</h3>
             <p>
               Gives teams centralized control over connectivity, usage,
               policies, lifecycle actions, and reporting.
