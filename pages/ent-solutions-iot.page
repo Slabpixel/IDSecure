@@ -72,87 +72,78 @@
             and territories.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-1.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Access to 700+</span> mobile network
+            carriers.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-2.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">SIM and eSIM</span> deployment options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-3.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Support for</span> 2G, 3G, 4G, LTE-M,
+            NB-IoT, and 5G where available.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-4.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Over-the-air</span> carrier profile
+            management.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-5.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item span-2">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Local and roaming</span> carrier
+            <br />connectivity options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-6.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item span-2">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Private and secure </span> routing options
+            including enterprise APN and private IP deployment options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-7.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">Local breakout</span> options where
+            supported.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-8.png" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
           <p class="text-lg">
-            <span class="text-medium">Global reach</span> across 220+ countries
-            <br />
-            and territories.
+            <span class="text-medium">CloudCore management</span> integration
+            for usage, lifecycle, groups, policies & reporting.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-iot-9.png" alt="" />
           </div>
         </div>
       </div>
@@ -160,7 +151,7 @@
   </div>
 </section>
 <section class="ent-section border-t">
-  <div class="ent-container md">
+  <div class="ent-container md no-px">
     <div class="ent-content gap-64">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
@@ -168,6 +159,246 @@
           <span>Featured use cases</span>
         </div>
         <h2>Featured use cases</h2>
+      </div>
+      <div class="ent-iot_use-cases" role="list">
+        <button
+          type="button"
+          class="ent-iot_use-cases-item is-active"
+          aria-expanded="true"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-1.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[01]</span>
+            <h3 class="ent-iot_use-cases-item-title">Sensor connectivity</h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[01]</span>
+            <h3 class="ent-iot_use-cases-item-title">Sensor connectivity</h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-2.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[02]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Remote equipment monitoring
+            </h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[02]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Remote equipment monitoring
+            </h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-3.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[03]</span>
+            <h3 class="ent-iot_use-cases-item-title">Asset tracking</h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[03]</span>
+            <h3 class="ent-iot_use-cases-item-title">Asset tracking</h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-4.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[04]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Outbound shipment condition visibility
+            </h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[04]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Outbound shipment condition visibility
+            </h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-5.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[05]</span>
+            <h3 class="ent-iot_use-cases-item-title">Fleet and telematics</h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[05]</span>
+            <h3 class="ent-iot_use-cases-item-title">Fleet and telematics</h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-6.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[06]</span>
+            <h3 class="ent-iot_use-cases-item-title">Cold chain monitoring</h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[06]</span>
+            <h3 class="ent-iot_use-cases-item-title">Cold chain monitoring</h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-7.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[07]</span>
+            <h3 class="ent-iot_use-cases-item-title">Multi-site operations</h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[07]</span>
+            <h3 class="ent-iot_use-cases-item-title">Multi-site operations</h3>
+          </div>
+        </button>
+        <button
+          type="button"
+          class="ent-iot_use-cases-item"
+          aria-expanded="false"
+        >
+          <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
+            <img src="/assets/ent-iot-uc-8.png" alt="" />
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
+            aria-hidden="false"
+          >
+            <span class="ent-iot_use-cases-item-number">[08]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Industrial and facility monitoring
+            </h3>
+          </div>
+          <div
+            class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--horizontal"
+            aria-hidden="true"
+          >
+            <span class="ent-iot_use-cases-item-number">[08]</span>
+            <h3 class="ent-iot_use-cases-item-title">
+              Industrial and facility monitoring
+            </h3>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container md no-px">
+    <div class="ent-content start gap-40">
+      <div class="ent-title-wrap start px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>RELEVANT SOLUTIONS</span>
+        </div>
+        <h2>Relevant IDSECURE solutions</h2>
+      </div>
+      <div class="ent-iot_solutions">
+        <a href="#" class="ent-iot_solutions-item">
+          <div class="ent-iot_solutions-item-image">
+            <img src="/assets/ent-iot-sat.png" alt="" />
+          </div>
+          <h3 class="text-lg">Enterprise Satellite</h3>
+          <p class="max-w-350">
+            Add resilient coverage for remote, mobile, or off-grid environments.
+          </p>
+        </a>
+        <a href="#" class="ent-iot_solutions-item">
+          <div class="ent-iot_solutions-item-image">
+            <img src="/assets/ent-iot-sen.png" alt="" />
+          </div>
+          <h3 class="text-lg">SenseHQ</h3>
+          <p class="max-w-367">
+            Connect monitoring devices, asset tags, temperature stickers, sensors, and gateways.
+          </p>
+        </a>
+        <a href="#" class="ent-iot_solutions-item">
+          <div class="ent-iot_solutions-item-image">
+            <img src="/assets/ent-iot-cc.png" alt="" />
+          </div>
+          <h3 class="text-lg">CloudCore</h3>
+          <p class="max-w-350">
+            Manage SIMs, usage, policies, lifecycle actions, groups, and reporting.
+          </p>
+        </a>
       </div>
     </div>
   </div>

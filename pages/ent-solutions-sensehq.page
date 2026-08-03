@@ -7,10 +7,13 @@
           <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
         </div>
         <h1>
-          End-to-end IoT monitoring for assets, environments, facilities, and field operations
+          End-to-end IoT monitoring for assets, environments, facilities, and
+          field operations
         </h1>
         <p class="ent-description max-w-682">
-          SenseHQ unifies devices, sensors, gateways, dashboards, alerts, automation, reports, and integrations so teams can see more, act faster, and scale monitoring with confidence.
+          SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
+          automation, reports, and integrations so teams can see more, act
+          faster, and scale monitoring with confidence.
         </p>
       </div>
       <div class="ent-button-wrap">
@@ -20,7 +23,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <img src="/assets/ent-sense-hero.png" alt="Enterprise Hero Image" />
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
@@ -32,19 +35,127 @@
           <img src="/assets/fp-icon.svg" alt="" />
           <span>SOLUTIONS OVERVIEW</span>
         </div>
-        <h2>From sensors to 
-          operational intelligence</h2>
+        <h2>From sensors to operational intelligence</h2>
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-sense.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Many organizations collect operational data through disconnected devices, manual checks, spreadsheets, or isolated vendor tools. SenseHQ brings sensor data, asset visibility, shipment-level condition visibility, alerts, automation, reporting, and integrations into one monitoring environment.
+            Many organizations collect operational data through disconnected
+            devices, manual checks, spreadsheets, or isolated vendor tools.
+            SenseHQ brings sensor data, asset visibility, shipment-level
+            condition visibility, alerts, automation, reporting, and
+            integrations into one monitoring environment.
           </p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container md">
+    <div class="ent-content gap-64">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>WHAT WE CAN HELP</span>
+        </div>
+        <h2>What SenseHQ helps you monitor</h2>
+      </div>
+      <div class="ent-sense_help">
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+        <div class="ent-sense_help-item">
+          <div class="ent-sense_help-item-icon">
+            <img src="/assets/temperature-half.svg" alt="" />
+          </div>
+          <span>Temperature and humidity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container sm no-px">
+    <div class="ent-content gap-40">
+      <div class="ent-title-wrap px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Device ecosystem</span>
+        </div>
+        <h2>Device ecosystem</h2>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</section>
+<section class="ent-section">
+  <div class="ent-container sm">
+    <div class="ent-content gap-0">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR PLATFORM</span>
+        </div>
+        <h2>Platform capabilities</h2>
+      </div>
+      <div class="ent-sense_capabilities">
+        <img src="/assets/ent-sense-capabilities.svg" alt="" />
       </div>
     </div>
   </div>

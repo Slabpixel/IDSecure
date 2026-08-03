@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <img src="/assets/ent-satellite-hero.png" alt="Enterprise Hero Image" />
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
@@ -39,7 +39,7 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-satellite.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
@@ -50,6 +50,326 @@
             centralized visibility, usage management, failover design, and
             integration into broader enterprise network environments.
           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container sm no-px">
+    <div class="ent-content gap-40 start">
+      <div class="ent-title-wrap start px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR CAPABILITIES</span>
+        </div>
+        <h2>Key capabilities</h2>
+      </div>
+      <div class="ent-satellite_capabilities">
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/satellite.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            Managed satellite deployment support.
+          </p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/remote.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            Remote, mobile, maritime, temporary, and off-grid connectivity use
+            cases.
+          </p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/wifi.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            Backup connectivity and failover planning.
+          </p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/rocket-alt.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">Preconfigured deployment options.</p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/files-alt.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">Usage visibility and reporting.</p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/bar-chart.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            Data pooling options where applicable.
+          </p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/clouds.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            CloudCore management for satellite and cellular environments.
+          </p>
+        </div>
+        <div class="ent-satellite_capabilities-item">
+          <div class="ent-satellite_capabilities-item-icon">
+            <img src="/assets/chart-network-alt.svg" alt="" />
+          </div>
+          <p class="text-lg text-medium">
+            Network integration support for enterprise operating environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container sm">
+    <div class="ent-content gap-40">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>COMPARISON</span>
+        </div>
+        <h2 class="max-w-450">Enterprise Satellite vs Retail Satellite</h2>
+      </div>
+      <div class="ent-satellite_comparison">
+        <div class="ent-satellite_comparison-head">
+          <div
+            class="ent-satellite_comparison-head-spacer"
+            aria-hidden="true"
+          ></div>
+          <div class="ent-satellite_comparison-head-card">
+            <div
+              class="ent-satellite_comparison-head-icon ent-satellite_comparison-head-icon--retail"
+            >
+              <img src="/assets/satellite.svg" alt="" />
+            </div>
+            <h3>Retail Satellite</h3>
+          </div>
+          <div
+            class="ent-satellite_comparison-head-card ent-satellite_comparison-head-card--enterprise"
+          >
+            <div class="ent-satellite_comparison-head-card-bg">
+              <img src="/assets/ent-sat-head-bg.svg" alt="" />
+            </div>
+            <div
+              class="ent-satellite_comparison-head-icon ent-satellite_comparison-head-icon--enterprise"
+            >
+              <img src="/assets/fp-icon.svg" alt="" />
+            </div>
+            <h3>IDSECURE Satellite</h3>
+          </div>
+        </div>
+        <div class="ent-satellite_comparison-body">
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">Best suited for</p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Individual or simple standalone use</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>
+                Multi-site, remote, mobile, maritime, industrial, and
+                business-critical operations
+              </p>
+            </div>
+          </div>
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">Deployment planning</p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Customer responsible</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>
+                IDSECURE supports planning, rollout, configuration, and
+                readiness
+              </p>
+            </div>
+          </div>
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">Centralized management</p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Limited account-by-account visibility</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>
+                Satellite, cellular, and IoT environments managed through
+                CloudCore
+              </p>
+            </div>
+          </div>
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">Failover design</p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Customer handles routing and backup design</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>IDSECURE helps design primary and backup connectivity paths</p>
+            </div>
+          </div>
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">
+              Operational consistency
+            </p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Each site may be configured differently</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>
+                Standardized deployment model across sites, teams, and
+                environments
+              </p>
+            </div>
+          </div>
+          <div class="ent-satellite_comparison-row">
+            <p class="ent-satellite_comparison-label">Long-term management</p>
+            <div class="ent-satellite_comparison-value">
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--retail"
+                aria-hidden="true"
+              ></span>
+              <p>Customer tracks usage and changes manually</p>
+            </div>
+            <div
+              class="ent-satellite_comparison-value ent-satellite_comparison-value--enterprise"
+            >
+              <span
+                class="ent-satellite_comparison-marker ent-satellite_comparison-marker--enterprise"
+                aria-hidden="true"
+              ></span>
+              <p>
+                IDSECURE supports lifecycle, usage visibility, and operational
+                management
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container xs no-px">
+    <div class="ent-content gap-48">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR USE CASES</span>
+        </div>
+        <h2>Common Use Cases</h2>
+      </div>
+      <div class="ent-satellite_use-cases">
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Remote Site <br />
+            Connectivity
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-1.png" alt="" />
+          </div>
+        </div>
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Backup Internet & <br />
+            Business Continuity
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-2.png" alt="" />
+          </div>
+        </div>
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Construction <br />
+            and temporary sites
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-3.png" alt="" />
+          </div>
+        </div>
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Satellite- <br />
+            enabled IoT
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-4.png" alt="" />
+          </div>
+        </div>
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Maritime and <br />
+            offshore operations
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-5.png" alt="" />
+          </div>
+        </div>
+        <div class="ent-satellite_use-cases-item">
+          <p class="text-lg text-medium">
+            Mobile field <br />
+            operations
+          </p>
+          <div class="ent-satellite_use-cases-item-image">
+            <img src="/assets/ent-sat-6.png" alt="" />
+          </div>
         </div>
       </div>
     </div>

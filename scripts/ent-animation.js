@@ -102,6 +102,57 @@
     });
   })();
 
+  // --------------------------------------------------------------------------
+  // IoT featured use cases — expandable strip with vertical labels
+  // --------------------------------------------------------------------------
+
+  (function initEntIotUseCases() {
+    var wrap = document.querySelector(".ent-iot_use-cases");
+    if (!wrap) {
+      return;
+    }
+
+    var items = wrap.querySelectorAll(".ent-iot_use-cases-item");
+    if (!items.length) {
+      return;
+    }
+
+    function setActive(item) {
+      items.forEach(function (el) {
+        var isActive = el === item;
+        el.classList.toggle("is-active", isActive);
+        el.setAttribute("aria-expanded", isActive ? "true" : "false");
+
+        var vertical = el.querySelector(
+          ".ent-iot_use-cases-item-label--vertical",
+        );
+        var horizontal = el.querySelector(
+          ".ent-iot_use-cases-item-label--horizontal",
+        );
+
+        if (vertical) {
+          vertical.setAttribute("aria-hidden", isActive ? "true" : "false");
+        }
+        if (horizontal) {
+          horizontal.setAttribute("aria-hidden", isActive ? "false" : "true");
+        }
+      });
+    }
+
+    items.forEach(function (item) {
+      item.addEventListener("mouseenter", function () {
+        setActive(item);
+      });
+      item.addEventListener("focus", function () {
+        setActive(item);
+      });
+    });
+
+    var initial =
+      wrap.querySelector(".ent-iot_use-cases-item.is-active") || items[0];
+    setActive(initial);
+  })();
+
   if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
     return;
   }
