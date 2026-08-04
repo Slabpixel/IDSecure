@@ -20,7 +20,13 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <video
+      src="/assets/ent-hero-logistics.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
@@ -36,7 +42,7 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-logistics.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
@@ -56,5 +62,102 @@
     </div>
   </div>
 </section>
+
+<section class="ent-section border-t">
+  <div class="ent-container sm no-px">
+    <div class="ent-content gap-64">
+      <div class="ent-title-wrap px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Featured use cases</span>
+        </div>
+        <h2>Featured use cases</h2>
+      </div>
+      <div class="ent-usecases_menu">
+        <div class="ent-usecases_menu-list">
+          <a
+            href="/remote-site-connectivity"
+            class="ent-usecases_menu-list-item is-active"
+          >
+            <span>[01]</span>
+            <p>Rural Site Connectivity</p>
+          </a>
+          <a href="/flow-monitoring" class="ent-usecases_menu-list-item">
+            <span>[02]</span>
+            <p>Irrigation and flow monitoring</p>
+          </a>
+          <a
+            href="/temperature-humidity-monitoring"
+            class="ent-usecases_menu-list-item"
+          >
+            <span>[03]</span>
+            <p>Soil and environmental monitoring</p>
+          </a>
+          <a href="/tank-level-monitoring" class="ent-usecases_menu-list-item">
+            <span>[04]</span>
+            <p>Tank and water visibility</p>
+          </a>
+          <a href="/cold-chain-monitoring" class="ent-usecases_menu-list-item">
+            <span>[05]</span>
+            <p>Cold storage monitoring</p>
+          </a>
+
+          <a
+            href="/air-quality-environmental-monitoring"
+            class="ent-usecases_menu-list-item"
+          >
+            <span>[06]</span>
+            <p>Air Quality & Environmental Monitoring</p>
+          </a>
+          <a href="/asset-tracking" class="ent-usecases_menu-list-item">
+            <span>[07]</span>
+            <p>Field asset tracking</p>
+          </a>
+        </div>
+        <div class="ent-usecases_menu-image">
+          <div class="ent-usecases_menu-image-item is-active">
+            <img
+              src="/assets/ent-uc-menu-remote.png"
+              alt="Remote Site Connectivity"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-temperature.png"
+              alt="Temperature & Humidity Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-tank.png"
+              alt="Tank Level Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-cold.png"
+              alt="Cold Chain Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-air.png"
+              alt="Air Quality & Environmental Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{@|apply ent-relevant-industries.block}
+{@|apply ent-industry-outcome.block}
 
 {@|apply ent-section-contact.block}

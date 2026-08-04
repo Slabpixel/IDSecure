@@ -7,10 +7,14 @@
           <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
         </div>
         <h1>
-          Solve enterprise connectivity, monitoring, and asset visibility challenges
+          Solve enterprise connectivity, monitoring, and asset visibility
+          challenges
         </h1>
-        <p class="ent-description max-w-682">
-          IDSECURE solutions are built around real operational use cases: connecting remote sites, monitoring critical conditions, tracking assets, supporting fleets, and centralizing control across distributed operations.
+        <p class="ent-description max-w-718">
+          IDSECURE solutions are built around real operational use cases:
+          connecting remote sites, monitoring critical conditions, tracking
+          assets, supporting fleets, and centralizing control across distributed
+          operations.
         </p>
       </div>
       <div class="ent-button-wrap">
@@ -20,7 +24,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <img src="/assets/ent-usecases-hero.png" alt="Enterprise Hero Image" />
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
@@ -32,18 +36,140 @@
           <img src="/assets/fp-icon.svg" alt="" />
           <span>APPROACH</span>
         </div>
-        <h2>Use cases built around
-          operational problems</h2>
+        <h2>Use cases built around operational problems</h2>
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-usecases.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Many organizations collect operational data through disconnected devices, manual checks, spreadsheets, or isolated vendor tools. SenseHQ brings sensor data, asset visibility, shipment-level condition visibility, alerts, automation, reporting, and integrations into one monitoring environment.
+            Many organizations collect operational data through disconnected
+            devices, manual checks, spreadsheets, or isolated vendor tools.
+            SenseHQ brings sensor data, asset visibility, shipment-level
+            condition visibility, alerts, automation, reporting, and
+            integrations into one monitoring environment.
           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container sm no-px">
+    <div class="ent-content gap-48">
+      <div class="ent-title-wrap px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Featured use cases</span>
+        </div>
+        <h2>Featured use cases</h2>
+      </div>
+      <div class="ent-usecases_menu">
+        <div class="ent-usecases_menu-list">
+          <a
+            href="/remote-site-connectivity"
+            class="ent-usecases_menu-list-item is-active"
+          >
+            <span>[01]</span>
+            <p>Remote Site Connectivity</p>
+          </a>
+          <a href="/backup-continuity" class="ent-usecases_menu-list-item">
+            <span>[02]</span>
+            <p>Backup Internet & Business Continuity</p>
+          </a>
+          <a
+            href="/temperature-humidity-monitoring"
+            class="ent-usecases_menu-list-item"
+          >
+            <span>[03]</span>
+            <p>Temperature & Humidity Monitoring</p>
+          </a>
+          <a href="/tank-level-monitoring" class="ent-usecases_menu-list-item">
+            <span>[04]</span>
+            <p>Tank Level Monitoring</p>
+          </a>
+          <a href="/flow-monitoring" class="ent-usecases_menu-list-item">
+            <span>[05]</span>
+            <p>Flow Monitoring</p>
+          </a>
+          <a
+            href="/air-quality-environmental-monitoring"
+            class="ent-usecases_menu-list-item"
+          >
+            <span>[06]</span>
+            <p>Air Quality & Environmental Monitoring</p>
+          </a>
+          <a href="/cold-chain-monitoring" class="ent-usecases_menu-list-item">
+            <span>[07]</span>
+            <p>Cold Chain Monitoring</p>
+          </a>
+          <a href="/fleet-telematics" class="ent-usecases_menu-list-item">
+            <span>[08]</span>
+            <p>Fleet & Telematics</p>
+          </a>
+          <a href="/asset-tracking" class="ent-usecases_menu-list-item">
+            <span>[09]</span>
+            <p>Asset Tracking</p>
+          </a>
+          <a href="/multi-site-management" class="ent-usecases_menu-list-item">
+            <span>[10]</span>
+            <p>Multi-Site Asset & Connectivity Management</p>
+          </a>
+        </div>
+        <div class="ent-usecases_menu-image">
+          <div class="ent-usecases_menu-image-item is-active">
+            <img
+              src="/assets/ent-uc-menu-remote.png"
+              alt="Remote Site Connectivity"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-backup.png"
+              alt="Backup Internet & Business Continuity"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-temperature.png"
+              alt="Temperature & Humidity Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-tank.png"
+              alt="Tank Level Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-air.png"
+              alt="Air Quality & Environmental Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-cold.png"
+              alt="Cold Chain Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet & Telematics" />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+          </div>
+          <div class="ent-usecases_menu-image-item">
+            <img
+              src="/assets/ent-uc-menu-multi.png"
+              alt="Multi-Site Asset & Connectivity Management"
+            />
+          </div>
         </div>
       </div>
     </div>

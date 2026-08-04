@@ -153,6 +153,50 @@
     setActive(initial);
   })();
 
+  (function initEntUsecasesMenu() {
+    var menu = document.querySelector(".ent-usecases_menu");
+    if (!menu) {
+      return;
+    }
+
+    var items = menu.querySelectorAll(".ent-usecases_menu-list-item");
+    var images = menu.querySelectorAll(".ent-usecases_menu-image-item");
+
+    if (!items.length || items.length !== images.length) {
+      return;
+    }
+
+    function setActive(item) {
+      var index = Array.prototype.indexOf.call(items, item);
+
+      items.forEach(function (el, i) {
+        el.classList.toggle("is-active", i === index);
+      });
+
+      images.forEach(function (el, i) {
+        el.classList.toggle("is-active", i === index);
+      });
+    }
+
+    items.forEach(function (item) {
+      item.addEventListener("mouseenter", function () {
+        setActive(item);
+      });
+
+      item.addEventListener("focus", function () {
+        setActive(item);
+      });
+
+      item.addEventListener("click", function (event) {
+        event.preventDefault();
+      });
+    });
+
+    var initial =
+      menu.querySelector(".ent-usecases_menu-list-item.is-active") || items[0];
+    setActive(initial);
+  })();
+
   if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
     return;
   }
@@ -707,6 +751,325 @@
           instance.resetOverviewHeights();
           instance.setStaticState(0);
         });
+        return function () {};
+      },
+    );
+  })();
+
+  // --------------------------------------------------------------------------
+  // SenseHQ device ecosystem — pinned scroll + fade transitions
+  // --------------------------------------------------------------------------
+
+  (function initEntSenseDeviceScroll() {
+    var section = document.querySelector(".ent-sense-device-section");
+    if (!section) {
+      return;
+    }
+
+    var mediaItems = gsap.utils.toArray(
+      section.querySelectorAll(".ent-sense_device-media-item"),
+    );
+    var copyItems = gsap.utils.toArray(
+      section.querySelectorAll(".ent-sense_device-copy-item"),
+    );
+    var navItems = gsap.utils.toArray(
+      section.querySelectorAll(".ent-solution_navigation-item"),
+    );
+    var paginationItems = gsap.utils.toArray(
+      section.querySelectorAll(".ent-solutions_pagination-item"),
+    );
+    var count = mediaItems.length;
+    var stepDuration = 0.4;
+    var stepSpacing = 0.5;
+    var timeline = null;
+
+    if (!count || copyItems.length !== count || navItems.length !== count) {
+      return;
+    }
+
+    function measureCopyItems(items) {
+      var max = 0;
+
+      items.forEach(function (item) {
+        var prev = {
+          position: item.style.position,
+          visibility: item.style.visibility,
+          height: item.style.height,
+          inset: item.style.inset,
+          opacity: item.style.opacity,
+          pointerEvents: item.style.pointerEvents,
+        };
+
+        item.style.position = "relative";
+        item.style.visibility = "hidden";
+        item.style.height = "auto";
+        item.style.inset = "auto";
+        item.style.opacity = "1";
+        item.style.pointerEvents = "none";
+
+        max = Math.max(max, item.offsetHeight);
+
+        item.style.position = prev.position;
+        item.style.visibility = prev.visibility;
+        item.style.height = prev.height;
+        item.style.inset = prev.inset;
+        item.style.opacity = prev.opacity;
+        item.style.pointerEvents = prev.pointerEvents;
+      });
+
+      return max;
+    }
+
+    function syncHeights() {
+      var copyWrap = section.querySelector(".ent-sense_device-copy");
+      var center = section.querySelector(".ent-sense_device-center");
+      var media = section.querySelector(".ent-sense_device-media");
+      var sideAlt = section.querySelector(".ent-sense_device-side.alt");
+      var sideNav = section.querySelector(".ent-sense_device-side:not(.alt)");
+      var pagination = section.querySelector(".ent-solutions_pagination");
+      var grid = section.querySelector(".ent-sense_device");
+
+      if (!copyWrap || !copyItems.length) {
+        return;
+      }
+
+      copyWrap.style.height = "auto";
+      copyItems.forEach(function (item) {
+        item.style.height = "auto";
+      });
+
+      [center, sideAlt, sideNav, grid].forEach(function (node) {
+        if (node) {
+          node.style.minHeight = "";
+        }
+      });
+
+      var copyMax = measureCopyItems(copyItems);
+      var paginationHeight = pagination ? pagination.offsetHeight : 0;
+      var sideGap = sideAlt ? parseFloat(getComputedStyle(sideAlt).gap) || 0 : 0;
+      var rightColumnHeight = paginationHeight + sideGap + copyMax;
+      var mediaHeight = media ? media.offsetHeight : 0;
+      var rowHeight = Math.max(mediaHeight, rightColumnHeight);
+
+      copyWrap.style.height = copyMax + "px";
+      copyItems.forEach(function (item) {
+        item.style.height = "100%";
+      });
+
+      [center, sideAlt, sideNav, grid].forEach(function (node) {
+        if (node) {
+          node.style.minHeight = rowHeight + "px";
+        }
+      });
+    }
+
+    function resetHeights() {
+      var copyWrap = section.querySelector(".ent-sense_device-copy");
+      var center = section.querySelector(".ent-sense_device-center");
+      var sideAlt = section.querySelector(".ent-sense_device-side.alt");
+      var sideNav = section.querySelector(".ent-sense_device-side:not(.alt)");
+      var grid = section.querySelector(".ent-sense_device");
+
+      if (copyWrap) {
+        copyWrap.style.height = "";
+      }
+
+      copyItems.forEach(function (item) {
+        item.style.height = "";
+      });
+
+      [center, sideAlt, sideNav, grid].forEach(function (node) {
+        if (node) {
+          node.style.minHeight = "";
+        }
+      });
+    }
+
+    function setActiveNav(index) {
+      var activeIndex = Math.max(0, Math.min(index, navItems.length - 1));
+
+      navItems.forEach(function (item, i) {
+        item.classList.toggle("is-active", i === activeIndex);
+      });
+
+      paginationItems.forEach(function (item, i) {
+        item.classList.toggle("is-active", i === activeIndex);
+      });
+    }
+
+    function setStaticState(index) {
+      var activeIndex = Math.max(0, Math.min(index, count - 1));
+
+      mediaItems.forEach(function (item, i) {
+        item.style.opacity = i === activeIndex ? "1" : "0";
+      });
+
+      copyItems.forEach(function (item, i) {
+        item.style.opacity = i === activeIndex ? "1" : "0";
+      });
+
+      setActiveNav(activeIndex);
+    }
+
+    function killTimeline() {
+      if (timeline) {
+        if (timeline.scrollTrigger) {
+          timeline.scrollTrigger.kill();
+        }
+        timeline.kill();
+        timeline = null;
+      }
+
+      gsap.killTweensOf(mediaItems);
+      gsap.killTweensOf(copyItems);
+    }
+
+    function getScrollDistance() {
+      return Math.round(window.innerHeight * 0.4 * count);
+    }
+
+    function buildTimeline() {
+      syncHeights();
+
+      mediaItems.forEach(function (item, index) {
+        item.style.zIndex = String(index + 1);
+      });
+
+      gsap.set(mediaItems, {
+        opacity: function (i) {
+          return i === 0 ? 1 : 0;
+        },
+      });
+
+      gsap.set(copyItems, {
+        opacity: function (i) {
+          return i === 0 ? 1 : 0;
+        },
+      });
+
+      setActiveNav(0);
+
+      timeline = gsap.timeline({
+        scrollTrigger: {
+          trigger: section,
+          start: "top top",
+          end: function () {
+            return "+=" + getScrollDistance();
+          },
+          pin: section,
+          pinSpacing: true,
+          scrub: 0.5,
+          anticipatePin: 0,
+          invalidateOnRefresh: true,
+          onUpdate: function (self) {
+            var index = Math.min(
+              count - 1,
+              Math.floor(self.progress * count),
+            );
+            setActiveNav(index);
+          },
+        },
+      });
+
+      var step;
+      for (step = 1; step < count; step++) {
+        var position = (step - 1) * stepSpacing;
+
+        timeline.to(
+          mediaItems[step - 1],
+          {
+            opacity: 0,
+            duration: stepDuration,
+            ease: "none",
+          },
+          position,
+        );
+
+        timeline.to(
+          mediaItems[step],
+          {
+            opacity: 1,
+            duration: stepDuration,
+            ease: "none",
+          },
+          position,
+        );
+
+        timeline.to(
+          copyItems[step - 1],
+          {
+            opacity: 0,
+            duration: stepDuration,
+            ease: "none",
+          },
+          position,
+        );
+
+        timeline.to(
+          copyItems[step],
+          {
+            opacity: 1,
+            duration: stepDuration,
+            ease: "none",
+          },
+          position,
+        );
+      }
+
+      navItems.forEach(function (item, index) {
+        item.addEventListener("click", function (event) {
+          event.preventDefault();
+          var st = timeline && timeline.scrollTrigger;
+          if (!st || count <= 1) {
+            return;
+          }
+
+          var progress = index / (count - 1);
+          var scrollPos = st.start + progress * (st.end - st.start);
+          st.scroll(scrollPos);
+        });
+      });
+    }
+
+    var mm = gsap.matchMedia();
+
+    mm.add("(prefers-reduced-motion: reduce)", function () {
+      killTimeline();
+      resetHeights();
+      setStaticState(0);
+      return function () {};
+    });
+
+    mm.add(
+      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      function () {
+        buildTimeline();
+
+        var onResize = debounce(function () {
+          syncHeights();
+          ScrollTrigger.refresh();
+        }, 200);
+
+        window.addEventListener("resize", onResize);
+
+        requestAnimationFrame(function () {
+          ScrollTrigger.refresh();
+        });
+
+        return function () {
+          window.removeEventListener("resize", onResize);
+          killTimeline();
+          resetHeights();
+        };
+      },
+    );
+
+    mm.add(
+      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      function () {
+        killTimeline();
+        resetHeights();
+        setStaticState(0);
         return function () {};
       },
     );

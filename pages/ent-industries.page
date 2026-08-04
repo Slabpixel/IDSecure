@@ -22,7 +22,13 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <video
+      src="/assets/ent-hero-iot.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
@@ -38,7 +44,7 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-industries.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
@@ -54,6 +60,134 @@
       </div>
     </div>
   </div>
+</section>
+<section class="ent-section border-t ent-industries-section">
+  <div class="ent-container md no-px">
+    <div class="ent-content gap-48 ent-industries">
+      <div class="ent-title-wrap px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Industries served</span>
+        </div>
+        <h2>Industries served</h2>
+      </div>
+      <div class="ent-industries_track">
+        <div class="ent-industries_viewport">
+          <div class="ent-industries_wrap">
+            <div class="ent-industries_item" data-href="/energy-utilities">
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[01]</span>
+                <h3>Energy & <br />Utilities</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-1.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="ent-industries_item"
+              data-href="/agriculture-food-production"
+            >
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[02]</span>
+                <h3>Agriculture & <br />Food Production</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-2.png" alt="" />
+              </div>
+            </div>
+            <div class="ent-industries_item" data-href="/logistics-cold-chain">
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[03]</span>
+                <h3>Logistics & <br />Cold Chain</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-3.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="ent-industries_item"
+              data-href="/manufacturing-industrial"
+            >
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[04]</span>
+                <h3>Manufacturing & <br />Industrial Facilities</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-4.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="ent-industries_item"
+              data-href="/construction-remote-sites"
+            >
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[05]</span>
+                <h3>Construction & <br />Remote Sites</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-5.png" alt="" />
+              </div>
+            </div>
+            <div class="ent-industries_item" data-href="/facilities-multi-site">
+              <div class="ent-industries_item-bg">
+                <img src="/assets/ent-ind-gr.svg" alt="" />
+              </div>
+              <div class="ent-industries_item-inner">
+                <span>[06]</span>
+                <h3>Facilities & <br />Multi-Site Operations</h3>
+              </div>
+              <div class="ent-industries_item-image">
+                <img src="/assets/ent-ind-6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ent-industries_cursor" aria-hidden="true">
+    <span class="ent-industries_cursor-scale">
+      <span class="ent-industries_cursor-circle">
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
+          fill="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M5.25 5.24707H12.7451V12.7422"
+            stroke="currentColor"
+            stroke-width="1.49917"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.25 12.7422L12.7451 5.24707"
+            stroke="currentColor"
+            stroke-width="1.49917"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+    </span>
+  </a>
 </section>
 
 {@|apply ent-section-contact.block}

@@ -74,63 +74,63 @@
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/oil-can.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Tank levels</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/droplet.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Water flow and utility consumption</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/wind.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Air quality and CO2</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/seedling.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Soil moisture and temperature</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/location-dot.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Asset location and movement</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/snowflake.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Cold chain conditions</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/truck-alt.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Shipment-level temperature visibility</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/boxes-stacked.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Chain-of-custody workflow support</span>
         </div>
         <div class="ent-sense_help-item">
           <div class="ent-sense_help-item-icon">
-            <img src="/assets/temperature-half.svg" alt="" />
+            <img src="/assets/heart-pulse.svg" alt="" />
           </div>
-          <span>Temperature and humidity</span>
+          <span>Device health and operational status</span>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="ent-section border-t">
+<section class="ent-section vh border-y ent-sense-device-section">
   <div class="ent-container sm no-px">
     <div class="ent-content gap-40">
       <div class="ent-title-wrap px">
@@ -140,7 +140,159 @@
         </div>
         <h2>Device ecosystem</h2>
       </div>
-      <div></div>
+      <div class="ent-sense_device">
+        <div class="ent-sense_device-side">
+          <nav class="ent-solution_navigation" aria-label="SenseHQ devices">
+            <a
+              href="#"
+              class="ent-solution_navigation-item is-active"
+              data-device="0"
+            >
+              <div class="ent-dot"></div>
+              SenseTag Rugged
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="1">
+              <div class="ent-dot"></div>
+              SenseTag Nano
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="2">
+              <div class="ent-dot"></div>
+              SenseTag Sticker
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="3">
+              <div class="ent-dot"></div>
+              SenseTag Sticker Temp
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="4">
+              <div class="ent-dot"></div>
+              SenseGate LoRa
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="5">
+              <div class="ent-dot"></div>
+              SenseMonitor CO2
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="6">
+              <div class="ent-dot"></div>
+              SenseMonitor Flow
+            </a>
+            <a href="#" class="ent-solution_navigation-item" data-device="7">
+              <div class="ent-dot"></div>
+              SenseMonitor Soil
+            </a>
+          </nav>
+        </div>
+        <div class="ent-sense_device-center">
+          <div class="ent-sense_device-media">
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img src="/assets/ent-sense-1.png" alt="SenseTag Rugged" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img src="/assets/ent-sense-2.png" alt="SenseTag Nano" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img src="/assets/ent-sense-3.png" alt="SenseTag Sticker" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img
+                  src="/assets/ent-sense-4.png"
+                  alt="SenseTag Sticker Temp"
+                />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image z-2">
+                <img src="/assets/ent-sense-5.png" alt="SenseGate LoRa" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img src="/assets/ent-sense-6.png" alt="SenseMonitor CO2" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image z-2 full">
+                <img src="/assets/ent-sense-7.png" alt="SenseMonitor Flow" />
+              </div>
+            </div>
+            <div class="ent-sense_device-media-item">
+              <div class="ent-sense_device-image">
+                <img src="/assets/ent-sense-8.png" alt="SenseMonitor Soil" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ent-sense_device-side alt">
+          <div class="ent-solutions_pagination">
+            <div class="ent-solutions_pagination-item is-active"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+            <div class="ent-solutions_pagination-item"></div>
+          </div>
+          <div class="ent-sense_device-copy">
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Rugged asset tracking for equipment, containers, tools, cages,
+                field assets, and high-value mobile assets.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Compact tracking for small assets, portable items, and
+                lightweight recovery use cases.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Thin adhesive logistics tag for cartons, parcels, pallets,
+                shipment milestones, and chain-of-custody workflows.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Ultra-thin BLE temperature sticker for shipment-level condition
+                visibility, breadcrumb tracking, and chain-of-custody workflows
+                across cartons, totes, samples, parcels, and pallet-level
+                shipments.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                LoRaWAN gateway for facility-wide or site-wide low-power sensor
+                connectivity.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                CO2, temperature, and humidity monitoring for workplaces,
+                facilities, public spaces, and controlled environments.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Flow and consumption monitoring for meters, water systems,
+                utilities, irrigation, and industrial use cases.
+              </p>
+            </div>
+            <div class="ent-sense_device-copy-item">
+              <p class="text-primary-light">
+                Soil moisture and temperature monitoring for farms, greenhouses,
+                irrigation, and precision agriculture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

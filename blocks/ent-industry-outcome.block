@@ -1,0 +1,136 @@
+<section class="ent-section">
+  <div class="ent-container sm">
+    <div class="ent-content gap-48">
+      <div class="ent-title-wrap max-w-626">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>INDUSTRY OUTCOMES</span>
+        </div>
+        <h2>Operational outcomes</h2>
+      </div>
+      <div class="ent-why_wrap">
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/Eye.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium">
+                Improved visibility across sites, assets, and devices.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/gears.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium">
+                Fewer manual checks and disconnected workflows.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/bell.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium">
+                Better awareness of changing conditions and exceptions.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/network-wired-sec.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium">
+                More consistent connectivity and management across distributed
+                operations.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/chart-line.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium">
+                A scalable foundation for connected enterprise operations.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
