@@ -28,10 +28,10 @@
                 class="ent-nav-dropdown-links"
                 aria-label="Secure Mission Connectivity"
               >
-                <a href="#">Enterprise IOT</a>
-                <a href="#">Enterprise Satellite</a>
-                <a href="#">SenseHQ</a>
-                <a href="#">CloudCore</a>
+                <a href="/enterprise-iot">Enterprise IOT</a>
+                <a href="/enterprise-satellite">Enterprise Satellite</a>
+                <a href="/sensehq">SenseHQ</a>
+                <a href="/cloudcore">CloudCore</a>
               </nav>
               <div class="ent-nav-dropdown-visual">
                 <img
@@ -47,7 +47,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline">Learn more</a>
+              <a href="/enterprise-solutions" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -76,16 +76,16 @@
                 class="ent-nav-dropdown-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="#">Remote Site Connectivity</a>
-                <a href="#">Backup Internet & Business Continuity</a>
-                <a href="#">Temperature & Humidity Monitoring</a>
-                <a href="#">Tank Level Monitoring</a>
-                <a href="#">Flow Monitoring</a>
-                <a href="#">Air Quality & Environmental Monitoring</a>
-                <a href="#">Cold Chain Monitoring</a>
-                <a href="#">Fleet & Telematics</a>
-                <a href="#">Asset Tracking</a>
-                <a href="#">Multi-Site Asset & Connectivity Management</a>
+                <a href="/remote-site-connectivity">Remote Site Connectivity</a>
+                <a href="/backup-continuity">Backup Internet & Business Continuity</a>
+                <a href="/temperature-humidity-monitoring">Temperature & Humidity Monitoring</a>
+                <a href="/tank-level-monitoring">Tank Level Monitoring</a>
+                <a href="/flow-monitoring">Flow Monitoring</a>
+                <a href="/air-quality-environmental-monitoring">Air Quality & Environmental Monitoring</a>
+                <a href="/cold-chain-monitoring">Cold Chain Monitoring</a>
+                <a href="/fleet-telematics">Fleet & Telematics</a>
+                <a href="/asset-tracking">Asset Tracking</a>
+                <a href="/multi-site-management">Multi-Site Asset & Connectivity Management</a>
               </nav>
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
@@ -98,7 +98,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline">Learn more</a>
+              <a href="/use-cases" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -127,12 +127,12 @@
                 class="ent-nav-dropdown-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="#">Energy & Utilities</a>
-                <a href="#">Agriculture & Food Production</a>
-                <a href="#">Logistics & Cold Chain</a>
-                <a href="#">Manufacturing & Industrial Facilities</a>
-                <a href="#">Construction & Remote Sites</a>
-                <a href="#">Facilities & Multi-Site Operations</a>
+                <a href="/energy-utilities">Energy & Utilities</a>
+                <a href="/agriculture-food">Agriculture & Food Production</a>
+                <a href="/logistics-cold-chain">Logistics & Cold Chain</a>
+                <a href="/manufacturing">Manufacturing & Industrial Facilities</a>
+                <a href="/construction">Construction & Remote Sites</a>
+                <a href="/facilities-multi-site">Facilities & Multi-Site Operations</a>
               </nav>
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
@@ -145,7 +145,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="#" class="btn-ent-outline">Learn more</a>
+              <a href="/industries" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -198,12 +198,12 @@
               </div>
               <nav
                 class="gov-nav-mobile-panel-links"
-                aria-label="Secure Mission Connectivity"
+                aria-label=""
               >
-                <a href="#">Enterprise IOT</a>
-                <a href="#">Enterprise Satellite</a>
-                <a href="#">SenseHQ</a>
-                <a href="#">CloudCore</a>
+                <a href="/enterprise-iot">Enterprise IOT</a>
+                <a href="/enterprise-satellite">Enterprise Satellite</a>
+                <a href="/sensehq">SenseHQ</a>
+                <a href="/cloudcore">CloudCore</a>
               </nav>
             </div>
           </div>
@@ -233,16 +233,16 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="#">Remote Site Connectivity</a>
-                <a href="#">Backup Internet & Business Continuity</a>
-                <a href="#">Temperature & Humidity Monitoring</a>
-                <a href="#">Tank Level Monitoring</a>
-                <a href="#">Flow Monitoring</a>
-                <a href="#">Air Quality & Environmental Monitoring</a>
-                <a href="#">Cold Chain Monitoring</a>
-                <a href="#">Fleet & Telematics</a>
-                <a href="#">Asset Tracking</a>
-                <a href="#">Multi-Site Asset & Connectivity Management</a>
+                <a href="/remote-site-connectivity">Remote Site Connectivity</a>
+                <a href="/backup-continuity">Backup Internet & Business Continuity</a>
+                <a href="/temperature-humidity-monitoring">Temperature & Humidity Monitoring</a>
+                <a href="/tank-level-monitoring">Tank Level Monitoring</a>
+                <a href="/flow-monitoring">Flow Monitoring</a>
+                <a href="/air-quality-environmental-monitoring">Air Quality & Environmental Monitoring</a>
+                <a href="/cold-chain-monitoring">Cold Chain Monitoring</a>
+                <a href="/fleet-telematics">Fleet & Telematics</a>
+                <a href="/asset-tracking">Asset Tracking</a>
+                <a href="/multi-site-management">Multi-Site Asset & Connectivity Management</a>
               </nav>
             </div>
           </div>
@@ -272,12 +272,12 @@
                 class="gov-nav-mobile-panel-links"
                 aria-label="Intelligence Collection"
               >
-                <a href="#">Energy & Utilities</a>
-                <a href="#">Agriculture & Food Production</a>
-                <a href="#">Logistics & Cold Chain</a>
-                <a href="#">Manufacturing & Industrial Facilities</a>
-                <a href="#">Construction & Remote Sites</a>
-                <a href="#">Facilities & Multi-Site Operations</a>
+                <a href="/energy-utilities">Energy & Utilities</a>
+                <a href="/agriculture-food">Agriculture & Food Production</a>
+                <a href="/logistics-cold-chain">Logistics & Cold Chain</a>
+                <a href="/manufacturing">Manufacturing & Industrial Facilities</a>
+                <a href="/construction">Construction & Remote Sites</a>
+                <a href="/facilities-multi-site">Facilities & Multi-Site Operations</a>
               </nav>
             </div>
           </div>
