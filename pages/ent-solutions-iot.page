@@ -20,7 +20,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-iot-hero.png" alt="Enterprise Hero Image" />
+    <video src="/assets/ent-hero-iot.webm" autoplay muted loop playsinline></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>

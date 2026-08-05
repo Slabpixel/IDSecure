@@ -10,7 +10,7 @@
           End-to-end IoT monitoring for assets, environments, facilities, and
           field operations
         </h1>
-        <p class="ent-description max-w-682">
+        <p class="ent-description max-w-718">
           SenseHQ unifies devices, sensors, gateways, dashboards, alerts,
           automation, reports, and integrations so teams can see more, act
           faster, and scale monitoring with confidence.
@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+    <video src="/assets/ent-hero-remote.webm" autoplay muted loop playsinline></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>

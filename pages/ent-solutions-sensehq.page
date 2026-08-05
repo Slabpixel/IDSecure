@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-sense-hero.png" alt="Enterprise Hero Image" />
+    <video src="/assets/ent-hero-sense.webm" autoplay muted loop playsinline></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>

@@ -386,6 +386,10 @@
     height: ~"100dvh";
     min-height: 720px;
     max-height: 1200px;
+
+    & .ent-hero-bg {
+      height: 70%;
+    }
   }
 
   &.border-y {
@@ -530,7 +534,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
   }
 
   &_overlay {
@@ -566,7 +570,6 @@
     display: flex;
     gap: 54px;
     align-items: center;
-    
   }
 
   &_grid {
@@ -3517,7 +3520,6 @@
       border-left: 1px solid #e6e7e8;
       width: 100%;
       height: 100%;
-      min-height: 640px;
 
       &-item {
         position: absolute;
@@ -3542,7 +3544,6 @@
     &-list {
       display: flex;
       flex-direction: column;
-      
 
       &-item {
         position: relative;
