@@ -38,7 +38,7 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-air.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
@@ -47,6 +47,253 @@
             operational performance. SenseHQ helps teams monitor air quality and
             environmental indicators across facilities and distributed sites.
           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-t">
+  <div class="ent-container sm">
+    <div class="ent-content gap-48">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>USE CASES OUTCOMES</span>
+        </div>
+        <h2>What this use case helps you do</h2>
+      </div>
+      <div class="ent-why_wrap">
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/satellite-dish.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Connect hard-to-reach sites</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/users-gear.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Support field teams and temporary operations</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/satellite.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Add satellite connectivity where terrestrial networks are
+                limited</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/cloud.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Centralize visibility and management through CloudCore</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/gauge-high.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Monitor equipment, tanks, sensors, and assets</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ent-section border-y">
+  <div class="ent-container relevant">
+    <div class="ent-content gap-48">
+      <div class="ent-title-wrap start px">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>RELEVANT SOLUTION</span>
+        </div>
+        <h2>Relevant IDSECURE solutions</h2>
+      </div>
+      <div class="ent-relevant_wrap">
+        <a href="/enterprise-iot" class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-iot.png" alt="" />
+          </div>
+          <p>Enterprise IoT</p>
+        </a>
+        <a href="/enterprise-satellite" class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-sat.png" alt="" />
+          </div>
+          <p>Enterprise Satellite</p>
+        </a>
+        <a href="/sensehq" class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-sen.png" alt="" />
+          </div>
+          <p>SenseHQ</p>
+        </a>
+        <a href="/cloudcore" class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-cc.png" alt="" />
+          </div>
+          <p>CloudCore</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="ent-section vh border-b ent-solutions-section ent-solutions-section--media-only"
+  data-solutions-layout="media-only"
+>
+  <div class="ent-container no-p">
+    <div class="ent-content_grid-usecase ent-solutions">
+      <div class="ent-solution top alt">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>Example deployment</span>
+        </div>
+      </div>
+      <div class="ent-solution top alt">
+        <h2>Example deployment</h2>
+      </div>
+      <div class="ent-solution bottom alt">
+        <nav class="ent-solution_navigation" aria-label="Solutions">
+          <a
+            href="#"
+            class="ent-solution_navigation-item alt is-active"
+            data-solution="0"
+          >
+            <div class="ent-dot sm"></div>
+            Remote utility infrastructure
+          </a>
+          <a
+            href="#"
+            class="ent-solution_navigation-item alt"
+            data-solution="1"
+          >
+            <div class="ent-dot sm"></div>
+            Rural agriculture site
+          </a>
+          <a
+            href="#"
+            class="ent-solution_navigation-item alt"
+            data-solution="2"
+          >
+            <div class="ent-dot sm"></div>
+            Construction jobsite
+          </a>
+          <a
+            href="#"
+            class="ent-solution_navigation-item alt"
+            data-solution="3"
+          >
+            <div class="ent-dot sm"></div>
+            Remote industrial facility
+          </a>
+        </nav>
+      </div>
+      <div class="ent-solution bottom no-p">
+        <div class="ent-solutions_panel">
+          <div class="ent-solutions_media secondary">
+            <div class="ent-solutions_media-item alt">
+              <img src="/assets/ent-deploy-rui.png" alt="" />
+            </div>
+            <div class="ent-solutions_media-item alt">
+              <img src="/assets/ent-deploy-ras.png" alt="" />
+            </div>
+            <div class="ent-solutions_media-item alt">
+              <img src="/assets/ent-deploy-cj.png" alt="" />
+            </div>
+            <div class="ent-solutions_media-item alt">
+              <img src="/assets/ent-deploy-rif.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -17,6 +17,9 @@
     };
   }
 
+  var ENT_NAV_OFFSET = 72;
+  var ENT_PIN_START = "top top+=" + ENT_NAV_OFFSET;
+
   if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
   }
@@ -288,7 +291,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: section,
-            start: "top 32px",
+            start: ENT_PIN_START,
             end: function () {
               return "+=" + getScrollDistance();
             },
@@ -360,15 +363,21 @@
       );
     }
 
+    function getSolutionsGrid(section) {
+      return (
+        section.querySelector(".ent-content_grid-three") ||
+        section.querySelector(".ent-content_grid-usecase") ||
+        section.querySelector(".ent-content_grid") ||
+        section.querySelector(".ent-solutions")
+      );
+    }
+
     function getPinTrigger(section) {
       if (isOverviewLayout(section)) {
         return section;
       }
 
-      return (
-        section.querySelector(".ent-content_grid-three") ||
-        section.querySelector(".ent-solutions")
-      );
+      return getSolutionsGrid(section);
     }
 
     function getPinRoot(section) {
@@ -376,9 +385,14 @@
         return section;
       }
 
+      return getSolutionsGrid(section);
+    }
+
+    function isMediaOnlyLayout(section, copyItems) {
       return (
-        section.querySelector(".ent-solutions") ||
-        section.querySelector(".ent-content_grid-three")
+        section.dataset.solutionsLayout === "media-only" ||
+        section.classList.contains("ent-solutions-section--media-only") ||
+        copyItems.length === 0
       );
     }
 
@@ -528,9 +542,14 @@
       var paginationItems = gsap.utils.toArray(
         section.querySelectorAll(".ent-solutions_pagination-item"),
       );
+      var mediaOnly = isMediaOnlyLayout(section, copyItems);
       var count = mediaItems.length;
 
-      if (!count || copyItems.length !== count || !navItems.length) {
+      if (!count || !navItems.length || navItems.length !== count) {
+        return null;
+      }
+
+      if (!mediaOnly && copyItems.length !== count) {
         return null;
       }
 
@@ -540,9 +559,11 @@
         item.style.zIndex = String(index + 1);
       });
 
-      copyItems.forEach(function (item, index) {
-        item.style.zIndex = String(index + 1);
-      });
+      if (!mediaOnly) {
+        copyItems.forEach(function (item, index) {
+          item.style.zIndex = String(index + 1);
+        });
+      }
 
       function setActiveNav(index) {
         var activeIndex = Math.max(0, Math.min(index, navItems.length - 1));
@@ -563,9 +584,11 @@
           item.style.clipPath = i <= activeIndex ? visibleClip : hiddenClip;
         });
 
-        copyItems.forEach(function (item, i) {
-          item.style.clipPath = i === activeIndex ? visibleClip : hiddenClip;
-        });
+        if (!mediaOnly) {
+          copyItems.forEach(function (item, i) {
+            item.style.clipPath = i === activeIndex ? visibleClip : hiddenClip;
+          });
+        }
 
         setActiveNav(activeIndex);
       }
@@ -596,18 +619,20 @@
           },
         });
 
-        gsap.set(copyItems, {
-          clipPath: function (i) {
-            return i === 0 ? visibleClip : hiddenClip;
-          },
-        });
+        if (!mediaOnly) {
+          gsap.set(copyItems, {
+            clipPath: function (i) {
+              return i === 0 ? visibleClip : hiddenClip;
+            },
+          });
+        }
 
         setActiveNav(0);
 
         timeline = gsap.timeline({
           scrollTrigger: {
             trigger: pinTrigger,
-            start: "top top",
+            start: ENT_PIN_START,
             end: function () {
               return "+=" + getScrollDistance();
             },
@@ -640,25 +665,27 @@
             position,
           );
 
-          timeline.to(
-            copyItems[step - 1],
-            {
-              clipPath: hiddenClip,
-              duration: stepDuration,
-              ease: "none",
-            },
-            position,
-          );
+          if (!mediaOnly) {
+            timeline.to(
+              copyItems[step - 1],
+              {
+                clipPath: hiddenClip,
+                duration: stepDuration,
+                ease: "none",
+              },
+              position,
+            );
 
-          timeline.to(
-            copyItems[step],
-            {
-              clipPath: visibleClip,
-              duration: stepDuration,
-              ease: "none",
-            },
-            position,
-          );
+            timeline.to(
+              copyItems[step],
+              {
+                clipPath: visibleClip,
+                duration: stepDuration,
+                ease: "none",
+              },
+              position,
+            );
+          }
         }
 
         navItems.forEach(function (item, index) {
@@ -952,7 +979,7 @@
       timeline = gsap.timeline({
         scrollTrigger: {
           trigger: section,
-          start: "top top",
+          start: ENT_PIN_START,
           end: function () {
             return "+=" + getScrollDistance();
           },
@@ -1444,7 +1471,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: section,
-            start: "top top",
+            start: ENT_PIN_START,
             end: function () {
               return "+=" + getScrollDistance();
             },
@@ -1556,7 +1583,7 @@
       scrollTrigger = ScrollTrigger.create({
         id: "ent-how-pin",
         trigger: section,
-        start: "top top",
+        start: ENT_PIN_START,
         end: function () {
           return "+=" + getScrollDistance();
         },
