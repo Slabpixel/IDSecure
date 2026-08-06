@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="ent-hero-bg">
-    <img src="/assets/ent-home-hero.png" alt="Enterprise Hero Image" />
+    <video src="/assets/ent-hero-home.webm" autoplay muted loop></video>
     <div class="ent-hero-bg_overlay"></div>
   </div>
 </section>
