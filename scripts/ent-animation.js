@@ -78,6 +78,218 @@
   })();
 
   // --------------------------------------------------------------------------
+  // Navigation — mobile menu
+  // --------------------------------------------------------------------------
+
+  (function initEntMobileNav() {
+    var siteNav = document.querySelector(".ent-site-navigation");
+    if (!siteNav) {
+      return;
+    }
+
+    var navBtn = siteNav.querySelector(".ent-nav-btn");
+    var navMobile = siteNav.querySelector(".ent-nav-mobile");
+    if (!navBtn || !navMobile) {
+      return;
+    }
+
+    function resetMobileGroups() {
+      navMobile.querySelectorAll(".ent-nav-mobile-group.is-open").forEach(function (group) {
+        group.classList.remove("is-open");
+        var collapse = group.querySelector(".ent-nav-mobile-panel-collapse");
+        var trigger = group.querySelector(".ent-nav-mobile-trigger");
+        if (collapse) {
+          collapse.style.maxHeight = "";
+        }
+        if (trigger) {
+          trigger.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+
+    function syncCollapseHeight(group, open) {
+      var collapse = group.querySelector(".ent-nav-mobile-panel-collapse");
+      if (!collapse) {
+        return;
+      }
+
+      if (open) {
+        collapse.style.maxHeight = collapse.scrollHeight + "px";
+        return;
+      }
+
+      collapse.style.maxHeight = collapse.scrollHeight + "px";
+      requestAnimationFrame(function () {
+        collapse.style.maxHeight = "0";
+      });
+    }
+
+    function setMenuOpen(open) {
+      navBtn.classList.toggle("is-active", open);
+      navMobile.classList.toggle("is-open", open);
+      siteNav.classList.toggle("is-menu-open", open);
+      navBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      navBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      navMobile.setAttribute("aria-hidden", open ? "false" : "true");
+      document.body.style.overflow = open ? "hidden" : "";
+
+      if (!open) {
+        resetMobileGroups();
+      }
+    }
+
+    navBtn.addEventListener("click", function () {
+      setMenuOpen(!navMobile.classList.contains("is-open"));
+    });
+
+    navMobile.querySelectorAll(".ent-nav-mobile-trigger").forEach(function (trigger) {
+      trigger.addEventListener("click", function () {
+        var group = trigger.closest(".ent-nav-mobile-group");
+        if (!group) {
+          return;
+        }
+
+        var isOpen = !group.classList.contains("is-open");
+
+        navMobile.querySelectorAll(".ent-nav-mobile-group.is-open").forEach(function (openGroup) {
+          if (openGroup === group) {
+            return;
+          }
+          openGroup.classList.remove("is-open");
+          syncCollapseHeight(openGroup, false);
+          var openTrigger = openGroup.querySelector(".ent-nav-mobile-trigger");
+          if (openTrigger) {
+            openTrigger.setAttribute("aria-expanded", "false");
+          }
+        });
+
+        group.classList.toggle("is-open", isOpen);
+        trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        syncCollapseHeight(group, isOpen);
+      });
+    });
+
+    navMobile.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        setMenuOpen(false);
+      });
+    });
+  })();
+
+  // --------------------------------------------------------------------------
+  // Homepage — mobile accordions (use cases + industries)
+  // --------------------------------------------------------------------------
+
+  (function initEntHomepageMobile() {
+    var mobileMq = window.matchMedia("(max-width: 768px)");
+
+    var usecasesList = document.querySelector(".ent-usecases-mobile_list");
+    if (usecasesList) {
+      var usecaseItems = usecasesList.querySelectorAll(
+        ".ent-usecases-mobile_item",
+      );
+
+      function setUsecaseActive(item) {
+        usecaseItems.forEach(function (el) {
+          var isActive = el === item;
+          el.classList.toggle("is-active", isActive);
+
+          var trigger = el.querySelector(".ent-usecases-mobile_trigger");
+          var panel = el.querySelector(".ent-usecases-mobile_panel");
+
+          if (trigger) {
+            trigger.setAttribute("aria-expanded", isActive ? "true" : "false");
+          }
+          if (panel) {
+            if (isActive) {
+              panel.removeAttribute("hidden");
+            } else {
+              panel.setAttribute("hidden", "");
+            }
+          }
+        });
+      }
+
+      function syncUsecases() {
+        if (!mobileMq.matches) {
+          return;
+        }
+
+        if (!usecasesList.querySelector(".ent-usecases-mobile_item.is-active")) {
+          setUsecaseActive(usecaseItems[0]);
+        }
+      }
+
+      usecaseItems.forEach(function (item) {
+        var trigger = item.querySelector(".ent-usecases-mobile_trigger");
+        if (!trigger) {
+          return;
+        }
+
+        trigger.addEventListener("click", function () {
+          if (!mobileMq.matches) {
+            return;
+          }
+          if (item.classList.contains("is-active")) {
+            return;
+          }
+          setUsecaseActive(item);
+        });
+      });
+
+      mobileMq.addEventListener("change", syncUsecases);
+      syncUsecases();
+    }
+
+    var industriesList = document.querySelector(".ent-industries-mobile_list");
+    if (industriesList) {
+      var industryItems = industriesList.querySelectorAll(
+        ".ent-industries-mobile_item",
+      );
+
+      function setIndustryActive(item) {
+        industryItems.forEach(function (el) {
+          var isActive = item && el === item;
+          el.classList.toggle("is-active", isActive);
+          el.setAttribute("aria-expanded", isActive ? "true" : "false");
+
+          var panel = el.querySelector(".ent-industries-mobile_panel");
+
+          if (panel) {
+            if (isActive) {
+              panel.removeAttribute("hidden");
+            } else {
+              panel.setAttribute("hidden", "");
+            }
+          }
+        });
+      }
+
+      industryItems.forEach(function (item) {
+        item.setAttribute("aria-expanded", "false");
+
+        item.addEventListener("click", function (event) {
+          if (!mobileMq.matches) {
+            return;
+          }
+
+          if (event.target.closest("a")) {
+            return;
+          }
+
+          var isActive = item.classList.contains("is-active");
+          if (isActive) {
+            setIndustryActive(null);
+            return;
+          }
+
+          setIndustryActive(item);
+        });
+      });
+    }
+  })();
+
+  // --------------------------------------------------------------------------
   // Operating model blocks — one active background on hover
   // --------------------------------------------------------------------------
 
@@ -1546,7 +1758,7 @@
     }
 
     var mm = gsap.matchMedia();
-    var scrollTrigger = null;
+    var scrollTriggers = [];
 
     function setActive(index) {
       var activeIndex = Math.max(0, Math.min(index, items.length - 1));
@@ -1568,19 +1780,23 @@
       section.classList.toggle("is-pin-active", isActive);
     }
 
-    function killScrollTrigger() {
-      if (scrollTrigger) {
-        scrollTrigger.kill();
-        scrollTrigger = null;
-      }
+    function killScrollTriggers() {
+      scrollTriggers.forEach(function (st) {
+        st.kill();
+      });
+      scrollTriggers = [];
       setPinActive(false);
     }
 
-    function createScrollTrigger() {
-      killScrollTrigger();
+    function registerScrollTrigger(config) {
+      scrollTriggers.push(ScrollTrigger.create(config));
+    }
+
+    function createDesktopScrollTrigger() {
+      killScrollTriggers();
       setActive(0);
 
-      scrollTrigger = ScrollTrigger.create({
+      registerScrollTrigger({
         id: "ent-how-pin",
         trigger: section,
         start: ENT_PIN_START,
@@ -1613,8 +1829,41 @@
       });
     }
 
+    function createMobileScrollTriggers() {
+      killScrollTriggers();
+
+      function syncMobileActive() {
+        var viewportCenter = window.innerHeight / 2;
+        var closestIndex = 0;
+        var closestDistance = Infinity;
+
+        items.forEach(function (item, index) {
+          var rect = item.getBoundingClientRect();
+          var itemCenter = rect.top + rect.height / 2;
+          var distance = Math.abs(itemCenter - viewportCenter);
+
+          if (distance < closestDistance) {
+            closestDistance = distance;
+            closestIndex = index;
+          }
+        });
+
+        setActive(closestIndex);
+      }
+
+      registerScrollTrigger({
+        id: "ent-how-mobile-sync",
+        trigger: section.querySelector(".ent-how_wrap") || section,
+        start: "top bottom",
+        end: "bottom top",
+        onUpdate: syncMobileActive,
+      });
+
+      syncMobileActive();
+    }
+
     mm.add("(prefers-reduced-motion: reduce)", function () {
-      killScrollTrigger();
+      killScrollTriggers();
       setActive(0);
       return function () {};
     });
@@ -1630,14 +1879,14 @@
 
         requestAnimationFrame(function () {
           ScrollTrigger.refresh();
-          createScrollTrigger();
+          createDesktopScrollTrigger();
           ScrollTrigger.refresh();
           setActive(0);
         });
 
         return function () {
           window.removeEventListener("resize", onResize);
-          killScrollTrigger();
+          killScrollTriggers();
         };
       },
     );
@@ -1645,9 +1894,22 @@
     mm.add(
       "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
       function () {
-        killScrollTrigger();
-        setActive(0);
-        return function () {};
+        var onResize = debounce(function () {
+          ScrollTrigger.refresh();
+        }, 200);
+
+        window.addEventListener("resize", onResize);
+
+        requestAnimationFrame(function () {
+          createMobileScrollTriggers();
+          ScrollTrigger.refresh();
+        });
+
+        return function () {
+          window.removeEventListener("resize", onResize);
+          killScrollTriggers();
+          setActive(0);
+        };
       },
     );
   })();

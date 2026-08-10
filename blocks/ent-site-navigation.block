@@ -153,53 +153,48 @@
       <a class="ent-nav-link" href="/resources">Resources</a>
       <a class="ent-nav-link" href="/enterprise-about">About</a>
     </div>
-    <div class="gov-nav-end">
+    <div class="ent-nav-end">
       <a href="/enterprise-contact" class="btn-ent-outline">Contact Us</a>
     </div>
     <button
       type="button"
-      class="gov-nav-btn"
+      class="ent-nav-btn"
       aria-expanded="false"
-      aria-controls="gov-nav-mobile"
+      aria-controls="ent-nav-mobile"
       aria-label="Open menu"
     >
       <i
-        class="fa-solid fa-bars gov-nav-btn-icon gov-nav-btn-icon--menu"
+        class="fa-solid fa-bars ent-nav-btn-icon ent-nav-btn-icon--menu"
         aria-hidden="true"
       ></i>
       <i
-        class="fa-solid fa-xmark gov-nav-btn-icon gov-nav-btn-icon--close"
+        class="fa-solid fa-xmark ent-nav-btn-icon ent-nav-btn-icon--close"
         aria-hidden="true"
       ></i>
     </button>
   </div>
 
-  <div class="gov-nav-mobile" id="gov-nav-mobile" aria-hidden="true">
-    <div class="gov-nav-mobile-body">
-      <div class="gov-nav-mobile-group">
+  <div class="ent-nav-mobile" id="ent-nav-mobile" aria-hidden="true">
+    <div class="ent-nav-mobile-body">
+      <div class="ent-nav-mobile-group">
         <button
           type="button"
-          class="gov-nav-mobile-trigger"
+          class="ent-nav-mobile-trigger"
           aria-expanded="false"
         >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
           <span>Solutions</span>
           <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
         </button>
-        <div class="gov-nav-mobile-panel">
-          <div class="gov-nav-mobile-panel-collapse">
+        <div class="ent-nav-mobile-panel">
+          <div class="ent-nav-mobile-panel-collapse">
             <div
-              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--connectivity"
+              class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--solutions"
             >
-              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
-                <img
-                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/b8f15159-6f2b-4e0d-a44c-835a28816a5d/gov-nav-dropdown-lifecycle.webp?content-type=image%2Fwebp"
-                  alt=""
-                />
+              <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
+                <img src="/assets/ent-nav-a.png" alt="" />
               </div>
-              <nav
-                class="gov-nav-mobile-panel-links"
-                aria-label=""
-              >
+              <nav class="ent-nav-mobile-panel-links" aria-label="Solutions">
                 <a href="/enterprise-iot">Enterprise IOT</a>
                 <a href="/enterprise-satellite">Enterprise Satellite</a>
                 <a href="/sensehq">SenseHQ</a>
@@ -209,29 +204,27 @@
           </div>
         </div>
       </div>
-      <div class="gov-nav-mobile-group">
+      <div class="ent-nav-mobile-group">
         <button
           type="button"
-          class="gov-nav-mobile-trigger"
+          class="ent-nav-mobile-trigger"
           aria-expanded="false"
         >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
           <span>Use Cases</span>
           <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
         </button>
-        <div class="gov-nav-mobile-panel">
-          <div class="gov-nav-mobile-panel-collapse">
+        <div class="ent-nav-mobile-panel">
+          <div class="ent-nav-mobile-panel-collapse">
             <div
-              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--intelligence"
+              class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--usecases"
             >
-              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
-                <img
-                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
-                  alt=""
-                />
+              <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
+                <img src="/assets/ent-nav-b.png" alt="" />
               </div>
               <nav
-                class="gov-nav-mobile-panel-links"
-                aria-label="Intelligence Collection"
+                class="ent-nav-mobile-panel-links"
+                aria-label="Use Cases"
               >
                 <a href="/remote-site-connectivity">Remote Site Connectivity</a>
                 <a href="/backup-continuity">Backup Internet & Business Continuity</a>
@@ -248,30 +241,25 @@
           </div>
         </div>
       </div>
-      <div class="gov-nav-mobile-group">
+      <div class="ent-nav-mobile-group">
         <button
           type="button"
-          class="gov-nav-mobile-trigger"
+          class="ent-nav-mobile-trigger"
           aria-expanded="false"
         >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
           <span>Industries</span>
           <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
         </button>
-        <div class="gov-nav-mobile-panel">
-          <div class="gov-nav-mobile-panel-collapse">
+        <div class="ent-nav-mobile-panel">
+          <div class="ent-nav-mobile-panel-collapse">
             <div
-              class="gov-nav-mobile-panel-inner gov-nav-mobile-panel-inner--intelligence"
+              class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--industries"
             >
-              <div class="gov-nav-mobile-panel-visual" aria-hidden="true">
-                <img
-                  src="https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/094630d5-7b00-4b72-80a8-ac10761410b1/gov-nav-b.webp?content-type=image%2Fwebp"
-                  alt=""
-                />
+              <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
+                <img src="/assets/ent-nav-c.png" alt="" />
               </div>
-              <nav
-                class="gov-nav-mobile-panel-links"
-                aria-label="Intelligence Collection"
-              >
+              <nav class="ent-nav-mobile-panel-links" aria-label="Industries">
                 <a href="/energy-utilities">Energy & Utilities</a>
                 <a href="/agriculture-food">Agriculture & Food Production</a>
                 <a href="/logistics-cold-chain">Logistics & Cold Chain</a>
@@ -283,13 +271,11 @@
           </div>
         </div>
       </div>
-      <a class="gov-nav-mobile-link" href="/resources">Resources</a>
-      <a class="gov-nav-mobile-link" href="/enterprise-about">About</a>
+      <a class="ent-nav-mobile-link" href="/resources">Resources</a>
+      <a class="ent-nav-mobile-link" href="/enterprise-about">About Us</a>
     </div>
-    <div class="gov-nav-mobile-actions">
-      <a href="/enterprise-contact" class="btn-secondary gov-nav-mobile-contact"
-        >Contact us</a
-      >
+    <div class="ent-nav-mobile-actions">
+      <a href="/enterprise-contact" class="btn-ent-outline">Contact us</a>
     </div>
   </div>
 </nav>

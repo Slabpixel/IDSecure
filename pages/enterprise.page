@@ -28,12 +28,12 @@
 <section class="ent-section">
   <div class="ent-container md">
     <div class="ent-content gap-80">
-      <div class="ent-title-wrap">
+      <div class="ent-title-wrap max-w-626">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
           <span>ABOUT US</span>
         </div>
-        <h2>Connected visibility for modern <br />enterprise operations</h2>
+        <h2>Connected visibility for modern enterprise operations</h2>
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
@@ -214,19 +214,109 @@
         </div>
       </div>
     </div>
+    <div class="ent-solutions-cards">
+      <div class="ent-solutions-cards_header">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR SOLUTIONS</span>
+        </div>
+        <h2>
+          Four solutions.<br />
+          One connected operating model.
+        </h2>
+      </div>
+      <div class="ent-solutions-cards_list">
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">Enterprise IoT</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                Resilient multi-network IoT connectivity for sensors, devices,
+                assets, fleets, and distributed enterprise operations.
+              </p>
+              <a href="/enterprise-iot" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">Enterprise Satellite</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                Managed satellite connectivity for remote sites, mobile
+                operations, maritime environments, backup connectivity, and
+                business continuity.
+              </p>
+              <a href="/enterprise-satellite" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">SenseHQ</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                End-to-end IoT monitoring with sensors, gateways, asset tags,
+                temperature stickers, dashboards, alerts, automation, reports,
+                and integrations.
+              </p>
+              <a href="/sensehq" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">CloudCore</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                A centralized management platform for IoT, satellite, cellular,
+                SIM, eSIM, usage, policies, alerts, reports, and connected
+                assets.
+              </p>
+              <a href="/cloudcore" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
   </div>
 </section>
 <section class="ent-section ent-section--usecases">
   <div class="ent-container md no-px">
-    <div class="ent-content start gap-48">
-      <div class="ent-title-wrap start px">
-        <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
-          <span>USE CASES</span>
+    <div class="ent-usecases-desktop">
+      <div class="ent-content start gap-48">
+        <div class="ent-title-wrap start px">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>USE CASES</span>
+          </div>
+          <h2>Featured use cases</h2>
         </div>
-        <h2>Featured use cases</h2>
-      </div>
-      <div class="ent-content_usecases">
+        <div class="ent-content_usecases">
         <div class="ent-content_usecases-item">
           <div class="ent-content_usecases-item_inner">
             <span class="ent-content_usecases-item_inner-number">[01]</span>
@@ -237,7 +327,9 @@
                 and off-grid operations.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/remote-site-connectivity" class="btn-ent-primary"
+              >Learn more</a
+            >
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-1.png" alt="" />
@@ -253,7 +345,7 @@
                 extended outages.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/backup-continuity" class="btn-ent-primary">Learn more</a>
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-2.png" alt="" />
@@ -269,7 +361,9 @@
                 areas, and route milestones.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/cold-chain-monitoring" class="btn-ent-primary"
+              >Learn more</a
+            >
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-3.png" alt="" />
@@ -285,7 +379,7 @@
                 trailers, and telematics devices.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/fleet-telematics" class="btn-ent-primary">Learn more</a>
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-4.png" alt="" />
@@ -301,7 +395,7 @@
                 assets across sites.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/asset-tracking" class="btn-ent-primary">Learn more</a>
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-5.png" alt="" />
@@ -317,38 +411,231 @@
                 actions across distributed operations.
               </p>
             </div>
-            <a href="#" class="btn-ent-primary">Learn more</a>
+            <a href="/multi-site-management" class="btn-ent-primary"
+              >Learn more</a
+            >
           </div>
           <div class="ent-content_usecases-item_inner-img">
             <img src="/assets/ent-uc-6.png" alt="" />
           </div>
         </div>
+        </div>
+      </div>
+    </div>
+    <div class="ent-usecases-mobile">
+      <div class="ent-usecases-mobile_header">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>USE CASES</span>
+        </div>
+        <h2>Featured use cases</h2>
+      </div>
+      <div class="ent-usecases-mobile_list">
+        <article class="ent-usecases-mobile_item is-active">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="true"
+          >
+            <span class="ent-usecases-mobile_number">[01]</span>
+            <span class="ent-usecases-mobile_title">Remote Site Connectivity</span>
+          </button>
+          <div class="ent-usecases-mobile_panel">
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-1.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[01]</span>
+              <span class="ent-usecases-mobile_title">Remote Site Connectivity</span>
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Connect hard-to-reach locations, field sites, remote facilities,
+                and off-grid operations.
+              </p>
+              <a href="/remote-site-connectivity" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-usecases-mobile_item">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="false"
+          >
+            <span class="ent-usecases-mobile_number">[02]</span>
+            <span class="ent-usecases-mobile_title"
+              >Backup Internet &amp; Business Continuity</span
+            >
+          </button>
+          <div class="ent-usecases-mobile_panel" hidden>
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-2.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[02]</span>
+              <span class="ent-usecases-mobile_title"
+                >Backup Internet &amp; Business Continuity</span
+              >
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Add resilient connectivity paths for sites that cannot afford
+                extended outages.
+              </p>
+              <a href="/backup-continuity" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-usecases-mobile_item">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="false"
+          >
+            <span class="ent-usecases-mobile_number">[03]</span>
+            <span class="ent-usecases-mobile_title">Cold Chain Monitoring</span>
+          </button>
+          <div class="ent-usecases-mobile_panel" hidden>
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-3.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[03]</span>
+              <span class="ent-usecases-mobile_title">Cold Chain Monitoring</span>
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Monitor temperature-sensitive products, shipments, storage
+                areas, and route milestones.
+              </p>
+              <a href="/cold-chain-monitoring" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-usecases-mobile_item">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="false"
+          >
+            <span class="ent-usecases-mobile_number">[04]</span>
+            <span class="ent-usecases-mobile_title">Fleet &amp; Telematics</span>
+          </button>
+          <div class="ent-usecases-mobile_panel" hidden>
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-4.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[04]</span>
+              <span class="ent-usecases-mobile_title">Fleet &amp; Telematics</span>
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Support mobile operations, vehicle connectivity, driver systems,
+                trailers, and telematics devices.
+              </p>
+              <a href="/fleet-telematics" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-usecases-mobile_item">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="false"
+          >
+            <span class="ent-usecases-mobile_number">[05]</span>
+            <span class="ent-usecases-mobile_title">Asset Tracking</span>
+          </button>
+          <div class="ent-usecases-mobile_panel" hidden>
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-5.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[05]</span>
+              <span class="ent-usecases-mobile_title">Asset Tracking</span>
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Track tools, equipment, pallets, cages, containers, and mobile
+                assets across sites.
+              </p>
+              <a href="/asset-tracking" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-usecases-mobile_item">
+          <button
+            type="button"
+            class="ent-usecases-mobile_trigger"
+            aria-expanded="false"
+          >
+            <span class="ent-usecases-mobile_number">[06]</span>
+            <span class="ent-usecases-mobile_title">Multi-Site Management</span>
+          </button>
+          <div class="ent-usecases-mobile_panel" hidden>
+            <div class="ent-usecases-mobile_media">
+              <img src="/assets/ent-uc-6.png" alt="" />
+            </div>
+            <div class="ent-usecases-mobile_row">
+              <span class="ent-usecases-mobile_number">[06]</span>
+              <span class="ent-usecases-mobile_title">Multi-Site Management</span>
+            </div>
+            <div class="ent-usecases-mobile_body">
+              <p>
+                Centralize visibility, usage, alerts, policies, and lifecycle
+                actions across distributed operations.
+              </p>
+              <a href="/multi-site-management" class="btn-ent-link"
+                >Learn More
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </div>
 </section>
 <section class="ent-section border-t ent-industries-section">
   <div class="ent-container md no-px">
-    <div class="ent-content start gap-64 ent-industries">
-      <div class="ent-title-wrap px row">
-        <div class="ent-title-wrap start max-w-583">
-          <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
-            <span>INDUSTRIES</span>
+    <div class="ent-industries-desktop">
+      <div class="ent-content start gap-64 ent-industries">
+        <div class="ent-title-wrap px row">
+          <div class="ent-title-wrap start max-w-583">
+            <div class="ent-eyebrow">
+              <img src="/assets/fp-icon.svg" alt="" />
+              <span>INDUSTRIES</span>
+            </div>
+            <h2>Built for distributed and asset-intensive industries</h2>
           </div>
-          <h2>Built for distributed and asset-intensive industries</h2>
+          <div class="max-w-450">
+            <p class="text-primary-light">
+              IDSECURE supports enterprise organizations that operate across
+              remote sites, mobile assets, facilities, industrial environments,
+              and multi-site estates.
+            </p>
+          </div>
         </div>
-        <div class="max-w-450">
-          <p class="text-primary-light">
-            IDSECURE supports enterprise organizations that operate across
-            remote sites, mobile assets, facilities, industrial environments,
-            and multi-site estates.
-          </p>
-        </div>
-      </div>
-      <div class="ent-industries_track">
-        <div class="ent-industries_viewport">
-          <div class="ent-industries_wrap">
+        <div class="ent-industries_track">
+          <div class="ent-industries_viewport">
+            <div class="ent-industries_wrap">
             <div class="ent-industries_item" data-href="/energy-utilities">
               <div class="ent-industries_item-bg">
                 <img src="/assets/ent-ind-gr.svg" alt="" />
@@ -434,6 +721,214 @@
         </div>
       </div>
     </div>
+    </div>
+    <div class="ent-industries-mobile">
+      <div class="ent-industries-mobile_header">
+        <div class="ent-industries-mobile_header-top">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>INDUSTRIES</span>
+          </div>
+          <h2>Built for distributed and asset-intensive industries</h2>
+        </div>
+        <p class="text-primary-light">
+          IDSECURE supports enterprise organizations that operate across remote
+          sites, mobile assets, facilities, industrial environments, and
+          multi-site estates.
+        </p>
+      </div>
+      <div class="ent-industries-mobile_list">
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-1.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title">Energy &amp; Utilities</span>
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Substations, pump stations, tanks, meters, and remote utility
+              infrastructure.
+            </p>
+            <a href="/energy-utilities" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-2.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title"
+              >Agriculture &amp; Food Production</span
+            >
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Farms, greenhouses, irrigation, soil, tanks, and cold storage.
+            </p>
+            <a href="/agriculture-food-production" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-3.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title"
+              >Logistics &amp; Cold Chain</span
+            >
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Shipments, storage, trailers, pallets, cold rooms, and fleet
+              connectivity.
+            </p>
+            <a href="/logistics-cold-chain" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-4.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title"
+              >Manufacturing &amp; Industrial Facilities</span
+            >
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Facilities, tanks, flow, environmental conditions, and equipment
+              monitoring.
+            </p>
+            <a href="/manufacturing-industrial" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-5.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title"
+              >Construction &amp; Remote Sites</span
+            >
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Jobsites, equipment yards, generators, field teams, and remote
+              assets.
+            </p>
+            <a href="/construction-remote-sites" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+        <article class="ent-industries-mobile_item">
+          <div class="ent-industries-mobile_media">
+            <img src="/assets/ent-ind-m-6.png" alt="" />
+          </div>
+          <div class="ent-industries-mobile_trigger">
+            <span class="ent-industries-mobile_title"
+              >Facilities &amp; Multi-Site Operations</span
+            >
+            <span class="ent-industries-mobile_icon" aria-hidden="true">
+              <img
+                src="/assets/plus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-plus"
+              />
+              <img
+                src="/assets/minus.svg"
+                alt=""
+                class="ent-industries-mobile_icon-minus"
+              />
+            </span>
+          </div>
+          <div class="ent-industries-mobile_panel" hidden>
+            <p>
+              Campuses, regions, utilities, assets, and distributed site
+              operations.
+            </p>
+            <a href="/facilities-multi-site" class="btn-ent-link"
+              >Learn More
+              <span><img src="/assets/chevron-right.svg" alt="" /></span
+            ></a>
+          </div>
+        </article>
+      </div>
+    </div>
   </div>
   <a href="#" class="ent-industries_cursor" aria-hidden="true">
     <span class="ent-industries_cursor-scale">
@@ -472,7 +967,7 @@
           <img src="/assets/fp-icon.svg" alt="" />
           <span>HOW IT WORKS</span>
         </div>
-        <h2>From device to dashboard to action.</h2>
+        <h2 class="mobile-max-w-240">From device to dashboard to action</h2>
       </div>
       <div class="ent-how_wrap">
         <div class="ent-how_item is-active">
