@@ -150,6 +150,92 @@
         </div>
       </div>
     </div>
+    <div class="ent-solutions-cards">
+      <div class="ent-solutions-cards_header">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>OUR SOLUTIONS</span>
+        </div>
+        <h2>Solutions overview</h2>
+      </div>
+      <div class="ent-solutions-cards_list">
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">Enterprise IoT</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                Resilient multi-network IoT connectivity for sensors, devices,
+                assets, fleets, and distributed enterprise operations.
+              </p>
+              <a href="/enterprise-iot" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">Enterprise Satellite</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                Managed satellite connectivity for remote sites, mobile
+                operations, maritime environments, backup connectivity, and
+                business continuity.
+              </p>
+              <a href="/enterprise-satellite" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">SenseHQ</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                End-to-end IoT monitoring with sensors, gateways, asset tags,
+                temperature stickers, dashboards, alerts, automation, reports,
+                and integrations.
+              </p>
+              <a href="/sensehq" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solutions-card">
+          <div class="ent-solutions-card_media">
+            <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+          </div>
+          <div class="ent-solutions-card_body">
+            <h3 class="ent-solutions-card_title">CloudCore</h3>
+            <div class="ent-solutions-card_copy">
+              <p>
+                A centralized management platform for IoT, satellite, cellular,
+                SIM, eSIM, usage, policies, alerts, reports, and connected
+                assets.
+              </p>
+              <a href="/cloudcore" class="btn-ent-link"
+                >Learn more
+                <span><img src="/assets/chevron-right.svg" alt="" /></span
+              ></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -213,6 +299,79 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="ent-solution-layers-mobile">
+      <div class="ent-solution-layers-mobile_header">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>HOW IT WORKS</span>
+        </div>
+        <h2>How the solution layers work together</h2>
+      </div>
+      <div class="ent-solution-layers-mobile_list">
+        <article class="ent-solution-layers-mobile_item">
+          <div class="ent-solution-layers-mobile_media">
+            <img src="/assets/ent-sol-layer-1.png" alt="Enterprise IoT" />
+          </div>
+          <div class="ent-solution-layers-mobile_body">
+            <span class="ent-solution-layers-mobile_number">01</span>
+            <div class="ent-solution-layers-mobile_copy">
+              <h3>Enterprise IoT</h3>
+              <p>
+                Connects devices and assets across cellular and IoT networks.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solution-layers-mobile_item">
+          <div class="ent-solution-layers-mobile_media">
+            <img
+              src="/assets/ent-sol-layer-2.png"
+              alt="Enterprise Satellite"
+            />
+          </div>
+          <div class="ent-solution-layers-mobile_body">
+            <span class="ent-solution-layers-mobile_number">02</span>
+            <div class="ent-solution-layers-mobile_copy">
+              <h3>Enterprise Satellite</h3>
+              <p>
+                Extends connectivity where terrestrial networks are limited or
+                unavailable.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solution-layers-mobile_item">
+          <div class="ent-solution-layers-mobile_media">
+            <img src="/assets/ent-sol-layer-3.png" alt="SenseHQ" />
+          </div>
+          <div class="ent-solution-layers-mobile_body">
+            <span class="ent-solution-layers-mobile_number">03</span>
+            <div class="ent-solution-layers-mobile_copy">
+              <h3>SenseHQ</h3>
+              <p>
+                Provides monitoring, alerting, automation, reporting, device
+                visibility, and shipment-level condition visibility.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="ent-solution-layers-mobile_item">
+          <div class="ent-solution-layers-mobile_media">
+            <img src="/assets/ent-sol-layer-4.png" alt="CloudCore" />
+          </div>
+          <div class="ent-solution-layers-mobile_body">
+            <span class="ent-solution-layers-mobile_number">04</span>
+            <div class="ent-solution-layers-mobile_copy">
+              <h3>CloudCore</h3>
+              <p>
+                Gives teams centralized control over connectivity, usage,
+                policies, lifecycle actions, and reporting.
+              </p>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </div>

@@ -7,6 +7,10 @@
           Curiosity, Creativity, and Industry Knowledge Drive Our Passion and
           Purpose
         </h1>
+        <p class="mobile-only text-sm text-secondary">
+          Delivering resilient connectivity, real-time visibility, and
+          intelligent IoT solutions that keep enterprises connected anywhere.
+        </p>
       </div>
     </div>
   </div>
@@ -19,11 +23,17 @@
   <div class="ent-container md">
     <div class="ent-content gap-80">
       <div class="ent-content_inner">
+        <div class="mobile-only">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>ABOUT US</span>
+        </div>
+      </div>
         <div class="ent-content_img">
           <img src="/assets/ent-about.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
-          <div class="ent-eyebrow">
+          <div class="ent-eyebrow mobile-hidden">
             <img src="/assets/fp-icon.svg" alt="" />
             <span>ABOUT US</span>
           </div>

@@ -332,6 +332,8 @@
       return;
     }
 
+    var desktopMq = window.matchMedia("(min-width: 1025px)");
+
     function setActive(item) {
       items.forEach(function (el) {
         var isActive = el === item;
@@ -354,18 +356,27 @@
       });
     }
 
+    function onItemActivate(item) {
+      if (!desktopMq.matches) {
+        return;
+      }
+      setActive(item);
+    }
+
     items.forEach(function (item) {
       item.addEventListener("mouseenter", function () {
-        setActive(item);
+        onItemActivate(item);
       });
       item.addEventListener("focus", function () {
-        setActive(item);
+        onItemActivate(item);
       });
     });
 
-    var initial =
-      wrap.querySelector(".ent-iot_use-cases-item.is-active") || items[0];
-    setActive(initial);
+    if (desktopMq.matches) {
+      var initial =
+        wrap.querySelector(".ent-iot_use-cases-item.is-active") || items[0];
+      setActive(initial);
+    }
   })();
 
   (function initEntUsecasesMenu() {
@@ -503,7 +514,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: section,
-            start: ENT_PIN_START,
+            start: "ENT_PIN_START",
             end: function () {
               return "+=" + getScrollDistance();
             },
@@ -539,12 +550,8 @@
       "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
       function () {
         killDesktop();
-
-        mobileViewportHandler = onMobileViewportScroll;
-        viewport.addEventListener("scroll", mobileViewportHandler, {
-          passive: true,
-        });
-        onMobileViewportScroll();
+        killMobile();
+        setProgress(0);
 
         return function () {
           killMobile();
