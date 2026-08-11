@@ -1,4 +1,5 @@
-<section class="ent-section contact">
+<div class="ent-hero ent-hero--contact">
+  <section class="ent-section contact">
   <div class="ent-container hero">
     <div class="ent-content start">
       <div class="ent-title-wrap start gap-24">
@@ -10,23 +11,34 @@
       </div>
     </div>
   </div>
+    </section>
   <div class="ent-hero-bg">
-    <video src="/assets/ent-hero-contact.webm" autoplay muted loop playsinline></video>
+
+    <video
+      src="/assets/ent-hero-contact.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
     <div class="ent-hero-bg_overlay"></div>
+    <div class="ent-section inside-hero">
+      <div class="ent-container"></div>
+    </div>
   </div>
-</section>
+</div>
 <section class="ent-section border-b">
-  <div class="ent-container xs">
+  <div class="ent-container xs mobile-no-px">
     <div class="ent-content_grid-two">
       <div class="ent-contact_side">
-        <div class="ent-title-wrap start">
+        <div class="ent-title-wrap start px">
           <div class="ent-eyebrow">
             <img src="/assets/fp-icon.svg" alt="" />
             <span>TALK WITH US</span>
           </div>
           <h2>Submit your inquiry</h2>
         </div>
-        <div class="ent-contact_side-content">
+        <div class="ent-contact_side-content tablet-hidden">
           <div class="ent-contact_side-description">
             <p>
               Tell us about your sites, assets, devices, connectivity,
@@ -62,6 +74,40 @@
       <div class="ent-contact_form">
         <h3>Submit your inquiry</h3>
         <squarespace:block-field id="enterpriseContactForm" />
+      </div>
+      <div class="tablet-only">
+        <div class="ent-contact_side-content">
+          <div class="ent-contact_side-description">
+            <p>
+              Tell us about your sites, assets, devices, connectivity,
+              monitoring, shipment visibility, and chain-of-custody
+              requirements.
+            </p>
+            <p>
+              IDSECURE can help identify the right combination of Enterprise
+              IoT, Enterprise Satellite, SenseHQ, and CloudCore for your
+              operating environment.
+            </p>
+          </div>
+          <a
+            class="ent-contact_side-email"
+            href="mailto:enquiries@idsecure.tech"
+            >enquiries@idsecure.tech
+            <span
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1406 0C14.6484 0 15.0781 0.429688 15.0781 0.9375V10.3125C15.0781 10.8203 14.6484 11.25 14.1406 11.25C13.6328 11.25 13.2031 10.8203 13.2031 10.3125V3.20312L1.67969 14.7266C1.32812 15.0781 0.703125 15.0781 0.351562 14.7266C0 14.375 0 13.75 0.351562 13.3984L11.875 1.875H4.76562C4.25781 1.875 3.82812 1.44531 3.82812 0.9375C3.82812 0.429688 4.25781 0 4.76562 0H14.1406Z"
+                  fill="currentColor"
+                />
+              </svg> </span
+          ></a>
+        </div>
       </div>
     </div>
   </div>

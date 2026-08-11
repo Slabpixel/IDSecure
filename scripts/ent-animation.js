@@ -380,7 +380,9 @@
   })();
 
   (function initEntUsecasesMenu() {
-    var menu = document.querySelector(".ent-usecases_menu");
+    var menu =
+      document.querySelector(".ent-usecases_menu-desktop") ||
+      document.querySelector(".ent-usecases_menu");
     if (!menu) {
       return;
     }
@@ -391,6 +393,8 @@
     if (!items.length || items.length !== images.length) {
       return;
     }
+
+    var desktopMq = window.matchMedia("(min-width: 1025px)");
 
     function setActive(item) {
       var index = Array.prototype.indexOf.call(items, item);
@@ -404,23 +408,35 @@
       });
     }
 
+    function onItemActivate(item) {
+      if (!desktopMq.matches) {
+        return;
+      }
+      setActive(item);
+    }
+
     items.forEach(function (item) {
       item.addEventListener("mouseenter", function () {
-        setActive(item);
+        onItemActivate(item);
       });
 
       item.addEventListener("focus", function () {
-        setActive(item);
+        onItemActivate(item);
       });
 
       item.addEventListener("click", function (event) {
+        if (!desktopMq.matches) {
+          return;
+        }
         event.preventDefault();
       });
     });
 
-    var initial =
-      menu.querySelector(".ent-usecases_menu-list-item.is-active") || items[0];
-    setActive(initial);
+    if (desktopMq.matches) {
+      var initial =
+        menu.querySelector(".ent-usecases_menu-list-item.is-active") || items[0];
+      setActive(initial);
+    }
   })();
 
   if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {

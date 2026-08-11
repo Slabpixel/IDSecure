@@ -1,30 +1,35 @@
-<section class="ent-section hero">
+<div class="ent-hero">
+  <section class="ent-section hero">
   <div class="ent-container hero">
-    <div class="ent-content max-w-1032">
-      <div class="ent-title-wrap gap-24">
-        <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
-          <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
+      <div class="ent-content max-w-1032">
+        <div class="ent-title-wrap gap-24">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
+          </div>
+          <h1>Connect, monitor, and manage distributed enterprise operations</h1>
+          <p class="ent-description max-w-718">
+            IDSECURE delivers enterprise IoT connectivity, satellite connectivity,
+            real-time monitoring, and centralized management for enterprise
+            operations across remote sites, facilities, fleets, assets, and
+            critical environments.
+          </p>
         </div>
-        <h1>Connect, monitor, and manage distributed enterprise operations</h1>
-        <p class="ent-description max-w-718">
-          IDSECURE delivers enterprise IoT connectivity, satellite connectivity,
-          real-time monitoring, and centralized management for enterprise
-          operations across remote sites, facilities, fleets, assets, and
-          critical environments.
-        </p>
-      </div>
-      <div class="ent-button-wrap">
-        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        <div class="ent-button-wrap">
+          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
   <div class="ent-hero-bg">
-    <video src="/assets/ent-hero-home.webm" autoplay muted loop></video>
-    <div class="ent-hero-bg_overlay"></div>
+      <video src="/assets/ent-hero-home.webm" autoplay muted loop></video>
+      <div class="ent-hero-bg_overlay"></div>
+    <div class="ent-section inside-hero">
+      <div class="ent-container"></div>
+    </div>
   </div>
-</section>
+</div>
 <section class="ent-section">
   <div class="ent-container md">
     <div class="ent-content gap-80">
@@ -650,7 +655,7 @@
             </div>
             <div
               class="ent-industries_item"
-              data-href="/agriculture-food-production"
+              data-href="/agriculture-food"
             >
               <div class="ent-industries_item-bg">
                 <img src="/assets/ent-ind-gr.svg" alt="" />
@@ -677,7 +682,7 @@
             </div>
             <div
               class="ent-industries_item"
-              data-href="/manufacturing-industrial"
+              data-href="/manufacturing"
             >
               <div class="ent-industries_item-bg">
                 <img src="/assets/ent-ind-gr.svg" alt="" />
@@ -692,7 +697,7 @@
             </div>
             <div
               class="ent-industries_item"
-              data-href="/construction-remote-sites"
+              data-href="/construction"
             >
               <div class="ent-industries_item-bg">
                 <img src="/assets/ent-ind-gr.svg" alt="" />
@@ -793,7 +798,7 @@
             <p>
               Farms, greenhouses, irrigation, soil, tanks, and cold storage.
             </p>
-            <a href="/agriculture-food-production" class="btn-ent-link"
+            <a href="/agriculture-food" class="btn-ent-link"
               >Learn More
               <span><img src="/assets/chevron-right.svg" alt="" /></span
             ></a>
@@ -857,7 +862,7 @@
               Facilities, tanks, flow, environmental conditions, and equipment
               monitoring.
             </p>
-            <a href="/manufacturing-industrial" class="btn-ent-link"
+            <a href="/manufacturing" class="btn-ent-link"
               >Learn More
               <span><img src="/assets/chevron-right.svg" alt="" /></span
             ></a>
@@ -889,7 +894,7 @@
               Jobsites, equipment yards, generators, field teams, and remote
               assets.
             </p>
-            <a href="/construction-remote-sites" class="btn-ent-link"
+            <a href="/construction" class="btn-ent-link"
               >Learn More
               <span><img src="/assets/chevron-right.svg" alt="" /></span
             ></a>

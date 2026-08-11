@@ -1,32 +1,37 @@
-<section class="ent-section hero">
+<div class="ent-hero">
+  <section class="ent-section hero">
   <div class="ent-container hero">
-    <div class="ent-content max-w-1032">
-      <div class="ent-title-wrap gap-24">
-        <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
-          <span>Enterprise Satellite</span>
+      <div class="ent-content max-w-1032">
+        <div class="ent-title-wrap gap-24">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>Enterprise Satellite</span>
+          </div>
+          <h1>
+            Enterprise Satellite connectivity for remote, mobile, and
+            business-critical operations
+          </h1>
+          <p class="ent-description max-w-682">
+            Extend connectivity beyond terrestrial networks with managed satellite
+            deployment, failover planning, usage visibility, and centralized
+            control through CloudCore.
+          </p>
         </div>
-        <h1>
-          Enterprise Satellite connectivity for remote, mobile, and
-          business-critical operations
-        </h1>
-        <p class="ent-description max-w-682">
-          Extend connectivity beyond terrestrial networks with managed satellite
-          deployment, failover planning, usage visibility, and centralized
-          control through CloudCore.
-        </p>
-      </div>
-      <div class="ent-button-wrap">
-        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        <div class="ent-button-wrap">
+          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
   <div class="ent-hero-bg">
-    <video src="/assets/ent-hero-satellites.webm" autoplay muted loop playsinline></video>
-    <div class="ent-hero-bg_overlay"></div>
+      <video src="/assets/ent-hero-satellites.webm" autoplay muted loop playsinline></video>
+      <div class="ent-hero-bg_overlay"></div>
+    <div class="ent-section inside-hero">
+      <div class="ent-container"></div>
+    </div>
   </div>
-</section>
+</div>
 <section class="ent-section">
   <div class="ent-container md">
     <div class="ent-content gap-80">

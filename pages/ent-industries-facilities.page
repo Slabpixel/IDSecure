@@ -1,4 +1,5 @@
-<section class="ent-section hero">
+<div class="ent-hero">
+  <section class="ent-section hero">
   <div class="ent-container hero">
     <div class="ent-content max-w-1032">
       <div class="ent-title-wrap gap-24">
@@ -19,7 +20,9 @@
       </div>
     </div>
   </div>
+    </section>
   <div class="ent-hero-bg">
+
     <video
       src="/assets/ent-hero-facilities.webm"
       autoplay
@@ -28,8 +31,11 @@
       playsinline
     ></video>
     <div class="ent-hero-bg_overlay"></div>
+    <div class="ent-section inside-hero">
+      <div class="ent-container"></div>
+    </div>
   </div>
-</section>
+</div>
 <section class="ent-section">
   <div class="ent-container md">
     <div class="ent-content gap-80">
@@ -66,90 +72,115 @@
       <div class="ent-title-wrap px">
         <div class="ent-eyebrow">
           <img src="/assets/fp-icon.svg" alt="" />
-          <span>Featured use cases</span>
+          <span>INDUSTRY USE CASES</span>
         </div>
-        <h2>Featured use cases</h2>
+        <h2>High-value use cases</h2>
       </div>
-      <div class="ent-usecases_menu">
+      <div class="ent-usecases_menu ent-usecases_menu-desktop">
         <div class="ent-usecases_menu-list">
-          <a
-            href="/remote-site-connectivity"
-            class="ent-usecases_menu-list-item is-active"
-          >
+          <a href="/air-quality-environmental-monitoring" class="ent-usecases_menu-list-item is-active">
             <span>[01]</span>
-            <p>Rural Site Connectivity</p>
+            <p>Air quality and environmental monitoring</p>
+          </a>
+          <a href="/temperature-humidity-monitoring" class="ent-usecases_menu-list-item">
+            <span>[02]</span>
+            <p>Temperature and humidity monitoring</p>
           </a>
           <a href="/flow-monitoring" class="ent-usecases_menu-list-item">
-            <span>[02]</span>
-            <p>Irrigation and flow monitoring</p>
-          </a>
-          <a
-            href="/temperature-humidity-monitoring"
-            class="ent-usecases_menu-list-item"
-          >
             <span>[03]</span>
-            <p>Soil and environmental monitoring</p>
+            <p>Flow and utility monitoring</p>
           </a>
-          <a href="/tank-level-monitoring" class="ent-usecases_menu-list-item">
+          <a href="/backup-continuity" class="ent-usecases_menu-list-item">
             <span>[04]</span>
-            <p>Tank and water visibility</p>
-          </a>
-          <a href="/cold-chain-monitoring" class="ent-usecases_menu-list-item">
-            <span>[05]</span>
-            <p>Cold storage monitoring</p>
-          </a>
-
-          <a
-            href="/air-quality-environmental-monitoring"
-            class="ent-usecases_menu-list-item"
-          >
-            <span>[06]</span>
-            <p>Air Quality & Environmental Monitoring</p>
+            <p>Backup connectivity</p>
           </a>
           <a href="/asset-tracking" class="ent-usecases_menu-list-item">
-            <span>[07]</span>
-            <p>Field asset tracking</p>
+            <span>[05]</span>
+            <p>Asset tracking</p>
+          </a>
+          <a href="/multi-site-management" class="ent-usecases_menu-list-item">
+            <span>[06]</span>
+            <p>Multi-site connectivity and device management</p>
           </a>
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img
-              src="/assets/ent-uc-menu-remote.png"
-              alt="Remote Site Connectivity"
-            />
+            <img src="/assets/ent-uc-menu-air.png" alt="Air quality and environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+            <img src="/assets/ent-uc-menu-temperature.png" alt="Temperature and humidity monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img
-              src="/assets/ent-uc-menu-temperature.png"
-              alt="Temperature & Humidity Monitoring"
-            />
+            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img
-              src="/assets/ent-uc-menu-tank.png"
-              alt="Tank Level Monitoring"
-            />
+            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img
-              src="/assets/ent-uc-menu-cold.png"
-              alt="Cold Chain Monitoring"
-            />
+            <img src="/assets/ent-uc-menu-asset.png" alt="Asset tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img
-              src="/assets/ent-uc-menu-air.png"
-              alt="Air Quality & Environmental Monitoring"
-            />
-          </div>
-          <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity and device management" />
           </div>
         </div>
       </div>
+      <div class="ent-usecases_menu-mobile px">
+        <a href="/air-quality-environmental-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-air.png" alt="Air quality and environmental monitoring" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[01]</span>
+            <p>Air quality and environmental monitoring</p>
+          </div>
+        </a>
+        <a href="/temperature-humidity-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-temperature.png" alt="Temperature and humidity monitoring" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[02]</span>
+            <p>Temperature and humidity monitoring</p>
+          </div>
+        </a>
+        <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[03]</span>
+            <p>Flow and utility monitoring</p>
+          </div>
+        </a>
+        <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[04]</span>
+            <p>Backup connectivity</p>
+          </div>
+        </a>
+        <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-asset.png" alt="Asset tracking" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[05]</span>
+            <p>Asset tracking</p>
+          </div>
+        </a>
+        <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity and device management" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[06]</span>
+            <p>Multi-site connectivity and device management</p>
+          </div>
+        </a>
+      </div>
+
     </div>
   </div>
 </section>

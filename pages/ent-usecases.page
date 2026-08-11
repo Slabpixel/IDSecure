@@ -1,33 +1,38 @@
-<section class="ent-section hero">
+<div class="ent-hero">
+  <section class="ent-section hero">
   <div class="ent-container hero">
-    <div class="ent-content max-w-1032">
-      <div class="ent-title-wrap gap-24">
-        <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
-          <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
+      <div class="ent-content max-w-1032">
+        <div class="ent-title-wrap gap-24">
+          <div class="ent-eyebrow">
+            <img src="/assets/fp-icon.svg" alt="" />
+            <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
+          </div>
+          <h1>
+            Solve enterprise connectivity, monitoring, and asset visibility
+            challenges
+          </h1>
+          <p class="ent-description max-w-718">
+            IDSECURE solutions are built around real operational use cases:
+            connecting remote sites, monitoring critical conditions, tracking
+            assets, supporting fleets, and centralizing control across distributed
+            operations.
+          </p>
         </div>
-        <h1>
-          Solve enterprise connectivity, monitoring, and asset visibility
-          challenges
-        </h1>
-        <p class="ent-description max-w-718">
-          IDSECURE solutions are built around real operational use cases:
-          connecting remote sites, monitoring critical conditions, tracking
-          assets, supporting fleets, and centralizing control across distributed
-          operations.
-        </p>
-      </div>
-      <div class="ent-button-wrap">
-        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        <div class="ent-button-wrap">
+          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="#" class="btn-ent-ghost">Explore Solutions</a>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
   <div class="ent-hero-bg">
-    <video src="/assets/ent-hero-usecases.webm" autoplay muted loop playsinline></video>
-    <div class="ent-hero-bg_overlay"></div>
+      <video src="/assets/ent-hero-usecases.webm" autoplay muted loop playsinline></video>
+      <div class="ent-hero-bg_overlay"></div>
+    <div class="ent-section inside-hero">
+      <div class="ent-container"></div>
+    </div>
   </div>
-</section>
+</div>
 <section class="ent-section">
   <div class="ent-container md">
     <div class="ent-content gap-80">
@@ -66,7 +71,7 @@
         </div>
         <h2>Featured use cases</h2>
       </div>
-      <div class="ent-usecases_menu">
+      <div class="ent-usecases_menu ent-usecases_menu-desktop">
         <div class="ent-usecases_menu-list">
           <a
             href="/remote-site-connectivity"
@@ -171,6 +176,175 @@
             />
           </div>
         </div>
+      </div>
+      <div class="ent-usecases_menu-mobile px">
+        <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-remote.png"
+              alt="Remote Site Connectivity"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[01]</span>
+            <p>Remote Site Connectivity</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-backup.png"
+              alt="Backup Internet & Business Continuity"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[02]</span>
+            <p>Backup Internet &amp; Business Continuity</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a
+          href="/temperature-humidity-monitoring"
+          class="ent-usecases_menu-mobile_item"
+        >
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-temperature.png"
+              alt="Temperature & Humidity Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[03]</span>
+            <p>Temperature &amp; Humidity Monitoring</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-tank.png"
+              alt="Tank Level Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[04]</span>
+            <p>Tank Level Monitoring</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[05]</span>
+            <p>Flow Monitoring</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a
+          href="/air-quality-environmental-monitoring"
+          class="ent-usecases_menu-mobile_item"
+        >
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-air.png"
+              alt="Air Quality & Environmental Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[06]</span>
+            <p>Air Quality &amp; Environmental Monitoring</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/cold-chain-monitoring" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-cold.png"
+              alt="Cold Chain Monitoring"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[07]</span>
+            <p>Cold Chain Monitoring</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/fleet-telematics" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet & Telematics" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[08]</span>
+            <p>Fleet &amp; Telematics</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[09]</span>
+            <p>Asset Tracking</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
+        <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
+          <div class="ent-usecases_menu-mobile_media">
+            <img
+              src="/assets/ent-uc-menu-multi.png"
+              alt="Multi-Site Asset & Connectivity Management"
+            />
+          </div>
+          <div class="ent-usecases_menu-mobile_body">
+            <span>[10]</span>
+            <p>Multi-Site Asset &amp; Connectivity Management</p>
+            <img
+              src="/assets/chevron-right.svg"
+              alt=""
+              class="ent-usecases_menu-mobile_chevron"
+            />
+          </div>
+        </a>
       </div>
     </div>
   </div>

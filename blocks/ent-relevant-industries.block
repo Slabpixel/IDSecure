@@ -1,16 +1,41 @@
 <section class="ent-section">
-    <div class="ent-container sm">
-      <div class="ent-content gap-64">
-        <div class="ent-title-wrap">
-          <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
-            <span>RELEVANT SOLUTIONS</span>
-          </div>
-          <h2>Relevant IDSECURE solutions</h2>
+  <div class="ent-container sm">
+    <div class="ent-content stretch gap-64 mobile-gap-0">
+      <div class="ent-title-wrap">
+        <div class="ent-eyebrow">
+          <img src="/assets/fp-icon.svg" alt="" />
+          <span>RELEVANT SOLUTIONS</span>
         </div>
-        <div class="ent-industries_relevant">
-          <img src="/assets/ent-relevant-temporary.svg" alt="">
+        <h2>Relevant IDSECURE solutions</h2>
+      </div>
+      <div class="ent-industries_relevant">
+        <img
+          class="mobile-hidden"
+          src="/assets/ent-relevant-temporary.svg"
+          alt=""
+        />
+        <div class="mobile-only">
+          <img src="/assets/ent-industries-solution.svg" alt="" />
+          <div class="ent-industries_relevant-grid">
+            <div class="ent-industries_relevant-grid-item">
+              <h3>Enterprise IOT</h3>
+              <img src="/assets/ent-iot-iot.png" alt="" />
+            </div>
+            <div class="ent-industries_relevant-grid-item">
+              <h3>SenseHQ</h3>
+              <img src="/assets/ent-iot-sen.png" alt="" />
+            </div>
+            <div class="ent-industries_relevant-grid-item">
+              <h3>Enterprise Satellite</h3>
+              <img src="/assets/ent-iot-sat.png" alt="" />
+            </div>
+            <div class="ent-industries_relevant-grid-item">
+              <h3>CloudCore</h3>
+              <img src="/assets/ent-iot-cc.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
