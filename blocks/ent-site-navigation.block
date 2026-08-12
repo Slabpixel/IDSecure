@@ -34,12 +34,23 @@
                 <a href="/cloudcore">CloudCore</a>
               </nav>
               <div class="ent-nav-dropdown-visual">
-                <img
-                  src="/assets/ent-nav-a.webp"
-                  alt=""
-                  width="342"
-                  height="240"
-                />
+                <div
+                  class="ent-nav-dropdown-visual-item ent-nav-dropdown-visual-item--default is-active"
+                >
+                  <img src="/assets/ent-nav-a.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-iot.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-remote.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-sense.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-cloudcore.webp" alt="" />
+                </div>
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -90,7 +101,41 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img src="/assets/ent-nav-b.webp" alt="" />
+                <div
+                  class="ent-nav-dropdown-visual-item ent-nav-dropdown-visual-item--default is-active"
+                >
+                  <img src="/assets/ent-nav-b.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-remote.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-backup.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-temperature.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-tank.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-flow.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-air.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-cold.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-fleet.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-asset.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-multi.webp" alt="" />
+                </div>
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -137,7 +182,29 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img src="/assets/ent-nav-c.webp" alt="" />
+                <div
+                  class="ent-nav-dropdown-visual-item ent-nav-dropdown-visual-item--default is-active"
+                >
+                  <img src="/assets/ent-nav-c.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-remote.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-agri.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-storage.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-equip.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-construction.webp" alt="" />
+                </div>
+                <div class="ent-nav-dropdown-visual-item">
+                  <img src="/assets/ent-uc-menu-facility.webp" alt="" />
+                </div>
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
