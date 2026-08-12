@@ -94,17 +94,19 @@
     }
 
     function resetMobileGroups() {
-      navMobile.querySelectorAll(".ent-nav-mobile-group.is-open").forEach(function (group) {
-        group.classList.remove("is-open");
-        var collapse = group.querySelector(".ent-nav-mobile-panel-collapse");
-        var trigger = group.querySelector(".ent-nav-mobile-trigger");
-        if (collapse) {
-          collapse.style.maxHeight = "";
-        }
-        if (trigger) {
-          trigger.setAttribute("aria-expanded", "false");
-        }
-      });
+      navMobile
+        .querySelectorAll(".ent-nav-mobile-group.is-open")
+        .forEach(function (group) {
+          group.classList.remove("is-open");
+          var collapse = group.querySelector(".ent-nav-mobile-panel-collapse");
+          var trigger = group.querySelector(".ent-nav-mobile-trigger");
+          if (collapse) {
+            collapse.style.maxHeight = "";
+          }
+          if (trigger) {
+            trigger.setAttribute("aria-expanded", "false");
+          }
+        });
     }
 
     function syncCollapseHeight(group, open) {
@@ -142,32 +144,38 @@
       setMenuOpen(!navMobile.classList.contains("is-open"));
     });
 
-    navMobile.querySelectorAll(".ent-nav-mobile-trigger").forEach(function (trigger) {
-      trigger.addEventListener("click", function () {
-        var group = trigger.closest(".ent-nav-mobile-group");
-        if (!group) {
-          return;
-        }
-
-        var isOpen = !group.classList.contains("is-open");
-
-        navMobile.querySelectorAll(".ent-nav-mobile-group.is-open").forEach(function (openGroup) {
-          if (openGroup === group) {
+    navMobile
+      .querySelectorAll(".ent-nav-mobile-trigger")
+      .forEach(function (trigger) {
+        trigger.addEventListener("click", function () {
+          var group = trigger.closest(".ent-nav-mobile-group");
+          if (!group) {
             return;
           }
-          openGroup.classList.remove("is-open");
-          syncCollapseHeight(openGroup, false);
-          var openTrigger = openGroup.querySelector(".ent-nav-mobile-trigger");
-          if (openTrigger) {
-            openTrigger.setAttribute("aria-expanded", "false");
-          }
-        });
 
-        group.classList.toggle("is-open", isOpen);
-        trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
-        syncCollapseHeight(group, isOpen);
+          var isOpen = !group.classList.contains("is-open");
+
+          navMobile
+            .querySelectorAll(".ent-nav-mobile-group.is-open")
+            .forEach(function (openGroup) {
+              if (openGroup === group) {
+                return;
+              }
+              openGroup.classList.remove("is-open");
+              syncCollapseHeight(openGroup, false);
+              var openTrigger = openGroup.querySelector(
+                ".ent-nav-mobile-trigger",
+              );
+              if (openTrigger) {
+                openTrigger.setAttribute("aria-expanded", "false");
+              }
+            });
+
+          group.classList.toggle("is-open", isOpen);
+          trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          syncCollapseHeight(group, isOpen);
+        });
       });
-    });
 
     navMobile.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
@@ -215,7 +223,9 @@
           return;
         }
 
-        if (!usecasesList.querySelector(".ent-usecases-mobile_item.is-active")) {
+        if (
+          !usecasesList.querySelector(".ent-usecases-mobile_item.is-active")
+        ) {
           setUsecaseActive(usecaseItems[0]);
         }
       }
@@ -434,7 +444,8 @@
 
     if (desktopMq.matches) {
       var initial =
-        menu.querySelector(".ent-usecases_menu-list-item.is-active") || items[0];
+        menu.querySelector(".ent-usecases_menu-list-item.is-active") ||
+        items[0];
       setActive(initial);
     }
   })();
@@ -1108,7 +1119,9 @@
 
       var copyMax = measureCopyItems(copyItems);
       var paginationHeight = pagination ? pagination.offsetHeight : 0;
-      var sideGap = sideAlt ? parseFloat(getComputedStyle(sideAlt).gap) || 0 : 0;
+      var sideGap = sideAlt
+        ? parseFloat(getComputedStyle(sideAlt).gap) || 0
+        : 0;
       var rightColumnHeight = paginationHeight + sideGap + copyMax;
       var mediaHeight = media ? media.offsetHeight : 0;
       var rowHeight = Math.max(mediaHeight, rightColumnHeight);
@@ -1224,10 +1237,7 @@
           anticipatePin: 0,
           invalidateOnRefresh: true,
           onUpdate: function (self) {
-            var index = Math.min(
-              count - 1,
-              Math.floor(self.progress * count),
-            );
+            var index = Math.min(count - 1, Math.floor(self.progress * count));
             setActiveNav(index);
           },
         },

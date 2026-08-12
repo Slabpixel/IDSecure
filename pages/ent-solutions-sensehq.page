@@ -1,6 +1,6 @@
 <div class="ent-hero">
   <section class="ent-section hero">
-  <div class="ent-container hero">
+    <div class="ent-container hero">
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
@@ -25,8 +25,14 @@
     </div>
   </section>
   <div class="ent-hero-bg">
-      <video src="/assets/ent-hero-sense.webm" autoplay muted loop playsinline></video>
-      <div class="ent-hero-bg_overlay"></div>
+    <video
+      src="/assets/ent-hero-sense.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+    ></video>
+    <div class="ent-hero-bg_overlay"></div>
     <div class="ent-section inside-hero">
       <div class="ent-container"></div>
     </div>
@@ -433,8 +439,16 @@
         <h2>Platform capabilities</h2>
       </div>
       <div class="ent-sense_capabilities">
-        <img class="mobile-hidden" src="/assets/ent-sense-capabilities.svg" alt="" />
-        <img class="mobile-only" src="/assets/ent-sense-capabilities_mobile.svg" alt="" />
+        <img
+          class="mobile-hidden"
+          src="/assets/ent-sense-capabilities.svg"
+          alt=""
+        />
+        <img
+          class="mobile-only"
+          src="/assets/ent-sense-capabilities_mobile.svg"
+          alt=""
+        />
       </div>
     </div>
   </div>
