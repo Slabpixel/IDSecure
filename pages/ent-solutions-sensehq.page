@@ -506,45 +506,45 @@
           <div class="ent-sense_device-media">
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
-                <img src="/assets/ent-sense-1.png" alt="SenseTag Rugged" />
+                <img src="/assets/ent-sense-1.webp" alt="SenseTag Rugged" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
-                <img src="/assets/ent-sense-2.png" alt="SenseTag Nano" />
+                <img src="/assets/ent-sense-2.webp" alt="SenseTag Nano" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
-                <img src="/assets/ent-sense-3.png" alt="SenseTag Sticker" />
+                <img src="/assets/ent-sense-3.webp" alt="SenseTag Sticker" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
                 <img
-                  src="/assets/ent-sense-4.png"
+                  src="/assets/ent-sense-4.webp"
                   alt="SenseTag Sticker Temp"
                 />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image z-2">
-                <img src="/assets/ent-sense-5.png" alt="SenseGate LoRa" />
+                <img src="/assets/ent-sense-5.webp" alt="SenseGate LoRa" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
-                <img src="/assets/ent-sense-6.png" alt="SenseMonitor CO2" />
+                <img src="/assets/ent-sense-6.webp" alt="SenseMonitor CO2" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image z-2 full">
-                <img src="/assets/ent-sense-7.png" alt="SenseMonitor Flow" />
+                <img src="/assets/ent-sense-7.webp" alt="SenseMonitor Flow" />
               </div>
             </div>
             <div class="ent-sense_device-media-item">
               <div class="ent-sense_device-image">
-                <img src="/assets/ent-sense-8.png" alt="SenseMonitor Soil" />
+                <img src="/assets/ent-sense-8.webp" alt="SenseMonitor Soil" />
               </div>
             </div>
           </div>
@@ -619,7 +619,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-1.png" alt="SenseTag Rugged" />
+                <img src="/assets/ent-sense-1.webp" alt="SenseTag Rugged" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -633,7 +633,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-2.png" alt="SenseTag Nano" />
+                <img src="/assets/ent-sense-2.webp" alt="SenseTag Nano" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -647,7 +647,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-3.png" alt="SenseTag Sticker" />
+                <img src="/assets/ent-sense-3.webp" alt="SenseTag Sticker" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -662,7 +662,7 @@
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
                 <img
-                  src="/assets/ent-sense-4.png"
+                  src="/assets/ent-sense-4.webp"
                   alt="SenseTag Sticker Temp"
                 />
               </div>
@@ -680,7 +680,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-5.png" alt="SenseGate LoRa" />
+                <img src="/assets/ent-sense-5.webp" alt="SenseGate LoRa" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -694,7 +694,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-6.png" alt="SenseMonitor CO2" />
+                <img src="/assets/ent-sense-6.webp" alt="SenseMonitor CO2" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -708,7 +708,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-7.png" alt="SenseMonitor Flow" />
+                <img src="/assets/ent-sense-7.webp" alt="SenseMonitor Flow" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">
@@ -722,7 +722,7 @@
           <article class="ent-sense_device-mobile_item">
             <div class="ent-sense_device-mobile_media-wrap">
               <div class="ent-sense_device-mobile_media">
-                <img src="/assets/ent-sense-8.png" alt="SenseMonitor Soil" />
+                <img src="/assets/ent-sense-8.webp" alt="SenseMonitor Soil" />
               </div>
             </div>
             <div class="ent-sense_device-mobile_body">

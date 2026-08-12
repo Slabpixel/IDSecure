@@ -319,29 +319,29 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-air.png" alt="Air quality and environmental monitoring" />
+            <img src="/assets/ent-uc-menu-air.webp" alt="Air quality and environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-temperature.png" alt="Temperature and humidity monitoring" />
+            <img src="/assets/ent-uc-menu-temperature.webp" alt="Temperature and humidity monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity" />
+            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Asset tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Asset tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity and device management" />
+            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity and device management" />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
         <a href="/air-quality-environmental-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-air.png" alt="Air quality and environmental monitoring" />
+            <img src="/assets/ent-uc-menu-air.webp" alt="Air quality and environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -350,7 +350,7 @@
         </a>
         <a href="/temperature-humidity-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-temperature.png" alt="Temperature and humidity monitoring" />
+            <img src="/assets/ent-uc-menu-temperature.webp" alt="Temperature and humidity monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[02]</span>
@@ -359,7 +359,7 @@
         </a>
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -368,7 +368,7 @@
         </a>
         <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity" />
+            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -377,7 +377,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Asset tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Asset tracking" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -386,7 +386,7 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity and device management" />
+            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity and device management" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>

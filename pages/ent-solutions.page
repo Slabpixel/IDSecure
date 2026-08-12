@@ -24,7 +24,7 @@
     </div>
   </section>
   <div class="ent-hero-bg">
-      <img src="/assets/ent-solutions-hero.png" alt="Enterprise Hero Image" />
+      <img src="/assets/ent-solutions-hero.webp" alt="Enterprise Hero Image" />
       <div class="ent-hero-bg_overlay"></div>
     <div class="ent-section inside-hero">
       <div class="ent-container"></div>
@@ -232,16 +232,16 @@
           <div class="ent-solutions_panel">
             <div class="ent-solutions_media">
               <div class="ent-solutions_media-item">
-                <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+                <img src="/assets/ent-sol-1.webp" alt="Enterprise IoT" />
               </div>
               <div class="ent-solutions_media-item">
-                <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+                <img src="/assets/ent-sol-2.webp" alt="Enterprise Satellite" />
               </div>
               <div class="ent-solutions_media-item">
-                <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+                <img src="/assets/ent-sol-3.webp" alt="SenseHQ" />
               </div>
               <div class="ent-solutions_media-item">
-                <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+                <img src="/assets/ent-sol-4.webp" alt="CloudCore" />
               </div>
             </div>
           </div>
@@ -302,7 +302,7 @@
       <div class="ent-solutions-cards_list">
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+            <img src="/assets/ent-sol-1.webp" alt="Enterprise IoT" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">Enterprise IoT</h3>
@@ -320,7 +320,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+            <img src="/assets/ent-sol-2.webp" alt="Enterprise Satellite" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">Enterprise Satellite</h3>
@@ -339,7 +339,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+            <img src="/assets/ent-sol-3.webp" alt="SenseHQ" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">SenseHQ</h3>
@@ -358,7 +358,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+            <img src="/assets/ent-sol-4.webp" alt="CloudCore" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">CloudCore</h3>
@@ -395,16 +395,16 @@
       <div class="ent-solution-layers">
         <div class="ent-solution-layers_image">
           <div class="ent-solution-layers_image-item is-active">
-            <img src="/assets/ent-sol-layer-1.png" alt="Enterprise IoT" />
+            <img src="/assets/ent-sol-layer-1.webp" alt="Enterprise IoT" />
           </div>
           <div class="ent-solution-layers_image-item">
-            <img src="/assets/ent-sol-layer-2.png" alt="Enterprise Satellite" />
+            <img src="/assets/ent-sol-layer-2.webp" alt="Enterprise Satellite" />
           </div>
           <div class="ent-solution-layers_image-item">
-            <img src="/assets/ent-sol-layer-3.png" alt="SenseHQ" />
+            <img src="/assets/ent-sol-layer-3.webp" alt="SenseHQ" />
           </div>
           <div class="ent-solution-layers_image-item">
-            <img src="/assets/ent-sol-layer-4.png" alt="CloudCore" />
+            <img src="/assets/ent-sol-layer-4.webp" alt="CloudCore" />
           </div>
         </div>
         <div class="ent-solution-layers_cards">
@@ -457,7 +457,7 @@
       <div class="ent-solution-layers-mobile_list">
         <article class="ent-solution-layers-mobile_item">
           <div class="ent-solution-layers-mobile_media">
-            <img src="/assets/ent-sol-layer-1.png" alt="Enterprise IoT" />
+            <img src="/assets/ent-sol-layer-1.webp" alt="Enterprise IoT" />
           </div>
           <div class="ent-solution-layers-mobile_body">
             <span class="ent-solution-layers-mobile_number">01</span>
@@ -471,7 +471,7 @@
         </article>
         <article class="ent-solution-layers-mobile_item">
           <div class="ent-solution-layers-mobile_media">
-            <img src="/assets/ent-sol-layer-2.png" alt="Enterprise Satellite" />
+            <img src="/assets/ent-sol-layer-2.webp" alt="Enterprise Satellite" />
           </div>
           <div class="ent-solution-layers-mobile_body">
             <span class="ent-solution-layers-mobile_number">02</span>
@@ -486,7 +486,7 @@
         </article>
         <article class="ent-solution-layers-mobile_item">
           <div class="ent-solution-layers-mobile_media">
-            <img src="/assets/ent-sol-layer-3.png" alt="SenseHQ" />
+            <img src="/assets/ent-sol-layer-3.webp" alt="SenseHQ" />
           </div>
           <div class="ent-solution-layers-mobile_body">
             <span class="ent-solution-layers-mobile_number">03</span>
@@ -501,7 +501,7 @@
         </article>
         <article class="ent-solution-layers-mobile_item">
           <div class="ent-solution-layers-mobile_media">
-            <img src="/assets/ent-sol-layer-4.png" alt="CloudCore" />
+            <img src="/assets/ent-sol-layer-4.webp" alt="CloudCore" />
           </div>
           <div class="ent-solution-layers-mobile_body">
             <span class="ent-solution-layers-mobile_number">04</span>

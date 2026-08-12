@@ -309,43 +309,43 @@
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Multi-site operations</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-1.png" alt="" />
+            <img src="/assets/ent-cc-1.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">IoT deployments</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-2.png" alt="" />
+            <img src="/assets/ent-cc-2.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Satellite and cellular estates</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-3.png" alt="" />
+            <img src="/assets/ent-cc-3.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Fleet and telematics environments</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-4.png" alt="" />
+            <img src="/assets/ent-cc-4.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Industrial monitoring</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-5.png" alt="" />
+            <img src="/assets/ent-cc-5.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Remote sites</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-6.png" alt="" />
+            <img src="/assets/ent-cc-6.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
           <p class="text-lg text-medium">Logistics and cold chain operations</p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-7.png" alt="" />
+            <img src="/assets/ent-cc-7.webp" alt="" />
           </div>
         </div>
         <div class="ent-cloudcore_grid-item">
@@ -354,7 +354,7 @@
             management
           </p>
           <div class="ent-cloudcore_grid-item-image">
-            <img src="/assets/ent-cc-8.png" alt="" />
+            <img src="/assets/ent-cc-8.webp" alt="" />
           </div>
         </div>
       </div>

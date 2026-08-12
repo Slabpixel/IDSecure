@@ -475,29 +475,29 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank level monitoring" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-farm.png" alt="Environmental monitoring" />
+            <img src="/assets/ent-uc-menu-farm.webp" alt="Environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-equip.png" alt="Equipment and asset tracking" />
+            <img src="/assets/ent-uc-menu-equip.webp" alt="Equipment and asset tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-facility.png" alt="Facility connectivity" />
+            <img src="/assets/ent-uc-menu-facility.webp" alt="Facility connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site management" />
+            <img src="/assets/ent-uc-menu-site.webp" alt="Multi-site management" />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -506,7 +506,7 @@
         </a>
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank level monitoring" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[02]</span>
@@ -515,7 +515,7 @@
         </a>
         <a href="/air-quality-environmental-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-farm.png" alt="Environmental monitoring" />
+            <img src="/assets/ent-uc-menu-farm.webp" alt="Environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -524,7 +524,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-equip.png" alt="Equipment and asset tracking" />
+            <img src="/assets/ent-uc-menu-equip.webp" alt="Equipment and asset tracking" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -533,7 +533,7 @@
         </a>
         <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-facility.png" alt="Facility connectivity" />
+            <img src="/assets/ent-uc-menu-facility.webp" alt="Facility connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -542,7 +542,7 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site management" />
+            <img src="/assets/ent-uc-menu-site.webp" alt="Multi-site management" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>

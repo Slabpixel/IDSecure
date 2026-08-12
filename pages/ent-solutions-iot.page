@@ -204,7 +204,7 @@
             and territories.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-1.png" alt="" />
+            <img src="/assets/ent-iot-1.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -213,7 +213,7 @@
             carriers.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-2.png" alt="" />
+            <img src="/assets/ent-iot-2.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -221,7 +221,7 @@
             <span class="text-medium">SIM and eSIM</span> deployment options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-3.png" alt="" />
+            <img src="/assets/ent-iot-3.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -230,7 +230,7 @@
             NB-IoT, and 5G where available.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-4.png" alt="" />
+            <img src="/assets/ent-iot-4.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -239,7 +239,7 @@
             management.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-5.png" alt="" />
+            <img src="/assets/ent-iot-5.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item span-2">
@@ -248,7 +248,7 @@
             <br />connectivity options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-6.png" alt="" />
+            <img src="/assets/ent-iot-6.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item span-2">
@@ -257,7 +257,7 @@
             including enterprise APN and private IP deployment options.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-7.png" alt="" />
+            <img src="/assets/ent-iot-7.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -266,7 +266,7 @@
             supported.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-8.png" alt="" />
+            <img src="/assets/ent-iot-8.webp" alt="" />
           </div>
         </div>
         <div class="ent-iot_grid-item">
@@ -275,7 +275,7 @@
             for usage, lifecycle, groups, policies & reporting.
           </p>
           <div class="ent-iot_grid-item-image">
-            <img src="/assets/ent-iot-9.png" alt="" />
+            <img src="/assets/ent-iot-9.webp" alt="" />
           </div>
         </div>
       </div>
@@ -301,7 +301,7 @@
           aria-expanded="true"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-1.png" alt="" />
+            <img src="/assets/ent-iot-uc-1.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -324,7 +324,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-2.png" alt="" />
+            <img src="/assets/ent-iot-uc-2.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -351,7 +351,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-3.png" alt="" />
+            <img src="/assets/ent-iot-uc-3.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -374,7 +374,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-4.png" alt="" />
+            <img src="/assets/ent-iot-uc-4.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -401,7 +401,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-5.png" alt="" />
+            <img src="/assets/ent-iot-uc-5.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -424,7 +424,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-6.png" alt="" />
+            <img src="/assets/ent-iot-uc-6.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -447,7 +447,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-7.png" alt="" />
+            <img src="/assets/ent-iot-uc-7.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -470,7 +470,7 @@
           aria-expanded="false"
         >
           <div class="ent-iot_use-cases-item-bg" aria-hidden="true">
-            <img src="/assets/ent-iot-uc-8.png" alt="" />
+            <img src="/assets/ent-iot-uc-8.webp" alt="" />
           </div>
           <div
             class="ent-iot_use-cases-item-label ent-iot_use-cases-item-label--vertical"
@@ -510,7 +510,7 @@
       <div class="ent-iot_solutions">
         <a href="/enterprise-satellite" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
-            <img src="/assets/ent-iot-sat.png" alt="" />
+            <img src="/assets/ent-iot-sat.webp" alt="" />
           </div>
           <h3 class="text-lg">Enterprise Satellite</h3>
           <p class="max-w-350">
@@ -519,7 +519,7 @@
         </a>
         <a href="/sensehq" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
-            <img src="/assets/ent-iot-sen.png" alt="" />
+            <img src="/assets/ent-iot-sen.webp" alt="" />
           </div>
           <h3 class="text-lg">SenseHQ</h3>
           <p class="max-w-367">
@@ -529,7 +529,7 @@
         </a>
         <a href="/cloudcore" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
-            <img src="/assets/ent-iot-cc.png" alt="" />
+            <img src="/assets/ent-iot-cc.webp" alt="" />
           </div>
           <h3 class="text-lg">CloudCore</h3>
           <p class="max-w-350">

@@ -35,7 +35,7 @@
               </nav>
               <div class="ent-nav-dropdown-visual">
                 <img
-                  src="/assets/ent-nav-a.png"
+                  src="/assets/ent-nav-a.webp"
                   alt=""
                   width="342"
                   height="240"
@@ -90,7 +90,7 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img src="/assets/ent-nav-b.png" alt="" />
+                <img src="/assets/ent-nav-b.webp" alt="" />
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -137,7 +137,7 @@
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
               >
-                <img src="/assets/ent-nav-c.png" alt="" />
+                <img src="/assets/ent-nav-c.webp" alt="" />
               </div>
             </div>
             <div class="ent-nav-dropdown-footer">
@@ -197,7 +197,7 @@
               class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--solutions"
             >
               <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
-                <img src="/assets/ent-nav-a.png" alt="" />
+                <img src="/assets/ent-nav-a.webp" alt="" />
               </div>
               <nav class="ent-nav-mobile-panel-links" aria-label="Solutions">
                 <a href="/enterprise-iot">Enterprise IOT</a>
@@ -230,7 +230,7 @@
               class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--usecases"
             >
               <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
-                <img src="/assets/ent-nav-b.png" alt="" />
+                <img src="/assets/ent-nav-b.webp" alt="" />
               </div>
               <nav
                 class="ent-nav-mobile-panel-links"
@@ -272,7 +272,7 @@
               class="ent-nav-mobile-panel-inner ent-nav-mobile-panel-inner--industries"
             >
               <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
-                <img src="/assets/ent-nav-c.png" alt="" />
+                <img src="/assets/ent-nav-c.webp" alt="" />
               </div>
               <nav class="ent-nav-mobile-panel-links" aria-label="Industries">
                 <a href="/energy-utilities">Energy & Utilities</a>

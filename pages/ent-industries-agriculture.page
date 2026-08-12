@@ -285,32 +285,32 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-construction.png" alt="Rural site connectivity" />
+            <img src="/assets/ent-uc-menu-construction.webp" alt="Rural site connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Irrigation and flow monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Irrigation and flow monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-agri.png" alt="Soil and environmental monitoring" />
+            <img src="/assets/ent-uc-menu-agri.webp" alt="Soil and environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank and water visibility" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank and water visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-colds.png" alt="Cold storage monitoring" />
+            <img src="/assets/ent-uc-menu-colds.webp" alt="Cold storage monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-farm.png" alt="Pack-out and food distribution temperature visibility" />
+            <img src="/assets/ent-uc-menu-farm.webp" alt="Pack-out and food distribution temperature visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Field asset tracking" />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
         <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-construction.png" alt="Rural site connectivity" />
+            <img src="/assets/ent-uc-menu-construction.webp" alt="Rural site connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -319,7 +319,7 @@
         </a>
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Irrigation and flow monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Irrigation and flow monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[02]</span>
@@ -328,7 +328,7 @@
         </a>
         <a href="/temperature-humidity-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-agri.png" alt="Soil and environmental monitoring" />
+            <img src="/assets/ent-uc-menu-agri.webp" alt="Soil and environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -337,7 +337,7 @@
         </a>
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank and water visibility" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank and water visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -346,7 +346,7 @@
         </a>
         <a href="/cold-chain-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-colds.png" alt="Cold storage monitoring" />
+            <img src="/assets/ent-uc-menu-colds.webp" alt="Cold storage monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -355,7 +355,7 @@
         </a>
         <a href="/cold-chain-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-farm.png" alt="Pack-out and food distribution temperature visibility" />
+            <img src="/assets/ent-uc-menu-farm.webp" alt="Pack-out and food distribution temperature visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>
@@ -364,7 +364,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Field asset tracking" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[07]</span>

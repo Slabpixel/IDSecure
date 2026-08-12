@@ -225,29 +225,29 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-remote.png" alt="Remote infrastructure connectivity" />
+            <img src="/assets/ent-uc-menu-remote.webp" alt="Remote infrastructure connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank level monitoring" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-agri.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-agri.webp" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity for critical sites" />
+            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity for critical sites" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity management" />
+            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity management" />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
         <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-remote.png" alt="Remote infrastructure connectivity" />
+            <img src="/assets/ent-uc-menu-remote.webp" alt="Remote infrastructure connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -256,7 +256,7 @@
         </a>
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Tank level monitoring" />
+            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[02]</span>
@@ -265,7 +265,7 @@
         </a>
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -274,7 +274,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-agri.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-agri.webp" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -283,7 +283,7 @@
         </a>
         <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity for critical sites" />
+            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity for critical sites" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -292,7 +292,7 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site connectivity management" />
+            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity management" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>

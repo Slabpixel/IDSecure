@@ -13,7 +13,7 @@
 <section class="gov-section xs">
   <div class="gov-container">
     <div class="gov-content-image-551">
-      <img src="/assets/about.png" alt="About Us" />
+      <img src="/assets/about.webp" alt="About Us" />
     </div>
     <div class="gov-col about gap-40">
       <div class="gov-title-wrap gap-16">
@@ -151,7 +151,7 @@
       </p>
     </div>
     <div class="gov-content-image-551 hand">
-      <img src="/assets/hand.png" alt="About Us" />
+      <img src="/assets/hand.webp" alt="About Us" />
     </div>
   </div>
 </section>

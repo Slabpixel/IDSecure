@@ -21,19 +21,19 @@
           <div class="ent-industries_relevant-grid">
             <div class="ent-industries_relevant-grid-item">
               <h3>Enterprise IOT</h3>
-              <img src="/assets/ent-iot-iot.png" alt="" />
+              <img src="/assets/ent-iot-iot.webp" alt="" />
             </div>
             <div class="ent-industries_relevant-grid-item">
               <h3>SenseHQ</h3>
-              <img src="/assets/ent-iot-sen.png" alt="" />
+              <img src="/assets/ent-iot-sen.webp" alt="" />
             </div>
             <div class="ent-industries_relevant-grid-item">
               <h3>Enterprise Satellite</h3>
-              <img src="/assets/ent-iot-sat.png" alt="" />
+              <img src="/assets/ent-iot-sat.webp" alt="" />
             </div>
             <div class="ent-industries_relevant-grid-item">
               <h3>CloudCore</h3>
-              <img src="/assets/ent-iot-cc.png" alt="" />
+              <img src="/assets/ent-iot-cc.webp" alt="" />
             </div>
           </div>
         </div>

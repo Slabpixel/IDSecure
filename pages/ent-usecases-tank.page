@@ -451,25 +451,25 @@
       <div class="ent-relevant_wrap">
         <a href="/enterprise-iot" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
-            <img src="/assets/ent-iot-iot.png" alt="" />
+            <img src="/assets/ent-iot-iot.webp" alt="" />
           </div>
           <p>Enterprise IoT</p>
         </a>
         <a href="/enterprise-satellite" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
-            <img src="/assets/ent-iot-sat.png" alt="" />
+            <img src="/assets/ent-iot-sat.webp" alt="" />
           </div>
           <p>Enterprise Satellite</p>
         </a>
         <a href="/sensehq" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
-            <img src="/assets/ent-iot-sen.png" alt="" />
+            <img src="/assets/ent-iot-sen.webp" alt="" />
           </div>
           <p>SenseHQ</p>
         </a>
         <a href="/cloudcore" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
-            <img src="/assets/ent-iot-cc.png" alt="" />
+            <img src="/assets/ent-iot-cc.webp" alt="" />
           </div>
           <p>CloudCore</p>
         </a>
@@ -534,16 +534,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.png" alt="" />
+              <img src="/assets/ent-deploy-rui.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.png" alt="" />
+              <img src="/assets/ent-deploy-ras.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.png" alt="" />
+              <img src="/assets/ent-deploy-cj.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.png" alt="" />
+              <img src="/assets/ent-deploy-rif.webp" alt="" />
             </div>
           </div>
         </div>
@@ -562,25 +562,25 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.png" alt="" />
+            <img src="/assets/ent-deploy-rui.webp" alt="" />
           </div>
           <p>Fuel tanks</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.png" alt="" />
+            <img src="/assets/ent-deploy-ras.webp" alt="" />
           </div>
           <p>Water tanks</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.png" alt="" />
+            <img src="/assets/ent-deploy-cj.webp" alt="" />
           </div>
           <p>Chemical storage</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.png" alt="" />
+            <img src="/assets/ent-deploy-rif.webp" alt="" />
           </div>
           <p>Wastewater and utility storage</p>
         </div>

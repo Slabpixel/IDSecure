@@ -341,16 +341,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media">
             <div class="ent-solutions_media-item">
-              <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+              <img src="/assets/ent-sol-1.webp" alt="Enterprise IoT" />
             </div>
             <div class="ent-solutions_media-item">
-              <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+              <img src="/assets/ent-sol-2.webp" alt="Enterprise Satellite" />
             </div>
             <div class="ent-solutions_media-item">
-              <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+              <img src="/assets/ent-sol-3.webp" alt="SenseHQ" />
             </div>
             <div class="ent-solutions_media-item">
-              <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+              <img src="/assets/ent-sol-4.webp" alt="CloudCore" />
             </div>
           </div>
           <div class="ent-solutions_copy">
@@ -405,7 +405,7 @@
       <div class="ent-solutions-cards_list">
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-1.jpg" alt="Enterprise IoT" />
+            <img src="/assets/ent-sol-1.webp" alt="Enterprise IoT" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">Enterprise IoT</h3>
@@ -423,7 +423,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-2.jpg" alt="Enterprise Satellite" />
+            <img src="/assets/ent-sol-2.webp" alt="Enterprise Satellite" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">Enterprise Satellite</h3>
@@ -442,7 +442,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-3.jpg" alt="SenseHQ" />
+            <img src="/assets/ent-sol-3.webp" alt="SenseHQ" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">SenseHQ</h3>
@@ -461,7 +461,7 @@
         </article>
         <article class="ent-solutions-card">
           <div class="ent-solutions-card_media">
-            <img src="/assets/ent-sol-4.jpg" alt="CloudCore" />
+            <img src="/assets/ent-sol-4.webp" alt="CloudCore" />
           </div>
           <div class="ent-solutions-card_body">
             <h3 class="ent-solutions-card_title">CloudCore</h3>
@@ -511,7 +511,7 @@
               >
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-1.png" alt="" />
+              <img src="/assets/ent-uc-1.webp" alt="" />
             </div>
           </div>
           <div class="ent-content_usecases-item">
@@ -529,7 +529,7 @@
               >
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-2.png" alt="" />
+              <img src="/assets/ent-uc-2.webp" alt="" />
             </div>
           </div>
           <div class="ent-content_usecases-item">
@@ -547,7 +547,7 @@
               >
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-3.png" alt="" />
+              <img src="/assets/ent-uc-3.webp" alt="" />
             </div>
           </div>
           <div class="ent-content_usecases-item">
@@ -563,7 +563,7 @@
               <a href="/fleet-telematics" class="btn-ent-primary">Learn more</a>
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-4.png" alt="" />
+              <img src="/assets/ent-uc-4.webp" alt="" />
             </div>
           </div>
           <div class="ent-content_usecases-item">
@@ -579,7 +579,7 @@
               <a href="/asset-tracking" class="btn-ent-primary">Learn more</a>
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-5.png" alt="" />
+              <img src="/assets/ent-uc-5.webp" alt="" />
             </div>
           </div>
           <div class="ent-content_usecases-item">
@@ -597,7 +597,7 @@
               >
             </div>
             <div class="ent-content_usecases-item_inner-img">
-              <img src="/assets/ent-uc-6.png" alt="" />
+              <img src="/assets/ent-uc-6.webp" alt="" />
             </div>
           </div>
         </div>
@@ -627,7 +627,7 @@
           </button>
           <div class="ent-usecases-mobile_panel">
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-1.png" alt="" />
+              <img src="/assets/ent-uc-1.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[01]</span>
@@ -660,7 +660,7 @@
           </button>
           <div class="ent-usecases-mobile_panel" hidden>
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-2.png" alt="" />
+              <img src="/assets/ent-uc-2.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[02]</span>
@@ -691,7 +691,7 @@
           </button>
           <div class="ent-usecases-mobile_panel" hidden>
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-3.png" alt="" />
+              <img src="/assets/ent-uc-3.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[03]</span>
@@ -724,7 +724,7 @@
           </button>
           <div class="ent-usecases-mobile_panel" hidden>
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-4.png" alt="" />
+              <img src="/assets/ent-uc-4.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[04]</span>
@@ -755,7 +755,7 @@
           </button>
           <div class="ent-usecases-mobile_panel" hidden>
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-5.png" alt="" />
+              <img src="/assets/ent-uc-5.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[05]</span>
@@ -784,7 +784,7 @@
           </button>
           <div class="ent-usecases-mobile_panel" hidden>
             <div class="ent-usecases-mobile_media">
-              <img src="/assets/ent-uc-6.png" alt="" />
+              <img src="/assets/ent-uc-6.webp" alt="" />
             </div>
             <div class="ent-usecases-mobile_row">
               <span class="ent-usecases-mobile_number">[06]</span>
@@ -842,7 +842,7 @@
                   <h3>Energy & <br />Utilities</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-1.png" alt="" />
+                  <img src="/assets/ent-ind-1.webp" alt="" />
                 </div>
               </div>
               <div class="ent-industries_item" data-href="/agriculture-food">
@@ -854,7 +854,7 @@
                   <h3>Agriculture & <br />Food Production</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-2.png" alt="" />
+                  <img src="/assets/ent-ind-2.webp" alt="" />
                 </div>
               </div>
               <div
@@ -869,7 +869,7 @@
                   <h3>Logistics & <br />Cold Chain</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-3.png" alt="" />
+                  <img src="/assets/ent-ind-3.webp" alt="" />
                 </div>
               </div>
               <div class="ent-industries_item" data-href="/manufacturing">
@@ -881,7 +881,7 @@
                   <h3>Manufacturing & <br />Industrial Facilities</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-4.png" alt="" />
+                  <img src="/assets/ent-ind-4.webp" alt="" />
                 </div>
               </div>
               <div class="ent-industries_item" data-href="/construction">
@@ -893,7 +893,7 @@
                   <h3>Construction & <br />Remote Sites</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-5.png" alt="" />
+                  <img src="/assets/ent-ind-5.webp" alt="" />
                 </div>
               </div>
               <div
@@ -908,7 +908,7 @@
                   <h3>Facilities & <br />Multi-Site Operations</h3>
                 </div>
                 <div class="ent-industries_item-image">
-                  <img src="/assets/ent-ind-6.png" alt="" />
+                  <img src="/assets/ent-ind-6.webp" alt="" />
                 </div>
               </div>
             </div>
@@ -936,7 +936,7 @@
       <div class="ent-industries-mobile_list">
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-1.png" alt="" />
+            <img src="/assets/ent-ind-m-1.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"
@@ -968,7 +968,7 @@
         </article>
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-2.png" alt="" />
+            <img src="/assets/ent-ind-m-2.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"
@@ -999,7 +999,7 @@
         </article>
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-3.png" alt="" />
+            <img src="/assets/ent-ind-m-3.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"
@@ -1031,7 +1031,7 @@
         </article>
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-4.png" alt="" />
+            <img src="/assets/ent-ind-m-4.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"
@@ -1063,7 +1063,7 @@
         </article>
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-5.png" alt="" />
+            <img src="/assets/ent-ind-m-5.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"
@@ -1095,7 +1095,7 @@
         </article>
         <article class="ent-industries-mobile_item">
           <div class="ent-industries-mobile_media">
-            <img src="/assets/ent-ind-m-6.png" alt="" />
+            <img src="/assets/ent-ind-m-6.webp" alt="" />
           </div>
           <div class="ent-industries-mobile_trigger">
             <span class="ent-industries-mobile_title"

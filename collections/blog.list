@@ -14,7 +14,7 @@
         <div class="gov-press-card gov-press-card--placeholder gov-press-card--soon">
           <div class="gov-press-card-glow" aria-hidden="true"></div>
           <div class="gov-press-card-fingerprint" aria-hidden="true">
-            <img src="/assets/fingerprint.png" alt="" />
+            <img src="/assets/fingerprint.webp" alt="" />
           </div>
           <div class="gov-press-card-inner soon">
             <h2 class="gov-press-card-title">Coming<br />Soon</h2>

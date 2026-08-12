@@ -225,52 +225,52 @@
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
             <img
-              src="/assets/ent-uc-menu-remote.png"
+              src="/assets/ent-uc-menu-remote.webp"
               alt="Remote Site Connectivity"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-backup.png"
+              src="/assets/ent-uc-menu-backup.webp"
               alt="Backup Internet & Business Continuity"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-temperature.png"
+              src="/assets/ent-uc-menu-temperature.webp"
               alt="Temperature & Humidity Monitoring"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-tank.png"
+              src="/assets/ent-uc-menu-tank.webp"
               alt="Tank Level Monitoring"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow Monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-air.png"
+              src="/assets/ent-uc-menu-air.webp"
               alt="Air Quality & Environmental Monitoring"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-cold.png"
+              src="/assets/ent-uc-menu-cold.webp"
               alt="Cold Chain Monitoring"
             />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet & Telematics" />
+            <img src="/assets/ent-uc-menu-fleet.webp" alt="Fleet & Telematics" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Asset Tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img
-              src="/assets/ent-uc-menu-multi.png"
+              src="/assets/ent-uc-menu-multi.webp"
               alt="Multi-Site Asset & Connectivity Management"
             />
           </div>
@@ -283,7 +283,7 @@
         >
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-remote.png"
+              src="/assets/ent-uc-menu-remote.webp"
               alt="Remote Site Connectivity"
             />
           </div>
@@ -300,7 +300,7 @@
         <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-backup.png"
+              src="/assets/ent-uc-menu-backup.webp"
               alt="Backup Internet & Business Continuity"
             />
           </div>
@@ -320,7 +320,7 @@
         >
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-temperature.png"
+              src="/assets/ent-uc-menu-temperature.webp"
               alt="Temperature & Humidity Monitoring"
             />
           </div>
@@ -337,7 +337,7 @@
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-tank.png"
+              src="/assets/ent-uc-menu-tank.webp"
               alt="Tank Level Monitoring"
             />
           </div>
@@ -353,7 +353,7 @@
         </a>
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.png" alt="Flow Monitoring" />
+            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow Monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -371,7 +371,7 @@
         >
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-air.png"
+              src="/assets/ent-uc-menu-air.webp"
               alt="Air Quality & Environmental Monitoring"
             />
           </div>
@@ -388,7 +388,7 @@
         <a href="/cold-chain-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-cold.png"
+              src="/assets/ent-uc-menu-cold.webp"
               alt="Cold Chain Monitoring"
             />
           </div>
@@ -404,7 +404,7 @@
         </a>
         <a href="/fleet-telematics" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet & Telematics" />
+            <img src="/assets/ent-uc-menu-fleet.webp" alt="Fleet & Telematics" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[08]</span>
@@ -418,7 +418,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Asset Tracking" />
+            <img src="/assets/ent-uc-menu-asset.webp" alt="Asset Tracking" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[09]</span>
@@ -433,7 +433,7 @@
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
             <img
-              src="/assets/ent-uc-menu-multi.png"
+              src="/assets/ent-uc-menu-multi.webp"
               alt="Multi-Site Asset & Connectivity Management"
             />
           </div>
