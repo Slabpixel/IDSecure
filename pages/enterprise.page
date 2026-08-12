@@ -48,7 +48,7 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          <img src="/assets/connect.svg" alt="Enterprise About Image" />
+          <img src="/assets/ent-home.svg" alt="Enterprise About Image" />
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
