@@ -234,7 +234,7 @@
             <img src="/assets/ent-uc-menu-flow.png" alt="Flow and utility monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-agri.png" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img src="/assets/ent-uc-menu-backup.png" alt="Backup connectivity for critical sites" />
@@ -274,7 +274,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-agri.png" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>

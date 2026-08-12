@@ -215,32 +215,32 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-cold.png" alt="Cold chain monitoring" />
+            <img src="/assets/ent-uc-menu-storage.png" alt="Cold chain monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img src="/assets/ent-uc-menu-temperature.png" alt="Temperature and humidity monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet and telematics connectivity" />
+            <img src="/assets/ent-uc-menu-fleet-telematics.png" alt="Fleet and telematics connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img src="/assets/ent-uc-menu-asset.png" alt="Asset tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Route milestone visibility" />
+            <img src="/assets/ent-uc-menu-route.png" alt="Route milestone visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img src="/assets/ent-uc-menu-cold.png" alt="Shipment-level temperature visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site logistics management" />
+            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site logistics management" />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
         <a href="/cold-chain-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-cold.png" alt="Cold chain monitoring" />
+            <img src="/assets/ent-uc-menu-storage.png" alt="Cold chain monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -258,7 +258,7 @@
         </a>
         <a href="/fleet-telematics" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Fleet and telematics connectivity" />
+            <img src="/assets/ent-uc-menu-fleet-telematics.png" alt="Fleet and telematics connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -276,7 +276,7 @@
         </a>
         <a href="/fleet-telematics" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-fleet.png" alt="Route milestone visibility" />
+            <img src="/assets/ent-uc-menu-route.png" alt="Route milestone visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -294,7 +294,7 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site logistics management" />
+            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site logistics management" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[07]</span>

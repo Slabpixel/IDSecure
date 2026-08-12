@@ -291,10 +291,10 @@
             <img src="/assets/ent-uc-menu-asset.png" alt="Equipment and tool tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Fuel and water tank monitoring" />
+            <img src="/assets/ent-uc-menu-flow-monitoring.png" alt="Fuel and water tank monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-farm.png" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-image-item">
             <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site project management" />
@@ -331,7 +331,7 @@
         </a>
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-tank.png" alt="Fuel and water tank monitoring" />
+            <img src="/assets/ent-uc-menu-flow-monitoring.png" alt="Fuel and water tank monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -340,7 +340,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Field asset visibility" />
+            <img src="/assets/ent-uc-menu-farm.png" alt="Field asset visibility" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>

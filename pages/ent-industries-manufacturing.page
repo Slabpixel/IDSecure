@@ -481,16 +481,16 @@
             <img src="/assets/ent-uc-menu-tank.png" alt="Tank level monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-air.png" alt="Environmental monitoring" />
+            <img src="/assets/ent-uc-menu-farm.png" alt="Environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Equipment and asset tracking" />
+            <img src="/assets/ent-uc-menu-equip.png" alt="Equipment and asset tracking" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-remote.png" alt="Facility connectivity" />
+            <img src="/assets/ent-uc-menu-facility.png" alt="Facility connectivity" />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site management" />
+            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site management" />
           </div>
         </div>
       </div>
@@ -515,7 +515,7 @@
         </a>
         <a href="/air-quality-environmental-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-air.png" alt="Environmental monitoring" />
+            <img src="/assets/ent-uc-menu-farm.png" alt="Environmental monitoring" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -524,7 +524,7 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-asset.png" alt="Equipment and asset tracking" />
+            <img src="/assets/ent-uc-menu-equip.png" alt="Equipment and asset tracking" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -533,7 +533,7 @@
         </a>
         <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-remote.png" alt="Facility connectivity" />
+            <img src="/assets/ent-uc-menu-facility.png" alt="Facility connectivity" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -542,7 +542,7 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-multi.png" alt="Multi-site management" />
+            <img src="/assets/ent-uc-menu-site.png" alt="Multi-site management" />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>
