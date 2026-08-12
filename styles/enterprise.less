@@ -842,6 +842,30 @@
   }
 }
 
+.ent-hero {
+  &.about {
+    display: flex;
+    flex-direction: column;
+    height: ~"100dvh";
+    overflow: hidden;
+
+    & .ent-hero-bg {
+      aspect-ratio: unset;
+      flex: 1;
+      min-height: 0;
+      position: relative;
+
+      img {
+        object-position: bottom;
+      }
+
+      @media (max-width: @ent-bp-mobile) {
+        height: auto;
+      }
+    }
+  }
+}
+
 .ent-container {
   margin: auto;
   max-width: 1440px;
@@ -997,6 +1021,10 @@
       rgba(248, 250, 252, 0) 100%
     );
     z-index: 1;
+
+    @media (max-width: @ent-bp-mobile) {
+      height: 145px;
+    }
   }
 }
 
