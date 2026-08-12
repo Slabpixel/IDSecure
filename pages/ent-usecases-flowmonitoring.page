@@ -13,8 +13,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore Related Solutions</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/solutions" class="btn-ent-ghost">Explore Related Solutions</a>
         </div>
       </div>
     </div>
@@ -75,12 +75,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite-dish.svg" alt="" />
+            <img src="/assets/droplet.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Connect hard-to-reach sites</span
+                >Monitor water flow and consumption</span
               >
             </p>
           </div>
@@ -99,12 +99,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/users-gear.svg" alt="" />
+            <img src="/assets/seedling.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Support field teams and temporary operations</span
+                >Track irrigation and utility systems</span
               >
             </p>
           </div>
@@ -123,13 +123,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite.svg" alt="" />
+            <img src="/assets/triangle-exclamation.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Add satellite connectivity where terrestrial networks are
-                limited</span
+                >Detect unusual flow patterns</span
               >
             </p>
           </div>
@@ -148,12 +147,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/cloud.svg" alt="" />
+            <img src="/assets/network-wired-sec.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Centralize visibility and management through CloudCore</span
+                >Centralize flow data across sites</span
               >
             </p>
           </div>
@@ -177,7 +176,7 @@
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Monitor equipment, tanks, sensors, and assets</span
+                >Support meter-based visibility</span
               >
             </p>
           </div>
@@ -333,4 +332,4 @@
 
   </div>
 </section>
-{@|apply ent-section-contact.block}
+{@|apply ent-section-contact-talk.block}

@@ -14,8 +14,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore Related Solutions</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/solutions" class="btn-ent-ghost">Explore Related Solutions</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,79 @@
         </div>
         <h2>What this use case helps you do</h2>
       </div>
-      <div class="ent-why_wrap usecase">
+      <div class="ent-why_wrap reverse usecase">
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/truck-alt.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Connect vehicles and mobile assets</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/tower-broadcast-alt.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Support telematics and sensor connectivity</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/location-dot.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Track trailers, equipment, and field assets</span
+              >
+            </p>
+          </div>
+        </div>
         <div class="ent-why_item">
           <div class="ent-why_item-bg">
             <img
@@ -84,56 +156,7 @@
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Connect hard-to-reach sites</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="ent-why_item">
-          <div class="ent-why_item-bg">
-            <img
-              class="ent-why_item-bg-top"
-              src="/assets/ent-why_top.svg"
-              alt=""
-            />
-            <img
-              class="ent-why_item-bg-bottom"
-              src="/assets/ent-why_bottom.svg"
-              alt=""
-            />
-          </div>
-          <div class="ent-why_item-icon">
-            <img src="/assets/users-gear.svg" alt="" />
-          </div>
-          <div class="ent-why_item-content">
-            <p>
-              <span class="text-lg text-medium"
-                >Support field teams and temporary operations</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="ent-why_item">
-          <div class="ent-why_item-bg">
-            <img
-              class="ent-why_item-bg-top"
-              src="/assets/ent-why_top.svg"
-              alt=""
-            />
-            <img
-              class="ent-why_item-bg-bottom"
-              src="/assets/ent-why_bottom.svg"
-              alt=""
-            />
-          </div>
-          <div class="ent-why_item-icon">
-            <img src="/assets/satellite.svg" alt="" />
-          </div>
-          <div class="ent-why_item-content">
-            <p>
-              <span class="text-lg text-medium"
-                >Add satellite connectivity where terrestrial networks are
-                limited</span
+                >Extend connectivity in remote or rural routes</span
               >
             </p>
           </div>
@@ -157,31 +180,7 @@
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Centralize visibility and management through CloudCore</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="ent-why_item">
-          <div class="ent-why_item-bg">
-            <img
-              class="ent-why_item-bg-top"
-              src="/assets/ent-why_top.svg"
-              alt=""
-            />
-            <img
-              class="ent-why_item-bg-bottom"
-              src="/assets/ent-why_bottom.svg"
-              alt=""
-            />
-          </div>
-          <div class="ent-why_item-icon">
-            <img src="/assets/gauge-high.svg" alt="" />
-          </div>
-          <div class="ent-why_item-content">
-            <p>
-              <span class="text-lg text-medium"
-                >Monitor equipment, tanks, sensors, and assets</span
+                >Manage usage and device status centrally</span
               >
             </p>
           </div>
@@ -337,4 +336,4 @@
 
   </div>
 </section>
-{@|apply ent-section-contact.block}
+{@|apply ent-section-contact-talk.block}

@@ -12,15 +12,17 @@
           <div class="ent-footer_cta-gradient b"></div>
           <div class="ent-footer_cta-gradient c"></div>
         </div>
-        <h2 class="max-w-568">
-          Ready to connect, monitor, and manage your enterprise operations?
+        <h2 class="max-w-804">
+          Talk to IDSECURE about your sites, assets, devices, connectivity, and
+          monitoring requirements.
         </h2>
         <div class="ent-footer_cta-inner">
-          <p class="max-w-350">
-            Talk to IDSECURE about your sites, assets, devices, connectivity,
-            and monitoring requirements.
+          <p class="max-w-419">
+            Talk to IDSECURE about how this use case applies to your sites, assets, devices, and operating environment.
           </p>
-          <a href="/enterprise-contact" class="btn-ent-primary">Talk to IDSECURE</a>
+          <a href="/enterprise-contact" class="btn-ent-primary"
+            >Talk to IDSECURE</a
+          >
         </div>
       </div>
     </div>

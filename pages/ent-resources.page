@@ -15,8 +15,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore Use Cases</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/use-cases" class="btn-ent-ghost">Explore Use Cases</a>
         </div>
       </div>
     </div>

@@ -15,8 +15,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore Related Solutions</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/solutions" class="btn-ent-ghost">Explore Related Solutions</a>
         </div>
       </div>
     </div>
@@ -73,8 +73,8 @@
         </div>
         <h2>What this use case helps you do</h2>
       </div>
-      <div class="ent-why_wrap usecase">
-        <div class="ent-why_item">
+      <div class="ent-why_wrap alt usecase">
+        <div class="ent-why_item alt">
           <div class="ent-why_item-bg">
             <img
               class="ent-why_item-bg-top"
@@ -88,17 +88,17 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite-dish.svg" alt="" />
+            <img src="/assets/temperature-half.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Connect hard-to-reach sites</span
+                >Monitor temperature and humidity in real time</span
               >
             </p>
           </div>
         </div>
-        <div class="ent-why_item">
+        <div class="ent-why_item alt">
           <div class="ent-why_item-bg">
             <img
               class="ent-why_item-bg-top"
@@ -112,17 +112,17 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/users-gear.svg" alt="" />
+            <img src="/assets/truck-alt.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Support field teams and temporary operations</span
+                >Monitor shipment-level temperature using SenseTag Sticker Temp</span
               >
             </p>
           </div>
         </div>
-        <div class="ent-why_item">
+        <div class="ent-why_item alt">
           <div class="ent-why_item-bg">
             <img
               class="ent-why_item-bg-top"
@@ -136,18 +136,17 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite.svg" alt="" />
+            <img src="/assets/triangle-exclamation.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Add satellite connectivity where terrestrial networks are
-                limited</span
+                >Trigger alerts when conditions change</span
               >
             </p>
           </div>
         </div>
-        <div class="ent-why_item">
+        <div class="ent-why_item alt">
           <div class="ent-why_item-bg">
             <img
               class="ent-why_item-bg-top"
@@ -161,17 +160,17 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/cloud.svg" alt="" />
+            <img src="/assets/snowflake.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Centralize visibility and management through CloudCore</span
+                >Support cold storage, food production, agriculture, and facility operations</span
               >
             </p>
           </div>
         </div>
-        <div class="ent-why_item">
+        <div class="ent-why_item alt">
           <div class="ent-why_item-bg">
             <img
               class="ent-why_item-bg-top"
@@ -185,12 +184,60 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/gauge-high.svg" alt="" />
+            <img src="/assets/box.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Monitor equipment, tanks, sensors, and assets</span
+                >Support cartons, totes, samples, parcels, and pallet-level temperature workflows</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item alt">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/sparkles.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Reduce manual inspection requirements</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="ent-why_item alt">
+          <div class="ent-why_item-bg">
+            <img
+              class="ent-why_item-bg-top"
+              src="/assets/ent-why_top.svg"
+              alt=""
+            />
+            <img
+              class="ent-why_item-bg-bottom"
+              src="/assets/ent-why_bottom.svg"
+              alt=""
+            />
+          </div>
+          <div class="ent-why_item-icon">
+            <img src="/assets/chart-network-alt.svg" alt="" />
+          </div>
+          <div class="ent-why_item-content">
+            <p>
+              <span class="text-lg text-medium"
+                >Create visibility across multiple rooms, facilities, and sites</span
               >
             </p>
           </div>
@@ -363,4 +410,4 @@
 
   </div>
 </section>
-{@|apply ent-section-contact.block}
+{@|apply ent-section-contact-talk.block}

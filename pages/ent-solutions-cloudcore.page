@@ -17,8 +17,8 @@
         </p>
       </div>
       <div class="ent-button-wrap">
-        <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="#" class="btn-ent-ghost">Explore Platform Capabilities</a>
+        <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+        <a href="/solutions" class="btn-ent-ghost">Explore Platform Capabilities</a>
       </div>
     </div>
   </div>
@@ -207,4 +207,4 @@
   </div>
 </section>
 
-{@|apply ent-section-contact.block}
+{@|apply ent-section-contact-connect.block}

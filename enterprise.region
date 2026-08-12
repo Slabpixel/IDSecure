@@ -61,6 +61,7 @@
     <script src="scripts/lenis.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/ent-animation.js"></script>
+    <script src="scripts/ent-form-select.js"></script>
     {squarespace-footers}
   </body>
 </html>

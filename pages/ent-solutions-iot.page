@@ -15,8 +15,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore IoT Use Cases</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/use-cases" class="btn-ent-ghost">Explore IoT Use Cases</a>
         </div>
       </div>
     </div>
@@ -383,7 +383,7 @@
         <h2>Relevant IDSECURE solutions</h2>
       </div>
       <div class="ent-iot_solutions">
-        <a href="#" class="ent-iot_solutions-item">
+        <a href="/enterprise-satellite" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
             <img src="/assets/ent-iot-sat.png" alt="" />
           </div>
@@ -392,7 +392,7 @@
             Add resilient coverage for remote, mobile, or off-grid environments.
           </p>
         </a>
-        <a href="#" class="ent-iot_solutions-item">
+        <a href="/sensehq" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
             <img src="/assets/ent-iot-sen.png" alt="" />
           </div>
@@ -402,7 +402,7 @@
             sensors, and gateways.
           </p>
         </a>
-        <a href="#" class="ent-iot_solutions-item">
+        <a href="/cloudcore" class="ent-iot_solutions-item">
           <div class="ent-iot_solutions-item-image">
             <img src="/assets/ent-iot-cc.png" alt="" />
           </div>

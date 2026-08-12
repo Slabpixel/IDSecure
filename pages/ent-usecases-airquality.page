@@ -17,8 +17,8 @@
           </p>
         </div>
         <div class="ent-button-wrap">
-          <a href="#" class="btn-ent-brand">Talk to IDSecure</a>
-          <a href="#" class="btn-ent-ghost">Explore Related Solutions</a>
+          <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
+          <a href="/solutions" class="btn-ent-ghost">Explore Related Solutions</a>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@
         </div>
         <h2>What this use case helps you do</h2>
       </div>
-      <div class="ent-why_wrap usecase">
+      <div class="ent-why_wrap reverse usecase">
         <div class="ent-why_item">
           <div class="ent-why_item-bg">
             <img
@@ -81,12 +81,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite-dish.svg" alt="" />
+            <img src="/assets/remote.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Connect hard-to-reach sites</span
+                >Monitor CO2, air quality, temperature, and humidity</span
               >
             </p>
           </div>
@@ -105,12 +105,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/users-gear.svg" alt="" />
+            <img src="/assets/triangle-exclamation.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Support field teams and temporary operations</span
+                >Use alerts to identify changing conditions</span
               >
             </p>
           </div>
@@ -129,13 +129,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/satellite.svg" alt="" />
+            <img src="/assets/shield-outline.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Add satellite connectivity where terrestrial networks are
-                limited</span
+                >Support facility, workplace, agriculture, and industrial monitoring</span
               >
             </p>
           </div>
@@ -154,12 +153,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/cloud.svg" alt="" />
+            <img src="/assets/rocket-alt.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Centralize visibility and management through CloudCore</span
+                >Centralize environmental visibility across sites</span
               >
             </p>
           </div>
@@ -178,12 +177,12 @@
             />
           </div>
           <div class="ent-why_item-icon">
-            <img src="/assets/gauge-high.svg" alt="" />
+            <img src="/assets/arrow-trend-down.svg" alt="" />
           </div>
           <div class="ent-why_item-content">
             <p>
               <span class="text-lg text-medium"
-                >Monitor equipment, tanks, sensors, and assets</span
+                >Reduce reliance on manual condition checks</span
               >
             </p>
           </div>
@@ -339,4 +338,4 @@
   </div>
 </section>
 
-{@|apply ent-section-contact.block}
+{@|apply ent-section-contact-talk.block}

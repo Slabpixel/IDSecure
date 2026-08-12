@@ -128,7 +128,7 @@
                 Resilient multi-network IoT connectivity for sensors, devices,
                 assets, fleets, and distributed enterprise operations.
               </p>
-              <a href="#" class="btn-ent-primary">Learn more</a>
+              <a href="/enterprise-iot" class="btn-ent-primary">Learn more</a>
             </div>
             <div class="ent-solutions_copy-item">
               <p class="text-primary-light">
@@ -136,7 +136,7 @@
                 operations, maritime environments, backup connectivity, and
                 business continuity.
               </p>
-              <a href="#" class="btn-ent-primary">Learn more</a>
+              <a href="/enterprise-satellite" class="btn-ent-primary">Learn more</a>
             </div>
             <div class="ent-solutions_copy-item">
               <p class="text-primary-light">
@@ -144,7 +144,7 @@
                 temperature stickers, dashboards, alerts, automation, reports,
                 and integrations.
               </p>
-              <a href="#" class="btn-ent-primary">Learn more</a>
+              <a href="/sensehq" class="btn-ent-primary">Learn more</a>
             </div>
             <div class="ent-solutions_copy-item">
               <p class="text-primary-light">
@@ -152,7 +152,7 @@
                 SIM, eSIM, usage, policies, alerts, reports, and connected
                 assets.
               </p>
-              <a href="#" class="btn-ent-primary">Learn more</a>
+              <a href="/cloudcore" class="btn-ent-primary">Learn more</a>
             </div>
           </div>
         </div>
