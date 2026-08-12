@@ -4,7 +4,9 @@
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
           </div>
           <h1>
@@ -44,7 +46,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>APPROACH</span>
         </div>
         <h2>Use cases built around operational problems</h2>
@@ -72,7 +76,9 @@
     <div class="ent-content gap-48">
       <div class="ent-title-wrap px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Featured use cases</span>
         </div>
         <h2>Featured use cases</h2>

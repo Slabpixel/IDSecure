@@ -3,7 +3,9 @@
     <div class="ent-content gap-48">
       <div class="ent-title-wrap max-w-626">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>INDUSTRY OUTCOMES</span>
         </div>
         <h2>Operational outcomes</h2>

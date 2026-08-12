@@ -4,7 +4,9 @@
       <div class="ent-content max-w-863">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>Enterprise IoT</span>
           </div>
           <h1>Enterprise IoT connectivity for resilient, always-on operations</h1>
@@ -40,7 +42,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>SOLUTIONS OVERVIEW</span>
         </div>
         <h2 class="max-w-720">
@@ -70,7 +74,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>KEY CAPABILITIES</span>
         </div>
         <h2>Key capabilities</h2>
@@ -166,7 +172,9 @@
     <div class="ent-content gap-64">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Featured use cases</span>
         </div>
         <h2>Featured use cases</h2>
@@ -377,7 +385,9 @@
     <div class="ent-content start gap-40">
       <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>RELEVANT SOLUTIONS</span>
         </div>
         <h2>Relevant IDSECURE solutions</h2>

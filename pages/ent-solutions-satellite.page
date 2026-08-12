@@ -4,7 +4,9 @@
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>Enterprise Satellite</span>
           </div>
           <h1>
@@ -37,7 +39,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>SOLUTIONS OVERVIEW</span>
         </div>
         <h2>Connectivity built for distributed enterprise operations</h2>
@@ -65,7 +69,9 @@
     <div class="ent-content gap-40 start">
       <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR CAPABILITIES</span>
         </div>
         <h2>Key capabilities</h2>
@@ -141,7 +147,9 @@
     <div class="ent-content gap-40">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>COMPARISON</span>
         </div>
         <h2 class="max-w-450">Enterprise Satellite vs Retail Satellite</h2>
@@ -169,7 +177,9 @@
             <div
               class="ent-satellite_comparison-head-icon ent-satellite_comparison-head-icon--enterprise"
             >
-              <img src="/assets/fp-icon.svg" alt="" />
+              <div class="ent-eyebrow_icon">
+                <img src="/assets/eyebrow-fp.svg" alt="" />
+              </div>
             </div>
             <h3>IDSECURE Satellite</h3>
           </div>
@@ -316,7 +326,9 @@
     <div class="ent-content gap-48">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR USE CASES</span>
         </div>
         <h2>Common Use Cases</h2>

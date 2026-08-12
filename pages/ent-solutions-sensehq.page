@@ -4,7 +4,9 @@
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>ENTERPRISE CONNECTIVITY & MONITORING</span>
           </div>
           <h1>
@@ -43,7 +45,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>SOLUTIONS OVERVIEW</span>
         </div>
         <h2>From sensors to operational intelligence</h2>
@@ -71,7 +75,9 @@
     <div class="ent-content gap-64">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>WHAT WE CAN HELP</span>
         </div>
         <h2>What SenseHQ helps you monitor</h2>
@@ -146,7 +152,9 @@
     <div class="ent-content gap-40">
       <div class="ent-title-wrap px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Device ecosystem</span>
         </div>
         <h2>Device ecosystem</h2>
@@ -433,7 +441,9 @@
     <div class="ent-content gap-0">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR PLATFORM</span>
         </div>
         <h2>Platform capabilities</h2>

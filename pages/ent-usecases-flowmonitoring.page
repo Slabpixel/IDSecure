@@ -4,7 +4,9 @@
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>Flow Monitoring</span>
           </div>
           <h1>Flow monitoring for utilities, facilities, farms, and industrial operations</h1>
@@ -32,7 +34,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR CHALLENGE</span>
         </div>
         <h2>The operational challenge</h2>
@@ -55,7 +59,9 @@
     <div class="ent-content gap-48">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>USE CASES OUTCOMES</span>
         </div>
         <h2>What this use case helps you do</h2>
@@ -190,7 +196,9 @@
     <div class="ent-content gap-48">
       <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>RELEVANT SOLUTION</span>
         </div>
         <h2>Relevant IDSECURE solutions</h2>
@@ -232,7 +240,9 @@
     <div class="ent-content_grid-usecase ent-solutions">
       <div class="ent-solution top alt">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Example deployment</span>
         </div>
       </div>
@@ -297,7 +307,9 @@
     <div class="ent-deploy-mobile">
       <div class="ent-deploy-mobile_header">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Example deployment</span>
         </div>
         <h2>Example deployment</h2>

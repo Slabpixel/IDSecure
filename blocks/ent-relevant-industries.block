@@ -3,7 +3,9 @@
     <div class="ent-content stretch gap-64 mobile-gap-0">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>RELEVANT SOLUTIONS</span>
         </div>
         <h2>Relevant IDSECURE solutions</h2>

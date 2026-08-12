@@ -1088,7 +1088,6 @@
     --ent-usecase-sticky-top: @ent-usecase-sticky-top;
     --ent-usecase-stack-step: @ent-usecase-stack-step;
     --ent-usecase-height: 360px;
-    padding-bottom: var(--ent-usecase-height);
 
     &-item {
       display: grid;
@@ -1383,6 +1382,26 @@
   text-transform: uppercase;
   font-size: @text-xs;
   font-weight: @font-weight-medium;
+
+  &_icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: 1px solid #3eebea;
+    background: linear-gradient(247deg, #52fffe 17.79%, #3eebea 76.82%);
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.8) inset;
+
+    img {
+      width: 12px;
+      height: 12px;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
 }
 
 .mobile {
@@ -1643,6 +1662,18 @@
 
   @media (max-width: 768px) {
     padding: 0 8px;
+  }
+
+  &-logo {
+    width: 231px;
+    height: 70px;
+
+    img {
+      width: 231px;
+      height: 70px;
+      object-fit: contain;
+      object-position: center;
+    }
   }
 
   &_container {

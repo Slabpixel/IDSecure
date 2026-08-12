@@ -4,7 +4,9 @@
       <div class="ent-content max-w-1032">
         <div class="ent-title-wrap gap-24">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>SOLUTIONS</span>
           </div>
           <h1>Four solutions. <br />One connected operating model.</h1>
@@ -34,7 +36,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>APPROACH</span>
         </div>
         <h2>Use cases built around operational problems</h2>
@@ -67,7 +71,9 @@
     <div class="ent-content gap-32">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR SOLUTIONS</span>
         </div>
         <h2>Solutions overview</h2>
@@ -161,7 +167,9 @@
     <div class="ent-solutions-cards">
       <div class="ent-solutions-cards_header">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR SOLUTIONS</span>
         </div>
         <h2>Solutions overview</h2>
@@ -252,7 +260,9 @@
     <div class="ent-content start gap-48">
       <div class="ent-title-wrap start px gap-20">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>How It Works</span>
         </div>
         <h2>How the solution layers work together</h2>
@@ -312,7 +322,9 @@
     <div class="ent-solution-layers-mobile">
       <div class="ent-solution-layers-mobile_header">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>HOW IT WORKS</span>
         </div>
         <h2>How the solution layers work together</h2>

@@ -31,7 +31,9 @@
       <div class="ent-content_inner">
         <div class="mobile-only">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>ABOUT US</span>
         </div>
       </div>
@@ -40,7 +42,9 @@
         </div>
         <div class="ent-description_wrap max-w-626">
           <div class="ent-eyebrow mobile-hidden">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>ABOUT US</span>
           </div>
           <p class="text-xl text-medium leading-140">
@@ -93,7 +97,9 @@
       <div class="ent-about_banner-gradient-a"></div>
       <div class="ent-about_banner-gradient-b"></div>
       <div class="ent-eyebrow">
-        <img src="/assets/fp-icon.svg" alt="" />
+        <div class="ent-eyebrow_icon">
+          <img src="/assets/eyebrow-fp.svg" alt="" />
+        </div>
         <span>OUR VISION</span>
       </div>
       <h2 class="max-w-776">
@@ -108,7 +114,9 @@
     <div class="ent-content start gap-40">
       <div class="ent-title-wrap start px">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Our Values</span>
         </div>
         <h2>Our Values</h2>
@@ -276,7 +284,9 @@
       <div class="ent-about_banner-gradient-b-alt"></div>
       <div class="ent-about_banner-inner">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>OUR MISSION</span>
         </div>
         <h2 class="max-w-720">

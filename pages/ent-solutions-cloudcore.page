@@ -4,7 +4,9 @@
     <div class="ent-content max-w-1032">
       <div class="ent-title-wrap gap-24">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>Cloud Core</span>
         </div>
         <h1 class="max-w-842">
@@ -37,7 +39,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>INDUSTRY CHALLENGE</span>
         </div>
         <h2 class="max-w-720">
@@ -67,7 +71,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>KEY CAPABILITIES</span>
         </div>
         <h2>What CloudCore helps teams do</h2>
@@ -145,7 +151,9 @@
     <div class="ent-content gap-80">
       <div class="ent-title-wrap">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>IDEAL FOR</span>
         </div>
         <h2>Ideal for</h2>

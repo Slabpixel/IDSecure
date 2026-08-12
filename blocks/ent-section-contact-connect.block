@@ -2,7 +2,7 @@
   <div class="ent-container cta">
     <div class="ent-footer_container border-y">
       <div class="ent-footer_side-logo-wrap">
-        <a href="/" class="gov-footer-logo">
+        <a href="/" class="ent-footer-logo">
           <img src="/assets/logo-dark.svg" alt="IDSECURE Logo" />
         </a>
       </div>

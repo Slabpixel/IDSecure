@@ -4,7 +4,9 @@
     <div class="ent-content start">
       <div class="ent-title-wrap start gap-24">
         <div class="ent-eyebrow">
-          <img src="/assets/fp-icon.svg" alt="" />
+          <div class="ent-eyebrow_icon">
+            <img src="/assets/eyebrow-fp.svg" alt="" />
+          </div>
           <span>CONTACT US</span>
         </div>
         <h1>Talk to IDSECURE</h1>
@@ -33,7 +35,9 @@
       <div class="ent-contact_side">
         <div class="ent-title-wrap start px">
           <div class="ent-eyebrow">
-            <img src="/assets/fp-icon.svg" alt="" />
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
             <span>TALK WITH US</span>
           </div>
           <h2>Submit your inquiry</h2>
