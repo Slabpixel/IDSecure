@@ -507,26 +507,27 @@
       width: 100%;
     }
 
+    .ent-nav-mobile-header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
     .ent-nav-mobile-trigger {
       display: flex;
       align-items: center;
-      gap: 8px;
-      width: 100%;
-      padding: 8px 16px;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 44px;
+      height: 36px;
+      padding: 0;
       border: none;
       background: transparent;
       color: @ent-text-primary-light;
-      font-family: inherit;
-      font-size: 14px;
-      font-weight: @font-weight-medium;
-      line-height: 1.4;
-      text-align: left;
       cursor: pointer;
 
       i {
         flex-shrink: 0;
-        width: 16px;
-        margin-left: auto;
         font-size: 12px;
         color: @ent-text-primary;
         transition: transform 0.3s ease-out;
@@ -541,14 +542,16 @@
       background-color: @ent-brand-primary;
     }
 
-    .ent-nav-mobile-group.is-open .ent-nav-mobile-trigger {
-      color: @ent-text-primary;
+    .ent-nav-mobile-group.is-open {
+      .ent-nav-mobile-link--parent {
+        color: @ent-text-primary;
+      }
 
       .ent-nav-mobile-trigger-dot {
         display: block;
       }
 
-      i {
+      .ent-nav-mobile-trigger i {
         transform: rotate(180deg);
       }
     }
@@ -693,6 +696,12 @@
 
       &:hover {
         color: @ent-text-primary;
+      }
+
+      &--parent {
+        flex: 1;
+        gap: 8px;
+        min-width: 0;
       }
     }
 
@@ -5917,6 +5926,39 @@
 
       @media (max-width: @ent-bp-mobile) {
         grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    &.grid-6 {
+      grid-template-columns: repeat(6, 1fr);
+
+      @media (max-width: @ent-bp-mobile) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      & > .ent-relevant_item {
+        grid-column: span 2;
+
+        @media (max-width: @ent-bp-mobile) {
+          grid-column: span 1;
+        }
+
+        &.span-3 {
+          grid-column: span 3;
+
+          @media (max-width: @ent-bp-mobile) {
+            grid-column: span 1;
+          }
+          &-alt {
+            grid-column: span 3;
+            &::before {
+              z-index: 1;
+            }
+            @media (max-width: @ent-bp-mobile) {
+              grid-column: span 2;
+            }
+          }
+        }
       }
     }
   }

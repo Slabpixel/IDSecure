@@ -177,15 +177,20 @@
   <div class="ent-nav-mobile" id="ent-nav-mobile" aria-hidden="true">
     <div class="ent-nav-mobile-body">
       <div class="ent-nav-mobile-group">
-        <button
-          type="button"
-          class="ent-nav-mobile-trigger"
-          aria-expanded="false"
-        >
-          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-          <span>Solutions</span>
-          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-        </button>
+        <div class="ent-nav-mobile-header">
+          <a href="/solutions" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
+            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+            Solutions
+          </a>
+          <button
+            type="button"
+            class="ent-nav-mobile-trigger"
+            aria-expanded="false"
+            aria-label="Expand Solutions"
+          >
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div
@@ -205,15 +210,20 @@
         </div>
       </div>
       <div class="ent-nav-mobile-group">
-        <button
-          type="button"
-          class="ent-nav-mobile-trigger"
-          aria-expanded="false"
-        >
-          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-          <span>Use Cases</span>
-          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-        </button>
+        <div class="ent-nav-mobile-header">
+          <a href="/use-cases" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
+            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+            Use Cases
+          </a>
+          <button
+            type="button"
+            class="ent-nav-mobile-trigger"
+            aria-expanded="false"
+            aria-label="Expand Use Cases"
+          >
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div
@@ -242,15 +252,20 @@
         </div>
       </div>
       <div class="ent-nav-mobile-group">
-        <button
-          type="button"
-          class="ent-nav-mobile-trigger"
-          aria-expanded="false"
-        >
-          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-          <span>Industries</span>
-          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-        </button>
+        <div class="ent-nav-mobile-header">
+          <a href="/industries" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
+            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+            Industries
+          </a>
+          <button
+            type="button"
+            class="ent-nav-mobile-trigger"
+            aria-expanded="false"
+            aria-label="Expand Industries"
+          >
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div

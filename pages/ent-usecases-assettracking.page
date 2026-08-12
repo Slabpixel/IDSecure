@@ -378,7 +378,7 @@
         </div>
         <h2>Relevant IDSECURE solutions</h2>
       </div>
-      <div class="ent-relevant_wrap">
+      <div class="ent-relevant_wrap grid-3">
         <a href="/enterprise-iot" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
             <img src="/assets/ent-iot-iot.png" alt="" />
@@ -403,6 +403,18 @@
           </div>
           <p>CloudCore</p>
         </a>
+        <div class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-rugged.png" alt="" />
+          </div>
+          <p>SenseTag Rugged</p>
+        </div>
+        <div class="ent-relevant_item">
+          <div class="ent-relevant_item-img">
+            <img src="/assets/ent-iot-stickertemp.png" alt="" />
+          </div>
+          <p>SenseTag Sticker</p>
+        </div>
       </div>
     </div>
   </div>

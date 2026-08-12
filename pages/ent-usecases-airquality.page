@@ -314,7 +314,7 @@
         </div>
         <h2>Relevant IDSECURE solutions</h2>
       </div>
-      <div class="ent-relevant_wrap">
+      <div class="ent-relevant_wrap grid-6">
         <a href="/enterprise-iot" class="ent-relevant_item">
           <div class="ent-relevant_item-img">
             <img src="/assets/ent-iot-iot.png" alt="" />
@@ -333,12 +333,18 @@
           </div>
           <p>SenseHQ</p>
         </a>
-        <a href="/cloudcore" class="ent-relevant_item">
+        <a href="/cloudcore" class="ent-relevant_item span-3">
           <div class="ent-relevant_item-img">
             <img src="/assets/ent-iot-cc.png" alt="" />
           </div>
           <p>CloudCore</p>
         </a>
+        <div class="ent-relevant_item span-3-alt">
+          <div class="ent-relevant_item-img ">
+            <img src="/assets/ent-iot-monitor.png" alt="" />
+          </div>
+          <p>SenseMonitor CO2</p>
+        </div>
       </div>
     </div>
   </div>
