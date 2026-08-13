@@ -686,15 +686,10 @@
     heroes.forEach(function (hero) {
       var bg = hero.querySelector(".ent-hero-bg");
       var media = bg && bg.querySelector("video, img");
-      var overlay = bg && bg.querySelector(".ent-hero-bg_overlay");
-      var stickySection = hero.querySelector(
-        ".ent-section.hero, .ent-section.contact",
-      );
       if (!bg || !media) {
         return;
       }
 
-      var parallaxTargets = overlay ? [media, overlay] : [media];
       var scrollTl = null;
 
       function killParallax() {
@@ -705,17 +700,12 @@
           scrollTl.kill();
           scrollTl = null;
         }
-        gsap.killTweensOf(parallaxTargets);
-        gsap.set(parallaxTargets, { clearProps: "transform" });
-        if (stickySection) {
-          gsap.killTweensOf(stickySection);
-          gsap.set(stickySection, { clearProps: "opacity,visibility,filter" });
-        }
+        gsap.killTweensOf(media);
+        gsap.set(media, { clearProps: "transform" });
       }
 
       function getParallaxY() {
-        // Shared px distance so video + overlay stay locked
-        return Math.round(bg.offsetHeight * 0.3);
+        return -Math.round(bg.offsetHeight * 0.18);
       }
 
       function setupParallax() {
@@ -732,8 +722,9 @@
           },
         });
 
+        // Image/video only — text + white gradient overlay stay put
         scrollTl.fromTo(
-          parallaxTargets,
+          media,
           { y: 0 },
           {
             y: getParallaxY,
@@ -742,15 +733,6 @@
           },
           0,
         );
-
-        if (stickySection) {
-          scrollTl.fromTo(
-            stickySection,
-            { autoAlpha: 1 },
-            { autoAlpha: 0, duration: 0.3 },
-            0.1,
-          );
-        }
       }
 
       mm.add(
