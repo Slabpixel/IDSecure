@@ -25,6 +25,51 @@
   }
 
   // --------------------------------------------------------------------------
+  // Buttons — hover label slide (text rises from below)
+  // --------------------------------------------------------------------------
+
+  (function initEntButtonHover() {
+    var buttons = document.querySelectorAll(
+      ".btn-ent-primary, .btn-ent-brand, .btn-ent-outline, .btn-ent-ghost",
+    );
+
+    if (!buttons.length) {
+      return;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    buttons.forEach(function (btn) {
+      if (btn.querySelector(".btn-ent-text")) {
+        return;
+      }
+
+      var label = (btn.textContent || "").replace(/\s+/g, " ").trim();
+      if (!label) {
+        return;
+      }
+
+      var safe = escapeHtml(label);
+      btn.innerHTML =
+        '<span class="btn-ent-text">' +
+        '<span class="btn-ent-text-line">' +
+        safe +
+        "</span>" +
+        '<span class="btn-ent-text-line" aria-hidden="true">' +
+        safe +
+        "</span>" +
+        "</span>";
+    });
+  })();
+
+  // --------------------------------------------------------------------------
   // Navigation — desktop dropdown hover
   // --------------------------------------------------------------------------
 
@@ -210,26 +255,15 @@
         }
       }
 
-      if (dropdownItem && link.matches(".ent-nav-item--dropdown > .ent-nav-link")) {
+      if (
+        dropdownItem &&
+        link.matches(".ent-nav-item--dropdown > .ent-nav-link")
+      ) {
         dropdownItem.classList.add("is-current");
       }
 
       var mobileGroup = link.closest(".ent-nav-mobile-group");
       if (mobileGroup && link.closest(".ent-nav-mobile-panel-links")) {
-        mobileGroup.classList.add("is-current");
-
-        var mobileParent = mobileGroup.querySelector(
-          ".ent-nav-mobile-link--parent",
-        );
-        if (mobileParent) {
-          mobileParent.classList.add("is-current");
-        }
-      }
-
-      if (
-        mobileGroup &&
-        link.classList.contains("ent-nav-mobile-link--parent")
-      ) {
         mobileGroup.classList.add("is-current");
       }
     });

@@ -1,7 +1,7 @@
 <!-- <script>console.log({@|json-pretty})</script> -->
 
 <div class="container footer footer-cont">
-  <div class="gov-footer-logo">
+  <a href="/government" class="gov-footer-logo">
     <svg
       width="159"
       height="48"
@@ -186,7 +186,7 @@
         fill="white"
       />
     </svg>
-  </div>
+  </a>
   <div class="footer-menu">
     <div class="footer-menu-list">
       <span class="fs-14 cl-grey uppercase">Navigations</span>

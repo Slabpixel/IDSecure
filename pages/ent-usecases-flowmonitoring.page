@@ -445,16 +445,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-fws.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.webp" alt="" />
+              <img src="/assets/ent-deploy-il.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.webp" alt="" />
+              <img src="/assets/ent-deploy-um.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.webp" alt="" />
+              <img src="/assets/ent-deploy-ipm.webp" alt="" />
             </div>
           </div>
         </div>
@@ -473,25 +473,25 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-fws.webp" alt="" />
           </div>
           <p>Facility water systems</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.webp" alt="" />
+            <img src="/assets/ent-deploy-il.webp" alt="" />
           </div>
           <p>Irrigation lines</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.webp" alt="" />
+            <img src="/assets/ent-deploy-um.webp" alt="" />
           </div>
           <p>Utility metering</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.webp" alt="" />
+            <img src="/assets/ent-deploy-ipm.webp" alt="" />
           </div>
           <p>Industrial process monitoring</p>
         </div>

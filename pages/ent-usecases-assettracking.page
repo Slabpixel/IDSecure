@@ -484,19 +484,19 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-wa.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.webp" alt="" />
+              <img src="/assets/ent-deploy-ce.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.webp" alt="" />
+              <img src="/assets/ent-deploy-hfa.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.webp" alt="" />
+              <img src="/assets/ent-deploy-tccp.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-ctsp.webp" alt="" />
             </div>
           </div>
         </div>
@@ -515,31 +515,31 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-wa.webp" alt="" />
           </div>
           <p>Warehouse assets</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.webp" alt="" />
+            <img src="/assets/ent-deploy-ce.webp" alt="" />
           </div>
           <p>Construction equipment</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.webp" alt="" />
+            <img src="/assets/ent-deploy-hfa.webp" alt="" />
           </div>
           <p>Healthcare and facility assets</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.webp" alt="" />
+            <img src="/assets/ent-deploy-tccp.webp" alt="" />
           </div>
           <p>Tools, cages, containers, and pallets</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-ctsp.webp" alt="" />
           </div>
           <p>Cartons, totes, samples, parcels, and pallet-level shipments</p>
         </div>

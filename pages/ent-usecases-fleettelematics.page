@@ -392,16 +392,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-fo.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.webp" alt="" />
+              <img src="/assets/ent-deploy-fs.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.webp" alt="" />
+              <img src="/assets/ent-deploy-uv.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.webp" alt="" />
+              <img src="/assets/ent-deploy-ccvt.webp" alt="" />
             </div>
           </div>
         </div>
@@ -420,25 +420,25 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-fo.webp" alt="" />
           </div>
           <p>Fleet operations</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.webp" alt="" />
+            <img src="/assets/ent-deploy-fs.webp" alt="" />
           </div>
           <p>Field service</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.webp" alt="" />
+            <img src="/assets/ent-deploy-uv.webp" alt="" />
           </div>
           <p>Utility vehicles</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.webp" alt="" />
+            <img src="/assets/ent-deploy-ccvt.webp" alt="" />
           </div>
           <p>Cold chain vehicles and trailers</p>
         </div>

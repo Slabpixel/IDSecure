@@ -4,6 +4,7 @@
       <img src="/assets/wordmark-alt.svg" alt="IDSecure" />
     </a>
     <div class="ent-nav-menu">
+      <a class="ent-nav-link" href="/enterprise">Enterprise</a>
       <div class="ent-nav-item ent-nav-item--dropdown">
         <a class="ent-nav-link" href="/solutions"
           >Solutions
@@ -58,7 +59,7 @@
                 Connect what matters. Monitor what changes. Manage it all from
                 one view.
               </p>
-              <a href="/enterprise-solutions" class="btn-ent-outline">Learn more</a>
+              <a href="/solutions" class="btn-ent-outline">Learn more</a>
             </div>
           </div>
         </div>
@@ -88,15 +89,23 @@
                 aria-label="Intelligence Collection"
               >
                 <a href="/remote-site-connectivity">Remote Site Connectivity</a>
-                <a href="/backup-continuity">Backup Internet & Business Continuity</a>
-                <a href="/temperature-humidity-monitoring">Temperature & Humidity Monitoring</a>
+                <a href="/backup-continuity"
+                  >Backup Internet & Business Continuity</a
+                >
+                <a href="/temperature-humidity-monitoring"
+                  >Temperature & Humidity Monitoring</a
+                >
                 <a href="/tank-level-monitoring">Tank Level Monitoring</a>
                 <a href="/flow-monitoring">Flow Monitoring</a>
-                <a href="/air-quality-environmental-monitoring">Air Quality & Environmental Monitoring</a>
+                <a href="/air-quality-environmental-monitoring"
+                  >Air Quality & Environmental Monitoring</a
+                >
                 <a href="/cold-chain-monitoring">Cold Chain Monitoring</a>
                 <a href="/fleet-telematics">Fleet & Telematics</a>
                 <a href="/asset-tracking">Asset Tracking</a>
-                <a href="/multi-site-management">Multi-Site Asset & Connectivity Management</a>
+                <a href="/multi-site-management"
+                  >Multi-Site Asset & Connectivity Management</a
+                >
               </nav>
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
@@ -175,9 +184,13 @@
                 <a href="/energy-utilities">Energy & Utilities</a>
                 <a href="/agriculture-food">Agriculture & Food Production</a>
                 <a href="/logistics-cold-chain">Logistics & Cold Chain</a>
-                <a href="/manufacturing">Manufacturing & Industrial Facilities</a>
+                <a href="/manufacturing"
+                  >Manufacturing & Industrial Facilities</a
+                >
                 <a href="/construction">Construction & Remote Sites</a>
-                <a href="/facilities-multi-site">Facilities & Multi-Site Operations</a>
+                <a href="/facilities-multi-site"
+                  >Facilities & Multi-Site Operations</a
+                >
               </nav>
               <div
                 class="ent-nav-dropdown-visual ent-nav-dropdown-visual--intelligence"
@@ -244,20 +257,15 @@
   <div class="ent-nav-mobile" id="ent-nav-mobile" aria-hidden="true">
     <div class="ent-nav-mobile-body">
       <div class="ent-nav-mobile-group">
-        <div class="ent-nav-mobile-header">
-          <a href="/solutions" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
-            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-            Solutions
-          </a>
-          <button
-            type="button"
-            class="ent-nav-mobile-trigger"
-            aria-expanded="false"
-            aria-label="Expand Solutions"
-          >
-            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-          </button>
-        </div>
+        <button
+          type="button"
+          class="ent-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+          <span>Solutions</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div
@@ -267,6 +275,7 @@
                 <img src="/assets/ent-nav-a.webp" alt="" />
               </div>
               <nav class="ent-nav-mobile-panel-links" aria-label="Solutions">
+                <a href="/solutions">Solutions Overview</a>
                 <a href="/enterprise-iot">Enterprise IOT</a>
                 <a href="/enterprise-satellite">Enterprise Satellite</a>
                 <a href="/sensehq">SenseHQ</a>
@@ -277,20 +286,15 @@
         </div>
       </div>
       <div class="ent-nav-mobile-group">
-        <div class="ent-nav-mobile-header">
-          <a href="/use-cases" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
-            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-            Use Cases
-          </a>
-          <button
-            type="button"
-            class="ent-nav-mobile-trigger"
-            aria-expanded="false"
-            aria-label="Expand Use Cases"
-          >
-            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-          </button>
-        </div>
+        <button
+          type="button"
+          class="ent-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+          <span>Use Cases</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div
@@ -299,40 +303,41 @@
               <div class="ent-nav-mobile-panel-visual" aria-hidden="true">
                 <img src="/assets/ent-nav-b.webp" alt="" />
               </div>
-              <nav
-                class="ent-nav-mobile-panel-links"
-                aria-label="Use Cases"
-              >
+              <nav class="ent-nav-mobile-panel-links" aria-label="Use Cases">
+                <a href="/use-cases">Use Cases Overview</a>
                 <a href="/remote-site-connectivity">Remote Site Connectivity</a>
-                <a href="/backup-continuity">Backup Internet & Business Continuity</a>
-                <a href="/temperature-humidity-monitoring">Temperature & Humidity Monitoring</a>
+                <a href="/backup-continuity"
+                  >Backup Internet & Business Continuity</a
+                >
+                <a href="/temperature-humidity-monitoring"
+                  >Temperature & Humidity Monitoring</a
+                >
                 <a href="/tank-level-monitoring">Tank Level Monitoring</a>
                 <a href="/flow-monitoring">Flow Monitoring</a>
-                <a href="/air-quality-environmental-monitoring">Air Quality & Environmental Monitoring</a>
+                <a href="/air-quality-environmental-monitoring"
+                  >Air Quality & Environmental Monitoring</a
+                >
                 <a href="/cold-chain-monitoring">Cold Chain Monitoring</a>
                 <a href="/fleet-telematics">Fleet & Telematics</a>
                 <a href="/asset-tracking">Asset Tracking</a>
-                <a href="/multi-site-management">Multi-Site Asset & Connectivity Management</a>
+                <a href="/multi-site-management"
+                  >Multi-Site Asset & Connectivity Management</a
+                >
               </nav>
             </div>
           </div>
         </div>
       </div>
       <div class="ent-nav-mobile-group">
-        <div class="ent-nav-mobile-header">
-          <a href="/industries" class="ent-nav-mobile-link ent-nav-mobile-link--parent">
-            <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
-            Industries
-          </a>
-          <button
-            type="button"
-            class="ent-nav-mobile-trigger"
-            aria-expanded="false"
-            aria-label="Expand Industries"
-          >
-            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-          </button>
-        </div>
+        <button
+          type="button"
+          class="ent-nav-mobile-trigger"
+          aria-expanded="false"
+        >
+          <span class="ent-nav-mobile-trigger-dot" aria-hidden="true"></span>
+          <span>Industries</span>
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
         <div class="ent-nav-mobile-panel">
           <div class="ent-nav-mobile-panel-collapse">
             <div
@@ -342,12 +347,17 @@
                 <img src="/assets/ent-nav-c.webp" alt="" />
               </div>
               <nav class="ent-nav-mobile-panel-links" aria-label="Industries">
+                <a href="/industries">Industries Overview</a>
                 <a href="/energy-utilities">Energy & Utilities</a>
                 <a href="/agriculture-food">Agriculture & Food Production</a>
                 <a href="/logistics-cold-chain">Logistics & Cold Chain</a>
-                <a href="/manufacturing">Manufacturing & Industrial Facilities</a>
+                <a href="/manufacturing"
+                  >Manufacturing & Industrial Facilities</a
+                >
                 <a href="/construction">Construction & Remote Sites</a>
-                <a href="/facilities-multi-site">Facilities & Multi-Site Operations</a>
+                <a href="/facilities-multi-site"
+                  >Facilities & Multi-Site Operations</a
+                >
               </nav>
             </div>
           </div>

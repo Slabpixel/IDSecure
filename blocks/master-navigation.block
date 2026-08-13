@@ -4,6 +4,5 @@
     <a href="/" class="gov-nav-logo">
       <img src="/assets/wordmark.svg" alt="IDSecure">
     </a>
-    <a href="/contact" class="btn-secondary">Contact Us</a>
   </div>
 </nav>

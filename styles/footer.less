@@ -2,12 +2,12 @@
 ***************************************************/
 
 .flex-box(@dir,@just, @align, @gap) {
-    display: flex;
-    flex-direction: @dir;
-    justify-content: @just;
-    align-items: @align;
-    gap: @gap;
-  }
+  display: flex;
+  flex-direction: @dir;
+  justify-content: @just;
+  align-items: @align;
+  gap: @gap;
+}
 
 /* Footer
 ***************************************************/
@@ -28,111 +28,110 @@ footer {
 }
 
 .footer {
-    &-cont {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 80px;
-    }
-    &-menu {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-      max-width: 928px;
-      gap: 32px;
-      row-gap: 60px;
-      flex-wrap: wrap;
-
-  
-      &-list {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24px;
-      }
-    }
-    &-ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      gap: 16px;
-    }
-    .foot-menu-item {
-      text-transform: uppercase;
-      a{
-        font-size: 14px;
-      }
-    }
+  &-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
   }
-  
-  .contact {
-    &-banner {
-      border-radius: 32px;
+  &-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 928px;
+    gap: 32px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+
+    &-list {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      align-items: stretch;
-      background-image: url(https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/01e91608-beda-487d-bccc-a09447d748e8/footer.webp?content-type=image%2Fwebp);
-      background-color: #0F36F6;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      position: relative;
-      z-index: 3;
-      width: 70%
-    }
-    &-bg {
-      position: absolute;
-      top: 15rem;
-      right: 1.5vw;
-      z-index: 0;
-      width: 55vw;
-      max-width: 820px;
-      height: 166px;
-      flex-shrink: 0;
-      border-radius: 595px;
-      background: #0f36f6;
-      filter: blur(100px);
-    }
-    &-banner-top {
-      padding: 30px 48px 56px 30px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
-      h2 {
-        max-width: 720px;
-      }
-    }
-    &-banner-bottom {
-      padding: 30px;
-      display: flex;
+      align-items: flex-start;
       gap: 24px;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-
-      &-text {
-        max-width: 620px;
-      }
-    }
-    &-details {
-      max-width: 276px;
-    }
-    #sec-contact-title {
-      max-width: 200px;
     }
   }
-  // Contact Section
+  &-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .foot-menu-item {
+    text-transform: uppercase;
+    a {
+      font-size: 14px;
+    }
+  }
+}
+
+.contact {
+  &-banner {
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-image: url(https://images.squarespace-cdn.com/content/6625ebbf1b804068858b53b4/01e91608-beda-487d-bccc-a09447d748e8/footer.webp?content-type=image%2Fwebp);
+    background-color: #0f36f6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 3;
+    width: 70%;
+  }
+  &-bg {
+    position: absolute;
+    top: 15rem;
+    right: 1.5vw;
+    z-index: 0;
+    width: 55vw;
+    max-width: 820px;
+    height: 166px;
+    flex-shrink: 0;
+    border-radius: 595px;
+    background: #0f36f6;
+    filter: blur(100px);
+  }
+  &-banner-top {
+    padding: 30px 48px 56px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    h2 {
+      max-width: 720px;
+    }
+  }
+  &-banner-bottom {
+    padding: 30px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-text {
+      max-width: 620px;
+    }
+  }
+  &-details {
+    max-width: 276px;
+  }
+  #sec-contact-title {
+    max-width: 200px;
+  }
+}
+// Contact Section
 
 .section-contact-cont {
   .flex-box(row, space-between, flex-start, 32px);
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .footer-menu-list {
     width: calc(~"50% - 16px");
   }
@@ -140,7 +139,7 @@ footer {
 
 @media (max-width: 768px) {
   .section-contact-cont {
-      flex-direction: column;
+    flex-direction: column;
   }
   .contact {
     &-banner {

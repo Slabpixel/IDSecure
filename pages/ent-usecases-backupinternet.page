@@ -430,16 +430,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-fc.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.webp" alt="" />
+              <img src="/assets/ent-deploy-cml.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.webp" alt="" />
+              <img src="/assets/ent-deploy-cts.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.webp" alt="" />
+              <img src="/assets/ent-deploy-rrf.webp" alt="" />
             </div>
           </div>
         </div>
@@ -458,25 +458,25 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-fc.webp" alt="" />
           </div>
           <p>Commercial Facilities</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.webp" alt="" />
+            <img src="/assets/ent-deploy-cml.webp" alt="" />
           </div>
           <p>Critical monitoring locations</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.webp" alt="" />
+            <img src="/assets/ent-deploy-cts.webp" alt="" />
           </div>
           <p>Construction and temporary sites</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.webp" alt="" />
+            <img src="/assets/ent-deploy-rrf.webp" alt="" />
           </div>
           <p>Rural or remote facilities</p>
         </div>
