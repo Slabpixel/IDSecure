@@ -1,4 +1,4 @@
-<div class="ent-hero">
+<div class="ent-hero ent-hero--parallax">
   <section class="ent-section hero">
   <div class="ent-container hero">
     <div class="ent-content max-w-1032">

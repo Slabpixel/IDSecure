@@ -24,6 +24,31 @@
     gsap.registerPlugin(ScrollTrigger);
   }
 
+  /** Snap pinned step sections to discrete item stops (no scrub lag). */
+  function getStepSnap(count) {
+    if (count <= 1) {
+      return false;
+    }
+
+    return {
+      snapTo: 1 / (count - 1),
+      duration: 0.12,
+      ease: "power1.out",
+      delay: 0,
+    };
+  }
+
+  function progressToStepIndex(progress, count) {
+    if (count <= 1) {
+      return 0;
+    }
+
+    return Math.min(
+      count - 1,
+      Math.max(0, Math.round(progress * (count - 1))),
+    );
+  }
+
   // --------------------------------------------------------------------------
   // Buttons — hover label slide (text rises from below)
   // --------------------------------------------------------------------------
@@ -647,6 +672,113 @@
   }
 
   // --------------------------------------------------------------------------
+  // Hero — scroll parallax (opt-in via .ent-hero--parallax)
+  // --------------------------------------------------------------------------
+
+  (function initEntHeroParallax() {
+    var heroes = document.querySelectorAll(".ent-hero.ent-hero--parallax");
+    if (!heroes.length) {
+      return;
+    }
+
+    var mm = gsap.matchMedia();
+
+    heroes.forEach(function (hero) {
+      var bg = hero.querySelector(".ent-hero-bg");
+      var media = bg && bg.querySelector("video, img");
+      var overlay = bg && bg.querySelector(".ent-hero-bg_overlay");
+      var stickySection = hero.querySelector(
+        ".ent-section.hero, .ent-section.contact",
+      );
+      if (!bg || !media) {
+        return;
+      }
+
+      var parallaxTargets = overlay ? [media, overlay] : [media];
+      var scrollTl = null;
+
+      function killParallax() {
+        if (scrollTl) {
+          if (scrollTl.scrollTrigger) {
+            scrollTl.scrollTrigger.kill();
+          }
+          scrollTl.kill();
+          scrollTl = null;
+        }
+        gsap.killTweensOf(parallaxTargets);
+        gsap.set(parallaxTargets, { clearProps: "transform" });
+        if (stickySection) {
+          gsap.killTweensOf(stickySection);
+          gsap.set(stickySection, { clearProps: "opacity,visibility,filter" });
+        }
+      }
+
+      function getParallaxY() {
+        // Shared px distance so video + overlay stay locked
+        return Math.round(bg.offsetHeight * 0.3);
+      }
+
+      function setupParallax() {
+        killParallax();
+
+        scrollTl = gsap.timeline({
+          defaults: { ease: "none" },
+          scrollTrigger: {
+            trigger: hero,
+            start: "top top",
+            end: "bottom top",
+            scrub: 0.5,
+            invalidateOnRefresh: true,
+          },
+        });
+
+        scrollTl.fromTo(
+          parallaxTargets,
+          { y: 0 },
+          {
+            y: getParallaxY,
+            duration: 1,
+            immediateRender: false,
+          },
+          0,
+        );
+
+        if (stickySection) {
+          scrollTl.fromTo(
+            stickySection,
+            { autoAlpha: 1 },
+            { autoAlpha: 0, duration: 0.3 },
+            0.1,
+          );
+        }
+      }
+
+      mm.add(
+        {
+          isDesktop: "(min-width: 769px)",
+          reduceMotion: "(prefers-reduced-motion: reduce)",
+        },
+        function (context) {
+          var isDesktop = context.conditions.isDesktop;
+          var reduceMotion = context.conditions.reduceMotion;
+
+          if (reduceMotion || !isDesktop) {
+            killParallax();
+            return killParallax;
+          }
+
+          setupParallax();
+          requestAnimationFrame(function () {
+            ScrollTrigger.refresh();
+          });
+
+          return killParallax;
+        },
+      );
+    });
+  })();
+
+  // --------------------------------------------------------------------------
   // Resources — pinned section + horizontal list scrub
   // --------------------------------------------------------------------------
 
@@ -791,8 +923,7 @@
 
     var hiddenClip = "inset(0% 100% 0% 0%)";
     var visibleClip = "inset(0% 0% 0% 0%)";
-    var stepDuration = 0.4;
-    var stepSpacing = 0.5;
+    var stepTweenDuration = 0.3;
 
     function isOverviewLayout(section) {
       return (
@@ -991,7 +1122,9 @@
         return null;
       }
 
-      var timeline = null;
+      var scrollTrigger = null;
+      var activeIndex = 0;
+      var navBound = false;
 
       mediaItems.forEach(function (item, index) {
         item.style.zIndex = String(index + 1);
@@ -1004,40 +1137,102 @@
       }
 
       function setActiveNav(index) {
-        var activeIndex = Math.max(0, Math.min(index, navItems.length - 1));
+        var nextIndex = Math.max(0, Math.min(index, navItems.length - 1));
 
         navItems.forEach(function (item, i) {
-          item.classList.toggle("is-active", i === activeIndex);
+          item.classList.toggle("is-active", i === nextIndex);
         });
 
         paginationItems.forEach(function (item, i) {
-          item.classList.toggle("is-active", i === activeIndex);
+          item.classList.toggle("is-active", i === nextIndex);
         });
       }
 
       function setStaticState(index) {
-        var activeIndex = Math.max(0, Math.min(index, count - 1));
+        var nextIndex = Math.max(0, Math.min(index, count - 1));
 
         mediaItems.forEach(function (item, i) {
-          item.style.clipPath = i <= activeIndex ? visibleClip : hiddenClip;
+          item.style.clipPath = i <= nextIndex ? visibleClip : hiddenClip;
         });
 
         if (!mediaOnly) {
           copyItems.forEach(function (item, i) {
-            item.style.clipPath = i === activeIndex ? visibleClip : hiddenClip;
+            item.style.clipPath = i === nextIndex ? visibleClip : hiddenClip;
           });
         }
 
-        setActiveNav(activeIndex);
+        activeIndex = nextIndex;
+        setActiveNav(nextIndex);
+      }
+
+      function goToIndex(index, instant) {
+        var nextIndex = Math.max(0, Math.min(index, count - 1));
+        if (nextIndex === activeIndex) {
+          return;
+        }
+
+        var prevIndex = activeIndex;
+        activeIndex = nextIndex;
+        setActiveNav(nextIndex);
+
+        gsap.killTweensOf(mediaItems);
+        if (!mediaOnly) {
+          gsap.killTweensOf(copyItems);
+        }
+
+        if (instant) {
+          setStaticState(nextIndex);
+          return;
+        }
+
+        if (nextIndex > prevIndex) {
+          var reveal;
+          for (reveal = prevIndex + 1; reveal < nextIndex; reveal++) {
+            gsap.set(mediaItems[reveal], { clipPath: visibleClip });
+          }
+          gsap.fromTo(
+            mediaItems[nextIndex],
+            { clipPath: hiddenClip },
+            {
+              clipPath: visibleClip,
+              duration: stepTweenDuration,
+              ease: "power2.inOut",
+            },
+          );
+        } else {
+          var hide;
+          for (hide = prevIndex - 1; hide > nextIndex; hide--) {
+            gsap.set(mediaItems[hide], { clipPath: hiddenClip });
+          }
+          gsap.to(mediaItems[prevIndex], {
+            clipPath: hiddenClip,
+            duration: stepTweenDuration,
+            ease: "power2.inOut",
+          });
+        }
+
+        if (!mediaOnly) {
+          gsap.to(copyItems[prevIndex], {
+            clipPath: hiddenClip,
+            duration: stepTweenDuration,
+            ease: "power2.inOut",
+          });
+          gsap.fromTo(
+            copyItems[nextIndex],
+            { clipPath: hiddenClip },
+            {
+              clipPath: visibleClip,
+              duration: stepTweenDuration,
+              ease: "power2.inOut",
+            },
+          );
+        }
       }
 
       function killTimeline() {
-        if (timeline) {
-          if (timeline.scrollTrigger) {
-            timeline.scrollTrigger.kill();
-          }
-          timeline.kill();
-          timeline = null;
+        if (scrollTrigger) {
+          scrollTrigger.kill();
+          scrollTrigger = null;
         }
 
         gsap.killTweensOf(mediaItems);
@@ -1048,97 +1243,49 @@
         return Math.round(window.innerHeight * 1.5);
       }
 
+      function scrollToIndex(index) {
+        if (!scrollTrigger || count <= 1) {
+          return;
+        }
+
+        var progress = index / (count - 1);
+        var scrollPos =
+          scrollTrigger.start +
+          progress * (scrollTrigger.end - scrollTrigger.start);
+        goToIndex(index, false);
+        scrollTrigger.scroll(scrollPos);
+      }
+
       function buildTimeline() {
+        killTimeline();
         syncOverviewHeights(section);
+        setStaticState(0);
 
-        gsap.set(mediaItems, {
-          clipPath: function (i) {
-            return i === 0 ? visibleClip : hiddenClip;
+        scrollTrigger = ScrollTrigger.create({
+          trigger: pinTrigger,
+          start: ENT_PIN_START,
+          end: function () {
+            return "+=" + getScrollDistance();
+          },
+          pin: pinRoot,
+          pinSpacing: true,
+          snap: getStepSnap(count),
+          anticipatePin: isOverviewLayout(section) ? 0 : 1,
+          invalidateOnRefresh: true,
+          onUpdate: function (self) {
+            goToIndex(progressToStepIndex(self.progress, count), false);
           },
         });
 
-        if (!mediaOnly) {
-          gsap.set(copyItems, {
-            clipPath: function (i) {
-              return i === 0 ? visibleClip : hiddenClip;
-            },
+        if (!navBound) {
+          navBound = true;
+          navItems.forEach(function (item, index) {
+            item.addEventListener("click", function (event) {
+              event.preventDefault();
+              scrollToIndex(index);
+            });
           });
         }
-
-        setActiveNav(0);
-
-        timeline = gsap.timeline({
-          scrollTrigger: {
-            trigger: pinTrigger,
-            start: ENT_PIN_START,
-            end: function () {
-              return "+=" + getScrollDistance();
-            },
-            pin: pinRoot,
-            pinSpacing: true,
-            scrub: 0.5,
-            anticipatePin: isOverviewLayout(section) ? 0 : 1,
-            invalidateOnRefresh: true,
-            onUpdate: function (self) {
-              var index = Math.min(
-                count - 1,
-                Math.floor(self.progress * count),
-              );
-              setActiveNav(index);
-            },
-          },
-        });
-
-        var step;
-        for (step = 1; step < count; step++) {
-          var position = (step - 1) * stepSpacing;
-
-          timeline.to(
-            mediaItems[step],
-            {
-              clipPath: visibleClip,
-              duration: stepDuration,
-              ease: "none",
-            },
-            position,
-          );
-
-          if (!mediaOnly) {
-            timeline.to(
-              copyItems[step - 1],
-              {
-                clipPath: hiddenClip,
-                duration: stepDuration,
-                ease: "none",
-              },
-              position,
-            );
-
-            timeline.to(
-              copyItems[step],
-              {
-                clipPath: visibleClip,
-                duration: stepDuration,
-                ease: "none",
-              },
-              position,
-            );
-          }
-        }
-
-        navItems.forEach(function (item, index) {
-          item.addEventListener("click", function (event) {
-            event.preventDefault();
-            var st = timeline && timeline.scrollTrigger;
-            if (!st || count <= 1) {
-              return;
-            }
-
-            var progress = index / (count - 1);
-            var scrollPos = st.start + progress * (st.end - st.start);
-            st.scroll(scrollPos);
-          });
-        });
       }
 
       return {
@@ -1244,9 +1391,10 @@
       section.querySelectorAll(".ent-solutions_pagination-item"),
     );
     var count = mediaItems.length;
-    var stepDuration = 0.4;
-    var stepSpacing = 0.5;
-    var timeline = null;
+    var stepTweenDuration = 0.3;
+    var scrollTrigger = null;
+    var activeIndex = 0;
+    var navBound = false;
 
     if (!count || copyItems.length !== count || navItems.length !== count) {
       return;
@@ -1353,38 +1501,76 @@
     }
 
     function setActiveNav(index) {
-      var activeIndex = Math.max(0, Math.min(index, navItems.length - 1));
+      var nextIndex = Math.max(0, Math.min(index, navItems.length - 1));
 
       navItems.forEach(function (item, i) {
-        item.classList.toggle("is-active", i === activeIndex);
+        item.classList.toggle("is-active", i === nextIndex);
       });
 
       paginationItems.forEach(function (item, i) {
-        item.classList.toggle("is-active", i === activeIndex);
+        item.classList.toggle("is-active", i === nextIndex);
       });
     }
 
     function setStaticState(index) {
-      var activeIndex = Math.max(0, Math.min(index, count - 1));
+      var nextIndex = Math.max(0, Math.min(index, count - 1));
 
       mediaItems.forEach(function (item, i) {
-        item.style.opacity = i === activeIndex ? "1" : "0";
+        item.style.opacity = i === nextIndex ? "1" : "0";
       });
 
       copyItems.forEach(function (item, i) {
-        item.style.opacity = i === activeIndex ? "1" : "0";
+        item.style.opacity = i === nextIndex ? "1" : "0";
       });
 
-      setActiveNav(activeIndex);
+      activeIndex = nextIndex;
+      setActiveNav(nextIndex);
+    }
+
+    function goToIndex(index, instant) {
+      var nextIndex = Math.max(0, Math.min(index, count - 1));
+      if (nextIndex === activeIndex) {
+        return;
+      }
+
+      var prevIndex = activeIndex;
+      activeIndex = nextIndex;
+      setActiveNav(nextIndex);
+
+      gsap.killTweensOf(mediaItems);
+      gsap.killTweensOf(copyItems);
+
+      if (instant) {
+        setStaticState(nextIndex);
+        return;
+      }
+
+      gsap.to(mediaItems[prevIndex], {
+        opacity: 0,
+        duration: stepTweenDuration,
+        ease: "power2.inOut",
+      });
+      gsap.to(mediaItems[nextIndex], {
+        opacity: 1,
+        duration: stepTweenDuration,
+        ease: "power2.inOut",
+      });
+      gsap.to(copyItems[prevIndex], {
+        opacity: 0,
+        duration: stepTweenDuration,
+        ease: "power2.inOut",
+      });
+      gsap.to(copyItems[nextIndex], {
+        opacity: 1,
+        duration: stepTweenDuration,
+        ease: "power2.inOut",
+      });
     }
 
     function killTimeline() {
-      if (timeline) {
-        if (timeline.scrollTrigger) {
-          timeline.scrollTrigger.kill();
-        }
-        timeline.kill();
-        timeline = null;
+      if (scrollTrigger) {
+        scrollTrigger.kill();
+        scrollTrigger = null;
       }
 
       gsap.killTweensOf(mediaItems);
@@ -1395,104 +1581,54 @@
       return Math.round(window.innerHeight * 0.4 * count);
     }
 
+    function scrollToIndex(index) {
+      if (!scrollTrigger || count <= 1) {
+        return;
+      }
+
+      var progress = index / (count - 1);
+      var scrollPos =
+        scrollTrigger.start +
+        progress * (scrollTrigger.end - scrollTrigger.start);
+      goToIndex(index, false);
+      scrollTrigger.scroll(scrollPos);
+    }
+
     function buildTimeline() {
+      killTimeline();
       syncHeights();
 
       mediaItems.forEach(function (item, index) {
         item.style.zIndex = String(index + 1);
       });
 
-      gsap.set(mediaItems, {
-        opacity: function (i) {
-          return i === 0 ? 1 : 0;
+      setStaticState(0);
+
+      scrollTrigger = ScrollTrigger.create({
+        trigger: section,
+        start: ENT_PIN_START,
+        end: function () {
+          return "+=" + getScrollDistance();
+        },
+        pin: section,
+        pinSpacing: true,
+        snap: getStepSnap(count),
+        anticipatePin: 0,
+        invalidateOnRefresh: true,
+        onUpdate: function (self) {
+          goToIndex(progressToStepIndex(self.progress, count), false);
         },
       });
 
-      gsap.set(copyItems, {
-        opacity: function (i) {
-          return i === 0 ? 1 : 0;
-        },
-      });
-
-      setActiveNav(0);
-
-      timeline = gsap.timeline({
-        scrollTrigger: {
-          trigger: section,
-          start: ENT_PIN_START,
-          end: function () {
-            return "+=" + getScrollDistance();
-          },
-          pin: section,
-          pinSpacing: true,
-          scrub: 0.5,
-          anticipatePin: 0,
-          invalidateOnRefresh: true,
-          onUpdate: function (self) {
-            var index = Math.min(count - 1, Math.floor(self.progress * count));
-            setActiveNav(index);
-          },
-        },
-      });
-
-      var step;
-      for (step = 1; step < count; step++) {
-        var position = (step - 1) * stepSpacing;
-
-        timeline.to(
-          mediaItems[step - 1],
-          {
-            opacity: 0,
-            duration: stepDuration,
-            ease: "none",
-          },
-          position,
-        );
-
-        timeline.to(
-          mediaItems[step],
-          {
-            opacity: 1,
-            duration: stepDuration,
-            ease: "none",
-          },
-          position,
-        );
-
-        timeline.to(
-          copyItems[step - 1],
-          {
-            opacity: 0,
-            duration: stepDuration,
-            ease: "none",
-          },
-          position,
-        );
-
-        timeline.to(
-          copyItems[step],
-          {
-            opacity: 1,
-            duration: stepDuration,
-            ease: "none",
-          },
-          position,
-        );
-      }
-
-      navItems.forEach(function (item, index) {
-        item.addEventListener("click", function (event) {
-          event.preventDefault();
-          var st = timeline && timeline.scrollTrigger;
-          if (!st || count <= 1) {
-            return;
-          }
-
-          var progress = index / (count - 1);
-          var scrollPos = st.start + progress * (st.end - st.start);
-          st.scroll(scrollPos);
+      if (!navBound) {
+        navBound = true;
+        navItems.forEach(function (item, index) {
+          item.addEventListener("click", function (event) {
+            event.preventDefault();
+            scrollToIndex(index);
+          });
         });
-      });
+      }
     }
 
     var mm = gsap.matchMedia();
@@ -1576,7 +1712,7 @@
     }
 
     function getActiveIndex(progress) {
-      return Math.min(cards.length - 1, Math.floor(progress * cards.length));
+      return progressToStepIndex(progress, cards.length);
     }
 
     function getScrollDistance() {
@@ -1608,7 +1744,7 @@
         },
         pin: section,
         pinSpacing: true,
-        scrub: 0.5,
+        snap: getStepSnap(cards.length),
         anticipatePin: 0,
         invalidateOnRefresh: true,
         onUpdate: function (self) {
@@ -1994,7 +2130,7 @@
     }
 
     function getActiveIndex(progress) {
-      return Math.min(items.length - 1, Math.floor(progress * items.length));
+      return progressToStepIndex(progress, items.length);
     }
 
     function getScrollDistance() {
@@ -2030,7 +2166,7 @@
         },
         pin: section,
         pinSpacing: true,
-        scrub: 0.5,
+        snap: getStepSnap(items.length),
         anticipatePin: 0,
         invalidateOnRefresh: true,
         onUpdate: function (self) {
