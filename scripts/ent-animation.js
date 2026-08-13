@@ -686,6 +686,7 @@
     heroes.forEach(function (hero) {
       var bg = hero.querySelector(".ent-hero-bg");
       var media = bg && bg.querySelector("video, img");
+      var overlay = bg && bg.querySelector(".ent-hero-bg_overlay");
       if (!bg || !media) {
         return;
       }
@@ -702,14 +703,26 @@
         }
         gsap.killTweensOf(media);
         gsap.set(media, { clearProps: "transform" });
+        gsap.killTweensOf(bg);
+        gsap.set(bg, { clearProps: "opacity" });
+        if (overlay) {
+          gsap.killTweensOf(overlay);
+          gsap.set(overlay, { clearProps: "height" });
+        }
       }
 
       function getParallaxY() {
         return -Math.round(bg.offsetHeight * 0.18);
       }
 
+      function getOverlayEndHeight() {
+        return bg.offsetHeight;
+      }
+
       function setupParallax() {
         killParallax();
+
+        var overlayStartHeight = overlay ? overlay.offsetHeight : 0;
 
         scrollTl = gsap.timeline({
           defaults: { ease: "none" },
@@ -722,7 +735,7 @@
           },
         });
 
-        // Image/video only — text + white gradient overlay stay put
+        // Image/video parallax up — text stays; overlay grows; bg fades out
         scrollTl.fromTo(
           media,
           { y: 0 },
@@ -733,6 +746,30 @@
           },
           0,
         );
+
+        scrollTl.fromTo(
+          bg,
+          { opacity: 1 },
+          {
+            opacity: 0,
+            duration: 1,
+            immediateRender: false,
+          },
+          0,
+        );
+
+        if (overlay) {
+          scrollTl.fromTo(
+            overlay,
+            { height: overlayStartHeight },
+            {
+              height: getOverlayEndHeight,
+              duration: 0.2,
+              immediateRender: false,
+            },
+            0,
+          );
+        }
       }
 
       mm.add(
