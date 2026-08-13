@@ -1,21 +1,20 @@
 <div class="ent-hero ent-hero--contact ent-hero--parallax">
   <section class="ent-section contact">
-  <div class="ent-container hero">
-    <div class="ent-content start">
-      <div class="ent-title-wrap start gap-24">
-        <div class="ent-eyebrow">
-          <div class="ent-eyebrow_icon">
-            <img src="/assets/eyebrow-fp.svg" alt="" />
+    <div class="ent-container hero">
+      <div class="ent-content start">
+        <div class="ent-title-wrap start gap-24">
+          <div class="ent-eyebrow">
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
+            <span>CONTACT US</span>
           </div>
-          <span>CONTACT US</span>
+          <h1>Talk to IDSECURE</h1>
         </div>
-        <h1>Talk to IDSECURE</h1>
       </div>
     </div>
-  </div>
-    </section>
+  </section>
   <div class="ent-hero-bg">
-
     <video
       src="/assets/ent-hero-contact.webm"
       autoplay
