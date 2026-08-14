@@ -17,7 +17,7 @@
     </section>
   <div class="ent-hero-bg">
 
-    <img src="/assets/ent-about-hero.webp" alt="Enterprise Hero Image" />
+    <img src="/assets/ent-about-header.webp" alt="Enterprise Hero Image" />
     <div class="ent-hero-bg_overlay"></div>
     <div class="ent-section inside-hero">
       <div class="ent-container"></div>
