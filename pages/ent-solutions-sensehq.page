@@ -363,6 +363,8 @@
           <p class="text-md text-primary-lighter">
             Many organizations collect operational data through disconnected
             devices, manual checks, spreadsheets, or isolated vendor tools.
+          </p>
+          <p class="text-md text-primary-lighter">
             SenseHQ brings sensor data, asset visibility, shipment-level
             condition visibility, alerts, automation, reporting, and
             integrations into one monitoring environment.

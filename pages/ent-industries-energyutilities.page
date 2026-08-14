@@ -1,33 +1,36 @@
 <div class="ent-hero ent-hero--parallax">
   <section class="ent-section hero">
-  <div class="ent-container hero">
-    <div class="ent-content max-w-1032">
-      <div class="ent-title-wrap gap-24">
-        <div class="ent-eyebrow">
-          <div class="ent-eyebrow_icon">
-            <img src="/assets/eyebrow-fp.svg" alt="" />
+    <div class="ent-container hero">
+      <div class="ent-content max-w-1032">
+        <div class="ent-title-wrap gap-24">
+          <div class="ent-eyebrow">
+            <div class="ent-eyebrow_icon">
+              <img src="/assets/eyebrow-fp.svg" alt="" />
+            </div>
+            <span>Energy & Utilities</span>
           </div>
-          <span>Energy & Utilities</span>
+          <h1>
+            Connected monitoring and resilient connectivity for energy and
+            utilities
+          </h1>
+          <p class="ent-description max-w-682">
+            Connect remote infrastructure, monitor critical assets, and manage
+            distributed operations across substations, pump stations, tanks,
+            meters, field equipment, and utility sites.
+          </p>
         </div>
-        <h1>
-          Connected monitoring and resilient connectivity for energy and
-          utilities
-        </h1>
-        <p class="ent-description max-w-682">
-          Connect remote infrastructure, monitor critical assets, and manage
-          distributed operations across substations, pump stations, tanks,
-          meters, field equipment, and utility sites.
-        </p>
-      </div>
-      <div class="ent-button-wrap">
-        <a href="/enterprise-contact" class="btn-ent-brand">Talk to IDSecure</a>
-        <a href="/use-cases" class="btn-ent-ghost">Explore Relevant Use Cases</a>
+        <div class="ent-button-wrap">
+          <a href="/enterprise-contact" class="btn-ent-brand"
+            >Talk to IDSecure</a
+          >
+          <a href="/use-cases" class="btn-ent-ghost"
+            >Explore Relevant Use Cases</a
+          >
+        </div>
       </div>
     </div>
-  </div>
-    </section>
+  </section>
   <div class="ent-hero-bg">
-
     <video
       src="/assets/ent-hero-energy.webm"
       autoplay
@@ -55,118 +58,399 @@
       </div>
       <div class="ent-content_inner">
         <div class="ent-content_img">
-          
-          <svg width="493" height="493" viewBox="0 0 493 493" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle opacity="0.7" cx="246.287" cy="246.287" r="246.287" fill="url(#paint0_radial_4573_959)"/>
+          <svg
+            width="493"
+            height="493"
+            viewBox="0 0 493 493"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              opacity="0.7"
+              cx="246.287"
+              cy="246.287"
+              r="246.287"
+              fill="url(#paint0_radial_4573_959)"
+            />
             <g filter="url(#filter0_f_4573_959)">
-            <circle cx="247.004" cy="246" r="180" fill="white"/>
-            <circle cx="247.004" cy="246" r="180" stroke="url(#paint1_linear_4573_959)" stroke-width="2.15569"/>
+              <circle cx="247.004" cy="246" r="180" fill="white" />
+              <circle
+                cx="247.004"
+                cy="246"
+                r="180"
+                stroke="url(#paint1_linear_4573_959)"
+                stroke-width="2.15569"
+              />
             </g>
-            <circle cx="247" cy="246" r="150" transform="rotate(180 247 246)" fill="white" stroke="#171C26" stroke-opacity="0.1" stroke-width="10" stroke-dasharray="1 34"/>
+            <circle
+              cx="247"
+              cy="246"
+              r="150"
+              transform="rotate(180 247 246)"
+              fill="white"
+              stroke="#171C26"
+              stroke-opacity="0.1"
+              stroke-width="10"
+              stroke-dasharray="1 34"
+            />
             <g filter="url(#filter1_f_4573_959)">
-            <circle cx="247.004" cy="246" r="178.922" stroke="url(#paint2_linear_4573_959)" stroke-width="2.15569"/>
+              <circle
+                cx="247.004"
+                cy="246"
+                r="178.922"
+                stroke="url(#paint2_linear_4573_959)"
+                stroke-width="2.15569"
+              />
             </g>
             <g filter="url(#filter2_f_4573_959)">
-            <circle cx="247" cy="246" r="118.922" transform="rotate(180 247 246)" stroke="url(#paint3_linear_4573_959)" stroke-width="2.15569"/>
+              <circle
+                cx="247"
+                cy="246"
+                r="118.922"
+                transform="rotate(180 247 246)"
+                stroke="url(#paint3_linear_4573_959)"
+                stroke-width="2.15569"
+              />
             </g>
             <g filter="url(#filter3_f_4573_959)">
-            <circle cx="247" cy="246" r="120" transform="rotate(180 247 246)" fill="white"/>
-            <circle cx="247" cy="246" r="120" transform="rotate(180 247 246)" stroke="url(#paint4_linear_4573_959)" stroke-width="2.15569"/>
+              <circle
+                cx="247"
+                cy="246"
+                r="120"
+                transform="rotate(180 247 246)"
+                fill="white"
+              />
+              <circle
+                cx="247"
+                cy="246"
+                r="120"
+                transform="rotate(180 247 246)"
+                stroke="url(#paint4_linear_4573_959)"
+                stroke-width="2.15569"
+              />
             </g>
             <g filter="url(#filter4_df_4573_959)">
-            <path d="M291.979 248.646H278.751C278.049 248.646 277.376 248.368 276.88 247.871C276.384 247.375 276.105 246.702 276.105 246.001C276.105 245.299 276.384 244.626 276.88 244.13C277.376 243.634 278.049 243.355 278.751 243.355H291.979C292.68 243.355 293.353 243.634 293.849 244.13C294.346 244.626 294.624 245.299 294.624 246.001C294.624 246.702 294.346 247.375 293.849 247.871C293.353 248.368 292.68 248.646 291.979 248.646Z" fill="white" stroke="url(#paint5_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M225.84 195.735C225.317 195.735 224.806 195.58 224.371 195.289C223.936 194.998 223.597 194.585 223.397 194.102C223.196 193.618 223.144 193.087 223.246 192.574C223.348 192.06 223.6 191.589 223.97 191.219L234.552 180.637C235.048 180.141 235.721 179.862 236.422 179.862H270.814C271.516 179.862 272.189 180.141 272.685 180.637C273.181 181.133 273.46 181.806 273.46 182.507C273.46 183.209 273.181 183.882 272.685 184.378C272.189 184.874 271.516 185.153 270.814 185.153H237.518L227.711 194.96C227.215 195.456 226.542 195.735 225.84 195.735Z" fill="#3EEBEA"/>
-            <path d="M270.814 312.139H236.422C235.72 312.139 235.047 311.86 234.551 311.364L223.969 300.782C223.487 300.283 223.221 299.614 223.227 298.921C223.233 298.227 223.511 297.564 224.001 297.073C224.492 296.583 225.155 296.304 225.849 296.298C226.543 296.292 227.211 296.559 227.71 297.041L237.517 306.848H270.814C271.515 306.848 272.188 307.127 272.684 307.623C273.181 308.119 273.459 308.792 273.459 309.493C273.459 310.195 273.181 310.868 272.684 311.364C272.188 311.86 271.515 312.139 270.814 312.139Z" fill="#3EEBEA"/>
-            <path d="M225.841 301.557C256.524 301.557 281.398 276.684 281.398 246.001C281.398 215.318 256.524 190.444 225.841 190.444C195.159 190.444 170.285 215.318 170.285 246.001C170.285 276.684 195.159 301.557 225.841 301.557Z" fill="white" stroke="url(#paint6_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path opacity="0.5" d="M246.014 246.579L233.998 236.967L239.024 206.75C239.12 206.171 239.02 205.577 238.741 205.06C238.462 204.544 238.019 204.135 237.482 203.899C236.945 203.662 236.345 203.61 235.776 203.752C235.206 203.893 234.7 204.22 234.337 204.681L205.236 241.719C204.803 242.267 204.606 242.965 204.685 243.658C204.765 244.352 205.116 244.986 205.662 245.423L217.678 255.034L212.651 285.251C212.555 285.83 212.655 286.424 212.934 286.941C213.213 287.457 213.656 287.866 214.193 288.103C214.73 288.34 215.33 288.391 215.9 288.25C216.469 288.108 216.976 287.781 217.339 287.32L246.44 250.282C246.872 249.734 247.07 249.037 246.99 248.343C246.91 247.649 246.559 247.015 246.014 246.579Z" fill="#3EEBEA"/>
-            <path d="M281.4 195.735C288.705 195.735 294.627 189.812 294.627 182.507C294.627 175.202 288.705 169.279 281.4 169.279C274.094 169.279 268.172 175.202 268.172 182.507C268.172 189.812 274.094 195.735 281.4 195.735Z" fill="white" stroke="url(#paint7_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M281.4 322.721C288.705 322.721 294.627 316.799 294.627 309.494C294.627 302.188 288.705 296.266 281.4 296.266C274.094 296.266 268.172 302.188 268.172 309.494C268.172 316.799 274.094 322.721 281.4 322.721Z" fill="white" stroke="url(#paint8_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M310.496 251.29C310.496 251.992 310.775 252.665 311.271 253.161C311.767 253.657 312.44 253.936 313.142 253.936H321.078C321.78 253.936 322.453 253.657 322.949 253.161C323.445 252.665 323.724 251.992 323.724 251.29C323.724 250.589 323.445 249.916 322.949 249.42C322.453 248.923 321.78 248.645 321.078 248.645H313.142C312.44 248.645 311.767 248.923 311.271 249.42C310.775 249.916 310.496 250.589 310.496 251.29Z" fill="white" stroke="url(#paint9_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M310.496 240.71C310.496 241.411 310.775 242.084 311.271 242.58C311.767 243.076 312.44 243.355 313.142 243.355H321.078C321.78 243.355 322.453 243.076 322.949 242.58C323.445 242.084 323.724 241.411 323.724 240.71C323.724 240.008 323.445 239.335 322.949 238.839C322.453 238.343 321.78 238.064 321.078 238.064H313.142C312.44 238.064 311.767 238.343 311.271 238.839C310.775 239.335 310.496 240.008 310.496 240.71Z" fill="white" stroke="url(#paint10_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M315.791 235.418V256.583C315.791 257.284 315.513 257.957 315.016 258.453C314.52 258.949 313.847 259.228 313.146 259.228H302.564C299.055 259.228 295.691 257.834 293.21 255.354C290.73 252.873 289.336 249.509 289.336 246C289.336 242.492 290.73 239.128 293.21 236.647C295.691 234.166 299.055 232.773 302.564 232.773H313.146C313.847 232.773 314.52 233.051 315.016 233.548C315.513 234.044 315.791 234.717 315.791 235.418Z" fill="white" stroke="url(#paint11_linear_4573_959)" stroke-width="4" stroke-linecap="round"/>
+              <path
+                d="M291.979 248.646H278.751C278.049 248.646 277.376 248.368 276.88 247.871C276.384 247.375 276.105 246.702 276.105 246.001C276.105 245.299 276.384 244.626 276.88 244.13C277.376 243.634 278.049 243.355 278.751 243.355H291.979C292.68 243.355 293.353 243.634 293.849 244.13C294.346 244.626 294.624 245.299 294.624 246.001C294.624 246.702 294.346 247.375 293.849 247.871C293.353 248.368 292.68 248.646 291.979 248.646Z"
+                fill="white"
+                stroke="url(#paint5_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M225.84 195.735C225.317 195.735 224.806 195.58 224.371 195.289C223.936 194.998 223.597 194.585 223.397 194.102C223.196 193.618 223.144 193.087 223.246 192.574C223.348 192.06 223.6 191.589 223.97 191.219L234.552 180.637C235.048 180.141 235.721 179.862 236.422 179.862H270.814C271.516 179.862 272.189 180.141 272.685 180.637C273.181 181.133 273.46 181.806 273.46 182.507C273.46 183.209 273.181 183.882 272.685 184.378C272.189 184.874 271.516 185.153 270.814 185.153H237.518L227.711 194.96C227.215 195.456 226.542 195.735 225.84 195.735Z"
+                fill="#3EEBEA"
+              />
+              <path
+                d="M270.814 312.139H236.422C235.72 312.139 235.047 311.86 234.551 311.364L223.969 300.782C223.487 300.283 223.221 299.614 223.227 298.921C223.233 298.227 223.511 297.564 224.001 297.073C224.492 296.583 225.155 296.304 225.849 296.298C226.543 296.292 227.211 296.559 227.71 297.041L237.517 306.848H270.814C271.515 306.848 272.188 307.127 272.684 307.623C273.181 308.119 273.459 308.792 273.459 309.493C273.459 310.195 273.181 310.868 272.684 311.364C272.188 311.86 271.515 312.139 270.814 312.139Z"
+                fill="#3EEBEA"
+              />
+              <path
+                d="M225.841 301.557C256.524 301.557 281.398 276.684 281.398 246.001C281.398 215.318 256.524 190.444 225.841 190.444C195.159 190.444 170.285 215.318 170.285 246.001C170.285 276.684 195.159 301.557 225.841 301.557Z"
+                fill="white"
+                stroke="url(#paint6_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                opacity="0.5"
+                d="M246.014 246.579L233.998 236.967L239.024 206.75C239.12 206.171 239.02 205.577 238.741 205.06C238.462 204.544 238.019 204.135 237.482 203.899C236.945 203.662 236.345 203.61 235.776 203.752C235.206 203.893 234.7 204.22 234.337 204.681L205.236 241.719C204.803 242.267 204.606 242.965 204.685 243.658C204.765 244.352 205.116 244.986 205.662 245.423L217.678 255.034L212.651 285.251C212.555 285.83 212.655 286.424 212.934 286.941C213.213 287.457 213.656 287.866 214.193 288.103C214.73 288.34 215.33 288.391 215.9 288.25C216.469 288.108 216.976 287.781 217.339 287.32L246.44 250.282C246.872 249.734 247.07 249.037 246.99 248.343C246.91 247.649 246.559 247.015 246.014 246.579Z"
+                fill="#3EEBEA"
+              />
+              <path
+                d="M281.4 195.735C288.705 195.735 294.627 189.812 294.627 182.507C294.627 175.202 288.705 169.279 281.4 169.279C274.094 169.279 268.172 175.202 268.172 182.507C268.172 189.812 274.094 195.735 281.4 195.735Z"
+                fill="white"
+                stroke="url(#paint7_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M281.4 322.721C288.705 322.721 294.627 316.799 294.627 309.494C294.627 302.188 288.705 296.266 281.4 296.266C274.094 296.266 268.172 302.188 268.172 309.494C268.172 316.799 274.094 322.721 281.4 322.721Z"
+                fill="white"
+                stroke="url(#paint8_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M310.496 251.29C310.496 251.992 310.775 252.665 311.271 253.161C311.767 253.657 312.44 253.936 313.142 253.936H321.078C321.78 253.936 322.453 253.657 322.949 253.161C323.445 252.665 323.724 251.992 323.724 251.29C323.724 250.589 323.445 249.916 322.949 249.42C322.453 248.923 321.78 248.645 321.078 248.645H313.142C312.44 248.645 311.767 248.923 311.271 249.42C310.775 249.916 310.496 250.589 310.496 251.29Z"
+                fill="white"
+                stroke="url(#paint9_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M310.496 240.71C310.496 241.411 310.775 242.084 311.271 242.58C311.767 243.076 312.44 243.355 313.142 243.355H321.078C321.78 243.355 322.453 243.076 322.949 242.58C323.445 242.084 323.724 241.411 323.724 240.71C323.724 240.008 323.445 239.335 322.949 238.839C322.453 238.343 321.78 238.064 321.078 238.064H313.142C312.44 238.064 311.767 238.343 311.271 238.839C310.775 239.335 310.496 240.008 310.496 240.71Z"
+                fill="white"
+                stroke="url(#paint10_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M315.791 235.418V256.583C315.791 257.284 315.513 257.957 315.016 258.453C314.52 258.949 313.847 259.228 313.146 259.228H302.564C299.055 259.228 295.691 257.834 293.21 255.354C290.73 252.873 289.336 249.509 289.336 246C289.336 242.492 290.73 239.128 293.21 236.647C295.691 234.166 299.055 232.773 302.564 232.773H313.146C313.847 232.773 314.52 233.051 315.016 233.548C315.513 234.044 315.791 234.717 315.791 235.418Z"
+                fill="white"
+                stroke="url(#paint11_linear_4573_959)"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
             </g>
             <defs>
-            <filter id="filter0_f_4573_959" x="64.8479" y="63.8443" width="364.312" height="364.311" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="0.538922" result="effect1_foregroundBlur_4573_959"/>
-            </filter>
-            <filter id="filter1_f_4573_959" x="54.0698" y="53.0659" width="385.868" height="385.868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="6.46707" result="effect1_foregroundBlur_4573_959"/>
-            </filter>
-            <filter id="filter2_f_4573_959" x="114.066" y="113.066" width="265.868" height="265.868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="6.46707" result="effect1_foregroundBlur_4573_959"/>
-            </filter>
-            <filter id="filter3_f_4573_959" x="124.844" y="123.844" width="244.312" height="244.311" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="0.538922" result="effect1_foregroundBlur_4573_959"/>
-            </filter>
-            <filter id="filter4_df_4573_959" x="158.285" y="161.279" width="177.438" height="177.442" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dy="4"/>
-            <feGaussianBlur stdDeviation="5"/>
-            <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0.356863 0 0 0 0 0.988235 0 0 0 0 0.984314 0 0 0 0.3 0"/>
-            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4573_959"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4573_959" result="shape"/>
-            <feGaussianBlur stdDeviation="0.75" result="effect2_foregroundBlur_4573_959"/>
-            </filter>
-            <radialGradient id="paint0_radial_4573_959" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246.287 246.287) rotate(90) scale(246.287)">
-            <stop stop-color="#5BFCFB" stop-opacity="0.5"/>
-            <stop offset="1" stop-color="#5BFCFB" stop-opacity="0"/>
-            </radialGradient>
-            <linearGradient id="paint1_linear_4573_959" x1="67.0039" y1="66" x2="247.004" y2="426" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3EEBEA"/>
-            <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.1"/>
-            </linearGradient>
-            <linearGradient id="paint2_linear_4573_959" x1="67.0039" y1="66" x2="247.004" y2="426" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3EEBEA"/>
-            <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.4"/>
-            </linearGradient>
-            <linearGradient id="paint3_linear_4573_959" x1="127" y1="126" x2="247" y2="366" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3EEBEA"/>
-            <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.4"/>
-            </linearGradient>
-            <linearGradient id="paint4_linear_4573_959" x1="127" y1="126" x2="247" y2="366" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3EEBEA"/>
-            <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.2"/>
-            </linearGradient>
-            <linearGradient id="paint5_linear_4573_959" x1="285.365" y1="243.355" x2="285.365" y2="256.13" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint6_linear_4573_959" x1="225.841" y1="190.444" x2="225.841" y2="458.719" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint7_linear_4573_959" x1="281.4" y1="169.279" x2="281.4" y2="233.154" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint8_linear_4573_959" x1="281.4" y1="296.266" x2="281.4" y2="360.141" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint9_linear_4573_959" x1="317.11" y1="248.645" x2="317.11" y2="261.42" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint10_linear_4573_959" x1="317.11" y1="238.064" x2="317.11" y2="250.839" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
-            <linearGradient id="paint11_linear_4573_959" x1="302.564" y1="232.773" x2="302.564" y2="296.648" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#52FFFE"/>
-            <stop offset="1" stop-color="white"/>
-            </linearGradient>
+              <filter
+                id="filter0_f_4573_959"
+                x="64.8479"
+                y="63.8443"
+                width="364.312"
+                height="364.311"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="0.538922"
+                  result="effect1_foregroundBlur_4573_959"
+                />
+              </filter>
+              <filter
+                id="filter1_f_4573_959"
+                x="54.0698"
+                y="53.0659"
+                width="385.868"
+                height="385.868"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="6.46707"
+                  result="effect1_foregroundBlur_4573_959"
+                />
+              </filter>
+              <filter
+                id="filter2_f_4573_959"
+                x="114.066"
+                y="113.066"
+                width="265.868"
+                height="265.868"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="6.46707"
+                  result="effect1_foregroundBlur_4573_959"
+                />
+              </filter>
+              <filter
+                id="filter3_f_4573_959"
+                x="124.844"
+                y="123.844"
+                width="244.312"
+                height="244.311"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="0.538922"
+                  result="effect1_foregroundBlur_4573_959"
+                />
+              </filter>
+              <filter
+                id="filter4_df_4573_959"
+                x="158.285"
+                y="161.279"
+                width="177.438"
+                height="177.442"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="5" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.356863 0 0 0 0 0.988235 0 0 0 0 0.984314 0 0 0 0.3 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_4573_959"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_4573_959"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="0.75"
+                  result="effect2_foregroundBlur_4573_959"
+                />
+              </filter>
+              <radialGradient
+                id="paint0_radial_4573_959"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(246.287 246.287) rotate(90) scale(246.287)"
+              >
+                <stop stop-color="#5BFCFB" stop-opacity="0.5" />
+                <stop offset="1" stop-color="#5BFCFB" stop-opacity="0" />
+              </radialGradient>
+              <linearGradient
+                id="paint1_linear_4573_959"
+                x1="67.0039"
+                y1="66"
+                x2="247.004"
+                y2="426"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3EEBEA" />
+                <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.1" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_4573_959"
+                x1="67.0039"
+                y1="66"
+                x2="247.004"
+                y2="426"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3EEBEA" />
+                <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.4" />
+              </linearGradient>
+              <linearGradient
+                id="paint3_linear_4573_959"
+                x1="127"
+                y1="126"
+                x2="247"
+                y2="366"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3EEBEA" />
+                <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.4" />
+              </linearGradient>
+              <linearGradient
+                id="paint4_linear_4573_959"
+                x1="127"
+                y1="126"
+                x2="247"
+                y2="366"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3EEBEA" />
+                <stop offset="1" stop-color="#3EEBEA" stop-opacity="0.2" />
+              </linearGradient>
+              <linearGradient
+                id="paint5_linear_4573_959"
+                x1="285.365"
+                y1="243.355"
+                x2="285.365"
+                y2="256.13"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint6_linear_4573_959"
+                x1="225.841"
+                y1="190.444"
+                x2="225.841"
+                y2="458.719"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint7_linear_4573_959"
+                x1="281.4"
+                y1="169.279"
+                x2="281.4"
+                y2="233.154"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint8_linear_4573_959"
+                x1="281.4"
+                y1="296.266"
+                x2="281.4"
+                y2="360.141"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint9_linear_4573_959"
+                x1="317.11"
+                y1="248.645"
+                x2="317.11"
+                y2="261.42"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint10_linear_4573_959"
+                x1="317.11"
+                y1="238.064"
+                x2="317.11"
+                y2="250.839"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint11_linear_4573_959"
+                x1="302.564"
+                y1="232.773"
+                x2="302.564"
+                y2="296.648"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#52FFFE" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
             </defs>
-            </svg>
+          </svg>
         </div>
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
@@ -198,7 +482,10 @@
       </div>
       <div class="ent-usecases_menu ent-usecases_menu-desktop">
         <div class="ent-usecases_menu-list">
-          <a href="/remote-site-connectivity" class="ent-usecases_menu-list-item is-active">
+          <a
+            href="/remote-site-connectivity"
+            class="ent-usecases_menu-list-item is-active"
+          >
             <span>[01]</span>
             <p>Remote infrastructure connectivity</p>
           </a>
@@ -225,29 +512,53 @@
         </div>
         <div class="ent-usecases_menu-image">
           <div class="ent-usecases_menu-image-item is-active">
-            <img src="/assets/ent-uc-menu-remote.webp" alt="Remote infrastructure connectivity" />
+            <img
+              src="/assets/ent-uc-menu-remote.webp"
+              alt="Remote infrastructure connectivity"
+            />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
+            <img
+              src="/assets/ent-uc-menu-tank.webp"
+              alt="Tank level monitoring"
+            />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
+            <img
+              src="/assets/ent-uc-menu-flow.webp"
+              alt="Flow and utility monitoring"
+            />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-agri.webp" alt="Field asset visibility" />
+            <img
+              src="/assets/ent-uc-menu-agri.webp"
+              alt="Field asset visibility"
+            />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity for critical sites" />
+            <img
+              src="/assets/ent-uc-menu-backup.webp"
+              alt="Backup connectivity for critical sites"
+            />
           </div>
           <div class="ent-usecases_menu-image-item">
-            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity management" />
+            <img
+              src="/assets/ent-uc-menu-multi.webp"
+              alt="Multi-site connectivity management"
+            />
           </div>
         </div>
       </div>
       <div class="ent-usecases_menu-mobile px">
-        <a href="/remote-site-connectivity" class="ent-usecases_menu-mobile_item">
+        <a
+          href="/remote-site-connectivity"
+          class="ent-usecases_menu-mobile_item"
+        >
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-remote.webp" alt="Remote infrastructure connectivity" />
+            <img
+              src="/assets/ent-uc-menu-remote.webp"
+              alt="Remote infrastructure connectivity"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[01]</span>
@@ -256,7 +567,10 @@
         </a>
         <a href="/tank-level-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-tank.webp" alt="Tank level monitoring" />
+            <img
+              src="/assets/ent-uc-menu-tank.webp"
+              alt="Tank level monitoring"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[02]</span>
@@ -265,7 +579,10 @@
         </a>
         <a href="/flow-monitoring" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-flow.webp" alt="Flow and utility monitoring" />
+            <img
+              src="/assets/ent-uc-menu-flow.webp"
+              alt="Flow and utility monitoring"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[03]</span>
@@ -274,7 +591,10 @@
         </a>
         <a href="/asset-tracking" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-agri.webp" alt="Field asset visibility" />
+            <img
+              src="/assets/ent-uc-menu-agri.webp"
+              alt="Field asset visibility"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[04]</span>
@@ -283,7 +603,10 @@
         </a>
         <a href="/backup-continuity" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-backup.webp" alt="Backup connectivity for critical sites" />
+            <img
+              src="/assets/ent-uc-menu-backup.webp"
+              alt="Backup connectivity for critical sites"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[05]</span>
@@ -292,7 +615,10 @@
         </a>
         <a href="/multi-site-management" class="ent-usecases_menu-mobile_item">
           <div class="ent-usecases_menu-mobile_media">
-            <img src="/assets/ent-uc-menu-multi.webp" alt="Multi-site connectivity management" />
+            <img
+              src="/assets/ent-uc-menu-multi.webp"
+              alt="Multi-site connectivity management"
+            />
           </div>
           <div class="ent-usecases_menu-mobile_body">
             <span>[06]</span>
@@ -300,12 +626,9 @@
           </div>
         </a>
       </div>
-
     </div>
   </div>
 </section>
 
-{@|apply ent-relevant-industries.block}
-{@|apply ent-industry-outcome.block}
-
+{@|apply ent-relevant-industries.block} {@|apply ent-industry-outcome.block}
 {@|apply ent-section-contact-industry.block}

@@ -478,12 +478,13 @@
         <div class="ent-description_wrap max-w-626">
           <hr class="ent-description_divider" />
           <p class="text-md text-primary-lighter">
-            Enterprise teams need more than connectivity alone. They need visibility into devices, sites, assets, usage, conditions, and exceptions. 
+            Enterprise teams need more than connectivity alone. They need
+            visibility into devices, sites, assets, usage, conditions, and
+            exceptions.
           </p>
           <p class="text-md text-primary-lighter">
-            IDSECURE brings together the critical layers of
-            connected enterprise operations: connectivity, monitoring, and
-            centralized management.
+            IDSECURE brings together the critical layers of connected enterprise
+            operations: connectivity, monitoring, and centralized management.
           </p>
         </div>
       </div>
