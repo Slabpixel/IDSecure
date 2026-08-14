@@ -4860,7 +4860,6 @@
           grid-column: span 1;
         }
 
-        
         &::before {
           width: 350px;
           height: 350px;
@@ -6185,6 +6184,22 @@
           background: @base-white;
           border-left: 1px solid #3eebea;
 
+          &::before {
+            content: "";
+            position: absolute;
+            width: 729px;
+            height: 597px;
+            position: absolute;
+            left: -67px;
+            bottom: -308px;
+            border-radius: 50%;
+            opacity: 0.7;
+            background: radial-gradient(
+              50% 50% at 50% 50%,
+              rgba(62, 235, 234, 0.1) 0%,
+              rgba(62, 235, 234, 0) 100%
+            );
+          }
           span {
             color: #3eebea;
           }
