@@ -19,6 +19,9 @@
 
   var ENT_NAV_OFFSET = 72;
   var ENT_PIN_START = "top top+=" + ENT_NAV_OFFSET;
+  // Desktop pin/scrub/parallax — tablet (≤1024) matches mobile non-pin UX
+  var ENT_DESKTOP_UP = "(min-width: 1025px)";
+  var ENT_TOUCH_DOWN = "(max-width: 1024px)";
 
   if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
@@ -406,7 +409,7 @@
   // --------------------------------------------------------------------------
 
   (function initEntHomepageMobile() {
-    var mobileMq = window.matchMedia("(max-width: 768px)");
+    var mobileMq = window.matchMedia(ENT_TOUCH_DOWN);
 
     var usecasesList = document.querySelector(".ent-usecases-mobile_list");
     if (usecasesList) {
@@ -685,9 +688,8 @@
 
     heroes.forEach(function (hero) {
       var bg = hero.querySelector(".ent-hero-bg");
-      var media = bg && bg.querySelector("video, img");
-      var overlay = bg && bg.querySelector(".ent-hero-bg_overlay");
-      if (!bg || !media) {
+      var textSection = hero.querySelector(".ent-section.hero");
+      if (!bg || !textSection) {
         return;
       }
 
@@ -701,28 +703,22 @@
           scrollTl.kill();
           scrollTl = null;
         }
-        gsap.killTweensOf(media);
-        gsap.set(media, { clearProps: "transform" });
         gsap.killTweensOf(bg);
-        gsap.set(bg, { clearProps: "opacity" });
-        if (overlay) {
-          gsap.killTweensOf(overlay);
-          gsap.set(overlay, { clearProps: "height" });
-        }
+        gsap.set(bg, { clearProps: "transform" });
+        gsap.killTweensOf(textSection);
+        gsap.set(textSection, { clearProps: "transform" });
       }
 
-      function getParallaxY() {
-        return -Math.round(bg.offsetHeight * 0.18);
+      function getBgY() {
+        return Math.round(bg.offsetHeight * 0.3);
       }
 
-      function getOverlayEndHeight() {
-        return bg.offsetHeight;
+      function getTextY() {
+        return -Math.round(textSection.offsetHeight * 0.2);
       }
 
       function setupParallax() {
         killParallax();
-
-        var overlayStartHeight = overlay ? overlay.offsetHeight : 0;
 
         scrollTl = gsap.timeline({
           defaults: { ease: "none" },
@@ -735,46 +731,32 @@
           },
         });
 
-        // Image/video parallax up — text stays; overlay grows; bg fades out
-        scrollTl.fromTo(
-          media,
-          { y: 0 },
-          {
-            y: getParallaxY,
-            duration: 1,
-            immediateRender: false,
-          },
-          0,
-        );
-
         scrollTl.fromTo(
           bg,
-          { opacity: 1 },
+          { y: 0 },
           {
-            opacity: 0,
+            y: getBgY,
             duration: 1,
             immediateRender: false,
           },
           0,
         );
 
-        if (overlay) {
-          scrollTl.fromTo(
-            overlay,
-            { height: overlayStartHeight },
-            {
-              height: getOverlayEndHeight,
-              duration: 0.2,
-              immediateRender: false,
-            },
-            0,
-          );
-        }
+        scrollTl.fromTo(
+          textSection,
+          { y: 0 },
+          {
+            y: getTextY,
+            duration: 1,
+            immediateRender: false,
+          },
+          0,
+        );
       }
 
       mm.add(
         {
-          isDesktop: "(min-width: 769px)",
+          isDesktop: ENT_DESKTOP_UP,
           reduceMotion: "(prefers-reduced-motion: reduce)",
         },
         function (context) {
@@ -873,7 +855,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         killMobile();
 
@@ -884,7 +866,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: section,
-            start: "ENT_PIN_START",
+            start: ENT_PIN_START,
             end: function () {
               return "+=" + getScrollDistance();
             },
@@ -917,7 +899,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         killDesktop();
         killMobile();
@@ -1345,7 +1327,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         instances.forEach(function (instance) {
           instance.buildTimeline();
@@ -1375,7 +1357,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         instances.forEach(function (instance) {
           instance.killTimeline();
@@ -1660,7 +1642,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         buildTimeline();
 
@@ -1684,7 +1666,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         killTimeline();
         resetHeights();
@@ -1808,7 +1790,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         var onResize = debounce(function () {
           ScrollTrigger.refresh();
@@ -1831,7 +1813,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         killScrollTrigger();
         setActive(0);
@@ -2052,7 +2034,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         initCursorFollow();
 
@@ -2113,7 +2095,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         killDesktopScroll();
         killCursorFollow();
@@ -2249,7 +2231,7 @@
     });
 
     mm.add(
-      "(min-width: 769px) and (prefers-reduced-motion: no-preference)",
+      ENT_DESKTOP_UP + " and (prefers-reduced-motion: no-preference)",
       function () {
         var onResize = debounce(function () {
           ScrollTrigger.refresh();
@@ -2272,7 +2254,7 @@
     );
 
     mm.add(
-      "(max-width: 768px) and (prefers-reduced-motion: no-preference)",
+      ENT_TOUCH_DOWN + " and (prefers-reduced-motion: no-preference)",
       function () {
         var onResize = debounce(function () {
           ScrollTrigger.refresh();

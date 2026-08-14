@@ -712,7 +712,7 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-cs.webp" alt="" />
+              <img src="/assets/ent-deploy-cst.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
               <img src="/assets/ent-deploy-fbl.webp" alt="" />
@@ -743,7 +743,7 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cs.webp" alt="" />
+            <img src="/assets/ent-deploy-cst.webp" alt="" />
           </div>
           <p>Cold storage</p>
         </div>

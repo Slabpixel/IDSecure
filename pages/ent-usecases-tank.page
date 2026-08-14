@@ -1087,16 +1087,16 @@
         <div class="ent-solutions_panel">
           <div class="ent-solutions_media secondary">
             <div class="ent-solutions_media-item alt is-active">
-              <img src="/assets/ent-deploy-rui.webp" alt="" />
+              <img src="/assets/ent-deploy-ft.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-ras.webp" alt="" />
+              <img src="/assets/ent-deploy-wt.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-cj.webp" alt="" />
+              <img src="/assets/ent-deploy-cs.webp" alt="" />
             </div>
             <div class="ent-solutions_media-item alt">
-              <img src="/assets/ent-deploy-rif.webp" alt="" />
+              <img src="/assets/ent-deploy-wus.webp" alt="" />
             </div>
           </div>
         </div>
@@ -1115,25 +1115,25 @@
       <div class="ent-deploy-mobile_list">
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rui.webp" alt="" />
+            <img src="/assets/ent-deploy-ft.webp" alt="" />
           </div>
           <p>Fuel tanks</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-ras.webp" alt="" />
+            <img src="/assets/ent-deploy-wt.webp" alt="" />
           </div>
           <p>Water tanks</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-cj.webp" alt="" />
+            <img src="/assets/ent-deploy-cs.webp" alt="" />
           </div>
           <p>Chemical storage</p>
         </div>
         <div class="ent-deploy-mobile_item">
           <div class="ent-deploy-mobile_media">
-            <img src="/assets/ent-deploy-rif.webp" alt="" />
+            <img src="/assets/ent-deploy-wus.webp" alt="" />
           </div>
           <p>Wastewater and utility storage</p>
         </div>
