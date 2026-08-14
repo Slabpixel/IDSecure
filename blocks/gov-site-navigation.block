@@ -7,21 +7,21 @@
     <div class="gov-nav-menu">
       <div class="gov-nav-item gov-nav-item--dropdown">
         <a class="gov-nav-link" href="/government"
-          >Secure Mission Connectivity
-          <svg
-            width="13"
-            height="7"
-            viewBox="0 0 13 7"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        >Secure Mission Connectivity
+        <svg
+          width="13"
+          height="7"
+          viewBox="0 0 13 7"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
-          >
-            <path
-              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
+        >
+          <path
+            d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+            fill="currentColor"
+          />
+        </svg>
+      </a>
         <div class="gov-nav-dropdown">
           <div class="gov-nav-dropdown-panel">
             <div class="gov-nav-dropdown-main">
@@ -60,21 +60,21 @@
       </div>
       <div class="gov-nav-item gov-nav-item--dropdown">
         <a class="gov-nav-link" href="/intelligence-collection"
-          >Intelligence Collection
-          <svg
-            width="13"
-            height="7"
-            viewBox="0 0 13 7"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        >Intelligence Collection
+        <svg
+          width="13"
+          height="7"
+          viewBox="0 0 13 7"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
-          >
-            <path
-              d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
+        >
+          <path
+            d="M5.74219 6.64453L0.273438 1.17578C0 0.929688 0 0.519531 0.273438 0.246094C0.519531 0 0.929688 0 1.20312 0.246094L6.20703 5.25L11.2109 0.246094C11.457 0 11.8672 0 12.1133 0.246094C12.3867 0.492188 12.3867 0.929688 12.1133 1.17578L6.64453 6.64453C6.39844 6.89062 5.98828 6.89062 5.74219 6.64453Z"
+            fill="currentColor"
+          />
+        </svg>
+      </a>
         <div class="gov-nav-dropdown">
           <div class="gov-nav-dropdown-panel">
             <div class="gov-nav-dropdown-main">

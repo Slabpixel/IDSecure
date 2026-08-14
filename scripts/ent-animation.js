@@ -46,10 +46,7 @@
       return 0;
     }
 
-    return Math.min(
-      count - 1,
-      Math.max(0, Math.round(progress * (count - 1))),
-    );
+    return Math.min(count - 1, Math.max(0, Math.round(progress * (count - 1))));
   }
 
   // --------------------------------------------------------------------------
@@ -1173,42 +1170,58 @@
         }
 
         var prevIndex = activeIndex;
-        activeIndex = nextIndex;
-        setActiveNav(nextIndex);
+        var stepDelta = nextIndex - prevIndex;
 
         gsap.killTweensOf(mediaItems);
         if (!mediaOnly) {
           gsap.killTweensOf(copyItems);
         }
 
-        if (instant) {
+        if (instant || Math.abs(stepDelta) > 1) {
           setStaticState(nextIndex);
           return;
         }
 
-        if (nextIndex > prevIndex) {
-          var reveal;
-          for (reveal = prevIndex + 1; reveal < nextIndex; reveal++) {
-            gsap.set(mediaItems[reveal], { clipPath: visibleClip });
+        activeIndex = nextIndex;
+        setActiveNav(nextIndex);
+
+        mediaItems.forEach(function (item, i) {
+          if (stepDelta > 0 && i === nextIndex) {
+            gsap.set(item, { clipPath: hiddenClip });
+          } else if (stepDelta < 0 && i === prevIndex) {
+            gsap.set(item, { clipPath: visibleClip });
+          } else {
+            gsap.set(item, {
+              clipPath: i <= nextIndex ? visibleClip : hiddenClip,
+            });
           }
-          gsap.fromTo(
-            mediaItems[nextIndex],
-            { clipPath: hiddenClip },
-            {
-              clipPath: visibleClip,
-              duration: stepTweenDuration,
-              ease: "power2.inOut",
-            },
-          );
+        });
+
+        if (!mediaOnly) {
+          copyItems.forEach(function (item, i) {
+            if (i === nextIndex) {
+              gsap.set(item, { clipPath: hiddenClip });
+            } else if (i === prevIndex) {
+              gsap.set(item, { clipPath: visibleClip });
+            } else {
+              gsap.set(item, { clipPath: hiddenClip });
+            }
+          });
+        }
+
+        if (stepDelta > 0) {
+          gsap.to(mediaItems[nextIndex], {
+            clipPath: visibleClip,
+            duration: stepTweenDuration,
+            ease: "power2.inOut",
+            overwrite: true,
+          });
         } else {
-          var hide;
-          for (hide = prevIndex - 1; hide > nextIndex; hide--) {
-            gsap.set(mediaItems[hide], { clipPath: hiddenClip });
-          }
           gsap.to(mediaItems[prevIndex], {
             clipPath: hiddenClip,
             duration: stepTweenDuration,
             ease: "power2.inOut",
+            overwrite: true,
           });
         }
 
@@ -1217,16 +1230,14 @@
             clipPath: hiddenClip,
             duration: stepTweenDuration,
             ease: "power2.inOut",
+            overwrite: true,
           });
-          gsap.fromTo(
-            copyItems[nextIndex],
-            { clipPath: hiddenClip },
-            {
-              clipPath: visibleClip,
-              duration: stepTweenDuration,
-              ease: "power2.inOut",
-            },
-          );
+          gsap.to(copyItems[nextIndex], {
+            clipPath: visibleClip,
+            duration: stepTweenDuration,
+            ease: "power2.inOut",
+            overwrite: true,
+          });
         }
       }
 
@@ -1253,8 +1264,8 @@
         var scrollPos =
           scrollTrigger.start +
           progress * (scrollTrigger.end - scrollTrigger.start);
-        goToIndex(index, false);
         scrollTrigger.scroll(scrollPos);
+        goToIndex(index, Math.abs(index - activeIndex) > 1);
       }
 
       function buildTimeline() {
@@ -1275,6 +1286,12 @@
           invalidateOnRefresh: true,
           onUpdate: function (self) {
             goToIndex(progressToStepIndex(self.progress, count), false);
+          },
+          onLeave: function (self) {
+            goToIndex(progressToStepIndex(self.progress, count), true);
+          },
+          onLeaveBack: function () {
+            goToIndex(0, true);
           },
         });
 
@@ -1535,36 +1552,49 @@
       }
 
       var prevIndex = activeIndex;
-      activeIndex = nextIndex;
-      setActiveNav(nextIndex);
+      var stepDelta = nextIndex - prevIndex;
 
       gsap.killTweensOf(mediaItems);
       gsap.killTweensOf(copyItems);
 
-      if (instant) {
+      if (instant || Math.abs(stepDelta) > 1) {
         setStaticState(nextIndex);
         return;
       }
+
+      activeIndex = nextIndex;
+      setActiveNav(nextIndex);
+
+      mediaItems.forEach(function (item, i) {
+        gsap.set(item, { opacity: i === prevIndex ? 1 : 0 });
+      });
+      copyItems.forEach(function (item, i) {
+        gsap.set(item, { opacity: i === prevIndex ? 1 : 0 });
+      });
 
       gsap.to(mediaItems[prevIndex], {
         opacity: 0,
         duration: stepTweenDuration,
         ease: "power2.inOut",
+        overwrite: true,
       });
       gsap.to(mediaItems[nextIndex], {
         opacity: 1,
         duration: stepTweenDuration,
         ease: "power2.inOut",
+        overwrite: true,
       });
       gsap.to(copyItems[prevIndex], {
         opacity: 0,
         duration: stepTweenDuration,
         ease: "power2.inOut",
+        overwrite: true,
       });
       gsap.to(copyItems[nextIndex], {
         opacity: 1,
         duration: stepTweenDuration,
         ease: "power2.inOut",
+        overwrite: true,
       });
     }
 
@@ -1591,8 +1621,8 @@
       var scrollPos =
         scrollTrigger.start +
         progress * (scrollTrigger.end - scrollTrigger.start);
-      goToIndex(index, false);
       scrollTrigger.scroll(scrollPos);
+      goToIndex(index, Math.abs(index - activeIndex) > 1);
     }
 
     function buildTimeline() {
@@ -1618,6 +1648,12 @@
         invalidateOnRefresh: true,
         onUpdate: function (self) {
           goToIndex(progressToStepIndex(self.progress, count), false);
+        },
+        onLeave: function (self) {
+          goToIndex(progressToStepIndex(self.progress, count), true);
+        },
+        onLeaveBack: function () {
+          goToIndex(0, true);
         },
       });
 
