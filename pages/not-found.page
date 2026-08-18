@@ -14,8 +14,8 @@
     </div>
     <div class="gov-404-actions">
       <a href="/" class="btn-secondary">Back to Home</a>
-      <a href="/government" class="btn-ghost">Explore Government</a>
-      <a href="/contact" class="btn-primary">Contact Us</a>
+      <a href="/enterprise" class="btn-ent-primary">Explore Enterprise</a>
+      <a href="/government" class="btn-primary">Explore Government</a>
     </div>
   </div>
 </section>
