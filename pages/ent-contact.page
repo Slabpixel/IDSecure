@@ -116,4 +116,78 @@
   </div>
 </section>
 
+<div class="ent-section">
+  <div class="ent-container cta">
+    <div class="ent-footer_container address border-y">
+      <div class="ent-footer_address">
+        <div class="ent-footer_side address">
+          {@|apply eyebrow-48-alt.block}
+          <div class="ent-footer_side-block">
+            <p>idsecure - americas</p>
+          </div>
+        </div>
+        <div class="ent-contact_side-content address">
+          <div class="ent-footer_side-address">
+            <p class="uppercase">
+              2255 Glades Road, Suite 324A, Boca Raton, Florida 33431 United
+              States of America
+            </p>
+          </div>
+          <a
+            class="ent-contact_side-email address"
+            href="mailto:enquiries@idsecure.tech"
+            >enquiries@idsecure.tech
+            <span
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1406 0C14.6484 0 15.0781 0.429688 15.0781 0.9375V10.3125C15.0781 10.8203 14.6484 11.25 14.1406 11.25C13.6328 11.25 13.2031 10.8203 13.2031 10.3125V3.20312L1.67969 14.7266C1.32812 15.0781 0.703125 15.0781 0.351562 14.7266C0 14.375 0 13.75 0.351562 13.3984L11.875 1.875H4.76562C4.25781 1.875 3.82812 1.44531 3.82812 0.9375C3.82812 0.429688 4.25781 0 4.76562 0H14.1406Z"
+                  fill="currentColor"
+                />
+              </svg> </span
+          ></a>
+        </div>
+      </div>
+      <div class="ent-footer_address">
+        <div class="ent-footer_side address">
+          {@|apply eyebrow-48-alt.block}
+          <div class="ent-footer_side-block">
+            <p>IDSECURE – AFRICA / EUROPE</p>
+          </div>
+        </div>
+        <div class="ent-contact_side-content address">
+          <div class="ent-footer_side-address alt">
+            <p class="uppercase">
+              Unit 1, Jameson Building, Kildrummy Office Park, Cnr Witkoppen and Umhlanga Ave, Paulshof, Johannesburg, 2056 South Africa
+            </p>
+          </div>
+          <a
+            class="ent-contact_side-email address"
+            href="mailto:enquiries-sa@idsecure.tech"
+            >enquiries-sa@idsecure.tech
+            <span
+              ><svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1406 0C14.6484 0 15.0781 0.429688 15.0781 0.9375V10.3125C15.0781 10.8203 14.6484 11.25 14.1406 11.25C13.6328 11.25 13.2031 10.8203 13.2031 10.3125V3.20312L1.67969 14.7266C1.32812 15.0781 0.703125 15.0781 0.351562 14.7266C0 14.375 0 13.75 0.351562 13.3984L11.875 1.875H4.76562C4.25781 1.875 3.82812 1.44531 3.82812 0.9375C3.82812 0.429688 4.25781 0 4.76562 0H14.1406Z"
+                  fill="currentColor"
+                />
+              </svg> </span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {@|apply ent-section-contact-connect.block}
